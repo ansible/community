@@ -17,8 +17,8 @@ This repository serves as a space to manage tools used by the Ansible community,
 * Meetings: IRC meeting-related infrastructure, including the meeting bot and space for logs; organization of Ansible Contributor Summits.
 
 ## Teams we help:
-* Ansible (ansible, core, extras)
-* Ambassadors
+* Ansible (ansible, core, extras) (add links)
+* Ambassadors (add description, link)
 
 ## Communication:
 * IRC: #ansible-devel
