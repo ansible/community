@@ -1,10 +1,10 @@
-# THIS IS FOR CONTRIBUTING TO THE ANSIBLE COMMUNITY TEAM.
+# THIS IS FOR CONTRIBUTING TO THE ANSIBLE COMMUNITY WORKING GROUP.
 (link to readme.md above)
 
-General information and guidelines for contributing to the Ansible community, including this team, can be found here: http://docs.ansible.com/ansible/community.html
+General information and guidelines for contributing to the Ansible community, including this Working Group, can be found here: http://docs.ansible.com/ansible/community.html
 
 ## Issues
-We use Github issues to receive and track work items and requests. (link)
+We use Github issues to [receive](https://github.com/ansible/community/issues/new) and [track](https://github.com/ansible/community/issues) work items and requests for the Ansible Community Working Group.
 
 ## Workflow and backlog
 [![Stories in Ready](https://badge.waffle.io/ansible/community.png?label=ready&title=Ready)](https://waffle.io/ansible/community)
