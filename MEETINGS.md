@@ -1,4 +1,4 @@
-# Ansible Meeting Schedule
+# Ansible IRC Meeting Schedule
 
 Ansible IRC meetings are held on freenode, in the #ansible-meeting channel.
 
