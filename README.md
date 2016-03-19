@@ -14,22 +14,25 @@ This repository serves as a space for the Ansible Community Working Group to man
 
 ## Infrastructure and processes we build and/or support:
 * [Ansibullbot](https://github.com/ansible/ansibullbot): Automation (or aspiring automation) of GitHub pull request processing for ansible/ansible, ansible/ansible-modules-core, and ansible/ansible-modules-extras.
-* [Meetings](https://github.com/ansible/community/blob/master/MEETINGLOGS.md): IRC meeting-related infrastructure, including the meeting bot and space for logs; organization of Ansible Contributor Summits.
+* [Meetings](https://github.com/ansible/community/blob/master/MEETINGS.md): IRC meeting-related infrastructure, including the meeting bot and space for logs; organization of Ansible Contributor Summits.
 
 ## Groups we help:
 * Ansible development: [ansible/ansible](https://github.com/ansible/ansible), [ansible/ansible-modules-core](https://github.com/ansible/ansible-modules-core), [ansible/ansible-modules-extras](https://github.com/ansible/ansible-modules-extras)
 * [Ambassadors](https://github.com/ansible/ambassadors)
 
 ## Communication:
-* IRC: #ansible-devel
-* IRC Meetings: #ansible-meeting (Tuesday/Thursday, 14:00pm EST / 19:00 UTC
-* [Mailing list](https://groups.google.com/forum/#!forum/ansible-devel) 
+Find us on Freenode:
+* IRC: #ansible - General Discussion
+* IRC: #ansible-devel - Channel for discussing pull-requests and contributions only
+* IRC: #ansible-notice - Automated messages from various services related to Ansible
+* IRC: #ansible-meeting - Ansible community meeting channel. [Meeting Schedule and logs](https://github.com/ansible/community/blob/master/MEETINGS.md)
+* [Mailing list](https://groups.google.com/forum/#!forum/ansible-devel)
 * [GitHub issues](https://github.com/ansible/community/issues)
 
 ## What We're Working On:
 [![Stories in Ready](https://badge.waffle.io/ansible/community.png?label=ready&title=Ready)](https://waffle.io/ansible/community)
 * New tasks and in-progress work are tracked via GitHub issues (link) in this repository (and in some cases, have accompanying pull requests).
-* Backlog and progress can also be seen on our [Waffleboard](https://waffle.io/ansible/community), which provides a kanban-style visualization of the GitHub issues and PRs. 
+* Backlog and progress can also be seen on our [Waffleboard](https://waffle.io/ansible/community), which provides a kanban-style visualization of the GitHub issues and PRs.
 * Additional work items relating to enabling the Ansible community that are owned by Ansible's Community Team ([@gregdek](https://github.com/gregdek) & [@robynbergeron](https://github.com/robynbergeron]) that were generated outside of a created GitHub issues (email requests, or things we're just doing) are tracked in this repository in the spirit of transparency.
 
 ## New Issues:
