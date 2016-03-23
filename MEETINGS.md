@@ -10,16 +10,16 @@ If you'd like to request a regular recurring meeting on #ansible-meeting, please
 # Schedule
 ## Mondays
 
-1900 UTC: Community Working Group
+* 1900 UTC: Community Working Group
 
 ## Wednesdays
 
-1800 UTC: New Modules Review
-1900 UTC: Community Working Group
+* 1800 UTC: New Modules Review
+* 1900 UTC: Community Working Group
 
 ## Fridays
 
-1900 UTC: Community Working Group
+* 1900 UTC: Community Working Group
 
 # Meeting Minutes
 ## IRC Logs
