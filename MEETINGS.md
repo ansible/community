@@ -8,17 +8,10 @@ Feel free to hold ad-hoc meetings in the #ansible-meeting channel, but please re
 If you'd like to request a regular recurring meeting on #ansible-meeting, please submit a PR to this page.
 
 # Schedule
-## Mondays
-
-* 1900 UTC: Community Working Group
 
 ## Wednesdays
 
 * 1800 UTC: New Modules Review
-* 1900 UTC: Community Working Group
-
-## Fridays
-
 * 1900 UTC: Community Working Group
 
 # Meeting Minutes
