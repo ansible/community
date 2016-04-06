@@ -9,10 +9,14 @@ If you'd like to request a regular recurring meeting on #ansible-meeting, please
 
 # Schedule
 
+## Tuesdays
+
+* **1400 UTC: Old PR Triage.** Our bot can sometimes miss pull requests, so this is when we will go through and examine PRs that haven't been touched in a month to decide how to handle them, and make bot revisions if appropriate. We review oldest PRs in community review that are not new modules. Link  [here](https://github.com/ansible/ansible-modules-extras/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+sort%3Aupdated-asc+-label%3Anew_plugin+-label%3Acore_review).
+
 ## Wednesdays
 
-* 1800 UTC: New Modules Review
-* 1900 UTC: Community Working Group
+* **1800 UTC: New Modules Review.** For review of proposed modules. The process is still a bit in flux.
+* **1900 UTC: Community Working Group.** For miscellaneous work to be done by the Ansible community team. If you've got an issue and you're not sure where to get it addresses, join this meeting. Agenda [here](https://waffle.io/ansible/community).
 
 # Meeting Minutes
 ## IRC Logs
