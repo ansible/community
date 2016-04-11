@@ -17,6 +17,7 @@ r+is%3Aopen+sort%3Aupdated-asc+-label%3Anew_plugin+-label%3Acore_review) as we h
 
 ## Wednesdays
 
+* **1600 UTC: Networking Working Group.** Agenda TBD.
 * **1800 UTC: New Modules Review.** For review of proposed modules. The process is still a bit in flux.
 * **1900 UTC: Community Working Group.** For miscellaneous work to be done by the Ansible community team. If you've got an issue and you're not sure where to get it addresses, join this meeting. Agenda [here](https://waffle.io/ansible/community).
 
