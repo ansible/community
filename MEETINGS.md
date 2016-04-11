@@ -13,7 +13,7 @@ If you'd like to request a regular recurring meeting on #ansible-meeting, please
 
 * **1400 UTC: Old PR Triage.** Our bot can sometimes miss pull requests, so this is when we will go through and examine PRs that haven't been touched in a month to decide how to handle them, and make bot revisions if appropriate. We review oldest PRs in community review that are not new modules.  We will review [Core PRs](https://github.com/ansible/ansible-modules-core/pulls?utf8=%E2%9C%93&q=is%3Apr+is%3Aopen+sort%3Aupdated-asc+-label%3Anew_plugin+-label%3Acore_review) and [Extras PRs](https://github.com/ansible/ansible-modules-extras/pulls?utf8=%E2%9C%93&q=is%3Ap
 r+is%3Aopen+sort%3Aupdated-asc+-label%3Anew_plugin+-label%3Acore_review) as we have time.
-* **1900 UTC: **Core Team Meeting.** Agenda TBD.
+* **1900 UTC: Core Team Meeting.** Agenda TBD.
 
 ## Wednesdays
 
