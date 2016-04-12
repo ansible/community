@@ -11,17 +11,44 @@ If you'd like to request a regular recurring meeting on #ansible-meeting, please
 
 ## Tuesdays
 
-* **1900 UTC: Core Team Meeting.** Agenda TBD.
+* 1900 UTC: Core Team Meeting
 
 ## Wednesdays
 
-* **1600 UTC: Networking Working Group.** Agenda TBD.
-* **1800 UTC: New Modules Review.** For review of proposed modules. The process is still a bit in flux.
-* **1900 UTC: Community Working Group.** For miscellaneous work to be done by the Ansible community team. If you've got an issue and you're not sure where to get it addresses, join this meeting. Agenda [here](https://waffle.io/ansible/community).
+* 1600 UTC: Networking Working Group
+* 1800 UTC: New Modules Review
+* 1900 UTC: Community Working Group
 
 ## Thursdays
 
-* **1500 UTC: Core Team Meeting.** Agenda TBD.
+* 1500 UTC: Core Team Meeting
+
+# Meeting Agendas and purpose
+A number of this groups are still in their early days so don't have formal agendas yet.
+
+## Networking Working Group
+Agenda TBD
+
+## New Modules Review
+For review of proposed modules, and ensure the backlog is moving.
+
+  * Review of actions from previous meeting
+  * Review of testing done since last meeting
+  * Review of PRs raised since last meeting
+  * Discussion around oldest PR and how to get it moving
+
+## Community Working Group
+For miscellaneous work to be done by the Ansible community team. If you've got an issue and you're not sure where to get it addresses, join this meeting. 
+
+  * Agenda [here](https://waffle.io/ansible/community)
+
+## Core Team Meeting
+A place to get input from the Ansible Core Team
+issues and PRs that people who are willing to come to the meeting want to present.
+Old PRs that need attention from us (as opposed to from the submitter)
+
+  * Review of actions from previous meeting
+  * Open discussion driven by the group 
 
 # Meeting Minutes
 ## IRC Logs
