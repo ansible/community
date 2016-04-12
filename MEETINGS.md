@@ -18,7 +18,7 @@ If you'd like to request a regular recurring meeting on #ansible-meeting, please
 * 1600 UTC: Networking Working Group
 * 1800 UTC: New Modules Review
 * 1900 UTC: Community Working Group
-* 
+
 ## Thursdays
 
 * 1500 UTC: Core Team Meeting
