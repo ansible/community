@@ -43,10 +43,9 @@ For miscellaneous work to be done by the Ansible community team. If you've got a
   * Agenda [here](https://waffle.io/ansible/community)
 
 ## Core Team Meeting
-A place to get input from the Ansible Core Team
-issues and PRs that people who are willing to come to the meeting want to present.
-Old PRs that need attention from us (as opposed to from the submitter)
-
+A place to get input from the Ansible Core Team issues, PRs and proposals that people who are willing to come to the meeting want to present.
+  * Old PRs that need attention from us (as opposed to from the submitter)
+  * Selected proposals from the ansible/proposals repo
   * Review of actions from previous meeting
   * Open discussion driven by the group 
 
