@@ -11,17 +11,17 @@ If you'd like to request a regular recurring meeting on #ansible-meeting, please
 
 ## Tuesdays
 
-* 1900 UTC: Core Team Meeting
+* [1900 UTC](https://duckduckgo.com/?q=1900+UTC): Core Team Meeting
 
 ## Wednesdays
 
-* 1600 UTC: Networking Working Group
-* 1800 UTC: New Modules Review
-* 1900 UTC: Community Working Group
+* [1600 UTC](https://duckduckgo.com/?q=1600+UTC): Networking Working Group
+* [1800 UTC](https://duckduckgo.com/?q=1800+UTC): New Modules Review
+* [1900 UTC](https://duckduckgo.com/?q=1900+UTC): Community Working Group
 
 ## Thursdays
 
-* 1500 UTC: Core Team Meeting
+* [1500 UTC](https://duckduckgo.com/?q=1500+UTC): Core Team Meeting
 
 # Meeting Agendas and purpose
 A number of this groups are still in their early days so don't have formal agendas yet.
