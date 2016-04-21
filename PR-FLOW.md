@@ -28,19 +28,19 @@ The ultimate goal of any Pull Request is to reach "shipit" status, where the Cor
 The triage bot runs every six hours and examines every open PR in both core and extras repositories, and enforces state roughly according to the following workflow:
 
 * If a PR has no workflow labels, it's considered "new".  Files in the PR are identified, and the maintainers of those files are pinged by the bot, along with instructions on how to review the PR.  (Note: sometimes we strip labels from a PR to "reboot" this process.)
-** If the module maintainer is not "ansible", the PR then goes into the "community_review" state.
-** If the module maintainer is "ansible", the PR then goes into the "core_review" state (and probably sits for a while).
+  * If the module maintainer is not "ansible", the PR then goes into the "community_review" state.
+  * If the module maintainer is "ansible", the PR then goes into the "core_review" state (and probably sits for a while).
 * If the PR is in "community_review" and has received comments from the maintainer:
-** If the maintainer says "shipit", the PR is labeled "shipit", whereupon the Core team assesses it for final merge.
-** If the maintainer says "needs_info", the PR is labeled "needs_info" and the submitter is asked for more info.
-** If the maintainer says "needs_revision", the PR is labeled "needs_revision" and the submitter is asked to fix some things.
+  * If the maintainer says "shipit", the PR is labeled "shipit", whereupon the Core team assesses it for final merge.
+  * If the maintainer says "needs_info", the PR is labeled "needs_info" and the submitter is asked for more info.
+  * If the maintainer says "needs_revision", the PR is labeled "needs_revision" and the submitter is asked to fix some things.
 * If the PR is in "needs_revision/needs_info" and has received comments from the submitter:
-** If the submitter says "ready_for_review", the PR is put back into community_review/core_review and the maintainer is notified that the PR is ready to be reviewed again.
+  * If the submitter says "ready_for_review", the PR is put back into community_review/core_review and the maintainer is notified that the PR is ready to be reviewed again.
 * If the PR is in "needs_revision/needs_info" and the submitter has not responded lately:
-** The submitter is first politely pinged after two weeks, pinged again after two more weeks and labeled "pending action", and then may be closed two weeks after tha.
-** If the submitter responds at all, the clock is reset.
+  * The submitter is first politely pinged after two weeks, pinged again after two more weeks and labeled "pending action", and then may be closed two weeks after tha.
+  * If the submitter responds at all, the clock is reset.
 * If the PR is in "community_review" and the reviewer has not responded lately:
-** The reviewer is first politely pinged after two weeks, pinged again after two more weeks and labeled "pending_action", and then may be reassigned to "ansible" / core_review, or often the submitter of the PR is asked to step up as a maintainer.
+  * The reviewer is first politely pinged after two weeks, pinged again after two more weeks and labeled "pending_action", and then may be reassigned to "ansible" / core_review, or often the submitter of the PR is asked to step up as a maintainer.
 * If Travis fails, or if the code is not mergable, the PR is automatically put into "needs_revision" along with a message to the submitter explaining why.
 
 There are corner cases and frequent refinements, but this is the workflow in general. 
