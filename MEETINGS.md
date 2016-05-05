@@ -9,6 +9,8 @@ If you'd like to request a regular recurring meeting on #ansible-meeting, please
 
 # Schedule
 
+You can add this full list of meetings to your personal calendar by downloading and importing this [.ics file](https://github.com/ansible/community/blob/master/ansible_community_meetings.ics) into your calendar.
+
 ## Tuesdays
 
 * [1900 UTC](https://duckduckgo.com/?q=1900+UTC): Core Team Meeting
