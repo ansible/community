@@ -28,16 +28,13 @@ You can add this full list of meetings to your personal calendar by downloading 
 # Meeting Agendas and purpose
 A number of this groups are still in their early days so don't have formal agendas yet.
 
-## Networking Working Group
-Agenda TBD
+For the following groups see the 
+[Agenda tickets](https://github.com/ansible/community/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen++label%3Ameeting_agenda+)
+  * Network Working Group
+  * New Modules Review
+  * Public Core Group
 
-## New Modules Review
-For review of proposed modules, and ensure the backlog is moving.
 
-  * Review of actions from previous meeting
-  * Review of testing done since last meeting
-  * Review of PRs raised since last meeting
-  * Discussion around oldest PR and how to get it moving
 
 ## Community Working Group
 For miscellaneous work to be done by the Ansible community team. If you've got an issue and you're not sure where to get it addresses, join this meeting. 
