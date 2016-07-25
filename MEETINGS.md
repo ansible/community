@@ -37,7 +37,7 @@ For the following groups see the
 
 
 ## Community Working Group
-For miscellaneous work to be done by the Ansible community team. If you've got an issue and you're not sure where to get it addresses, join this meeting. 
+For miscellaneous work to be done by the Ansible community team. If you've got an issue and you're not sure where to get it addressed, join this meeting. 
 
   * Agenda [here](https://waffle.io/ansible/community)
 
