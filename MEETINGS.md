@@ -11,6 +11,13 @@ If you'd like to request a regular recurring meeting on #ansible-meeting, please
 
 You can add this full list of meetings to your personal calendar by downloading and importing this [.ics file](https://github.com/ansible/community/blob/master/ansible_community_meetings.ics) into your calendar.
 
+## AnsibleFest SF 2016!
+
+Wednesday, 27 July, 2016
+IRC: #ansible-meeting on freenode
+Teleconference URL: https://bluejeans.com/3008457278/
+Etherpad: https://public.etherpad-mozilla.org/p/ansible-summit-july-2016
+
 ## Tuesdays
 
 * [1900 UTC](https://duckduckgo.com/?q=1900+UTC): Core Team Meeting
