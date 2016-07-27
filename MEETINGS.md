@@ -16,7 +16,7 @@ You can add this full list of meetings to your personal calendar by downloading 
 Wednesday, 27 July, 2016
 IRC: #ansible-meeting on freenode
 Teleconference URL: https://bluejeans.com/3008457278/
-Etherpad: https://public.etherpad-mozilla.org/p/ansible-summit-july-2016
+Etherpad: https://public.etherpad-mozilla.org/p/ansible-summit-july-2016-general
 
 ## Tuesdays
 
