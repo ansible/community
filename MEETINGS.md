@@ -3,7 +3,7 @@
 ## #ansible-meeting
 Ansible IRC meetings are held on freenode, in the #ansible-meeting channel.
 
-Feel free to hold ad-hoc meetings in the #ansible-meeting channel, but please respect the scheduled meeting times.
+Feel free to hold ad-hoc meetings in the `#ansible-meeting` channel, but please respect the scheduled meeting times.
 
 If you'd like to request a regular recurring meeting on #ansible-meeting, please submit a PR to this page.
 
@@ -11,12 +11,9 @@ If you'd like to request a regular recurring meeting on #ansible-meeting, please
 
 You can add this full list of meetings to your personal calendar by downloading and importing this [.ics file](https://github.com/ansible/community/blob/master/ansible_community_meetings.ics) into your calendar.
 
-## AnsibleFest SF 2016!
+## AnsibleFest Brookyn 2016!
+Details to follow...
 
-Wednesday, 27 July, 2016
-IRC: #ansible-meeting on freenode
-Teleconference URL: https://bluejeans.com/3008457278/
-Etherpad: https://public.etherpad-mozilla.org/p/ansible-summit-july-2016-general
 
 ## Tuesdays
 
@@ -61,5 +58,21 @@ All *meeting* logs from #ansible-meeting can be seen [here](https://meetbot.fedo
 The #ansible-meeting bot is graciously provided to us by our friends in the [Fedora Project community](https://fedoraproject.org). The bot, Zodbot, is a [Meetbot](https://wiki.debian.org/MeetBot) IRC bot.
 
 ## Past In-Person Meetings
-* 2016/02/17: Ansible Contributor Summit -- [Etherpad, with summary and pre-planning](https://public.etherpad-mozilla.org/p/ansible-summit); [IRC log](https://gist.github.com/gregdek/4ed5bd745881570a17db); [Video 1, ](https://www.youtube.com/watch?v=l7v7RSHwGhk)[Video 2, ](https://www.youtube.com/watch?v=47vidc1P-ZE)[Video 3, ](https://www.youtube.com/watch?v=c3WNhsHW7Xc)[Video 4](https://www.youtube.com/watch?v=qPuQ-UToen0)
+### 2016/07/27: Ansible Contributor Summit 2 (Part of AnsibleFest 2016 San Francisco) 
+ * [Etherpad, with summary and pre-planning](https://public.etherpad-mozilla.org/p/ansible-summit-july-2016-general)
+ * [IRC Log (Summary)](https://meetbot.fedoraproject.org/ansible-meeting/2016-07-27/contributor_conference_sf_2016.2016-07-27-15.32.html)
+ * [IRC Log (Full)](https://meetbot.fedoraproject.org/ansible-meeting/2016-07-27/contributor_conference_sf_2016.2016-07-27-15.32.log.html)
+
+* Videos will follow shortly (Teleconference URL: https://bluejeans.com/3008457278/)
+### 2016/02/17: Ansible Contributor Summit 1 (Part of AnsibleFest 2016 London)
+
+* [Etherpad, with summary and pre-planning](https://public.etherpad-mozilla.org/p/ansible-summit)
+* [IRC log](https://gist.github.com/gregdek/4ed5bd745881570a17db)
+
+* [Video 1, ](https://www.youtube.com/watch?v=l7v7RSHwGhk)
+* [Video 2, ](https://www.youtube.com/watch?v=47vidc1P-ZE)
+* [Video 3, ](https://www.youtube.com/watch?v=c3WNhsHW7Xc)
+* [Video 4](https://www.youtube.com/watch?v=qPuQ-UToen0)
+
+
 
