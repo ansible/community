@@ -52,6 +52,13 @@ A place to get input from the Ansible Core Team issues, PRs and proposals that p
   * Review of actions from previous meeting
   * Open discussion driven by the group 
 
+## Testing Working Group
+*In the process of being setup, poke gundalow directly for info.*
+
+Please subscribe to the Agenda ticket to be informed of when the meetings start, and to add any topics to the discussion.
+
+ * Agenda [here](https://github.com/ansible/community/issues/114)
+
 # Meeting Minutes
 ## IRC Logs
 All *meeting* logs from #ansible-meeting can be seen [here](https://meetbot.fedoraproject.org/sresults/?group_id=ansible-meeting&type=channel). No other logs are recorded.
