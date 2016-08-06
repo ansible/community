@@ -38,7 +38,7 @@ For the following groups see the
   * Network Working Group
   * New Modules Review
   * Public Core Group
-  * Testing Working Group
+  * Testing Working Group (starts 18th August 2016)
 
 
 ## Community Working Group
@@ -56,7 +56,7 @@ A place to get input from the Ansible Core Team issues, PRs and proposals that p
 ## Testing Working Group
 Group focusing in improving testing across Ansible. 
 
-Please subscribe to the Agenda ticket to informed of updates.  Please dd any topics to the discussion.
+Please subscribe to the Agenda ticket to informed of updates. Suggestions for topics welcome via the ticket. 
 
  * Agenda [here](https://github.com/ansible/community/issues/114)
 
