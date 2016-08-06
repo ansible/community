@@ -28,6 +28,7 @@ Details to follow...
 ## Thursdays
 
 * [1500 UTC](https://duckduckgo.com/?q=1500+UTC): Core Team Meeting
+* [1800 UTC](https://duckduckgo.com/?q=1800+UTC): Testing Working Group
 
 # Meeting Agendas and purpose
 A number of this groups are still in their early days so don't have formal agendas yet.
@@ -37,7 +38,7 @@ For the following groups see the
   * Network Working Group
   * New Modules Review
   * Public Core Group
-
+  * Testing Working Group
 
 
 ## Community Working Group
@@ -53,9 +54,9 @@ A place to get input from the Ansible Core Team issues, PRs and proposals that p
   * Open discussion driven by the group 
 
 ## Testing Working Group
-*In the process of being setup, poke gundalow directly for info.*
+Group focusing in improving testing across Ansible. 
 
-Please subscribe to the Agenda ticket to be informed of when the meetings start, and to add any topics to the discussion.
+Please subscribe to the Agenda ticket to informed of updates.  Please dd any topics to the discussion.
 
  * Agenda [here](https://github.com/ansible/community/issues/114)
 
