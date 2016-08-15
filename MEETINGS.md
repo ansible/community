@@ -28,10 +28,9 @@ Details to follow...
 ## Thursdays
 
 * [1500 UTC](https://duckduckgo.com/?q=1500+UTC): Core Team Meeting
-* [1800 UTC](https://duckduckgo.com/?q=1800+UTC): Testing Working Group (starts 18th August 2016)
+* [1800 UTC](https://duckduckgo.com/?q=1700+UTC): Testing Working Group (starts 18th August 2016)
 
 # Meeting Agendas and purpose
-A number of this groups are still in their early days so don't have formal agendas yet.
 
 For the following groups see the 
 [Agenda tickets](https://github.com/ansible/community/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen++label%3Ameeting_agenda+)
