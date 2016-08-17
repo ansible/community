@@ -28,7 +28,7 @@ Details to follow...
 ## Thursdays
 
 * [1500 UTC](https://duckduckgo.com/?q=1500+UTC): Core Team Meeting
-* [1800 UTC](https://duckduckgo.com/?q=1700+UTC): Testing Working Group (starts 18th August 2016)
+* [1700 UTC](https://duckduckgo.com/?q=1700+UTC): Testing Working Group (starts 18th August 2016)
 
 # Meeting Agendas and purpose
 
