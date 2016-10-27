@@ -11,10 +11,6 @@ If you'd like to request a regular recurring meeting on `#ansible-meeting`, plea
 
 You can add this full list of meetings to your personal calendar by downloading and importing this [.ics file](https://github.com/ansible/community/blob/master/ansible_community_meetings.ics) into your calendar.
 
-## AnsibleFest Brookyn 2016!
-Details to follow...
-
-
 ## Tuesdays
 
 * [1900 UTC](https://duckduckgo.com/?q=1900+UTC): Core Team Meeting
@@ -65,10 +61,13 @@ All *meeting* logs from #ansible-meeting can be seen [here](https://meetbot.fedo
 The #ansible-meeting bot is graciously provided to us by our friends in the [Fedora Project community](https://fedoraproject.org). The bot, Zodbot, is a [Meetbot](https://wiki.debian.org/MeetBot) IRC bot.
 
 ## Past In-Person Meetings
-### 2016/07/27: Ansible Contributor Summit 2 (Part of AnsibleFest 2016 San Francisco) 
+### 2016/10/10: Ansible Contributor Summit 3 (Part of AnsibleFest 2016 Brooklyn)  
  * [Etherpad, with summary and pre-planning](https://public.etherpad-mozilla.org/p/ansible-summit-july-2016-general)
  * [IRC Log (Summary)](https://meetbot.fedoraproject.org/ansible-meeting/2016-07-27/contributor_conference_sf_2016.2016-07-27-15.32.html)
  * [IRC Log (Full)](https://meetbot.fedoraproject.org/ansible-meeting/2016-07-27/contributor_conference_sf_2016.2016-07-27-15.32.log.html)
+ 
+### 2016/07/27: Ansible Contributor Summit 2 (Part of AnsibleFest 2016 San Francisco) 
+ * [Etherpad, with summary and pre-planning](https://public.etherpad-mozilla.org/p/ansible-summit-october-2016)
 
 * Videos will follow shortly (Teleconference URL: https://bluejeans.com/3008457278/)
 ### 2016/02/17: Ansible Contributor Summit 1 (Part of AnsibleFest 2016 London)
