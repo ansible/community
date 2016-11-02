@@ -6,11 +6,11 @@ Before reading this document you should already be familiar with the general rel
 Once happy with the PR
 
  * Use rebase unless multiple commits (git pull --rebase && git push --ff-only)
- * Use squash option when multiple commits  (git rebase)
+ * Use squash option when multiple commits  (git rebase), unless this obscures multiple authors
  * Merge is last resort, it is normally better to cherry pick locally
  * Update CHANGELOG.md if new plugin/feature has been added, removed or deprecated
 
-This is done to make history flat for readability and bisect easier.
+This is done to make history flat for readability, cherry picking and bisect easier.
 
 ## Backporting into stable-x.y
 
