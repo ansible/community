@@ -1,5 +1,6 @@
 # Merge Workflow
-Normal git/github workflow for the Ansible project
+Normal git/github workflow for the Ansible project for those with committer permissions.
+Before reading this document you should already be familiar with the general release process.
 
 ## Merge into devel
 Once happy with the PR

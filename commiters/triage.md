@@ -1,5 +1,6 @@
 #Triage Process
 General outline of the Ansible triage process to deal with new tickets.
+Please note that the Ansible core team normally has people doing this on rotation during the work week.
 
 ## Ansibull Bot
 Detailing just triage here, it does more things in full life cycle.
