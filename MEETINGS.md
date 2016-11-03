@@ -24,7 +24,7 @@ You can add this full list of meetings to your personal calendar by downloading 
 ## Thursdays
 
 * [1500 UTC](https://duckduckgo.com/?q=1500+UTC): Core Team Meeting
-* [1700 UTC](https://duckduckgo.com/?q=1700+UTC): Testing Working Group (starts 18th August 2016)
+* [1700 UTC](https://duckduckgo.com/?q=1700+UTC): Testing Working Group
 
 # Meeting Agendas and purpose
 
