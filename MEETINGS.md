@@ -11,6 +11,8 @@ If you'd like to request a regular recurring meeting on `#ansible-meeting`, plea
 
 You can add this full list of meetings to your personal calendar by downloading and importing this [.ics file](https://github.com/ansible/community/blob/master/ansible_community_meetings.ics) into your calendar.
 
+An interactive [Google Calendar](https://calendar.google.com/calendar/embed?src=ansible.com_pafenslko0e2bqjgujp8f7s0do%40group.calendar.google.com) is also available.
+
 ## Tuesdays
 
 * [1900 UTC](https://duckduckgo.com/?q=1900+UTC): Core Team Meeting
@@ -18,7 +20,6 @@ You can add this full list of meetings to your personal calendar by downloading 
 ## Wednesdays
 
 * [1600 UTC](https://duckduckgo.com/?q=1600+UTC): Networking Working Group
-* [1800 UTC](https://duckduckgo.com/?q=1800+UTC): New Modules Review
 * [1900 UTC](https://duckduckgo.com/?q=1900+UTC): Community Working Group
 
 ## Thursdays
@@ -31,7 +32,6 @@ You can add this full list of meetings to your personal calendar by downloading 
 For the following groups see the 
 [Agenda tickets](https://github.com/ansible/community/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen++label%3Ameeting_agenda+)
   * Network Working Group
-  * New Modules Review
   * Public Core Group
   * Testing Working Group
 
