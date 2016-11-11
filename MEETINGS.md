@@ -9,7 +9,7 @@ If you'd like to request a regular recurring meeting on `#ansible-meeting`, plea
 
 # Schedule
 
-You can add this full list of meetings to your personal calendar by downloading and importing this [.ics file](https://github.com/ansible/community/blob/master/ansible_community_meetings.ics) into your calendar.
+You can add this full list of meetings to your personal calendar by downloading and importing this [.ics file](https://raw.githubusercontent.com/ansible/community/master/ansible_community_meetings.ics) into your calendar.
 
 An interactive [Google Calendar](https://calendar.google.com/calendar/embed?src=ansible.com_pafenslko0e2bqjgujp8f7s0do%40group.calendar.google.com) is also available.
 
