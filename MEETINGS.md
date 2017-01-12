@@ -34,12 +34,6 @@ For the following groups see the
   * Public Core Group
   * Testing Working Group
 
-
-## Community Working Group
-For miscellaneous work to be done by the Ansible community team. If you've got an issue and you're not sure where to get it addressed, join this meeting. 
-
-  * Agenda [here](https://waffle.io/ansible/community)
-
 ## Core Team Meeting
 A place to get input from the Ansible Core Team issues, PRs and proposals that people who are willing to come to the meeting want to present.
   * Old PRs that need attention from us (as opposed to from the submitter)
