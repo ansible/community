@@ -20,7 +20,6 @@ An interactive [Google Calendar](https://calendar.google.com/calendar/embed?src=
 ## Wednesdays
 
 * [1600 UTC](https://duckduckgo.com/?q=1600+UTC): Networking Working Group
-* [1900 UTC](https://duckduckgo.com/?q=1900+UTC): Community Working Group
 
 ## Thursdays
 
