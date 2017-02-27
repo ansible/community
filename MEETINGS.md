@@ -13,6 +13,10 @@ You can add this full list of meetings to your personal calendar by downloading 
 
 An interactive [Google Calendar](https://calendar.google.com/calendar/embed?src=ansible.com_pafenslko0e2bqjgujp8f7s0do%40group.calendar.google.com) is also available.
 
+## Mondays
+
+* [0000 UTC](https://duckduckgo.com/?q=0000+UTC): Windows Working Group (biweekly, see calendar)
+
 ## Tuesdays
 
 * [1900 UTC](https://duckduckgo.com/?q=1900+UTC): Core Team Meeting
@@ -25,6 +29,10 @@ An interactive [Google Calendar](https://calendar.google.com/calendar/embed?src=
 
 * [1500 UTC](https://duckduckgo.com/?q=1500+UTC): Core Team Meeting
 * [1700 UTC](https://duckduckgo.com/?q=1700+UTC): Testing Working Group
+
+## Fridays
+
+* [1630 UTC](https://duckduckgo.com/?q=1630+UTC): Windows Working Group (biweekly, see calendar)
 
 # Meeting Agendas and purpose
 
