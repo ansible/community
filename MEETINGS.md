@@ -41,6 +41,7 @@ For the following groups see the
   * Network Working Group
   * Public Core Group
   * Testing Working Group
+  * Windows Working Group
 
 ## Core Team Meeting
 A place to get input from the Ansible Core Team issues, PRs and proposals that people who are willing to come to the meeting want to present.
@@ -55,6 +56,11 @@ Group focusing in improving testing across Ansible.
 Please subscribe to the Agenda ticket to informed of updates. Suggestions for topics welcome via the ticket. 
 
  * Agenda [here](https://github.com/ansible/community/issues/114)
+
+## Windows Working Group
+Group focused on improving Ansible management of Windows hosts.
+
+ * Agenda [here](https://github.com/ansible/community/issues/153)
 
 # Meeting Minutes
 ## IRC Logs
