@@ -64,7 +64,10 @@ Group focused on improving Ansible management of Windows hosts.
 All *meeting* logs from #ansible-meeting can be seen [here](https://meetbot.fedoraproject.org/sresults/?group_id=ansible-meeting&type=channel). No other logs are recorded.
 The #ansible-meeting bot is graciously provided to us by our friends in the [Fedora Project community](https://fedoraproject.org). The bot, Zodbot, is a [Meetbot](https://wiki.debian.org/MeetBot) IRC bot.
 
-## Past In-Person Meetings
+## Other Meetings
+### 2017/06/21: Ansible Contributor Summit 4 (Part of AnsibleFest 2017 London) 
+ * [Etherpad, with summary and pre-planning](https://public.etherpad-mozilla.org/p/ansible-summit-june-2017)
+
 ### 2016/10/10: Ansible Contributor Summit 3 (Part of AnsibleFest 2016 Brooklyn)  
  * [Etherpad, with summary and pre-planning](https://public.etherpad-mozilla.org/p/ansible-summit-july-2016-general)
  * [IRC Log (Summary)](https://meetbot.fedoraproject.org/ansible-meeting/2016-07-27/contributor_conference_sf_2016.2016-07-27-15.32.html)
