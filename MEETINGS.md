@@ -15,8 +15,8 @@ An interactive [Google Calendar](https://calendar.google.com/calendar/embed?src=
 
 ## Tuesdays
 
-* [0000 UTC](https://duckduckgo.com/?q=0000+UTC): Windows Working Group (biweekly, see calendar, and note that this is actually Monday afternoon for US attendees)
 * [1900 UTC](https://duckduckgo.com/?q=1900+UTC): Core Team Meeting
+* [2000 UTC](https://duckduckgo.com/?q=2000+UTC): Windows Working Group
 
 ## Wednesdays
 
@@ -26,10 +26,6 @@ An interactive [Google Calendar](https://calendar.google.com/calendar/embed?src=
 
 * [1500 UTC](https://duckduckgo.com/?q=1500+UTC): Core Team Meeting
 * [1700 UTC](https://duckduckgo.com/?q=1700+UTC): Testing Working Group
-
-## Fridays
-
-* [1630 UTC](https://duckduckgo.com/?q=1630+UTC): Windows Working Group (biweekly, see calendar)
 
 # Meeting Agendas and purpose
 
@@ -86,6 +82,3 @@ The #ansible-meeting bot is graciously provided to us by our friends in the [Fed
 * [Video 2](https://www.youtube.com/watch?v=47vidc1P-ZE)
 * [Video 3](https://www.youtube.com/watch?v=c3WNhsHW7Xc)
 * [Video 4](https://www.youtube.com/watch?v=qPuQ-UToen0)
-
-
-
