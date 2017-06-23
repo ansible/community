@@ -20,4 +20,4 @@ Focuses on supporting Windows.
 * [Dag Wieers](https://github.com/dagwieers), dagwieers
 
 ## Contact
-* [#ansible-windows IRC channel](https://webchat.freenode.net/?channels=ansible-windows)
+* [#ansible-windows IRC channel](https://webchat.freenode.net/?channels=ansible-windows) on Freenode.net
