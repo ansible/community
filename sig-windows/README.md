@@ -6,7 +6,7 @@ Focuses on supporting Windows.
 * [Tuesdays at 20:00 UTC](https://calendar.google.com/calendar/embed?src=ansible.com_pafenslko0e2bqjgujp8f7s0do%40group.calendar.google.com) (weekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=20:00&tz=UTC).
 
 ## Progress
-* [Action plan](https://github.com/ansible/community/wiki) - TBD
+* [Collaboration wiki](https://github.com/ansible/community/wiki/Windows) *-- action lists, progress tracker, ideas*
 * [Meeting agenda](https://github.com/ansible/community/issues/153)
 * [Meeting notes](https://meetbot.fedoraproject.org/sresults/?group_id=ansible-windows&type=channel) *(notes from before 2017-06-21 are [here](https://meetbot.fedoraproject.org/sresults/?group_id=ansible-meeting&type=channel))*
 
@@ -20,4 +20,4 @@ Focuses on supporting Windows.
 * [Dag Wieers](https://github.com/dagwieers), dagwieers
 
 ## Contact
-* [IRC channel](https://webchat.freenode.net/?channels=ansible-windows)
+* [#ansible-windows IRC channel](https://webchat.freenode.net/?channels=ansible-windows)
