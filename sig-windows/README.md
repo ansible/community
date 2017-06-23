@@ -8,7 +8,7 @@ Focuses on supporting Windows.
 ## Progress
 * [Collaboration wiki](https://github.com/ansible/community/wiki/Windows) *-- action lists, progress tracker, ideas*
 * [Meeting agenda](https://github.com/ansible/community/issues/153)
-* [Meeting notes](https://meetbot.fedoraproject.org/sresults/?group_id=ansible-windows&type=channel) *(notes from before 2017-06-21 are [here](https://meetbot.fedoraproject.org/sresults/?group_id=ansible-meeting&type=channel))*
+* [Meeting notes](https://meetbot.fedoraproject.org/sresults/?group_id=ansible-windows&type=channel) *([older notes](https://meetbot.fedoraproject.org/sresults/?group_id=windows_working_group&type=team))*
 
 ## Leads
 * [Matt Davis](https://github.com/nitzmahone), nitzmahone
