@@ -15,17 +15,17 @@ An interactive [Google Calendar](https://calendar.google.com/calendar/embed?src=
 
 ## Tuesdays
 
-* [1900 UTC](https://duckduckgo.com/?q=1900+UTC): Core Team Meeting
-* [2000 UTC](https://duckduckgo.com/?q=2000+UTC): Windows Working Group
+* [1900 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC): Core Team Meeting
+* [2000 UTC](http://www.thetimezoneconverter.com/?t=20:00&tz=UTC): Windows Working Group
 
 ## Wednesdays
 
-* [1600 UTC](https://duckduckgo.com/?q=1600+UTC): Networking Working Group
+* [1600 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC): Networking Working Group
 
 ## Thursdays
 
-* [1500 UTC](https://duckduckgo.com/?q=1500+UTC): Core Team Meeting
-* [1700 UTC](https://duckduckgo.com/?q=1700+UTC): Testing Working Group
+* [1500 UTC](http://www.thetimezoneconverter.com/?t=15:00&tz=UTC): Core Team Meeting
+* [1700 UTC](http://www.thetimezoneconverter.com/?t=17:00&tz=UTC): Testing Working Group
 
 # Meeting Agendas and purpose
 
@@ -61,19 +61,19 @@ All *meeting* logs from #ansible-meeting can be seen [here](https://meetbot.fedo
 The #ansible-meeting bot is graciously provided to us by our friends in the [Fedora Project community](https://fedoraproject.org). The bot, Zodbot, is a [Meetbot](https://wiki.debian.org/MeetBot) IRC bot.
 
 ## Other Meetings
-### 2017/06/21: Ansible Contributor Summit 4 (Part of AnsibleFest 2017 London) 
+### 2017-06-21: Ansible Contributor Summit 4 (Part of AnsibleFest 2017 London) 
  * [Etherpad, with summary and pre-planning](https://public.etherpad-mozilla.org/p/ansible-summit-june-2017)
 
-### 2016/10/10: Ansible Contributor Summit 3 (Part of AnsibleFest 2016 Brooklyn)  
+### 2016-10-10: Ansible Contributor Summit 3 (Part of AnsibleFest 2016 Brooklyn)  
  * [Etherpad, with summary and pre-planning](https://public.etherpad-mozilla.org/p/ansible-summit-july-2016-general)
  * [IRC Log (Summary)](https://meetbot.fedoraproject.org/ansible-meeting/2016-07-27/contributor_conference_sf_2016.2016-07-27-15.32.html)
  * [IRC Log (Full)](https://meetbot.fedoraproject.org/ansible-meeting/2016-07-27/contributor_conference_sf_2016.2016-07-27-15.32.log.html)
  
-### 2016/07/27: Ansible Contributor Summit 2 (Part of AnsibleFest 2016 San Francisco) 
+### 2016-07-27: Ansible Contributor Summit 2 (Part of AnsibleFest 2016 San Francisco) 
  * [Etherpad, with summary and pre-planning](https://public.etherpad-mozilla.org/p/ansible-summit-october-2016)
 
 * Videos will follow shortly (Teleconference URL: https://bluejeans.com/3008457278/)
-### 2016/02/17: Ansible Contributor Summit 1 (Part of AnsibleFest 2016 London)
+### 2016-02-17: Ansible Contributor Summit 1 (Part of AnsibleFest 2016 London)
 
 * [Etherpad, with summary and pre-planning](https://public.etherpad-mozilla.org/p/ansible-summit)
 * [IRC log](https://gist.github.com/gregdek/4ed5bd745881570a17db)
