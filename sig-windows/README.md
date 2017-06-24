@@ -3,12 +3,13 @@
 Focuses on supporting Windows.
 
 ## Meetings
-* [Tuesdays at 20:00 UTC](https://calendar.google.com/calendar/embed?src=ansible.com_pafenslko0e2bqjgujp8f7s0do%40group.calendar.google.com) (weekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=20:00&tz=UTC).
-
-## Progress
-* [Collaboration wiki](https://github.com/ansible/community/wiki/Windows) *-- action lists, progress tracker, ideas*
+* Weekly on Tuesdays at [20:00 UTC](http://www.thetimezoneconverter.com/?t=20:00&tz=UTC)
+  *([meetings calendar](https://calendar.google.com/calendar/embed?src=ansible.com_pafenslko0e2bqjgujp8f7s0do%40group.calendar.google.com))*
 * [Meeting agenda](https://github.com/ansible/community/issues/153)
 * [Meeting notes](https://meetbot.fedoraproject.org/sresults/?group_id=ansible-windows&type=channel) *([older notes](https://meetbot.fedoraproject.org/sresults/?group_id=windows_working_group&type=team))*
+
+## Collaboration
+* [Community wiki](https://github.com/ansible/community/wiki/Windows) *-- action lists, progress tracker, ideas*
 
 ## Leads
 * [Matt Davis](https://github.com/nitzmahone), nitzmahone
