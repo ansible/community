@@ -5,7 +5,7 @@ Focuses on supporting Windows.
 ## Meetings
 * Weekly on Tuesdays at [20:00 UTC](http://www.thetimezoneconverter.com/?t=20:00&tz=UTC)
   *([meetings calendar](https://calendar.google.com/calendar/embed?src=ansible.com_pafenslko0e2bqjgujp8f7s0do%40group.calendar.google.com))*
-* [Meeting agenda](https://github.com/ansible/community/issues/153)
+* [Meeting agenda](https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:windows)
 * [Meeting notes](https://meetbot.fedoraproject.org/sresults/?group_id=ansible-windows&type=channel) *([older notes](https://meetbot.fedoraproject.org/sresults/?group_id=windows_working_group&type=team))*
 
 ## Collaboration
