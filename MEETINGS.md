@@ -15,26 +15,28 @@ An interactive [Google Calendar](https://calendar.google.com/calendar/embed?src=
 
 ## Tuesdays
 
-* [1900 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC): Core Team Meeting
-* [2000 UTC](http://www.thetimezoneconverter.com/?t=20:00&tz=UTC): Windows Working Group
+* [19:00 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC): Core Team Meeting
+* [20:00 UTC](http://www.thetimezoneconverter.com/?t=20:00&tz=UTC):
+  [Windows Working Group](https://github.com/ansible/community/tree/master/group-windows) (in #ansible-windows)
 
 ## Wednesdays
 
-* [1600 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC): Networking Working Group
+* [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC): Networking Working Group
 
 ## Thursdays
 
-* [1500 UTC](http://www.thetimezoneconverter.com/?t=15:00&tz=UTC): Core Team Meeting
-* [1700 UTC](http://www.thetimezoneconverter.com/?t=17:00&tz=UTC): Testing Working Group
+* [15:00 UTC](http://www.thetimezoneconverter.com/?t=15:00&tz=UTC): Core Team Meeting
+* [17:00 UTC](http://www.thetimezoneconverter.com/?t=17:00&tz=UTC):
+  [Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)
 
 # Meeting Agendas and purpose
 
 For the following groups see the 
 [Agenda tickets](https://github.com/ansible/community/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen++label%3Ameeting_agenda+)
+  * Core Team Meeting
   * Network Working Group
-  * Public Core Group
-  * Testing Working Group
-  * Windows Working Group
+  * [Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)
+  * [Windows Working Group](https://github.com/ansible/community/tree/master/group-windows)
 
 ## Core Team Meeting
 A place to get input from the Ansible Core Team issues, PRs and proposals that people who are willing to come to the meeting want to present.
@@ -43,33 +45,20 @@ A place to get input from the Ansible Core Team issues, PRs and proposals that p
   * Review of actions from previous meeting
   * Open discussion driven by the group 
 
-## Testing Working Group
-Group focusing in improving testing across Ansible. 
-
-Please subscribe to the Agenda ticket to informed of updates. Suggestions for topics welcome via the ticket. 
-
- * Agenda [here](https://github.com/ansible/community/issues/114)
-
-## Windows Working Group
-Group focused on improving Ansible management of Windows hosts.
-
- * Agenda [here](https://github.com/ansible/community/issues/153)
-
 # Meeting Minutes
 ## IRC Logs
 All *meeting* logs from #ansible-meeting can be seen [here](https://meetbot.fedoraproject.org/sresults/?group_id=ansible-meeting&type=channel). No other logs are recorded.
-The #ansible-meeting bot is graciously provided to us by our friends in the [Fedora Project community](https://fedoraproject.org). The bot, Zodbot, is a [Meetbot](https://wiki.debian.org/MeetBot) IRC bot.
 
 ## Other Meetings
-### 2017-06-21: Ansible Contributor Summit 4 (Part of AnsibleFest 2017 London) 
+### 2017-06-21: Ansible Contributor Summit 4 (Part of AnsibleFest 2017 London)
  * [Etherpad, with summary and pre-planning](https://public.etherpad-mozilla.org/p/ansible-summit-june-2017)
 
-### 2016-10-10: Ansible Contributor Summit 3 (Part of AnsibleFest 2016 Brooklyn)  
+### 2016-10-10: Ansible Contributor Summit 3 (Part of AnsibleFest 2016 Brooklyn)
  * [Etherpad, with summary and pre-planning](https://public.etherpad-mozilla.org/p/ansible-summit-july-2016-general)
- * [IRC Log (Summary)](https://meetbot.fedoraproject.org/ansible-meeting/2016-07-27/contributor_conference_sf_2016.2016-07-27-15.32.html)
- * [IRC Log (Full)](https://meetbot.fedoraproject.org/ansible-meeting/2016-07-27/contributor_conference_sf_2016.2016-07-27-15.32.log.html)
+ * [IRC log (Summary)](https://meetbot.fedoraproject.org/ansible-meeting/2016-07-27/contributor_conference_sf_2016.2016-07-27-15.32.html)
+ * [IRC log (Full)](https://meetbot.fedoraproject.org/ansible-meeting/2016-07-27/contributor_conference_sf_2016.2016-07-27-15.32.log.html)
  
-### 2016-07-27: Ansible Contributor Summit 2 (Part of AnsibleFest 2016 San Francisco) 
+### 2016-07-27: Ansible Contributor Summit 2 (Part of AnsibleFest 2016 San Francisco)
  * [Etherpad, with summary and pre-planning](https://public.etherpad-mozilla.org/p/ansible-summit-october-2016)
 
 * Videos will follow shortly (Teleconference URL: https://bluejeans.com/3008457278/)
