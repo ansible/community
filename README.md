@@ -19,6 +19,7 @@ This repository serves as a space for the Ansible Community Working Group to man
 ## Groups we help:
 * Ansible development: [ansible/ansible](https://github.com/ansible/ansible)
 * Working Groups
+  - [AWS Working Group](https://github.com/ansible/community/tree/master/group-aws)
   - [Community Working Group](https://github.com/ansible/community/tree/master/group-community)
   - [Network Working Group](https://github.com/ansible/community/tree/master/group-network)
   - [Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)
