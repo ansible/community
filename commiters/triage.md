@@ -1,4 +1,4 @@
-#Triage Process
+# Triage Process
 General outline of the Ansible triage process to deal with new tickets.
 Please note that the Ansible core team normally has people doing this on rotation during the work week.
 
@@ -9,11 +9,6 @@ Detailing just triage here, it does more things in full life cycle.
 
 ## Contributer ticket triage
 New tickets that have not had human view them (labeled as 'needs_triage' once implemented)
-
- * In order of priority (going away after repo merge)
-	* ansible/ansible
-	* ansible-modules-core
-	* ansible-modules-extras ( if time permits )
 
  * Actions:
 	* Check bot labeled tickets correctly
