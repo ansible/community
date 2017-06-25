@@ -1,11 +1,12 @@
-# Amazon Web Services
+# AWS 
 
-The Amazon Web Services Working Group focuses on delivering modules
-and features to Ansible to support working with Amaazon Web Services (AWS)
+The AWS Working Group focuses on delivering modules and features to
+Ansible to support working with Amazon Web Services.
 
 ## Meetings
 
-There are currently no regular meetings held.  The IRC channel is the main and official place to countact the members. 
+There are currently no regular meetings held.  The IRC channel is the
+main and official place to countact the members.
 
 ## Collaboration
 
@@ -23,4 +24,4 @@ Leads are still to be agreed.
 * [William Thames](https://github.com/willthames), willthames
 
 ## Contact
-* [#ansible-devel IRC channel](https://webchat.freenode.net/?channels=ansible-aws) on Freenode.net
+* [#ansible-aws IRC channel](https://webchat.freenode.net/?channels=ansible-aws) on Freenode.net
