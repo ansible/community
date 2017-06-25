@@ -21,7 +21,8 @@ An interactive [Google Calendar](https://calendar.google.com/calendar/embed?src=
 
 ## Wednesdays
 
-* [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC): Networking Working Group
+* [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC):
+  [Network Working Group](https://github.com/ansible/community/tree/master/group-network)
 
 ## Thursdays
 
@@ -34,7 +35,8 @@ An interactive [Google Calendar](https://calendar.google.com/calendar/embed?src=
 For the following groups see the 
 [Agenda tickets](https://github.com/ansible/community/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen++label%3Ameeting_agenda+)
   * Core Team Meeting
-  * Network Working Group
+  * Community Working Group
+  * [Network Working Group](https://github.com/ansible/community/tree/master/group-network)
   * [Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)
   * [Windows Working Group](https://github.com/ansible/community/tree/master/group-windows)
 
