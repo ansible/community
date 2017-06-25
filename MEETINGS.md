@@ -35,7 +35,7 @@ An interactive [Google Calendar](https://calendar.google.com/calendar/embed?src=
 For the following groups see the 
 [Agenda tickets](https://github.com/ansible/community/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen++label%3Ameeting_agenda+)
   * Core Team Meeting
-  * Community Working Group
+  * [Community Working Group](https://github.com/ansible/community/tree/master/group-community)
   * [Network Working Group](https://github.com/ansible/community/tree/master/group-network)
   * [Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)
   * [Windows Working Group](https://github.com/ansible/community/tree/master/group-windows)
@@ -46,15 +46,6 @@ A place to get input from the Ansible Core Team issues, PRs and proposals that p
   * Selected proposals from the ansible/proposals repo
   * Review of actions from previous meeting
   * Open discussion driven by the group 
-
-## Community Working Group
-The Community Working Group focuses on everything related to make the Ansible community work better. This includes:
-  * Governance
-  * Tooling and automation
-  * Communication
-  * Workflows
-  
-The Community Working Group collaborates on the tickets and PRs in the [Ansible Community repository](https://github.com/ansible/community/issues). There are currently no regular meetings held.
 
 # Meeting Minutes
 ## IRC Logs
