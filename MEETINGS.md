@@ -15,20 +15,20 @@ An interactive [Google Calendar](https://calendar.google.com/calendar/embed?src=
 
 ## Tuesdays
 
-* [19:00 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC): Core Team Meeting
+* [19:00 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC): **Core Team Meeting**
 * [20:00 UTC](http://www.thetimezoneconverter.com/?t=20:00&tz=UTC):
-  [Windows Working Group](https://github.com/ansible/community/tree/master/group-windows) (in #ansible-windows)
+  **[Windows Working Group](https://github.com/ansible/community/tree/master/group-windows)** (in #ansible-windows)
 
 ## Wednesdays
 
 * [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC):
-  [Network Working Group](https://github.com/ansible/community/tree/master/group-network)
+  **[Network Working Group](https://github.com/ansible/community/tree/master/group-network)**
 
 ## Thursdays
 
-* [15:00 UTC](http://www.thetimezoneconverter.com/?t=15:00&tz=UTC): Core Team Meeting
+* [15:00 UTC](http://www.thetimezoneconverter.com/?t=15:00&tz=UTC): **Core Team Meeting**
 * [17:00 UTC](http://www.thetimezoneconverter.com/?t=17:00&tz=UTC):
-  [Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)
+  **[Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)**
 
 # Meeting Agendas and purpose
 
@@ -46,6 +46,15 @@ A place to get input from the Ansible Core Team issues, PRs and proposals that p
   * Selected proposals from the ansible/proposals repo
   * Review of actions from previous meeting
   * Open discussion driven by the group 
+
+## Community Working Group
+The Community Working Group focuses on everything related to make the Ansible community work better. This includes:
+  * Governance
+  * Tooling and automation
+  * Communication
+  * Workflows
+  
+The Community Working Group collaborates on the tickets and PRs in the [Ansible Community repository](https://github.com/ansible/community/issues). There are currently no regular meetings held.
 
 # Meeting Minutes
 ## IRC Logs
