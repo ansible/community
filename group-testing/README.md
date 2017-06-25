@@ -16,8 +16,8 @@ Group focusing in improving testing across Ansible.
 * [Matt Clay](https://github.com/mattclay), mattclay
 
 ## Active Members
+* [Matt Martz](https://github.com/sivel), sivel
 * [Andrea Tartaglia](https://github.com/shaps), shaps
-*
 
 ## Contact
 * [#ansible-devel IRC channel](https://webchat.freenode.net/?channels=ansible-devel) on Freenode.net
