@@ -22,3 +22,4 @@ Focuses on supporting Windows.
 
 ## Contact
 * [#ansible-windows IRC channel](https://webchat.freenode.net/?channels=ansible-windows) on Freenode.net
+* [ansible-devel mailinglist](https://groups.google.com/forum/#!forum/ansible-devel) on Google Groups
