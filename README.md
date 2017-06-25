@@ -17,7 +17,12 @@ This repository serves as a space for the Ansible Community Working Group to man
 * [Meetings](https://github.com/ansible/community/blob/master/MEETINGS.md): IRC meeting-related infrastructure, including the meeting bot and space for logs; organization of Ansible Contributor Summits.
 
 ## Groups we help:
-* Ansible development: [ansible/ansible](https://github.com/ansible/ansible), [ansible/ansible-modules-core](https://github.com/ansible/ansible-modules-core), [ansible/ansible-modules-extras](https://github.com/ansible/ansible-modules-extras)
+* Ansible development: [ansible/ansible](https://github.com/ansible/ansible)
+* Working Groups
+  - [Community Working Group](https://github.com/ansible/community/tree/master/group-community)
+  - [Network Working Group](https://github.com/ansible/community/tree/master/group-network)
+  - [Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)
+  - [Windows Working Group](https://github.com/ansible/community/tree/master/group-windows)
 * [Ambassadors](https://github.com/ansible/ambassadors)
 
 ## Communication:
