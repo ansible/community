@@ -27,3 +27,8 @@ Leads are still to be agreed.
 
 ## Contact
 * [#ansible-aws IRC channel](https://webchat.freenode.net/?channels=ansible-aws) on Freenode.net
+* For security-related concerns email security@ansible.com and see our
+    [security disclosure](https://www.ansible.com/security) for more
+    information.
+* For other urgent or sensitive issues contact shertel@redhat.com or
+    ryansb@redhat.com
