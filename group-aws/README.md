@@ -1,12 +1,13 @@
-# AWS 
+# Amazon Web Services Working Group
 
 The AWS Working Group focuses on delivering modules and features to
 Ansible to support working with Amazon Web Services.
 
 ## Meetings
 
-There are currently no regular meetings held.  The IRC channel is the
-main and official place to countact the members.
+There are currently no regular meetings held. The IRC channel is the
+main and official place to countact the members. For specific issues and
+feature requests, follow the standard Ansible issues/PRs workflow.
 
 ## Collaboration
 
@@ -19,6 +20,7 @@ requests in the main Ansible repository.
 Leads are still to be agreed.
 
 ## Active Members
+* [Sloane Hertel](https://github.com/s-hertel), shertel
 * [Ryan Brown](https://github.com/ryansb), ryansb
 * [Michael De La Rue](https://github.com/mikedlr), mikedlr
 * [William Thames](https://github.com/willthames), willthames
