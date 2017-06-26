@@ -12,6 +12,7 @@ Focuses on supporting networking devices.
 * [Community wiki](https://github.com/ansible/community/wiki/Network) *-- action lists, progress tracker, ideas*
 
 ## Leads
+* [John Barker](https://github.com/gundalow), gundalow
 * [Peter Sprygada](https://github.com/privateip), privateip
 
 ## Active Members
