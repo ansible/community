@@ -1,3 +1,6 @@
+<!--- There are no badges for open PRs by label yet -->
+[![Github windows issues](https://img.shields.io/github/issues/ansible/ansible/windows.svg)](https://github.com/ansible/ansible/issues?q=is:open+is:issue+label:windows)
+
 # Windows Working Group
 
 Focuses on supporting Windows.
