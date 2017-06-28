@@ -6,7 +6,7 @@ Ansible to support working with Amazon Web Services.
 ## Meetings
 
 There are currently no regular meetings held. The IRC channel is the
-main and official place to countact the members. For specific issues and
+main and official place to contact the members. For specific issues and
 feature requests, follow the standard Ansible issues/PRs workflow.
 
 ## Collaboration

@@ -23,6 +23,7 @@ This repository serves as a space for the Ansible Community Working Group to man
   - [Community Working Group](https://github.com/ansible/community/tree/master/group-community)
   - [Network Working Group](https://github.com/ansible/community/tree/master/group-network)
   - [Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)
+  - [VMware Working Group](https://github.com/ansible/community/tree/master/group-vmware)
   - [Windows Working Group](https://github.com/ansible/community/tree/master/group-windows)
 * [Ambassadors](https://github.com/ansible/ambassadors)
 
@@ -32,6 +33,8 @@ Find us on Freenode:
 * IRC: #ansible-devel - Channel for discussing pull-requests and contributions only
 * IRC: #ansible-notice - Automated messages from various services related to Ansible
 * IRC: #ansible-meeting - Ansible community meeting channel. [Meeting Schedule and logs](https://github.com/ansible/community/blob/master/MEETINGS.md)
+* IRC: #ansible-aws - Channel for discussing AWS and Ansible related things
+* IRC: #ansible-vmware - Channel for discussing VMware and Ansible related things
 * [Mailing list](https://groups.google.com/forum/#!forum/ansible-devel)
 * [GitHub issues](https://github.com/ansible/community/issues)
 
@@ -66,7 +69,7 @@ Someday, we'll probably have more structure around this; for now, we're keeping 
 The Ansible Working Group wants you to be able to start doing the things you want to do, so here are a few guidelines:
 
 * Look to see if anyone else has the same idea!
-* If you have an idea for the Ansible code itself, this is not the right place to make it happen. Please see the [documentation for current and prospective developers] (http://docs.ansible.com/ansible/community.html#for-current-and-prospective-developers).
+* If you have an idea for the Ansible code itself, this is not the right place to make it happen. Please see the [documentation for current and prospective developers](http://docs.ansible.com/ansible/community.html#for-current-and-prospective-developers).
 * If you have an idea THAT YOU WANT TO WORK ON that depends upon or is related to Ansible code, create an issue in [this repository](https://github.com/ansible/community/issues/new), and start a discussion on the ansible-devel mailing list. Encourage others who might be interested in helping to indicate their interest in the GitHub issue.
 * If you have an idea THAT YOU WANT TO WORK ON that does not relate to Ansible code, such as content, contributor enablement, outreach, or anything else you can imagine, please open an issue in [this repository](https://github.com/ansible/community/issues/new).
 * If you have an idea that you CAN'T WORK ON, create an issue in [this repository](https://github.com/ansible/community/issues/new) -- but please remember that without a willing contributor wanting to do the work, many suggestions do not turn into actual results.
