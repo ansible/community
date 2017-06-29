@@ -1,0 +1,38 @@
+# Creating an Ansible Working Group
+
+Working Groups are how the Ansible Community gets things done.
+
+The basic components of a working group:
+* A group name and charter (why the group exists);
+* A registered IRC channel on freenode (will usually be #ansible-groupname);
+* A group of users (at least two!) who will be driving the agenda of the working group;
+* Dedicated wiki space;
+
+The basic responsibilities of a working group:
+* Be responsive on your IRC channel;
+* Report semi-regularly on the cool stuff that your working group is working on;
+* Keep your wiki space clean!
+
+Anyone can request to start a Working Group, for any reason. 
+
+Cut and paste the following text into an issue, and fill in the areas in brackets:
+
+```
+WORKING GROUP NAME:    [                    ]
+(example: "windows")
+
+WORKING GROUP PURPOSE:
+[                                           ]
+[                                           ]
+[                                           ]
+(example: "to work on the best Windows modules ever", keep it short and sweet)
+
+INITIAL WORKING GROUP MEMBERS:
+[                                           ]
+[                                           ]
+[                                           ]
+(provide the GitHub IDs of your working group members, one name per line please)
+```
+
+We will ask you a few more questions if anything is unclear, and if we're happy, we will set up the infrastructure for your 
+working group and you can get started!
