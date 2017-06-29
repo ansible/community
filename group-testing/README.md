@@ -2,6 +2,8 @@
 
 Group focusing in improving testing across Ansible.
 
+As Testing related to all parts of Ansible we use the main `#ansible-devel` channel
+
 ## Meetings
 * Weekly on Thursdays at [17:00 UTC](http://www.thetimezoneconverter.com/?t=17:00&tz=UTC)
   *([meetings calendar](https://calendar.google.com/calendar/embed?src=ansible.com_pafenslko0e2bqjgujp8f7s0do%40group.calendar.google.com))*
