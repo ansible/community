@@ -37,7 +37,7 @@ The triage bot runs every six hours and examines every open PR in both core and 
 * If the PR is in "needs_revision/needs_info" and has received comments from the submitter:
   * If the submitter says "ready_for_review", the PR is put back into community_review/core_review and the maintainer is notified that the PR is ready to be reviewed again.
 * If the PR is in "needs_revision/needs_info" and the submitter has not responded lately:
-  * The submitter is first politely pinged after two weeks, pinged again after two more weeks and labeled "pending action", and then may be closed two weeks after tha.
+  * The submitter is first politely pinged after two weeks, pinged again after two more weeks and labeled "pending action", and then may be closed two weeks after that.
   * If the submitter responds at all, the clock is reset.
 * If the PR is in "community_review" and the reviewer has not responded lately:
   * The reviewer is first politely pinged after two weeks, pinged again after two more weeks and labeled "pending_action", and then may be reassigned to "ansible" / core_review, or often the submitter of the PR is asked to step up as a maintainer.
