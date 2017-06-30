@@ -20,6 +20,7 @@ As Testing related to all parts of Ansible we use the main `#ansible-devel` chan
 ## Active Members
 * [Matt Martz](https://github.com/sivel), sivel
 * [Andrea Tartaglia](https://github.com/shaps), shaps
+* [Yanis Guenane](https://github.com/Spredzy), Spredzy
 
 ## Contact
 * [#ansible-devel IRC channel](https://webchat.freenode.net/?channels=ansible-devel) on Freenode.net
