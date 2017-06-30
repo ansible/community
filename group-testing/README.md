@@ -2,7 +2,7 @@
 
 Group focusing in improving testing across Ansible.
 
-As Testing related to all parts of Ansible we use the main `#ansible-devel` channel
+Find us on `#ansible-devel` on Freenode
 
 ## Meetings
 * Weekly on Thursdays at [17:00 UTC](http://www.thetimezoneconverter.com/?t=17:00&tz=UTC)
@@ -23,4 +23,4 @@ As Testing related to all parts of Ansible we use the main `#ansible-devel` chan
 * [Yanis Guenane](https://github.com/Spredzy), Spredzy
 
 ## Contact
-* [#ansible-devel IRC channel](https://webchat.freenode.net/?channels=ansible-devel) on Freenode.net
+* [#ansible-devel IRC channel](https://webchat.freenode.net/?channels=ansible-devel) on Freenode.net. As testing related to all aspects (and other Working Groups) we use the main `#ansible-devel`
