@@ -11,6 +11,9 @@ feature requests, follow the standard Ansible issues/PRs workflow.
 
 ## Working Group Goals
 
+* [Review PRs and Issues](review.md) with a view to reducing the number of open
+  PRs and Issues. Numbers going up is not a failure, it might just
+  be due to additional contributors.
 * [Refactor problematic modules](refactor.md) - the key problem areas
   are `rds` and `iam`. Some minor renaming will also fall under this.
 * [Move to boto3](boto3.md) - all AWS modules should move to boto3, rather

@@ -23,12 +23,14 @@ enforce that new features must have tests.
 
 | Module               | PR                                                     |
 |----------------------|--------------------------------------------------------|
+| ec2_eni_facts        | [22941](https://github.com/ansible/ansible/pull/22941) |
 | ec2_group            | [25340](https://github.com/ansible/ansible/pull/25340) |
 | ec2_metric_alarm     | [23407](https://github.com/ansible/ansible/pull/23407) |
 | ec2_vpc_net_facts    | [25375](https://github.com/ansible/ansible/pull/25375) |
 | ec2_vpc_subnet_facts | [25374](https://github.com/ansible/ansible/pull/25374) |
 | rds                  | [25646](https://github.com/ansible/ansible/pull/25646) |
 | rds_param_group      | [25345](https://github.com/ansible/ansible/pull/25345) |
+| s3                   | [21529](https://github.com/ansible/ansible/pull/21529) |
 
 TODO: add many more to the above list!
 

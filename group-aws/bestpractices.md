@@ -17,3 +17,4 @@ Changes for existing modules would be:
   code such as `compare_aws_tags`,
   `boto3_tag_list_to_ansible_dict` etc.
 * Have [integration tests](integration.md)
+* Work with `--check` and provide useful information under `--diff`

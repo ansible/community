@@ -24,7 +24,7 @@ There are some PRs with tests:
 
 # State of the codebase
 
-Modules with non-trivial tests:
+Existing modules with tests:
 * `aws_api_gateway`
 * `aws_s3`
 * `ec2_ami`

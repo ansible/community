@@ -23,7 +23,7 @@ the RDS module will be split into four:
 The current IAM module is a monolith. The intention is to replace it
 with
 
-* [ ] `iam_user`
+* [ ] `iam_user` - in progress [#26290](https://github.com/ansible/ansible/pull/26290)
 * [ ] `iam_role`
 * [X] `iam_group`
 * [X] `iam_policy`
