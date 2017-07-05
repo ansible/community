@@ -34,7 +34,7 @@ enforce that new features must have tests.
 
 TODO: add many more to the above list!
 
-# State of the codebase
+# State of the codebase (As at 2017-07-05)
 
 ## boto3
 
@@ -46,11 +46,13 @@ TODO: add many more to the above list!
 * `ec2_asg`
 * `ec2_customer_gateway`
 * `ec2_eni_facts`
+* `ec2_instance_facts`
 * `ec2_lc_facts`
 * `ec2_snapshot_facts`
 * `ec2_vpc_igw_facts`
 * `ec2_vpc_nacl`
 * `ec2_vpc_peer`
+* `ec2_vpc_subnet`
 * `ec2_vpc_vgw_facts`
 * `ec2_vpc_vgw`
 * `ecs_cluster`
@@ -102,7 +104,7 @@ TODO: add many more to the above list!
 * `ec2_lc`
 * `ec2_metric_alarm`
 * `ec2`
-* `ec2_remote_facts`
+* `_ec2_remote_facts`
 * `ec2_scaling_policy`
 * `ec2_snapshot`
 * `ec2_tag`
@@ -116,7 +118,6 @@ TODO: add many more to the above list!
 * `ec2_vpc_route_table_facts`
 * `ec2_vpc_route_table`
 * `ec2_vpc_subnet_facts`
-* `ec2_vpc_subnet`
 * `ec2_win_password`
 * `ecs_cluster`
 * `ecs_service_facts`
