@@ -22,8 +22,16 @@ The Sprint works like this:
 Preparations include:
 
 - Announce the Sprint widely (mailing list, agenda, IRC, Twitter, ...)
-- Update all tickets so the reporter can join the Sprint
+- Update all tickets so the original reporters (or bystanders) can join the Sprint
 - Everyone buys alcoholic beverages and snacks of their choice for the celebration :-)
+
+## Best practices
+The following tips may be useful:
+
+- A working teleconferencing system is very valuable, BlueJeans may work well, but if you end up needing BlueJeans chat or irc for communication because it breaks down, efficiency quickly goes down the drain
+- Ensure you have prepared infrastructure to collaborate on issues in group by sharing screen
+- Start your sprint with the issues from people present in the sprint, ask around if unsure !
+- A good selection of things to work on is important, try to avoid `needs_contributor` or `needs_info`
 
 ## Working Group sprints
 Currently the following Working Groups organize regular sprints:
