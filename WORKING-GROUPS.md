@@ -6,7 +6,7 @@ The basic components of a working group:
 * A group name and charter (why the group exists);
 * A registered IRC channel on freenode (will usually be #ansible-groupname);
 * A group of users (at least two!) who will be driving the agenda of the working group;
-* Dedicated wiki space;
+* Dedicated wiki space.
 
 The basic responsibilities of a working group:
 * Be responsive on your IRC channel;
