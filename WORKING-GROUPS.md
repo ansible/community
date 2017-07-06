@@ -15,24 +15,29 @@ The basic responsibilities of a working group:
 
 Anyone can request to start a Working Group, for any reason. 
 
-Cut and paste the following text into an issue, and fill in the areas in brackets:
+Cut and paste the following text into an issue, and replace the examples in brackets
+with your own working group info:
 
 ```
-WORKING GROUP NAME:    [                    ]
-(example: "windows")
+WORKING GROUP NAME:    [ Example: unicorn   ]
 
 WORKING GROUP PURPOSE:
+[ Example: This working group is to review  ]
+[ all Unicorn-related modules               ]
 [                                           ]
-[                                           ]
-[                                           ]
-(example: "to work on the best Windows modules ever", keep it short and sweet)
+(keep it short and sweet)
 
-INITIAL WORKING GROUP MEMBERS:
+AT LEAST TWO INITIAL WORKING GROUP MEMBERS:
+[ IRC: gregdek / GitHub: @gregdek           ]
+[ IRC: rbergeron / GitHub: @robynbergeron   ]
 [                                           ]
-[                                           ]
-[                                           ]
-(provide the GitHub IDs of your working group members, one name per line please)
+(provide the IRC nicks AND GitHub IDs of your working group members, one name per line please)
 ```
 
-We will ask you a few more questions if anything is unclear, and if we're happy, we will set up the infrastructure for your 
-working group and you can get started!
+We will ask you a few more questions if anything is unclear.
+
+Once we have enough information, we will set up the following infrastructure:
+* An IRC channel on freenode named "#ansible-yourgroupname", properly registered and op'd;
+* A working group directory for your use;
+* Membership in the ansible/community GitHub repo for working group members;
+* Dedicated wiki space.
