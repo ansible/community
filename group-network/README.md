@@ -19,4 +19,4 @@ Focuses on supporting networking devices.
 * 
 
 ## Contact
-* [#ansible-devel IRC channel](https://webchat.freenode.net/?channels=ansible-devel) on Freenode.net
+* [#ansible-network IRC channel](https://webchat.freenode.net/?channels=ansible-network) on Freenode.net
