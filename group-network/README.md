@@ -14,9 +14,13 @@ Focuses on supporting networking devices.
 ## Leads
 * [John Barker](https://github.com/gundalow), gundalow
 * [Peter Sprygada](https://github.com/privateip), privateip
+* [Chris Alfonso](https://github.com/calfonso), calfonso
 
 ## Active Members
-* 
+* [Nate Case](https://github.com/Qalthos), Qalthos
+* [Ricardo Carrillo Cruz](https://github.com/rcarrillocruz), rcarrillocruz
+* [Ganesh Nalawade](https://github.com/ganeshrn), ganeshrn
+* [Trishna Guha](https://github.com/trishnaguha), trishnaguha
 
 ## Contact
 * [#ansible-network IRC channel](https://webchat.freenode.net/?channels=ansible-network) on Freenode.net
