@@ -1,6 +1,6 @@
 # Creating an Ansible Working Group
 
-Working Groups are how the Ansible Community gets things done.
+Working Groups are a way for Ansible community members to self-organize around particular topics of interest.
 
 The basic components of a working group:
 * A group name and charter (why the group exists);
