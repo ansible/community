@@ -1,0 +1,11 @@
+project: Network working group
+meeting_id: network
+agenda_url: https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:network
+schedule:
+- time: '1600'
+  day: Wednesday
+  irc: ansible-meeting
+  frequency: weekly
+chair: Peter Sprygada (@privateip)
+description: |
+  Discuss everything network.

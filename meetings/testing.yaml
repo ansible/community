@@ -1,0 +1,11 @@
+project: Testing working group
+meeting_id: testing
+agenda_url: https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:testing
+schedule:
+- time: '1700'
+  day: Thursday
+  irc: ansible-meeting
+  frequency: weekly
+chair: John Barker (@gundalow)
+description: |
+  Discuss everything related to automated testing.

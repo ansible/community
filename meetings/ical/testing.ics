@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yaml2ical agendas//EN
+BEGIN:VEVENT
+SUMMARY:Testing working group
+DTSTART;VALUE=DATE-TIME:20170713T170000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Testing working group\nChair:  John Barker (@gundalo
+ w)\nDescription:  Discuss everything related to automated testing.\n\nAgen
+ da URL:  https://github.com/ansible/community/issues?q=is:open+label:meeti
+ ng_agenda+label:testing
+LOCATION:#ansible-meeting
+END:VEVENT
+END:VCALENDAR

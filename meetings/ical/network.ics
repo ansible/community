@@ -1,0 +1,15 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yaml2ical agendas//EN
+BEGIN:VEVENT
+SUMMARY:Network working group
+DTSTART;VALUE=DATE-TIME:20170712T160000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Network working group\nChair:  Peter Sprygada (@priv
+ ateip)\nDescription:  Discuss everything network.\n\nAgenda URL:  https://
+ github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:n
+ etwork
+LOCATION:#ansible-meeting
+END:VEVENT
+END:VCALENDAR
