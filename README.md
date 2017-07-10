@@ -34,7 +34,12 @@ Find us on Freenode:
 * IRC: #ansible-notice - Automated messages from various services related to Ansible
 * IRC: #ansible-meeting - Ansible community meeting channel. [Meeting Schedule and logs](https://github.com/ansible/community/blob/master/MEETINGS.md)
 * IRC: #ansible-aws - Channel for discussing AWS and Ansible related things
+* IRC: #ansible-azure - Channel for discussing Azure and Ansible related things
+* IRC: #ansible-community - Channel for discussing Ansible Community related things
+* IRC: #ansible-network - Channel for discussing Network and Ansible related things
+* IRC: #ansible-news - Channel for discussing Ansible Communication & News related things
 * IRC: #ansible-vmware - Channel for discussing VMware and Ansible related things
+* IRC: #ansible-windows - Channel for discussing Windows and Ansible related things
 * [Mailing list](https://groups.google.com/forum/#!forum/ansible-devel)
 * [GitHub issues](https://github.com/ansible/community/issues)
 
