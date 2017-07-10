@@ -9,8 +9,9 @@ This includes:
 * Workflows
 
 ## Meetings
-There are currently no regular meetings held.
-
+* Weekly on Wednesdays at [17:00 UTC](http://www.thetimezoneconverter.com/?t=17:00&tz=UTC)
+* [Meeting agenda](https://github.com/ansible/community/labels/cwg)
+* Meeting notes: TBD
 ## Collaboration
 The Community Working Group collaborates on the tickets and PRs in the Ansible Community repository.
 * [Tickets](https://github.com/ansible/community/issues)
