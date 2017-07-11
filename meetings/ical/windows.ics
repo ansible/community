@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yaml2ical agendas//EN
+BEGIN:VEVENT
+SUMMARY:Windows working group
+DTSTART;VALUE=DATE-TIME:20170711T200000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Windows working group\nChair:  Matt Davis (@nitzmaho
+ ne)\nDescription:  We discuss everything Windows every week on Tuesday.\n\
+ nIf you have something to discuss (e.g. a PR that needs help)\, add your\n
+ request to the meeting agenda and join the IRC channel.\n\nMore informatio
+ n about the Windows working group is at:\n- https://github.com/ansible/com
+ munity/tree/master/group-windows\n- https://github.com/ansible/community/w
+ iki/Windows\n\nAgenda URL:  https://github.com/ansible/community/issues?q=
+ is:open+label:meeting_agenda+label:windows
+LOCATION:#ansible-windows
+END:VEVENT
+END:VCALENDAR
