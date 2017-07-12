@@ -1,0 +1,13 @@
+project: News working group
+meeting_id: news
+project_url: https://github.com/ansible/community/wiki/News
+agenda_url: https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:news
+chair: Greg Dekoenigsberg (gregdk)
+description: |
+
+  Discuss everything related to news relevant to the Ansible Community.
+schedule:
+- time: '1800'
+  day: Thursday
+  irc: ansible-meeting
+  frequency: weekly

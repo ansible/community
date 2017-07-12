@@ -6,10 +6,10 @@ SUMMARY:Network working group
 DTSTART;VALUE=DATE-TIME:20170712T160000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  Network working group\nChair:  Peter Sprygada (@priv
- ateip)\nDescription:  Discuss everything network.\n\nAgenda URL:  https://
- github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:n
- etwork
+DESCRIPTION:Project:  Network working group\nChair:  Peter Sprygada (priva
+ teip)\nDescription:  \nDiscuss everything network.\n\nAgenda URL:  https:/
+ /github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:
+ network\nProject URL:  https://github.com/ansible/community/wiki/Network
 LOCATION:#ansible-meeting
 END:VEVENT
 END:VCALENDAR

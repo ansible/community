@@ -6,10 +6,11 @@ SUMMARY:Testing working group
 DTSTART;VALUE=DATE-TIME:20170713T170000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  Testing working group\nChair:  John Barker (@gundalo
- w)\nDescription:  Discuss everything related to automated testing.\n\nAgen
- da URL:  https://github.com/ansible/community/issues?q=is:open+label:meeti
- ng_agenda+label:testing
+DESCRIPTION:Project:  Testing working group\nChair:  John Barker (gundalow
+ )\nDescription:  \nDiscuss everything related to automated testing.\n\nAge
+ nda URL:  https://github.com/ansible/community/issues?q=is:open+label:meet
+ ing_agenda+label:testing\nProject URL:  https://github.com/ansible/communi
+ ty/wiki/Testing
 LOCATION:#ansible-meeting
 END:VEVENT
 END:VCALENDAR

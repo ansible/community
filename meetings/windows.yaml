@@ -1,18 +1,16 @@
 project: Windows working group
 meeting_id: windows
+project_url: https://github.com/ansible/community/wiki/Windows
 agenda_url: https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:windows
+chair: Matt Davis (nitzmahone), Jordan Borean (jborean93)
+description: |
+
+  We discuss everything Windows every week on Tuesday.
+
+  If you have something to discuss (e.g. a PR that needs help), add your
+  request to the meeting agenda and join the IRC channel.
 schedule:
 - time: '2000'
   day: Tuesday
   irc: ansible-windows
   frequency: weekly
-chair: Matt Davis (nitzmahone), Jordan Borean (jborean93)
-description: |
-  We discuss everything Windows every week on Tuesday.
-
-  If you have something to discuss (e.g. a PR that needs help), add your
-  request to the meeting agenda and join the IRC channel.
-
-  More information about the Windows working group is at:
-  - https://github.com/ansible/community/tree/master/group-windows
-  - https://github.com/ansible/community/wiki/Windows

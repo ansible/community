@@ -1,0 +1,13 @@
+project: Community working group
+meeting_id: community
+project_url: https://github.com/ansible/community/wiki/Community
+agenda_url: https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:community
+chair: Greg DeKoenigsberg (gregdk)
+description: |
+
+  Discuss everything related to making the Ansible community work better.
+schedule:
+- time: '1700'
+  day: Wednesday
+  irc: ansible-meeting
+  frequency: weekly

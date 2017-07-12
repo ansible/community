@@ -4,6 +4,7 @@ This group will gather and disseminate news relevant to the Ansible Community.
 
 ## Meetings
 * Weekly on Thursdays at [18:00 UTC](http://www.thetimezoneconverter.com/?t=18:00&tz=UTC)
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/news.ics))
 * [Meeting agenda](https://github.com/ansible/community/labels/news)
 * Meeting notes: TBD
 

@@ -3,17 +3,18 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Core Team meeting
-DTSTART;VALUE=DATE-TIME:20170711T190000Z
+DTSTART;VALUE=DATE-TIME:20170718T190000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  Core Team meeting\nChair:  Core engineer\nDescriptio
- n:  A place to get input from the Ansible Core Team issues\, PRs and propo
- sals\nthat people who are willing to come to the meeting want to present.\
- n- Old PRs that need attention from us (as opposed to from the submitter)\
- n- Selected proposals from the ansible/proposals repo\n- Review of actions
-  from previous meeting\n- Open discussion driven by the group\n\nAgenda UR
- L:  https://github.com/ansible/community/issues?q=is:open+label:meeting_ag
- enda+label:windows
+DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
+ escription:  \nA place to get input from the Ansible Core Team issues\, PR
+ s and proposals\nthat people who are willing to come to the meeting want t
+ o present.\n- Old PRs that need attention from us (as opposed to from the 
+ submitter)\n- Selected proposals from the ansible/proposals repo\n- Review
+  of actions from previous meeting\n- Open discussion driven by the group\n
+ \nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+label
+ :meeting_agenda+label:core\nProject URL:  https://github.com/ansible/commu
+ nity/wiki
 LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
@@ -21,14 +22,15 @@ SUMMARY:Core Team meeting
 DTSTART;VALUE=DATE-TIME:20170713T150000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  Core Team meeting\nChair:  Core engineer\nDescriptio
- n:  A place to get input from the Ansible Core Team issues\, PRs and propo
- sals\nthat people who are willing to come to the meeting want to present.\
- n- Old PRs that need attention from us (as opposed to from the submitter)\
- n- Selected proposals from the ansible/proposals repo\n- Review of actions
-  from previous meeting\n- Open discussion driven by the group\n\nAgenda UR
- L:  https://github.com/ansible/community/issues?q=is:open+label:meeting_ag
- enda+label:windows
+DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
+ escription:  \nA place to get input from the Ansible Core Team issues\, PR
+ s and proposals\nthat people who are willing to come to the meeting want t
+ o present.\n- Old PRs that need attention from us (as opposed to from the 
+ submitter)\n- Selected proposals from the ansible/proposals repo\n- Review
+  of actions from previous meeting\n- Open discussion driven by the group\n
+ \nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+label
+ :meeting_agenda+label:core\nProject URL:  https://github.com/ansible/commu
+ nity/wiki
 LOCATION:#ansible-meeting
 END:VEVENT
 END:VCALENDAR

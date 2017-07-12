@@ -1,11 +1,13 @@
 # Ansible Meetings, Schedule, and Meeting Logs
 
+
 ## #ansible-meeting
 Ansible IRC meetings are held on freenode, in the `#ansible-meeting` channel.
 
 Feel free to hold ad-hoc meetings in the `#ansible-meeting` channel, but please respect the scheduled meeting times.
 
 If you'd like to request a regular recurring meeting on `#ansible-meeting`, please submit a PR to this page.
+
 
 # Schedule
 
@@ -16,19 +18,35 @@ An interactive [Google Calendar](https://calendar.google.com/calendar/embed?src=
 ## Tuesdays
 
 * [19:00 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC): **Core Team Meeting**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/core-team.ics))
+
 * [20:00 UTC](http://www.thetimezoneconverter.com/?t=20:00&tz=UTC):
-  **[Windows Working Group](https://github.com/ansible/community/tree/master/group-windows)** (in #ansible-windows)
+  **[Windows Working Group](https://github.com/ansible/community/tree/master/group-windows)**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/windows.ics))
 
 ## Wednesdays
 
 * [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC):
   **[Network Working Group](https://github.com/ansible/community/tree/master/group-network)**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/network.ics))
+
+* [17:00 UTC](http://www.thetimezoneconverter.com/?t=17:00&tz=UTC):
+  **[Community Working Group](https://github.com/ansible/community/tree/master/group-community)**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/community.ics))
 
 ## Thursdays
 
 * [15:00 UTC](http://www.thetimezoneconverter.com/?t=15:00&tz=UTC): **Core Team Meeting**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/core-team.ics))
+
 * [17:00 UTC](http://www.thetimezoneconverter.com/?t=17:00&tz=UTC):
   **[Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/testing.ics))
+
+* [18:00 UTC](http://www.thetimezoneconverter.com/?t=18:00&tz=UTC):
+  **[News Working Group](https://github.com/ansible/community/tree/master/group-news)**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/news.ics))
+
 
 # Meeting Agendas and purpose
 
