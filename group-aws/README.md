@@ -9,12 +9,28 @@ There are currently no regular meetings held. The IRC channel is the
 main and official place to contact the members. For specific issues and
 feature requests, follow the standard Ansible issues/PRs workflow.
 
+## Working Group Goals
+
+* [Review PRs and Issues](review.md) with a view to reducing the number of open
+  PRs and Issues. Numbers going up is not a failure, it might just
+  be due to additional contributors.
+* [Refactor problematic modules](refactor.md) - the key problem areas
+  are `rds` and `iam`. Some minor renaming will also fall under this.
+* [Move to boto3](boto3.md) - all AWS modules should move to boto3, rather
+  than boto. This is happening organically, especially as newer features
+  typically exist in boto3 only, but we might want to improve this.
+* [Integration tests](integration.md) - all AWS modules should have integration
+  tests so that we can update them with confidence that we won't break
+  other people's stuff
+* [Best practices](bestpractices.md) - all modules should meet the Ansible best
+  practices, such as python coding standards, documentation.
+
 ## Collaboration
 
 Apart from IRC The AWS Working Group collaborates via tickets and pull
 requests in the main Ansible repository.
-* [Tickets](https://github.com/ansible/ansible/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20aws)
-* [Pull-requests](https://github.com/ansible/ansible/pulls?q=is%3Apr+is%3Aopen+aws)
+* [Tickets](https://github.com/ansible/ansible/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Aaws)
+* [Pull-requests](https://github.com/ansible/ansible/pulls?q=is%3Apr+is%3Aopen%20label%3Aaws)
 
 ## Leads
 Leads are still to be agreed.
