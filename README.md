@@ -32,7 +32,7 @@ Find us on Freenode:
 * IRC: #ansible - General Discussion
 * IRC: #ansible-devel - Channel for discussing pull-requests and contributions only
 * IRC: #ansible-notice - Automated messages from various services related to Ansible
-* IRC: #ansible-meeting - Ansible community meeting channel. [Meeting Schedule and logs](https://github.com/ansible/community/blob/master/MEETINGS.md)
+* IRC: #ansible-meeting - Ansible community meeting channel. [Meeting Schedule and logs](https://github.com/ansible/community/blob/master/meetings)
 * IRC: #ansible-aws - Channel for discussing AWS and Ansible related things
 * IRC: #ansible-azure - Channel for discussing Azure and Ansible related things
 * IRC: #ansible-community - Channel for discussing Ansible Community related things
