@@ -5,7 +5,7 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 X-WR-CALNAME:Ansible Community Meetings
 X-WR-TIMEZONE:Etc/GMT
-X-WR-CALDESC:https://github.com/ansible/community/blob/master/MEETINGS.md
+X-WR-CALDESC:https://github.com/ansible/community/blob/master/meetings
 BEGIN:VEVENT
 DTSTART:20160105T190000Z
 DTEND:20160105T200000Z
@@ -13,7 +13,7 @@ RRULE:FREQ=WEEKLY;BYDAY=TU
 DTSTAMP:20161111T195258Z
 UID:l141dmonvt5u3kv8r7pjd2hbb8@google.com
 CREATED:20161111T010837Z
-DESCRIPTION:https://github.com/ansible/community/blob/master/MEETINGS.md
+DESCRIPTION:https://github.com/ansible/community/blob/master/meetings
 LAST-MODIFIED:20161111T011223Z
 LOCATION:#ansible-meeting on freenode.net
 SEQUENCE:3
@@ -28,7 +28,7 @@ RRULE:FREQ=WEEKLY;BYDAY=WE
 DTSTAMP:20161111T195258Z
 UID:92hf9ocfdssvt8n9qm19sfdv20@google.com
 CREATED:20161111T011112Z
-DESCRIPTION:https://github.com/ansible/community/blob/master/MEETINGS.md
+DESCRIPTION:https://github.com/ansible/community/blob/master/meetings
 LAST-MODIFIED:20161111T011312Z
 LOCATION:#ansible-meeting on freenode.net
 SEQUENCE:1
@@ -43,7 +43,7 @@ RRULE:FREQ=WEEKLY;BYDAY=TH
 DTSTAMP:20161111T195258Z
 UID:rln8t113cuvgmvit1rstn1nm88@google.com
 CREATED:20161111T012043Z
-DESCRIPTION:https://github.com/ansible/community/blob/master/MEETINGS.md
+DESCRIPTION:https://github.com/ansible/community/blob/master/meetings
 LAST-MODIFIED:20161111T012103Z
 LOCATION:#ansible-meeting on freenode.net
 SEQUENCE:1
@@ -58,7 +58,7 @@ RRULE:FREQ=WEEKLY;BYDAY=TH
 DTSTAMP:20161111T195258Z
 UID:s87in1qpbl2ohn826j02qaq8jo@google.com
 CREATED:20161111T012203Z
-DESCRIPTION:https://github.com/ansible/community/blob/master/MEETINGS.md
+DESCRIPTION:https://github.com/ansible/community/blob/master/meetings
 LAST-MODIFIED:20161111T012225Z
 LOCATION:#ansible-meeting on freenode.net
 SEQUENCE:1
@@ -73,7 +73,7 @@ RRULE:FREQ=WEEKLY;BYDAY=TU
 DTSTAMP:20170624T171440Z
 UID:d93qamnsqah192okruvvafqi2g@google.com
 CREATED:20170621T154053Z
-DESCRIPTION:https://github.com/ansible/community/blob/master/MEETINGS.md
+DESCRIPTION:https://github.com/ansible/community/blob/master/meetings
 LAST-MODIFIED:20170621T141947Z
 LOCATION:#ansible-windows on freenode.net
 SEQUENCE:1
