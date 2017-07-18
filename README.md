@@ -40,6 +40,8 @@ Find us on Freenode:
 * IRC: #ansible-news - Channel for discussing Ansible Communication & News related things
 * IRC: #ansible-vmware - Channel for discussing VMware and Ansible related things
 * IRC: #ansible-windows - Channel for discussing Windows and Ansible related things
+* IRC: #ansible-es - Channel for Spanish speaking Ansible community
+* IRC: #ansible-fr - Channel for French speaking Ansible community
 * [Mailing list](https://groups.google.com/forum/#!forum/ansible-devel)
 * [GitHub issues](https://github.com/ansible/community/issues)
 
