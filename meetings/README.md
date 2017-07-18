@@ -15,6 +15,12 @@ You can add this full list of meetings to your personal calendar by downloading 
 
 An interactive [Google Calendar](https://calendar.google.com/calendar/embed?src=ansible.com_pafenslko0e2bqjgujp8f7s0do%40group.calendar.google.com&ctz=UTC) is also available.
 
+## Mondays
+
+* [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC):
+  **[VMware Working Group](https://github.com/ansible/community/tree/master/group-vmware)**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/vmware.ics))
+
 ## Tuesdays
 
 * [19:00 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC): **Core Team Meeting**

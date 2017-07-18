@@ -1,32 +1,32 @@
+<!--- There are no badges for open PRs by label yet -->
+[![Github vmware issues](https://img.shields.io/github/issues/ansible/ansible/vmware.svg)](https://github.com/ansible/ansible/issues?q=is:open+is:issue+label:vmware)
+
 # VMware Working Group
 
 The VMware Working Group focuses on delivering modules and features to
 Ansible to support working with VMware.
 
 ## Meetings
-
-There are currently no regular meetings held. The IRC channel is the
-main and official place to contact the members. For specific issues and
-feature requests, follow the standard Ansible issues/PRs workflow.
+* Weekly on Mondays at [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC)
+  *([calendar](https://calendar.google.com/calendar/embed?src=ansible.com_pafenslko0e2bqjgujp8f7s0do%40group.calendar.google.com&ctz=UTC), [ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/vmware.ics))*
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/vmware.ics))
+* [Meeting agenda](https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:vmware)
+* Meeting notes:
+  [by channel](https://meetbot.fedoraproject.org/sresults/?group_id=ansible-vmware&type=channel),
+  [by team](https://meetbot.fedoraproject.org/sresults/?group_id=vmware_working_group&type=team)
 
 ## Collaboration
-
-Apart from IRC The VMware Working Group collaborates via tickets and pull
-requests in the main Ansible repository.
-* [Tickets](https://github.com/ansible/ansible/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20vmware)
-* [Pull-requests](https://github.com/ansible/ansible/pulls?q=is%3Apr+is%3Aopen+vmware)
+* [Community wiki](https://github.com/ansible/community/wiki/Windows) *-- action lists, progress tracker, ideas*
 
 ## Leads
-Leads are still to be agreed.
+* [Abhijeet Kasurde](https://github.com/akasurde), akasurde
 
 ## Active Members
 * [James Tanner](https://github.com/jctanner), jctanner
-* [Abhijeet Kasurde](https://github.com/akasurde), akasurde
-
+* [Dag Wieers](https://github.com/dagwieers), dagwieers
 
 ## Contact
-* [#ansible-vmware IRC channel](https://webchat.freenode.net/?channels=ansible-vmware) on Freenode.net
+* [#ansible-windows IRC channel](https://webchat.freenode.net/?channels=ansible-windows) on Freenode.net
 * For security-related concerns email security@ansible.com and see our
-    [security disclosure](https://www.ansible.com/security) for more
-    information.
+  [security disclosure](https://www.ansible.com/security) for more information.
 * For other urgent or sensitive issues contact jctanner@redhat.com
