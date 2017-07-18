@@ -22,6 +22,7 @@ Focuses on supporting networking devices.
 * [Ricardo Carrillo Cruz](https://github.com/rcarrillocruz), rcarrillocruz
 * [Ganesh Nalawade](https://github.com/ganeshrn), ganeshrn
 * [Trishna Guha](https://github.com/trishnaguha), trishnaguha
+* [Dag Wieers](https://github.com/dagwieers), dagwieers
 
 ## Contact
 * [#ansible-network IRC channel](https://webchat.freenode.net/?channels=ansible-network) on Freenode.net
