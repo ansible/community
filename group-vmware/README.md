@@ -20,9 +20,9 @@ Ansible to support working with VMware.
 
 ## Leads
 * [Abhijeet Kasurde](https://github.com/akasurde), akasurde
+* [James Tanner](https://github.com/jctanner), jctanner
 
 ## Active Members
-* [James Tanner](https://github.com/jctanner), jctanner
 * [Dag Wieers](https://github.com/dagwieers), dagwieers
 * [Chrrrles Paul](https://github.com/chrrrles), chrrrles
 * [Jimmy Conner](https://github.com/cigamit), cigamit
