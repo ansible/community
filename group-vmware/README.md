@@ -28,6 +28,9 @@ Ansible to support working with VMware.
 * [Jimmy Conner](https://github.com/cigamit), cigamit
 * [Andreas Nafpliotis](https://github.com/nafpliot-ibm), nafpilot-ibm
 * [Kassian Sun](https://github.com/kassiansun), kassiansun
+* [Kesten Broughton](https://github.com/kbroughton), kbroughton
+* [David Marby](https://github.com/DMarby), DMarby
+* [Philippe Dellaert](https://github.com/pdellaert), pdellaert
 
 ## Contact
 * [#ansible-vmware IRC channel](https://webchat.freenode.net/?channels=ansible-vmware) on Freenode.net
