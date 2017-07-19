@@ -1,3 +1,6 @@
+[![Github community issues](https://img.shields.io/github/issues/ansible/community.svg)](https://github.com/ansible/community/issues)
+[![Github community pull-requests](https://img.shields.io/github/issues-pr/ansible/community.svg)](https://github.com/ansible/community/pulls)
+
 # Community Working Group
 
 The Community Working Group focuses on everything related to make the Ansible community work better.
