@@ -24,7 +24,7 @@ Ansible to support working with VMware.
 
 ## Active Members
 * [Dag Wieers](https://github.com/dagwieers), dagwieers
-* [Chrrrles Paul](https://github.com/chrrrles), chrrrles
+* [Charles Paul](https://github.com/chrrrles), chrrrles
 * [Jimmy Conner](https://github.com/cigamit), cigamit
 * [Andreas Nafpliotis](https://github.com/nafpliot-ibm), nafpilot-ibm
 * [Kassian Sun](https://github.com/kassiansun), kassiansun
