@@ -35,6 +35,8 @@ Ansible to support working with VMware.
 * [Roman Belyakovsky](https://github.com/hryamzik), hryamzik
 * [Patrick Chauncey](https://github.com/pchauncey), pchauncey
 * [Dave Ahr](https://github.com/dahr), dahr
+* [Dario Zanzico](https://github.com/dariko), dariko
+* [Robert Harris](https://github.com/enrh), enrh
 
 ## Contact
 * [#ansible-vmware IRC channel](https://webchat.freenode.net/?channels=ansible-vmware) on Freenode.net
