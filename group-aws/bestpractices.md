@@ -18,3 +18,8 @@ Changes for existing modules would be:
   `boto3_tag_list_to_ansible_dict` etc.
 * Have [integration tests](integration.md)
 * Work with `--check` ([check mode](http://docs.ansible.com/ansible/latest/playbooks_checkmode.html#check-mode-dry-run)) and provide useful information under `--diff`
+
+
+### Supporting documentation
+
+Practical instructions/best-practice documentation to support developers wanting to add improvements such as the `--check` and `--diff` features.
