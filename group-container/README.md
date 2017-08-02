@@ -21,6 +21,7 @@ the [ansible-container](https://github.com/ansible/ansible-container) team.
 * [Ryan Brown](https://github.com/ryansb), ryansb
 * [Chris Houseknecht](https://github.com/chouseknecht), house
 * [Josh Ginsberg](https://github.com/j00bar), j00bar
+* [Tomas Tomecek](https://github.com/TomasTomecek), Tomas
 
 ## Contact
 * [#ansible-container IRC channel](https://webchat.freenode.net/?channels=ansible-container) on Freenode.net
