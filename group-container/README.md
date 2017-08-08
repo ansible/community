@@ -20,7 +20,7 @@ the [ansible-container](https://github.com/ansible/ansible-container) team.
 ## Active Members
 * [Ryan Brown](https://github.com/ryansb), ryansb
 * [Chris Houseknecht](https://github.com/chouseknecht), house
-# [Eric Helms](https://github.com/ehelms), ehelms
+* [Eric Helms](https://github.com/ehelms), ehelms
 * [Josh Ginsberg](https://github.com/j00bar), j00bar
 * [Tomas Tomecek](https://github.com/TomasTomecek), Tomas
 
