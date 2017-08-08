@@ -23,6 +23,7 @@ Focuses on supporting networking devices.
 * [Ganesh Nalawade](https://github.com/ganeshrn), ganeshrn
 * [Trishna Guha](https://github.com/trishnaguha), trishnaguha
 * [Dag Wieers](https://github.com/dagwieers), dagwieers -- *Cisco ACI*
+* [Swetha Chunduri](https://github.com/schunduri), schunduri -- *Cisco ACI*
 
 ## Contact
 * [#ansible-network IRC channel](https://webchat.freenode.net/?channels=ansible-network) on Freenode.net
