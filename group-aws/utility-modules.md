@@ -33,7 +33,7 @@ authors.
     aws/
         core.py - Basic AWS modules 
             class AnsibleAWSModule - class to use for handling module set up'; based off AnsibleModule
-	    	.params() - returns the parameter of the module
+	    	.params - returns the parameters of the module (this is @property method)
 		.exit_json() - low level module exit function from AnsibleModule
 		.fail_json() - low level module exit with failure function from AnsibleModule
 		.fail_json_aws(exception, msg=<string>) - higer level function for exiting after exceptions
@@ -64,7 +64,7 @@ function isn't available.
 ## Using the module utilities
 
 *This section is temporary until the module utilities become standard and should be moved to the*
-*[AWS module guildelines in the amazon modulesdirectory](https://github.com/ansible/ansible/blob/devel/lib/ansible/modules/cloud/amazon/GUIDELINES.md)*
+*[AWS module guidelines in the amazon modules directory](https://github.com/ansible/ansible/blob/devel/lib/ansible/modules/cloud/amazon/GUIDELINES.md)*
 *once accepted*
 
 Currently the module utilities directory is should be considered preview code.  New modules which
