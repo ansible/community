@@ -24,6 +24,8 @@ feature requests, follow the standard Ansible issues/PRs workflow.
   other people's stuff
 * [Best practices](bestpractices.md) - all modules should meet the Ansible best
   practices, such as python coding standards, documentation.
+* Improve simplify and expand the [AWS module utilities](utility-modules.md) and module
+  utilities generally to make it easier to both write and maintain modules
 
 ## Collaboration
 
