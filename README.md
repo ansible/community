@@ -38,6 +38,7 @@ Find us on Freenode:
 * IRC: #ansible-azure - Channel for discussing Azure and Ansible related things
 * IRC: #ansible-community - Channel for discussing Ansible Community related things
 * IRC: #ansible-container - Channel for discussing Containers and Ansible related things
+* IRC: #ansible-jboss - Channel for discussing JBoss and Ansible related things
 * IRC: #ansible-network - Channel for discussing Network and Ansible related things
 * IRC: #ansible-news - Channel for discussing Ansible Communication & News related things
 * IRC: #ansible-vmware - Channel for discussing VMware and Ansible related things
