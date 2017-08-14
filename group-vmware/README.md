@@ -43,4 +43,4 @@ Ansible to support working with VMware.
 * [#ansible-vmware IRC channel](https://webchat.freenode.net/?channels=ansible-vmware) on Freenode.net
 * For security-related concerns email security@ansible.com and see our
   [security disclosure](https://www.ansible.com/security) for more information.
-* For other urgent or sensitive issues contact jctanner@redhat.com
+* For other urgent or sensitive issues contact jtanner@redhat.com
