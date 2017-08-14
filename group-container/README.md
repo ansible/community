@@ -5,17 +5,12 @@ the [ansible-container](https://github.com/ansible/ansible-container) team.
 
 ## Meetings
 * Weekly on Mondays at [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC)
-* [Meeting agenda](https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:container)
+* [Meeting agenda](https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:containers)
+* For past meeting minutes, visit our [Community wiki](https://github.com/ansible/community/wiki/Container)  
 
 ## Collaboration
 
-* For Ansible work, we coordinate through issues and pull requests as much as
-    possible. If you'd like to discuss an idea or concept, join
-    the #ansible-container IRC channel.
-* [Community wiki](https://github.com/ansible/community/wiki/Container) is
-    currently empty, but has been created if we find something we can't cover
-    with issues/PRs/IRC.
-
+For Ansible and Ansible Container work, we coordinate through issues and pull requests as much as possible. If you have a question, or want to get involved, join us on the [#ansible-container](https://webchat.freenode.net/?channels=ansible-container) channel at irc.freenode.net.
 
 ## Active Members
 * [Ryan Brown](https://github.com/ryansb), ryansb
@@ -25,4 +20,4 @@ the [ansible-container](https://github.com/ansible/ansible-container) team.
 * [Tomas Tomecek](https://github.com/TomasTomecek), Tomas
 
 ## Contact
-* [#ansible-container IRC channel](https://webchat.freenode.net/?channels=ansible-container) on Freenode.net
+* [#ansible-container](https://webchat.freenode.net/?channels=ansible-container) channel at irc.freenode.net
