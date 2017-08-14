@@ -76,6 +76,9 @@ A place to get input from the Ansible Core Team issues, PRs and proposals that p
 All *meeting* logs from #ansible-meeting can be seen [here](https://meetbot.fedoraproject.org/sresults/?group_id=ansible-meeting&type=channel). No other logs are recorded.
 
 ## Other Meetings
+### 2017-09-06: Ansible Contributor Summit 5 (Part of AnsibleFest 2017 San Francisco)
+ * [Etherpad, with summary and pre-planning](https://public.etherpad-mozilla.org/p/ansible-summit-september-2017)
+
 ### 2017-06-21: Ansible Contributor Summit 4 (Part of AnsibleFest 2017 London)
  * [Etherpad, with summary and pre-planning](https://public.etherpad-mozilla.org/p/ansible-summit-june-2017)
 
