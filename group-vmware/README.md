@@ -24,20 +24,20 @@ Ansible to support working with VMware.
 ## Active Members
 * [Dag Wieers](https://github.com/dagwieers), dagwieers
 * [Charles Paul](https://github.com/chrrrles), chrrrles
-* [Jimmy Conner](https://github.com/cigamit), cigamit
-* [Andreas Nafpliotis](https://github.com/nafpliot-ibm), nafpilot-ibm
+* [Jimmy Conner](https://github.com/cigamit), cigamit -- *Red Hat*
+* [Andreas Nafpliotis](https://github.com/nafpliot-ibm), nafpilot-ibm -- *IBM*
 * [Kassian Sun](https://github.com/kassiansun), kassiansun
-* [Kesten Broughton](https://github.com/kbroughton), kbroughton
+* [Kesten Broughton](https://github.com/kbroughton), kbroughton -- *Wavefront*
 * [David Marby](https://github.com/DMarby), DMarby
-* [Philippe Dellaert](https://github.com/pdellaert), pdellaert
-* [Davis Phillips](https://github.com/dav1x), dav1x
+* [Philippe Dellaert](https://github.com/pdellaert), pdellaert -- *Nuage Networks*
+* [Davis Phillips](https://github.com/dav1x), dav1x -- *Red Hat*
 * [Roman Belyakovsky](https://github.com/hryamzik), hryamzik
 * [Patrick Chauncey](https://github.com/pchauncey), pchauncey
-* [Dave Ahr](https://github.com/dahr), dahr
+* [Dave Ahr](https://github.com/dahr), dahr -- *VMware*
 * [Dario Zanzico](https://github.com/dariko), dariko
-* [Robert Harris](https://github.com/enrh), enrh
+* [Robert Harris](https://github.com/enrh), enrh -- *Enasis Network*
 * [Sebastien Lacoste-Seris](https://github.com/kaneda-fr), kaneda-fr
-* [John 'Warthog9' Hawley](https://github.com/warthog9), warthog9
+* [John 'Warthog9' Hawley](https://github.com/warthog9), warthog9 -- *VMware*
 
 ## Contact
 * [#ansible-vmware IRC channel](https://webchat.freenode.net/?channels=ansible-vmware) on Freenode.net
