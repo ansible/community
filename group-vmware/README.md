@@ -18,8 +18,8 @@ Ansible to support working with VMware.
 * [Community wiki](https://github.com/ansible/community/wiki/VMware) *-- action lists, progress tracker, ideas*
 
 ## Leads
-* [Abhijeet Kasurde](https://github.com/akasurde), akasurde
-* [James Tanner](https://github.com/jctanner), jctanner
+* [Abhijeet Kasurde](https://github.com/akasurde), akasurde -- *Red Hat*
+* [James Tanner](https://github.com/jctanner), jctanner -- *Ansible*
 
 ## Active Members
 * [Dag Wieers](https://github.com/dagwieers), dagwieers
