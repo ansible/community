@@ -23,147 +23,190 @@ enforce that new features must have tests.
 
 | Module               | PR                                                     |
 |----------------------|--------------------------------------------------------|
-| ec2_eni_facts        | [22941](https://github.com/ansible/ansible/pull/22941) |
-| ec2_group            | [25340](https://github.com/ansible/ansible/pull/25340) |
 | ec2_metric_alarm     | [23407](https://github.com/ansible/ansible/pull/23407) |
 | ec2_vpc_net_facts    | [25375](https://github.com/ansible/ansible/pull/25375) |
 | ec2_vpc_subnet_facts | [25374](https://github.com/ansible/ansible/pull/25374) |
 | rds                  | [25646](https://github.com/ansible/ansible/pull/25646) |
-| rds_param_group      | [25345](https://github.com/ansible/ansible/pull/25345) |
 | s3                   | [21529](https://github.com/ansible/ansible/pull/21529) |
 
 TODO: add many more to the above list!
 
-# State of the codebase (As at 2017-07-05)
+# State of the codebase (As at 2017-09-05)
 
-## boto3
+## boto3 only
 
-* `cloudformation_facts`
+* `_ec2_vpc_dhcp_options_facts`
+* `_iam_cert_facts`
+* `_s3`
+* `aws_api_gateway`
+* `aws_config`
+* `aws_direct_connect_connection`
+* `aws_direct_connect_link_aggregation_group`
+* `aws_kms`
+* `aws_s3`
+* `aws_s3_bucket_facts`
+* `aws_waf_facts`
 * `cloudformation`
+* `cloudformation_facts`
 * `cloudfront_facts`
 * `cloudtrail`
-* `ec2_ami_copy`
+* `cloudwatchevent_rule`
+* `data_pipeline`
+* `dynamodb_ttl`
 * `ec2_asg`
+* `ec2_asg_facts`
 * `ec2_customer_gateway`
-* `ec2_eni_facts`
+* `ec2_group`
+* `ec2_group_facts`
 * `ec2_instance_facts`
+* `ec2_lc`
 * `ec2_lc_facts`
+* `ec2_lc_find`
+* `ec2_snapshot_copy`
 * `ec2_snapshot_facts`
+* `ec2_vpc_dhcp_option_facts`
+* `ec2_vpc_endpoint`
+* `ec2_vpc_endpoint_facts`
 * `ec2_vpc_igw_facts`
 * `ec2_vpc_nacl`
+* `ec2_vpc_nacl_facts`
+* `ec2_vpc_nat_gateway`
+* `ec2_vpc_nat_gateway_facts`
 * `ec2_vpc_peer`
+* `ec2_vpc_peering_facts`
 * `ec2_vpc_subnet`
-* `ec2_vpc_vgw_facts`
 * `ec2_vpc_vgw`
-* `ecs_cluster`
+* `ec2_vpc_vgw_facts`
+* `ec2_vpc_vpn`
+* `ecs_attribute`
 * `ecs_ecr`
-* `ecs_service_facts`
-* `ecs_service`
-* `ecs_taskdefinition`
-* `ecs_task`
-* `efs_facts`
-* `efs`
+* `elasticache`
 * `elasticache_parameter_group`
 * `elasticache_snapshot`
 * `elb_application_lb`
-* `elb_target_group_facts`
+* `elb_application_lb_facts`
 * `elb_target_group`
+* `elb_target_group_facts`
 * `execute_lambda`
+* `iam_group`
 * `iam_managed_policy`
 * `iam_mfa_device_facts`
+* `iam_role`
 * `iam_server_certificate_facts`
 * `kinesis_stream`
+* `lambda`
 * `lambda_alias`
 * `lambda_event`
 * `lambda_facts`
-* `lambda`
+* `lambda_policy`
 * `lightsail`
-* `route53_facts`
+* `rds_facts`
+* `rds_param_group`
+* `redshift_facts`
+* `s3_sync`
 * `s3_website`
 * `sts_session_token`
 
 ## boto3 *and* boto
 
-* `eni_facts`
-
-## boto
-
-* `aws_api_gateway`
 * `dynamodb_table`
 * `ec2_ami_copy`
-* `ec2_ami_find`
-* `ec2_ami`
-* `ec2_eip`
-* `ec2_elb_facts`
-* `ec2_elb_lb`
-* `ec2_elb`
 * `ec2_eni_facts`
-* `ec2_eni`
-* `ec2_group`
-* `ec2_key`
-* `ec2_lc`
-* `ec2_metric_alarm`
-* `ec2`
+* `ecs_cluster`
+* `ecs_service`
+* `ecs_service_facts`
+* `ecs_task`
+* `ecs_taskdefinition`
+* `efs`
+* `efs_facts`
+* `route53_facts`
+
+## boto only
+
+* `_ec2_elb`
+* `_ec2_elb_facts`
+* `_ec2_elb_lb`
 * `_ec2_remote_facts`
+* `_ec2_vpc`
+* `_ec2_vpc_dhcp_options`
+* `_rds`
+* `ec2`
+* `ec2_ami`
+* `ec2_ami_find`
+* `ec2_eip`
+* `ec2_eni`
+* `ec2_key`
+* `ec2_metric_alarm`
 * `ec2_scaling_policy`
 * `ec2_snapshot`
 * `ec2_tag`
-* `ec2_vol_facts`
 * `ec2_vol`
-* `ec2_vpc_dhcp_options`
+* `ec2_vol_facts`
+* `ec2_vpc_dhcp_option`
 * `ec2_vpc_igw`
-* `ec2_vpc_net_facts`
 * `ec2_vpc_net`
-* `_ec2_vpc`
-* `ec2_vpc_route_table_facts`
+* `ec2_vpc_net_facts`
 * `ec2_vpc_route_table`
+* `ec2_vpc_route_table_facts`
 * `ec2_vpc_subnet_facts`
 * `ec2_win_password`
-* `ecs_cluster`
-* `ecs_service_facts`
-* `ecs_service`
-* `ecs_taskdefinition`
-* `ecs_task`
-* `elasticache`
 * `elasticache_subnet_group`
+* `elb_classic_lb`
+* `elb_classic_lb_facts`
+* `elb_instance`
+* `iam`
 * `iam_cert`
 * `iam_policy`
-* `iam`
-* `rds_param_group`
 * `rds`
 * `rds_subnet_group`
 * `redshift`
 * `redshift_subnet_group`
-* `route53_facts`
-* `route53_health_check`
 * `route53`
+* `route53_health_check`
 * `route53_zone`
 * `s3_bucket`
 * `s3_lifecycle`
 * `s3_logging`
-* `s3`
 * `sns`
 * `sns_topic`
 * `sqs_queue`
 * `sts_assume_role`
 
+
+### Neither boto nor boto3
+
+* `__init__`
+* `_ec2_ami_search`
+* `_ec2_facts`
+* `ec2_metadata_facts`
+
 ## Commands for the above list
 
-### boto3
+### boto3 only
 
 ```
-grep -l 'import boto3' *.py | sed 's/\(.*\)\.py$/* `\1`/'
+for f in `grep -lE 'import boto3|import botocore|from botocore' *.py`; do
+  grep -Eq 'import boto[^3c_]|import boto$|from boto[ .]' $f || echo $f
+done | sed 's/\(.*\)\.py$/* `\1`/'
 ```
 
 ### boto3 and boto2
 
 ```
-grep -l 'import boto3' *.py | xargs grep 'import boto\.'
+grep -lE 'import boto[^3c_]|import boto$|from boto[. ]' *.py | xargs grep -lE 'import boto3|import botocore|from botocore' | sed 's/\(.*\)\.py$/* `\1`/'
 ```
 
 Note the above finds `ec2_ami_copy` too but that's an unused import
 
-### boto
+### boto only
 ```
-grep -l 'boto\.' *.py | xargs grep -lv 'import boto3' | sed 's/\(.*\)\.py$/* `\1`/'
+for f in `grep -lE 'import boto[^3c_]|import boto$|from boto[ .]' *.py`; do
+  grep -qE 'import boto3|import botocore|from botocore' $f || echo $f
+done | sed 's/\(.*\)\.py$/* `\1`/'
+```
+
+### Neither boto nor boto3
+
+```
+for f in *.py; do grep -qE 'import boto|from botocore' $f || echo $f ; done | sed 's/\(.*\)\.py$/* `\1`/'
 ```
