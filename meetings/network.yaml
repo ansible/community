@@ -9,5 +9,5 @@ description: |
 schedule:
 - time: '1600'
   day: Wednesday
-  irc: ansible-meeting
+  irc: ansible-network
   frequency: weekly
