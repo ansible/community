@@ -28,6 +28,7 @@ Focuses on supporting networking devices.
 * [Gaurav Rastogi](https://github.com/grastogi23), grastogi23 -- *Avi Networks*
 * [Mike Wiebe](https://github.com/mikewiebe), mikewiebe -- *Cisco Nexus*
 * [Rahul Shenoy](https://github.com/rahushen), rahushen -- *Cisco Nexus*
+* [Sai Chintalapudi](https://github.com/saichint), saichint -- *Cisco Nexus*
 
 ## Contact
 * [#ansible-network IRC channel](https://webchat.freenode.net/?channels=ansible-network) on Freenode.net
