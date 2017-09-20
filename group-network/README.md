@@ -29,6 +29,7 @@ Focuses on supporting networking devices.
 * [Mike Wiebe](https://github.com/mikewiebe), mikewiebe -- *Cisco Nexus*
 * [Rahul Shenoy](https://github.com/rahushen), rahushen -- *Cisco Nexus*
 * [Sai Chintalapudi](https://github.com/saichint), saichint -- *Cisco Nexus*
+* [James Mighion](https://github.com/jmighion), bearrito
 
 ## Contact
 * [#ansible-network IRC channel](https://webchat.freenode.net/?channels=ansible-network) on Freenode.net
