@@ -12,6 +12,7 @@ Ansible to support working with VMware.
   ([calendar](https://calendar.google.com/calendar/embed?src=ansible.com_pafenslko0e2bqjgujp8f7s0do%40group.calendar.google.com&ctz=UTC))
 * [Meeting agenda](https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:vmware)
 * Meeting notes:
+  [by channel](https://meetbot.fedoraproject.org/sresults/?group_id=ansible-vmware&type=channel),
   [by team](https://meetbot.fedoraproject.org/sresults/?group_id=ansible_vmware_working_group_meeting&type=team)
 
 ## Collaboration
