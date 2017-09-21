@@ -8,6 +8,7 @@ The Ambassadors Working Group focuses on various activities around Ansible evang
 
 ## Collaboration
 
+* Most of the content here is on the [Ambassadors Wiki](https://github.com/ansible/community/wiki/Ambassadors).
 * Mailing list: TBD
 * Issues: TBD
 
