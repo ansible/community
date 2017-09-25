@@ -1,5 +1,8 @@
 # Amazon Web Services Working Group
 
+[![Github AWS issues](https://img.shields.io/github/issues/ansible/ansible/aws.svg)](https://github.com/ansible/ansible/issues?q=is:open+is:issue+label:aws)
+[![Github AWS PRs](https://img.shields.io/github/issues-pr/ansible/ansible/aws.svg)](https://github.com/ansible/ansible/issues?q=is:open+is:pr+label:aws)
+
 The AWS Working Group focuses on delivering modules and features to
 Ansible to support working with Amazon Web Services.
 
