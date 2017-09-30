@@ -41,7 +41,7 @@ The triage bot runs every six hours and examines every open PR in both core and 
   * If the submitter responds at all, the clock is reset.
 * If the PR is in "community_review" and the reviewer has not responded lately:
   * The reviewer is first politely pinged after two weeks, pinged again after two more weeks and labeled "pending_action", and then may be reassigned to "ansible" / core_review, or often the submitter of the PR is asked to step up as a maintainer.
-* If Travis fails, or if the code is not mergable, the PR is automatically put into "needs_revision" along with a message to the submitter explaining why.
+* If the CI fails, or if the code is not mergable, the PR is automatically put into "needs_revision" along with a message to the submitter explaining why.
 
 There are corner cases and frequent refinements, but this is the workflow in general. 
 
