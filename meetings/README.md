@@ -21,6 +21,10 @@ An interactive [Google Calendar](https://calendar.google.com/calendar/embed?src=
   **[VMware Working Group](https://github.com/ansible/community/tree/master/group-vmware)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/vmware.ics))
 
+* [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC):
+  **[Container Working Group](https://github.com/ansible/community/tree/master/group-container)**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/container.ics))
+
 ## Tuesdays
 
 * [19:00 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC): **Core Team Meeting**
