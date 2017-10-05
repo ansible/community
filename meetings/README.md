@@ -64,6 +64,7 @@ For the following groups see the
 [Agenda tickets](https://github.com/ansible/community/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen++label%3Ameeting_agenda+)
   * Core Team Meeting
   * [Community Working Group](https://github.com/ansible/community/tree/master/group-community)
+  * [Container Working Group](https://github.com/ansible/community/tree/master/group-container)
   * [Network Working Group](https://github.com/ansible/community/tree/master/group-network)
   * [Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)
   * [Windows Working Group](https://github.com/ansible/community/tree/master/group-windows)
