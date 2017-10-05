@@ -1,7 +1,7 @@
 # Container Working Group
 
-Focuses on supporting containers & containerized workloads. It also includes
-the [ansible-container](https://github.com/ansible/ansible-container) team.
+Focused on improving Ansible's ability to build and orchestrate containers. In addition to the Ansible project, also includes
+the [Ansible Container](https://github.com/ansible/ansible-container) project, and the [OpenShift Restclient Python] (https://github.com/openshift/openshift-restclient-python) project for generating Ansible K8s modules.
 
 ## Meetings
 * Weekly on Mondays at [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC)
@@ -18,6 +18,7 @@ For Ansible and Ansible Container work, we coordinate through issues and pull re
 * [Eric Helms](https://github.com/ehelms), ehelms
 * [Josh Ginsberg](https://github.com/j00bar), j00bar
 * [Tomas Tomecek](https://github.com/TomasTomecek), Tomas
+* [Fabian von Feilitzsch](https://github.com/fabianvf), fabianvf
 
 ## Contact
 * [#ansible-container](https://webchat.freenode.net/?channels=ansible-container) channel at irc.freenode.net
