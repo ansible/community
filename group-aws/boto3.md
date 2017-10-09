@@ -23,23 +23,25 @@ enforce that new features must have tests.
 
 | Module               | PR                                                     |
 |----------------------|--------------------------------------------------------|
+| ec2_ami              | [28506](https://github.com/ansible/ansible/pull/28506) |
 | ec2_metric_alarm     | [23407](https://github.com/ansible/ansible/pull/23407) |
+| ec2_scaling_policy   | [26476](https://github.com/ansible/ansible/pull/26476) |
 | ec2_vpc_net_facts    | [25375](https://github.com/ansible/ansible/pull/25375) |
 | ec2_vpc_subnet_facts | [25374](https://github.com/ansible/ansible/pull/25374) |
+| elb_classic_lb_facts | [27435](https://github.com/ansible/ansible/pull/27435) |
 | rds                  | [25646](https://github.com/ansible/ansible/pull/25646) |
-| s3                   | [21529](https://github.com/ansible/ansible/pull/21529) |
 
 TODO: add many more to the above list!
 
-# State of the codebase (As at 2017-09-05)
+# State of the codebase (As at 2017-10-08)
 
 ## boto3 only
 
 * `_ec2_vpc_dhcp_options_facts`
 * `_iam_cert_facts`
 * `_s3`
+* `aws_acm_facts`
 * `aws_api_gateway`
-* `aws_config`
 * `aws_direct_connect_connection`
 * `aws_direct_connect_link_aggregation_group`
 * `aws_kms`
@@ -75,11 +77,13 @@ TODO: add many more to the above list!
 * `ec2_vpc_peer`
 * `ec2_vpc_peering_facts`
 * `ec2_vpc_subnet`
+* `ec2_vpc_subnet_facts`
 * `ec2_vpc_vgw`
 * `ec2_vpc_vgw_facts`
 * `ec2_vpc_vpn`
 * `ecs_attribute`
 * `ecs_ecr`
+* `ecs_taskdefinition_facts`
 * `elasticache`
 * `elasticache_parameter_group`
 * `elasticache_snapshot`
@@ -100,7 +104,6 @@ TODO: add many more to the above list!
 * `lambda_facts`
 * `lambda_policy`
 * `lightsail`
-* `rds_facts`
 * `rds_param_group`
 * `redshift_facts`
 * `s3_sync`
@@ -123,17 +126,16 @@ TODO: add many more to the above list!
 
 ## boto only
 
-* `_ec2_elb`
-* `_ec2_elb_facts`
-* `_ec2_elb_lb`
 * `_ec2_remote_facts`
 * `_ec2_vpc`
 * `_ec2_vpc_dhcp_options`
-* `_rds`
 * `ec2`
 * `ec2_ami`
 * `ec2_ami_find`
 * `ec2_eip`
+* `ec2_elb`
+* `ec2_elb_facts`
+* `ec2_elb_lb`
 * `ec2_eni`
 * `ec2_key`
 * `ec2_metric_alarm`
@@ -148,7 +150,6 @@ TODO: add many more to the above list!
 * `ec2_vpc_net_facts`
 * `ec2_vpc_route_table`
 * `ec2_vpc_route_table_facts`
-* `ec2_vpc_subnet_facts`
 * `ec2_win_password`
 * `elasticache_subnet_group`
 * `elb_classic_lb`
