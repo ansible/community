@@ -13,8 +13,9 @@ the number of issues and PRs.
 |------------|-------------|----------|------------|---------|
 | 2017-07-05 | 128         | 161      | +32/-27    | +61/-68 |
 | 2017-09-05 | 144         | 131      | +11/-27    | +20/-78 |
+| 2017-10-08 | 334         | 147      | +196/-54   | +40/-76 |
 
-* [Closed issues in last month (change date)](https://github.com/ansible/ansible/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aclosed%20label%3Aaws%20closed%3A%3E2017-08-05)
-* [Closed PRs in last month (change date)](https://github.com/ansible/ansible/issues?utf8=%E2%9C%93&q=is%3Apr%20is%3Aclosed%20label%3Aaws%20closed%3A%3E2017-08-05)
-* [Opened issues in last month (change date)](https://github.com/ansible/ansible/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Aaws%20created%3A%3E2017-08-05)
-* [Opened PRs in last month (change date)](https://github.com/ansible/ansible/issues?utf8=%E2%9C%93&q=is%3Apr%20is%3Aopen%20label%3Aaws%20created%3A%3E2017-08-05)
+* [Closed issues in last month (change date)](https://github.com/ansible/ansible/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aclosed%20label%3Aaws%20closed%3A%3E2017-09-08)
+* [Closed PRs in last month (change date)](https://github.com/ansible/ansible/issues?utf8=%E2%9C%93&q=is%3Apr%20is%3Aclosed%20label%3Aaws%20closed%3A%3E2017-09-08)
+* [Opened issues in last month (change date)](https://github.com/ansible/ansible/issues?utf8=%E2%9C%93&q=is%3Aissue%20is%3Aopen%20label%3Aaws%20created%3A%3E2017-09-08)
+* [Opened PRs in last month (change date)](https://github.com/ansible/ansible/issues?utf8=%E2%9C%93&q=is%3Apr%20is%3Aopen%20label%3Aaws%20created%3A%3E2017-09-08)
