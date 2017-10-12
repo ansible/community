@@ -27,7 +27,6 @@ enforce that new features must have tests.
 | ec2_metric_alarm     | [23407](https://github.com/ansible/ansible/pull/23407) |
 | ec2_scaling_policy   | [26476](https://github.com/ansible/ansible/pull/26476) |
 | ec2_vpc_net_facts    | [25375](https://github.com/ansible/ansible/pull/25375) |
-| ec2_vpc_subnet_facts | [25374](https://github.com/ansible/ansible/pull/25374) |
 | elb_classic_lb_facts | [27435](https://github.com/ansible/ansible/pull/27435) |
 | rds                  | [25646](https://github.com/ansible/ansible/pull/25646) |
 
