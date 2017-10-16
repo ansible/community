@@ -13,6 +13,6 @@ DESCRIPTION:Project:  VMware working group\nChair:  Abhijeet Kasurde (akas
   channel.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=is
  :open+label:meeting_agenda+label:vmware\nProject URL:  https://github.com/
  ansible/community/wiki/VMware
-LOCATION:#ansible-meeting
+LOCATION:#ansible-vmware
 END:VEVENT
 END:VCALENDAR
