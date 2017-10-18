@@ -12,5 +12,5 @@ description: |
 schedule:
 - time: '1600'
   day: Monday
-  irc: ansible-meeting
+  irc: ansible-vmware
   frequency: weekly
