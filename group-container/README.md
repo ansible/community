@@ -1,7 +1,7 @@
 # Container Working Group
 
 Focused on improving Ansible's ability to build and orchestrate containers. In addition to the Ansible project, also includes
-the [Ansible Container](https://github.com/ansible/ansible-container) project, and the [OpenShift Restclient Python] (https://github.com/openshift/openshift-restclient-python) project for generating Ansible K8s modules.
+the [Ansible Container](https://github.com/ansible/ansible-container) project, and the [OpenShift Restclient Python](https://github.com/openshift/openshift-restclient-python) project for generating Ansible K8s modules.
 
 ## Meetings
 * Weekly on Mondays at [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC)
