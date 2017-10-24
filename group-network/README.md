@@ -18,6 +18,8 @@ Focuses on supporting networking devices.
 * [Chris Alfonso](https://github.com/calfonso), calfonso
 
 ## Active Members
+*GitHub, IRC [, Group]*
+
 * [Nate Case](https://github.com/Qalthos), Qalthos
 * [Ricardo Carrillo Cruz](https://github.com/rcarrillocruz), rcarrillocruz
 * [Ganesh Nalawade](https://github.com/ganeshrn), ganeshrn
