@@ -1,5 +1,5 @@
-[![Github community issues](https://img.shields.io/github/issues/ansible/community.svg)](https://github.com/ansible/community/issues)
-[![Github community pull-requests](https://img.shields.io/github/issues-pr/ansible/community.svg)](https://github.com/ansible/community/pulls)
+[![Github community issues](https://img.shields.io/github/issues/ansible/community/cwg.svg)](https://github.com/ansible/community/issues?q=is:open+is:issue+label:cwg)
+[![Github community PRs](https://img.shields.io/github/issues-pr/ansible/community/cwg.svg)](https://github.com/ansible/community/issues?q=is:open+is:pr+label:cwg)
 
 # Community Working Group
 
