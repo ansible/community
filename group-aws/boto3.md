@@ -32,7 +32,7 @@ enforce that new features must have tests.
 
 TODO: add many more to the above list!
 
-# State of the codebase (As at 2017-10-08)
+# State of the codebase (As at 2017-11-08)
 
 ## boto3 only
 
@@ -44,8 +44,10 @@ TODO: add many more to the above list!
 * `aws_direct_connect_connection`
 * `aws_direct_connect_link_aggregation_group`
 * `aws_kms`
+* `aws_kms_facts`
 * `aws_s3`
 * `aws_s3_bucket_facts`
+* `aws_ssm_parameter_store`
 * `aws_waf_facts`
 * `cloudformation`
 * `cloudformation_facts`
@@ -54,6 +56,8 @@ TODO: add many more to the above list!
 * `cloudwatchevent_rule`
 * `data_pipeline`
 * `dynamodb_ttl`
+* `ec2_ami`
+* `ec2_ami_facts`
 * `ec2_asg`
 * `ec2_asg_facts`
 * `ec2_customer_gateway`
@@ -73,6 +77,7 @@ TODO: add many more to the above list!
 * `ec2_vpc_nacl_facts`
 * `ec2_vpc_nat_gateway`
 * `ec2_vpc_nat_gateway_facts`
+* `ec2_vpc_net_facts`
 * `ec2_vpc_peer`
 * `ec2_vpc_peering_facts`
 * `ec2_vpc_subnet`
@@ -83,6 +88,7 @@ TODO: add many more to the above list!
 * `ecs_attribute`
 * `ecs_ecr`
 * `ecs_taskdefinition_facts`
+* `efs_facts`
 * `elasticache`
 * `elasticache_parameter_group`
 * `elasticache_snapshot`
@@ -120,7 +126,6 @@ TODO: add many more to the above list!
 * `ecs_task`
 * `ecs_taskdefinition`
 * `efs`
-* `efs_facts`
 * `route53_facts`
 
 ## boto only
@@ -129,7 +134,6 @@ TODO: add many more to the above list!
 * `_ec2_vpc`
 * `_ec2_vpc_dhcp_options`
 * `ec2`
-* `ec2_ami`
 * `ec2_ami_find`
 * `ec2_eip`
 * `ec2_elb`
@@ -146,7 +150,6 @@ TODO: add many more to the above list!
 * `ec2_vpc_dhcp_option`
 * `ec2_vpc_igw`
 * `ec2_vpc_net`
-* `ec2_vpc_net_facts`
 * `ec2_vpc_route_table`
 * `ec2_vpc_route_table_facts`
 * `ec2_win_password`
@@ -171,7 +174,6 @@ TODO: add many more to the above list!
 * `sns_topic`
 * `sqs_queue`
 * `sts_assume_role`
-
 
 ### Neither boto nor boto3
 
@@ -200,7 +202,7 @@ Note the above finds `ec2_ami_copy` too but that's an unused import
 
 ### boto only
 ```
-for f in `grep -lE 'import boto[^3c_]|import boto$|from boto[ .]' *.py`; do
+for f in `grep -lE 'import boto[^3c_]|import boto$|from boto[ .]|ec2_connect' *.py`; do
   grep -qE 'import boto3|import botocore|from botocore' $f || echo $f
 done | sed 's/\(.*\)\.py$/* `\1`/'
 ```
