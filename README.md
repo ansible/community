@@ -20,6 +20,7 @@ This repository serves as a space for the Ansible Community Working Group to man
 * Ansible development: [ansible/ansible](https://github.com/ansible/ansible)
 * Working Groups
   - [AWS Working Group](https://github.com/ansible/community/tree/master/group-aws)
+  - [Azure Working Group](https://github.com/ansible/community/tree/master/group-azure)
   - [Community Working Group](https://github.com/ansible/community/tree/master/group-community)
   - [Container Working Group](https://github.com/ansible/community/tree/master/group-container)
   - [Network Working Group](https://github.com/ansible/community/tree/master/group-network)
