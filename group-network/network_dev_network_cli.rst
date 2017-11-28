@@ -129,7 +129,7 @@ platform that uses network_cli connection plugin:
 
 * ``plugins/terminal/{{ ansible_network_os }}.py``
 * ``plugins/cliconf/{{ ansible_network_os }}.py``
-* ``modules/network/{{ ansible_network_os }}/ios_command.py``
+* ``modules/network/{{ ansible_network_os }}/{{ ansible_network_os }}_command.py``
 
 Once the first module has been added, subsequent modules only require the
 module code.
