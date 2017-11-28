@@ -88,7 +88,7 @@ first module.  Writing network modules that use network_cli connection plugin
 are straight forward and easy.
 
 You can find an example of an ios_command module that implements the network_cli
-connection plugin `modules/network/ios/ios_config.py <https://github.com/privateip/ansible/blob/network-cli-example/lib/ansible/modules/network/ios/ios_command.py>`_
+connection plugin `modules/network/ios/ios_command.py <https://github.com/privateip/ansible/blob/network-cli-example/lib/ansible/modules/network/ios/ios_command.py>`_
 
 In the above module, the key is to import the Connection object from module_utils and
 create an instance of Connection.  This will give you access to the network device
