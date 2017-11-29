@@ -12,7 +12,7 @@ Overview
 The document provides details on how to implement a module using the new
 network_cli connection plugin.  This document exists in the ``ansible/community`` namespace to allow quicker updates based on feedback from Partners. Once the documentation is stable it will be moved to ``docs/docsite/rst/dev_guide`` in the main Ansible GitHub repository.
 
-From Ansible 2.5 ``network_cli`` is a new first-class connection plugin to replace the ``connection: local``  functionality that was available in Ansible 2.2 through 2.4.
+Starting in Ansible 2.5 ``network_cli`` is a new first-class connection plugin to replace the ``connection: local``  functionality that was available in Ansible 2.2 through 2.4.
 
 As the Ansible network team begins the transition towards implementing the
 network_cli connection plugin, we wanted to provide a sample implementation
@@ -61,8 +61,8 @@ You can see the IOS terminal plugin `plugins/terminal/ios.py <https://github.com
 
 To support a new platform, the terminal plugin should be created and, at a
 minimum, the instance variables ``terminal_stdout_re`` and ``terminal_stderr_re``
-should be provided.  This instance variables are used to introspect the
-response stream after a command is sent to determine the stream has been
+should be provided.  These instance variables are used to introspect the
+response stream after a command is sent to determine if the stream has been
 returned and/or if an error as been generated.
 
 cliconf Plugin
