@@ -11,7 +11,7 @@ description: |
   request to the meeting agenda and join the IRC channel.
 schedule:
 - time: '0000'
-  day: Wednesday
+  day: Thursday
   irc: ansible-azure
   frequency: weekly
 
