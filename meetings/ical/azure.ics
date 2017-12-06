@@ -3,16 +3,16 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Azure working group
-DTSTART;VALUE=DATE-TIME:20171115T000000Z
+DTSTART;VALUE=DATE-TIME:20171207T000000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Azure working group\nChair:  Matt Davis (nitzmahone)
  \, Kylie Liang (kyliel)\nDescription:  \nWe discuss everything related to 
- Azure every week on Tuesday.\n\nIf you have something to discuss (e.g. a P
- R that needs help)\, add your\nrequest to the meeting agenda and join the 
- IRC channel.\n\nAgenda URL:  https://github.com/ansible/community/issues?q
- =is:open+label:meeting_agenda+label:azure\nProject URL:  https://github.co
- m/ansible/community/wiki/azure
+ Azure every week on Wednesday.\n\nIf you have something to discuss (e.g. a
+  PR that needs help)\, add your\nrequest to the meeting agenda and join th
+ e IRC channel.\n\nAgenda URL:  https://github.com/ansible/community/issues
+ ?q=is:open+label:meeting_agenda+label:azure\nProject URL:  https://github.
+ com/ansible/community/wiki/azure
 LOCATION:#ansible-azure
 END:VEVENT
 END:VCALENDAR
