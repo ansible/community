@@ -9,6 +9,9 @@ Following the 2.4 release, all modules marked `stableinterface`
 MUST have integration tests for new features. Upgrading to boto3
 shall be considered a feature request.
 
+Following the 2.5 release, all new modules MUST have integration
+tests.
+
 Modules marked `preview` SHOULD have integration tests for new
 features.
 
@@ -35,12 +38,11 @@ There are some PRs with tests:
 # State of the codebase
 
 Existing modules with tests:
-* `aws_api_gateway`
-* `aws_lambda`
-* `aws_s3`
 * `ec2_ami`
-* `ec2_classic_lb`
+* `ec2_elb_lb`
 * `ec2_group`
 * `ec2_key`
+* `ec2_vpc_route_table`
+* `ec2_vpc_subnet`
 * `ecs_ecr`
-* `elb_classic_lb`
+* `lambda_policy`
