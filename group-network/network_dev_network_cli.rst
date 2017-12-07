@@ -21,12 +21,12 @@ for module developers to use as a guide.
 Requirements for network module developers
 ==========================================
 
-Any `new` network CLI platforms added in Ansible 2.6 MUST:
+Any `new` network CLI *platforms* added in Ansible 2.6 MUST:
 
 * be developed to support network_cli.
 * NOT use top-level nor ``provider:`` (as they are both being deprecated)
 
-Network platforms that `already existed` in Ansible 2.5 (or earlier):
+Network *platforms* that `already existed` in Ansible 2.5 (or earlier):
 
 * should be updated to support network_cli
 * MUST continue to support ``provider`` until Ansible 2.9 (at the earliest)
