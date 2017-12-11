@@ -1,7 +1,7 @@
 # Microsoft Azure Working Group
 
-[Github Auzre open issue](https://github.com/ansible/ansible/issues?q=is:open+is:issue+label:azure)     
-[Github Azure open pull requests](https://github.com/ansible/ansible/issues?q=is:open+is:pr+label:azure)
+[![Github azure issues](https://img.shields.io/github/issues/ansible/ansible/azure.svg)](https://github.com/ansible/ansible/issues?q=is:open+is:issue+label:azure)
+[![Github azure PRs](https://img.shields.io/github/issues-pr/ansible/ansible/azure.svg)](https://github.com/ansible/ansible/issues?q=is:open+is:pr+label:azure)
 
 The Azure Working Group focuses on delivering modules and features to
 Ansible to support working with Microsoft Azure.

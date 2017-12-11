@@ -44,6 +44,10 @@ An interactive [Google Calendar](https://calendar.google.com/calendar/embed?src=
   **[Community Working Group](https://github.com/ansible/community/tree/master/group-community)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/community.ics))
 
+* [00:00 UTC](http://www.thetimezoneconverter.com/?t=00:00&tz=UTC):
+  **[Community Working Group](https://github.com/ansible/community/tree/master/group-community)**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/community.ics))
+
 ## Thursdays
 
 * [15:00 UTC](http://www.thetimezoneconverter.com/?t=15:00&tz=UTC): **Core Team Meeting**
