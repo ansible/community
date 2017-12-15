@@ -12,6 +12,23 @@ Overview
 Integration Tests
 =================
 
+Structure
+---------
+
+
+
+Each test case should generally follow the pattern:
+
+* setup —> test —> assert —> test again (idempotent) —> assert —> teardown (if needed) -> done
+
+* This keeps test playbooks from becoming monolithic and difficult to troubleshoot.
+
+* Include a name for each task that is not an assertion. (It’s OK to add names to assertions too. But to make it easy to identify the broken task within a failed test, at least provide a helpful name for each task.)
+
+* Files containing test cases must end in `.yaml`
+
+
+
 Implementation
 --------------
 
@@ -102,3 +119,15 @@ Become
 
 
 For more information please join ``#ansible-network`` on Freenode IRC
+
+
+Running network integration tests
+=================================
+
+Setup inventory
+
+.. code-block:: console
+
+   ansible-test network-integration  --inventory ~/myinventory -vvv vyos_facts
+   ansible-test network-integration  --inventory ~/myinventory -vvv vyos_.*
+
