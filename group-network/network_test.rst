@@ -1,0 +1,104 @@
+********************************
+Adding tests for Network modules
+********************************
+
+.. contents:: Topics
+
+Overview
+========
+
+
+
+Integration Tests
+=================
+
+Implementation
+--------------
+
+For platforms that support `connection: local` *and* `connection: network_cli` then can be tested using the following:
+
+* Targets directories are named after the module name
+* `main.yaml` should just reference the transport 
+
+`ansible/test/integration/targets/ios_config/tasks/main.yaml`
+
+.. code-block:: yaml
+
+   ---
+   - { include: cli.yaml, tags: ['cli'] }
+
+
+`test/integration/targets/vyos_banner/tasks/cli.yaml`
+
+.. code-block:: yaml
+
+   ---
+   - name: collect all cli test cases
+     find:
+       paths: "{{ role_path }}/tests/cli"
+       patterns: "{{ testcase }}.yaml"
+     register: test_cases
+     delegate_to: localhost
+   
+   - name: set test_items
+     set_fact: test_items="{{ test_cases.files | map(attribute='path') | list }}"
+
+   - name: run test cases (connection=network_cli)
+     include: "{{ test_case_to_run }} ansible_connection=network_cli"
+     with_items: "{{ test_items }}"
+     loop_control:
+       loop_var: test_case_to_run
+
+   - name: run test case (connection=local)
+     include: "{{ test_case_to_run }} ansible_connection=local ansible_become=no"
+     with_first_found: "{{ test_items }}"
+     loop_control:
+       loop_var: test_case_to_run
+       
+       
+.. code-block:: yaml
+
+   ---
+   - debug:
+       msg: "cli/basic-no-login.yaml on connection={{ ansible_connection }}"
+
+   - name: Setup
+     vyos_banner:
+       banner: pre-login
+       text: |
+         Junk pre-login banner
+         over multiple lines
+       state: present
+
+   - name: remove pre-login
+     vyos_banner:
+       banner: pre-login
+       state: absent
+     register: result
+
+   - debug:
+       msg: "{{ result }}"
+
+   - assert:
+       that:
+         - "result.changed == true"
+         - "'delete system login banner pre-login' in result.commands"
+
+   - name: remove pre-login (idempotent)
+     vyos_banner:
+       banner: pre-login
+       state: absent
+     register: result
+
+   - assert:
+       that:
+         - "result.changed == false"
+         - "result.commands | length == 0"
+
+
+       
+Become
+------
+
+
+For more information please join ``#ansible-network`` on Freenode IRC
