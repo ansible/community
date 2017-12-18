@@ -23,7 +23,6 @@ enforce that new features must have tests.
 
 | Module               | PR                                                     |
 |----------------------|--------------------------------------------------------|
-| ec2_ami              | [28506](https://github.com/ansible/ansible/pull/28506) |
 | ec2_metric_alarm     | [23407](https://github.com/ansible/ansible/pull/23407) |
 | ec2_scaling_policy   | [26476](https://github.com/ansible/ansible/pull/26476) |
 | ec2_vpc_net_facts    | [25375](https://github.com/ansible/ansible/pull/25375) |
@@ -32,7 +31,7 @@ enforce that new features must have tests.
 
 TODO: add many more to the above list!
 
-# State of the codebase (As at 2017-11-08)
+# State of the codebase (As at 2017-12-06)
 
 ## boto3 only
 
@@ -90,6 +89,7 @@ TODO: add many more to the above list!
 * `ecs_taskdefinition_facts`
 * `efs_facts`
 * `elasticache`
+* `elasticache_facts`
 * `elasticache_parameter_group`
 * `elasticache_snapshot`
 * `elb_application_lb`
@@ -130,11 +130,11 @@ TODO: add many more to the above list!
 
 ## boto only
 
+* `_ec2_ami_find`
 * `_ec2_remote_facts`
 * `_ec2_vpc`
 * `_ec2_vpc_dhcp_options`
 * `ec2`
-* `ec2_ami_find`
 * `ec2_eip`
 * `ec2_elb`
 * `ec2_elb_facts`
