@@ -193,7 +193,7 @@ After the raw coverage data has been collected you can render the report into ht
 
    ansible-test coverage html
    
-To clear the results between runs, simply do:
+To clear the results between runs, simply do::
 
    ansible-test coverage erase
    
