@@ -117,19 +117,55 @@ For platforms that support ``connection: local`` *and* ``connection: network_cli
 Become
 ------
 
-Certain platforms support 
+Certain platforms support support ``enable`` mode.
+
+The user facing documentation for this feature can be found at http://docs.ansible.com/ansible/devel/become.html#become-and-networks
 
 
-For more information please join ``#ansible-network`` on Freenode IRC
+Testing enable & become on platforms that existed on 2.4  (and earlier)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+In addition to setting ``enable:`` (and optionally ``enable_pass``) in the ``provider`` you must also set ``become:``
+
+To allow the tests to run with ``connection: network_cli`` and ``connection: local``
+
+.. code-block:: yaml
+
+   - name: Turn on all endpoints
+    eos_eapi:
+       enable_http: yes
+       enable_https: yes
+       enable_local_http: yes
+       enable_socket: yes
+       provider: "{{ cli }}"
+     become: yes
+     register: eos_eapi_output
+     
+Testing become on modules added in 2.6 (and later)
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+For platforms added in 2.6 (and later) there shouldn't be a ``provider``, so simply set ``become:`` as part of the task.
+
 
 
 Running network integration tests
 =================================
 
-Setup inventory
+Create an inventory file that points to your test machines. The inventory group should match the platform name (``eos``, ``ios``, ``vyos``, etc).
+
+The tests can be ran by doing:
+
 
 .. code-block:: console
 
    ansible-test network-integration  --inventory ~/myinventory -vvv vyos_facts
    ansible-test network-integration  --inventory ~/myinventory -vvv vyos_.*
 
+
+See also the integration testing docs at http://docs.ansible.com/ansible/latest/dev_guide/testing_integration.html#network-tests
+
+
+
+More info
+=========
+For more information please join ``#ansible-network`` on Freenode IRC
