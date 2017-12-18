@@ -25,19 +25,19 @@ Each test case should generally follow the pattern:
 
 * Include a name for each task that is not an assertion. (It’s OK to add names to assertions too. But to make it easy to identify the broken task within a failed test, at least provide a helpful name for each task.)
 
-* Files containing test cases must end in `.yaml`
+* Files containing test cases must end in ``.yaml``
 
 
 
 Implementation
 --------------
 
-For platforms that support `connection: local` *and* `connection: network_cli` then can be tested using the following:
+For platforms that support ``connection: local`` *and* ``connection: network_cli`` then can be tested using the following:
 
 * Targets directories are named after the module name
-* `main.yaml` should just reference the transport 
+* ``main.yaml`` should just reference the transport 
 
-`ansible/test/integration/targets/ios_config/tasks/main.yaml`
+``test/integration/targets/ios_config/tasks/main.yaml``
 
 .. code-block:: yaml
 
@@ -45,7 +45,7 @@ For platforms that support `connection: local` *and* `connection: network_cli` t
    - { include: cli.yaml, tags: ['cli'] }
 
 
-`test/integration/targets/vyos_banner/tasks/cli.yaml`
+``test/integration/targets/vyos_banner/tasks/cli.yaml``
 
 .. code-block:: yaml
 
@@ -116,6 +116,8 @@ For platforms that support `connection: local` *and* `connection: network_cli` t
        
 Become
 ------
+
+Certain platforms support 
 
 
 For more information please join ``#ansible-network`` on Freenode IRC
