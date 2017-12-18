@@ -7,7 +7,7 @@ Adding tests for Network modules
 Overview
 ========
 
-This page details some of the network specific areas of testing. It should be read along side the main testsing documentation http://docs.ansible.com/ansible/devel/dev_guide/testing.html
+This page details some of the network specific areas of testing. It should be read along side the main testing documentation http://docs.ansible.com/ansible/devel/dev_guide/testing.html
 
 Integration Tests
 =================
