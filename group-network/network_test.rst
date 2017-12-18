@@ -7,7 +7,7 @@ Adding tests for Network modules
 Overview
 ========
 
-
+This page details some of the network specific areas of testing. It should be read along side the main testsing documentation http://docs.ansible.com/ansible/devel/dev_guide/testing.html
 
 Integration Tests
 =================
@@ -162,8 +162,26 @@ The tests can be ran by doing:
    ansible-test network-integration  --inventory ~/myinventory -vvv vyos_.*
 
 
-See also the integration testing docs at http://docs.ansible.com/ansible/latest/dev_guide/testing_integration.html#network-tests
+See also the integration testing docs at http://docs.ansible.com/ansible/devel/dev_guide/testing_integration.html#network-tests
 
+Code Coverage
+=============
+
+Code coverage data can be collected locally.  This is a great way of finding gaps in test coverage.
+
+When running ``ansible-test network-integration`` simply add the ``--coverage`` command line argument
+
+Note for the first run you may also need to specify ``--coverage --requirements`` to install the needed dependencies via PIP.
+
+After the raw coverage data has been collected you can render the report into html by doing::
+
+   ansible-test coverage html
+   
+To clear the results between runs, simply do:
+
+   ansible-test coverage erase
+   
+More information can be found at http://docs.ansible.com/ansible/devel/dev_guide/testing_running_locally.html#code-coverage
 
 
 More info
