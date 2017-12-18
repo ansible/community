@@ -32,7 +32,7 @@ Each test case should generally follow the pattern:
 Implementation
 --------------
 
-For platforms that support ``connection: local`` *and* ``connection: network_cli`` then can be tested using the following:
+For platforms that support ``connection: local`` *and* ``connection: network_cli`` can be tested using the following:
 
 * Targets directories are named after the module name
 * ``main.yaml`` should just reference the transport 
@@ -72,7 +72,8 @@ For platforms that support ``connection: local`` *and* ``connection: network_cli
      loop_control:
        loop_var: test_case_to_run
        
-       
+``test/integration/targets/vyos_banner/tests/cli/basic-no-login.yaml``
+
 .. code-block:: yaml
 
    ---
@@ -114,10 +115,10 @@ For platforms that support ``connection: local`` *and* ``connection: network_cli
 
 
        
-Become
-------
+Become (CLI only)
+-----------------
 
-Certain platforms support support ``enable`` mode.
+Certain CLI platforms support support ``enable`` mode .
 
 The user facing documentation for this feature can be found at http://docs.ansible.com/ansible/devel/become.html#become-and-networks
 
@@ -146,7 +147,14 @@ Testing become on modules added in 2.6 (and later)
 
 For platforms added in 2.6 (and later) there shouldn't be a ``provider``, so simply set ``become:`` as part of the task.
 
+Test resoruces
+^^^^^^^^^^^^^^
 
+Rather than hardcoding test resources, such as interfaces, into tests these should be detected at runtime. This allows the test to run on a variety of systems.
+
+Examples of this can be see at:
+
+* Detection https://github.com/ansible/ansible/blob/devel/test/integration/targets/prepare_nxos_tests/tasks/main.yml#L31
 
 Running network integration tests
 =================================
@@ -163,6 +171,14 @@ The tests can be ran by doing:
 
 
 See also the integration testing docs at http://docs.ansible.com/ansible/devel/dev_guide/testing_integration.html#network-tests
+
+Unit Tests
+==========
+
+The main documentation for writing unit tests can be followed http://docs.ansible.com/ansible/devel/dev_guide/testing_units.html
+
+
+
 
 Code Coverage
 =============
