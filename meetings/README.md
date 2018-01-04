@@ -13,6 +13,9 @@ If you'd like to request a regular recurring meeting on `#ansible-meeting`, plea
 
 You can add this full list of meetings to your personal calendar by downloading and importing this [.ics file](https://raw.githubusercontent.com/ansible/community/master/ansible_community_meetings.ics) into your calendar.
 
+> Some calendars, such as Google Calendar, support importing by URL.
+> This allows the calendar to update automatically when changes are made.
+
 ## Mondays
 
 * [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC):
