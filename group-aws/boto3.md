@@ -25,13 +25,15 @@ enforce that new features must have tests.
 |----------------------|--------------------------------------------------------|
 | ec2_metric_alarm     | [23407](https://github.com/ansible/ansible/pull/23407) |
 | ec2_scaling_policy   | [26476](https://github.com/ansible/ansible/pull/26476) |
-| ec2_vpc_net_facts    | [25375](https://github.com/ansible/ansible/pull/25375) |
 | elb_classic_lb_facts | [27435](https://github.com/ansible/ansible/pull/27435) |
-| rds                  | [25646](https://github.com/ansible/ansible/pull/25646) |
+| rds_instance_facts   | [26598](https://github.com/ansible/ansible/pull/26598) |
+| rds_snapshot_facts   | [26599](https://github.com/ansible/ansible/pull/26599) |
+| rds_instance         | [26598](https://github.com/ansible/ansible/pull/26602) |
+| rds_snapshot         | [26598](https://github.com/ansible/ansible/pull/26604) |
 
 TODO: add many more to the above list!
 
-# State of the codebase (As at 2017-12-06)
+# State of the codebase (As at 2018-01-08)
 
 ## boto3 only
 
@@ -40,12 +42,15 @@ TODO: add many more to the above list!
 * `_s3`
 * `aws_acm_facts`
 * `aws_api_gateway`
+* `aws_application_scaling_policy`
 * `aws_direct_connect_connection`
+* `aws_direct_connect_gateway`
 * `aws_direct_connect_link_aggregation_group`
 * `aws_kms`
 * `aws_kms_facts`
 * `aws_s3`
 * `aws_s3_bucket_facts`
+* `aws_s3_cors`
 * `aws_ssm_parameter_store`
 * `aws_waf_facts`
 * `cloudformation`
@@ -56,16 +61,22 @@ TODO: add many more to the above list!
 * `data_pipeline`
 * `dynamodb_ttl`
 * `ec2_ami`
+* `ec2_ami_copy`
 * `ec2_ami_facts`
 * `ec2_asg`
 * `ec2_asg_facts`
+* `ec2_asg_lifecycle_hook`
 * `ec2_customer_gateway`
+* `ec2_eni_facts`
 * `ec2_group`
 * `ec2_group_facts`
 * `ec2_instance_facts`
+* `ec2_key`
 * `ec2_lc`
 * `ec2_lc_facts`
 * `ec2_lc_find`
+* `ec2_placement_group`
+* `ec2_placement_group_facts`
 * `ec2_snapshot_copy`
 * `ec2_snapshot_facts`
 * `ec2_vpc_dhcp_option_facts`
@@ -76,6 +87,7 @@ TODO: add many more to the above list!
 * `ec2_vpc_nacl_facts`
 * `ec2_vpc_nat_gateway`
 * `ec2_vpc_nat_gateway_facts`
+* `ec2_vpc_net`
 * `ec2_vpc_net_facts`
 * `ec2_vpc_peer`
 * `ec2_vpc_peering_facts`
@@ -85,8 +97,14 @@ TODO: add many more to the above list!
 * `ec2_vpc_vgw_facts`
 * `ec2_vpc_vpn`
 * `ecs_attribute`
+* `ecs_cluster`
 * `ecs_ecr`
+* `ecs_service`
+* `ecs_service_facts`
+* `ecs_task`
+* `ecs_taskdefinition`
 * `ecs_taskdefinition_facts`
+* `efs`
 * `efs_facts`
 * `elasticache`
 * `elasticache_facts`
@@ -101,6 +119,7 @@ TODO: add many more to the above list!
 * `iam_managed_policy`
 * `iam_mfa_device_facts`
 * `iam_role`
+* `iam_role_facts`
 * `iam_server_certificate_facts`
 * `kinesis_stream`
 * `lambda`
@@ -118,14 +137,6 @@ TODO: add many more to the above list!
 ## boto3 *and* boto
 
 * `dynamodb_table`
-* `ec2_ami_copy`
-* `ec2_eni_facts`
-* `ecs_cluster`
-* `ecs_service`
-* `ecs_service_facts`
-* `ecs_task`
-* `ecs_taskdefinition`
-* `efs`
 * `route53_facts`
 
 ## boto only
@@ -140,7 +151,6 @@ TODO: add many more to the above list!
 * `ec2_elb_facts`
 * `ec2_elb_lb`
 * `ec2_eni`
-* `ec2_key`
 * `ec2_metric_alarm`
 * `ec2_scaling_policy`
 * `ec2_snapshot`
@@ -149,7 +159,6 @@ TODO: add many more to the above list!
 * `ec2_vol_facts`
 * `ec2_vpc_dhcp_option`
 * `ec2_vpc_igw`
-* `ec2_vpc_net`
 * `ec2_vpc_route_table`
 * `ec2_vpc_route_table_facts`
 * `ec2_win_password`
@@ -178,6 +187,7 @@ TODO: add many more to the above list!
 ### Neither boto nor boto3
 
 * `__init__`
+* `_ec2_ami_find`
 * `_ec2_ami_search`
 * `_ec2_facts`
 * `ec2_metadata_facts`
@@ -198,8 +208,6 @@ done | sed 's/\(.*\)\.py$/* `\1`/'
 grep -lE 'import boto[^3c_]|import boto$|from boto[. ]' *.py | xargs grep -lE 'import boto3|import botocore|from botocore' | sed 's/\(.*\)\.py$/* `\1`/'
 ```
 
-Note the above finds `ec2_ami_copy` too but that's an unused import
-
 ### boto only
 ```
 for f in `grep -lE 'import boto[^3c_]|import boto$|from boto[ .]|ec2_connect' *.py`; do
@@ -210,5 +218,5 @@ done | sed 's/\(.*\)\.py$/* `\1`/'
 ### Neither boto nor boto3
 
 ```
-for f in *.py; do grep -qE 'import boto|from botocore' $f || echo $f ; done | sed 's/\(.*\)\.py$/* `\1`/'
+for f in *.py; do grep -qE 'ec2_connect|import boto|from botocore' $f || echo $f ; done | sed 's/\(.*\)\.py$/* `\1`/'
 ```
