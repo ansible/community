@@ -7,7 +7,6 @@ Focuses on supporting Windows.
 
 ## Meetings
 * Weekly on Tuesdays at [20:00 UTC](http://www.thetimezoneconverter.com/?t=20:00&tz=UTC)
-  *([calendar](https://calendar.google.com/calendar/embed?src=ansible.com_pafenslko0e2bqjgujp8f7s0do%40group.calendar.google.com&ctz=UTC), [ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/windows.ics))*
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/windows.ics))
 * [Meeting agenda](https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:windows)
 * Meeting notes:
