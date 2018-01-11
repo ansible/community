@@ -1,5 +1,5 @@
-<!--- There are no badges for open PRs by label yet -->
 [![Github vmware issues](https://img.shields.io/github/issues/ansible/ansible/vmware.svg)](https://github.com/ansible/ansible/issues?q=is:open+is:issue+label:vmware)
+[![Github vmware PRs](https://img.shields.io/github/issues-pr/ansible/ansible/vmware.svg)](https://github.com/ansible/ansible/issues?q=is:open+is:pr+label:vmware)
 
 # VMware Working Group
 
