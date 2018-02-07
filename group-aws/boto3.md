@@ -33,7 +33,16 @@ enforce that new features must have tests.
 
 TODO: add many more to the above list!
 
-# State of the codebase (As at 2018-01-08)
+# State of the codebase (As at 2018-02-07)
+
+## Summary
+
+|Description            |Count|
+|-----------------------|-----|
+|boto3 only modules     |  115|
+|boto3 *and* boto2      |    2|
+|boto2 only modules     |   38|
+|neither boto3 nor boto2|    4|
 
 ## boto3 only
 
@@ -43,19 +52,32 @@ TODO: add many more to the above list!
 * `aws_acm_facts`
 * `aws_api_gateway`
 * `aws_application_scaling_policy`
+* `aws_az_facts`
+* `aws_batch_compute_environment`
+* `aws_batch_job_definition`
+* `aws_batch_job_queue`
 * `aws_direct_connect_connection`
 * `aws_direct_connect_gateway`
 * `aws_direct_connect_link_aggregation_group`
+* `aws_direct_connect_virtual_interface`
+* `aws_elasticbeanstalk_app`
 * `aws_kms`
 * `aws_kms_facts`
+* `aws_region_facts`
 * `aws_s3`
 * `aws_s3_bucket_facts`
 * `aws_s3_cors`
+* `aws_ses_identity`
 * `aws_ssm_parameter_store`
+* `aws_waf_condition`
 * `aws_waf_facts`
+* `aws_waf_rule`
 * `cloudformation`
 * `cloudformation_facts`
+* `cloudfront_distribution`
 * `cloudfront_facts`
+* `cloudfront_invalidation`
+* `cloudfront_origin_access_identity`
 * `cloudtrail`
 * `cloudwatchevent_rule`
 * `data_pipeline`
@@ -67,6 +89,7 @@ TODO: add many more to the above list!
 * `ec2_asg_facts`
 * `ec2_asg_lifecycle_hook`
 * `ec2_customer_gateway`
+* `ec2_customer_gateway_facts`
 * `ec2_eni_facts`
 * `ec2_group`
 * `ec2_group_facts`
@@ -80,6 +103,7 @@ TODO: add many more to the above list!
 * `ec2_snapshot_copy`
 * `ec2_snapshot_facts`
 * `ec2_vpc_dhcp_option_facts`
+* `ec2_vpc_egress_igw`
 * `ec2_vpc_endpoint`
 * `ec2_vpc_endpoint_facts`
 * `ec2_vpc_igw_facts`
@@ -91,6 +115,7 @@ TODO: add many more to the above list!
 * `ec2_vpc_net_facts`
 * `ec2_vpc_peer`
 * `ec2_vpc_peering_facts`
+* `ec2_vpc_route_table`
 * `ec2_vpc_subnet`
 * `ec2_vpc_subnet_facts`
 * `ec2_vpc_vgw`
@@ -112,6 +137,7 @@ TODO: add many more to the above list!
 * `elasticache_snapshot`
 * `elb_application_lb`
 * `elb_application_lb_facts`
+* `elb_classic_lb_facts`
 * `elb_target_group`
 * `elb_target_group_facts`
 * `execute_lambda`
@@ -121,6 +147,7 @@ TODO: add many more to the above list!
 * `iam_role`
 * `iam_role_facts`
 * `iam_server_certificate_facts`
+* `iam_user`
 * `kinesis_stream`
 * `lambda`
 * `lambda_alias`
@@ -132,6 +159,7 @@ TODO: add many more to the above list!
 * `redshift_facts`
 * `s3_sync`
 * `s3_website`
+* `sts_assume_role`
 * `sts_session_token`
 
 ## boto3 *and* boto
@@ -143,7 +171,6 @@ TODO: add many more to the above list!
 
 * `_ec2_ami_find`
 * `_ec2_remote_facts`
-* `_ec2_vpc`
 * `_ec2_vpc_dhcp_options`
 * `ec2`
 * `ec2_eip`
@@ -159,12 +186,10 @@ TODO: add many more to the above list!
 * `ec2_vol_facts`
 * `ec2_vpc_dhcp_option`
 * `ec2_vpc_igw`
-* `ec2_vpc_route_table`
 * `ec2_vpc_route_table_facts`
 * `ec2_win_password`
 * `elasticache_subnet_group`
 * `elb_classic_lb`
-* `elb_classic_lb_facts`
 * `elb_instance`
 * `iam`
 * `iam_cert`
@@ -182,7 +207,6 @@ TODO: add many more to the above list!
 * `sns`
 * `sns_topic`
 * `sqs_queue`
-* `sts_assume_role`
 
 ### Neither boto nor boto3
 
