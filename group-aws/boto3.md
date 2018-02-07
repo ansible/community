@@ -35,6 +35,15 @@ TODO: add many more to the above list!
 
 # State of the codebase (As at 2018-02-07)
 
+## Summary
+
+|Description            |Count|
+|-----------------------|-----|
+|boto3 only modules     |  115|
+|boto3 *and* boto2      |    2|
+|boto2 only modules     |   38|
+|neither boto3 nor boto2|    4|
+
 ## boto3 only
 
 * `_ec2_vpc_dhcp_options_facts`
