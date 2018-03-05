@@ -33,13 +33,13 @@ enforce that new features must have tests.
 
 TODO: add many more to the above list!
 
-# State of the codebase (As at 2018-02-07)
+# State of the codebase (As at 2018-03-05)
 
 ## Summary
 
 |Description            |Count|
 |-----------------------|-----|
-|boto3 only modules     |  115|
+|boto3 only modules     |  121|
 |boto3 *and* boto2      |    2|
 |boto2 only modules     |   38|
 |neither boto3 nor boto2|    4|
@@ -56,6 +56,7 @@ TODO: add many more to the above list!
 * `aws_batch_compute_environment`
 * `aws_batch_job_definition`
 * `aws_batch_job_queue`
+* `aws_caller_facts`
 * `aws_direct_connect_connection`
 * `aws_direct_connect_gateway`
 * `aws_direct_connect_link_aggregation_group`
@@ -72,6 +73,7 @@ TODO: add many more to the above list!
 * `aws_waf_condition`
 * `aws_waf_facts`
 * `aws_waf_rule`
+* `aws_waf_web_acl`
 * `cloudformation`
 * `cloudformation_facts`
 * `cloudfront_distribution`
@@ -80,6 +82,8 @@ TODO: add many more to the above list!
 * `cloudfront_origin_access_identity`
 * `cloudtrail`
 * `cloudwatchevent_rule`
+* `cloudwatchlogs_log_group`
+* `cloudwatchlogs_log_group_facts`
 * `data_pipeline`
 * `dynamodb_ttl`
 * `ec2_ami`
@@ -93,6 +97,7 @@ TODO: add many more to the above list!
 * `ec2_eni_facts`
 * `ec2_group`
 * `ec2_group_facts`
+* `ec2_instance`
 * `ec2_instance_facts`
 * `ec2_key`
 * `ec2_lc`
@@ -138,6 +143,7 @@ TODO: add many more to the above list!
 * `elb_application_lb`
 * `elb_application_lb_facts`
 * `elb_classic_lb_facts`
+* `elb_target`
 * `elb_target_group`
 * `elb_target_group_facts`
 * `execute_lambda`
@@ -211,9 +217,9 @@ TODO: add many more to the above list!
 ### Neither boto nor boto3
 
 * `__init__`
-* `_ec2_ami_find`
 * `_ec2_ami_search`
 * `_ec2_facts`
+* `_ec2_vpc`
 * `ec2_metadata_facts`
 
 ## Commands for the above list
