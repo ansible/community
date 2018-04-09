@@ -33,15 +33,15 @@ enforce that new features must have tests.
 
 TODO: add many more to the above list!
 
-# State of the codebase (As at 2018-03-05)
+# State of the codebase (As at 2018-04-10)
 
 ## Summary
 
 |Description            |Count|
 |-----------------------|-----|
-|boto3 only modules     |  121|
-|boto3 *and* boto2      |    2|
-|boto2 only modules     |   38|
+|boto3 only modules     |  123|
+|boto3 *and* boto2      |    3|
+|boto2 only modules     |   36|
 |neither boto3 nor boto2|    4|
 
 ## boto3 only
@@ -69,6 +69,7 @@ TODO: add many more to the above list!
 * `aws_s3_bucket_facts`
 * `aws_s3_cors`
 * `aws_ses_identity`
+* `aws_ses_identity_policy`
 * `aws_ssm_parameter_store`
 * `aws_waf_condition`
 * `aws_waf_facts`
@@ -163,15 +164,20 @@ TODO: add many more to the above list!
 * `lightsail`
 * `rds_param_group`
 * `redshift_facts`
+* `route53_zone`
 * `s3_sync`
 * `s3_website`
 * `sts_assume_role`
 * `sts_session_token`
 
+
 ## boto3 *and* boto
+
+`s3_bucket` is a false positive here. It's completely boto3 but an error message contains the string `boto.`.
 
 * `dynamodb_table`
 * `route53_facts`
+* `s3_bucket`
 
 ## boto only
 
@@ -206,8 +212,6 @@ TODO: add many more to the above list!
 * `redshift_subnet_group`
 * `route53`
 * `route53_health_check`
-* `route53_zone`
-* `s3_bucket`
 * `s3_lifecycle`
 * `s3_logging`
 * `sns`
