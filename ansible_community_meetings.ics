@@ -1,84 +1,125 @@
 BEGIN:VCALENDAR
-PRODID:-//Google Inc//Google Calendar 70.9054//EN
 VERSION:2.0
-CALSCALE:GREGORIAN
-METHOD:PUBLISH
-X-WR-CALNAME:Ansible Community Meetings
-X-WR-TIMEZONE:Etc/GMT
-X-WR-CALDESC:https://github.com/ansible/community/blob/master/meetings
+PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
-DTSTART:20160105T190000Z
-DTEND:20160105T200000Z
-RRULE:FREQ=WEEKLY;BYDAY=TU
-DTSTAMP:20161111T195258Z
-UID:l141dmonvt5u3kv8r7pjd2hbb8@google.com
-CREATED:20161111T010837Z
-DESCRIPTION:https://github.com/ansible/community/blob/master/meetings
-LAST-MODIFIED:20161111T011223Z
-LOCATION:#ansible-meeting on freenode.net
-SEQUENCE:3
-STATUS:CONFIRMED
-SUMMARY:Core Team Meeting
-TRANSP:OPAQUE
+SUMMARY:Azure working group
+DTSTART;VALUE=DATE-TIME:20180412T000000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Azure working group\nChair:  Matt Davis (nitzmahone)
+ \, Kylie Liang (kyliel)\nDescription:  \nWe discuss everything related to 
+ Azure every week on Wednesday.\n\nIf you have something to discuss (e.g. a
+  PR that needs help)\, add your\nrequest to the meeting agenda and join th
+ e IRC channel.\n\nAgenda URL:  https://github.com/ansible/community/issues
+ ?q=is:open+label:meeting_agenda+label:azure\nProject URL:  https://github.
+ com/ansible/community/wiki/azure
+LOCATION:#ansible-azure
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20160106T160000Z
-DTEND:20160106T170000Z
-RRULE:FREQ=WEEKLY;BYDAY=WE
-DTSTAMP:20161111T195258Z
-UID:92hf9ocfdssvt8n9qm19sfdv20@google.com
-CREATED:20161111T011112Z
-DESCRIPTION:https://github.com/ansible/community/blob/master/meetings
-LAST-MODIFIED:20161111T011312Z
-LOCATION:#ansible-meeting on freenode.net
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Network Working Group
-TRANSP:OPAQUE
+SUMMARY:Community working group
+DTSTART;VALUE=DATE-TIME:20180411T170000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Community working group\nChair:  Greg DeKoenigsberg 
+ (gregdk)\nDescription:  \nDiscuss everything related to making the Ansible
+  community work better.\n\nAgenda URL:  https://github.com/ansible/communi
+ ty/issues?q=is:open+label:meeting_agenda+label:community\nProject URL:  ht
+ tps://github.com/ansible/community/wiki/Community
+LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20160107T150000Z
-DTEND:20160107T160000Z
-RRULE:FREQ=WEEKLY;BYDAY=TH
-DTSTAMP:20161111T195258Z
-UID:rln8t113cuvgmvit1rstn1nm88@google.com
-CREATED:20161111T012043Z
-DESCRIPTION:https://github.com/ansible/community/blob/master/meetings
-LAST-MODIFIED:20161111T012103Z
-LOCATION:#ansible-meeting on freenode.net
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Core Team Meeting
-TRANSP:OPAQUE
+SUMMARY:Core Team meeting
+DTSTART;VALUE=DATE-TIME:20180417T190000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
+ escription:  \nA place to get input from the Ansible Core Team issues\, PR
+ s and proposals\nthat people who are willing to come to the meeting want t
+ o present.\n- Old PRs that need attention from us (as opposed to from the 
+ submitter)\n- Selected proposals from the ansible/proposals repo\n- Review
+  of actions from previous meeting\n- Open discussion driven by the group\n
+ \nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+label
+ :meeting_agenda+label:core\nProject URL:  https://github.com/ansible/commu
+ nity/wiki
+LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20160107T170000Z
-DTEND:20160107T180000Z
-RRULE:FREQ=WEEKLY;BYDAY=TH
-DTSTAMP:20161111T195258Z
-UID:s87in1qpbl2ohn826j02qaq8jo@google.com
-CREATED:20161111T012203Z
-DESCRIPTION:https://github.com/ansible/community/blob/master/meetings
-LAST-MODIFIED:20161111T012225Z
-LOCATION:#ansible-meeting on freenode.net
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Testing Working Group
-TRANSP:OPAQUE
+SUMMARY:Core Team meeting
+DTSTART;VALUE=DATE-TIME:20180412T150000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
+ escription:  \nA place to get input from the Ansible Core Team issues\, PR
+ s and proposals\nthat people who are willing to come to the meeting want t
+ o present.\n- Old PRs that need attention from us (as opposed to from the 
+ submitter)\n- Selected proposals from the ansible/proposals repo\n- Review
+  of actions from previous meeting\n- Open discussion driven by the group\n
+ \nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+label
+ :meeting_agenda+label:core\nProject URL:  https://github.com/ansible/commu
+ nity/wiki
+LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
-DTSTART:20170627T200000Z
-DTEND:20170627T210000Z
-RRULE:FREQ=WEEKLY;BYDAY=TU
-DTSTAMP:20170624T171440Z
-UID:d93qamnsqah192okruvvafqi2g@google.com
-CREATED:20170621T154053Z
-DESCRIPTION:https://github.com/ansible/community/blob/master/meetings
-LAST-MODIFIED:20170621T141947Z
-LOCATION:#ansible-windows on freenode.net
-SEQUENCE:1
-STATUS:CONFIRMED
-SUMMARY:Windows Working Group
-TRANSP:OPAQUE
+SUMMARY:Network working group
+DTSTART;VALUE=DATE-TIME:20180411T160000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Network working group\nChair:  Peter Sprygada (priva
+ teip)\nDescription:  \nDiscuss everything network.\n\nAgenda URL:  https:/
+ /github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:
+ network\nProject URL:  https://github.com/ansible/community/wiki/Network
+LOCATION:#ansible-network
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:News working group
+DTSTART;VALUE=DATE-TIME:20180412T180000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  News working group\nChair:  Greg Dekoenigsberg (greg
+ dk)\nDescription:  \nDiscuss everything related to news relevant to the An
+ sible Community.\n\nAgenda URL:  https://github.com/ansible/community/issu
+ es?q=is:open+label:meeting_agenda+label:news\nProject URL:  https://github
+ .com/ansible/community/wiki/News
+LOCATION:#ansible-meeting
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Testing working group
+DTSTART;VALUE=DATE-TIME:20180412T170000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Testing working group\nChair:  John Barker (gundalow
+ )\nDescription:  \nDiscuss everything related to automated testing.\n\nAge
+ nda URL:  https://github.com/ansible/community/issues?q=is:open+label:meet
+ ing_agenda+label:testing\nProject URL:  https://github.com/ansible/communi
+ ty/wiki/Testing
+LOCATION:#ansible-meeting
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:VMware working group
+DTSTART;VALUE=DATE-TIME:20180416T160000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  VMware working group\nChair:  Abhijeet Kasurde (akas
+ urde)\, James Tanner (jctanner)\nDescription:  \nWe discuss everything VMw
+ are every week on Monday.\n\nIf you have something to discuss (e.g. a PR t
+ hat needs help)\, add your\nrequest to the meeting agenda and join the IRC
+  channel.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=is
+ :open+label:meeting_agenda+label:vmware\nProject URL:  https://github.com/
+ ansible/community/wiki/VMware
+LOCATION:#ansible-vmware
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Windows working group
+DTSTART;VALUE=DATE-TIME:20180417T200000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Windows working group\nChair:  Matt Davis (nitzmahon
+ e)\, Jordan Borean (jborean93)\nDescription:  \nWe discuss everything Wind
+ ows every week on Tuesday.\n\nIf you have something to discuss (e.g. a PR 
+ that needs help)\, add your\nrequest to the meeting agenda and join the IR
+ C channel.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=i
+ s:open+label:meeting_agenda+label:windows\nProject URL:  https://github.co
+ m/ansible/community/wiki/Windows
+LOCATION:#ansible-windows
 END:VEVENT
 END:VCALENDAR
