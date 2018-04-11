@@ -1,0 +1,2 @@
+# ICS files must use CRLF: https://tools.ietf.org/html/rfc5545
+*.ics text eol=crlf
