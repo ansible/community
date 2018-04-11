@@ -41,11 +41,11 @@ You can add this full list of meetings to your personal calendar by downloading 
   **[Community Working Group](https://github.com/ansible/community/tree/master/group-community)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/community.ics))
 
-* [00:00 UTC](http://www.thetimezoneconverter.com/?t=00:00&tz=UTC):
-  **[Community Working Group](https://github.com/ansible/community/tree/master/group-community)**
-  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/community.ics))
-
 ## Thursdays
+
+* [00:00 UTC](http://www.thetimezoneconverter.com/?t=00:00&tz=UTC):
+  **[Azure Working Group](https://github.com/ansible/community/tree/master/group-azure)**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/azure.ics))
 
 * [15:00 UTC](http://www.thetimezoneconverter.com/?t=15:00&tz=UTC): **Core Team Meeting**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/core-team.ics))
