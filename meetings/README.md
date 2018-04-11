@@ -22,10 +22,6 @@ You can add this full list of meetings to your personal calendar by downloading 
   **[VMware Working Group](https://github.com/ansible/community/tree/master/group-vmware)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/vmware.ics))
 
-* [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC):
-  **[Container Working Group](https://github.com/ansible/community/tree/master/group-container)**
-  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/container.ics))
-
 ## Tuesdays
 
 * [19:00 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC): **Core Team Meeting**
@@ -69,7 +65,6 @@ For the following groups see the
 [Agenda tickets](https://github.com/ansible/community/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen++label%3Ameeting_agenda+)
   * Core Team Meeting
   * [Community Working Group](https://github.com/ansible/community/tree/master/group-community)
-  * [Container Working Group](https://github.com/ansible/community/tree/master/group-container)
   * [Network Working Group](https://github.com/ansible/community/tree/master/group-network)
   * [Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)
   * [Windows Working Group](https://github.com/ansible/community/tree/master/group-windows)
