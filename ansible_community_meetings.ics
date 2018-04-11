@@ -16,18 +16,6 @@ DESCRIPTION:Project:  Azure working group\nChair:  Matt Davis (nitzmahone)
 LOCATION:#ansible-azure
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Community working group
-DTSTART;VALUE=DATE-TIME:20180411T170000Z
-DURATION:PT1H
-RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  Community working group\nChair:  Greg DeKoenigsberg 
- (gregdk)\nDescription:  \nDiscuss everything related to making the Ansible
-  community work better.\n\nAgenda URL:  https://github.com/ansible/communi
- ty/issues?q=is:open+label:meeting_agenda+label:community\nProject URL:  ht
- tps://github.com/ansible/community/wiki/Community
-LOCATION:#ansible-meeting
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Core Team meeting
 DTSTART;VALUE=DATE-TIME:20180417T190000Z
 DURATION:PT1H
@@ -69,18 +57,6 @@ DESCRIPTION:Project:  Network working group\nChair:  Peter Sprygada (priva
  /github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:
  network\nProject URL:  https://github.com/ansible/community/wiki/Network
 LOCATION:#ansible-network
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:News working group
-DTSTART;VALUE=DATE-TIME:20180412T180000Z
-DURATION:PT1H
-RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  News working group\nChair:  Greg Dekoenigsberg (greg
- dk)\nDescription:  \nDiscuss everything related to news relevant to the An
- sible Community.\n\nAgenda URL:  https://github.com/ansible/community/issu
- es?q=is:open+label:meeting_agenda+label:news\nProject URL:  https://github
- .com/ansible/community/wiki/News
-LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Testing working group
