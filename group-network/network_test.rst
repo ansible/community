@@ -118,7 +118,7 @@ For platforms that support ``connection: local`` *and* ``connection: network_cli
 Become (CLI only)
 -----------------
 
-Certain CLI platforms support support ``enable`` mode .
+Certain CLI platforms support ``enable`` mode .
 
 The user facing documentation for this feature can be found at http://docs.ansible.com/ansible/devel/become.html#become-and-networks
 
