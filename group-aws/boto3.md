@@ -26,21 +26,19 @@ enforce that new features must have tests.
 | ec2_metric_alarm     | [23407](https://github.com/ansible/ansible/pull/23407) |
 | ec2_scaling_policy   | [26476](https://github.com/ansible/ansible/pull/26476) |
 | elb_classic_lb_facts | [27435](https://github.com/ansible/ansible/pull/27435) |
-| rds_instance_facts   | [26598](https://github.com/ansible/ansible/pull/26598) |
-| rds_snapshot_facts   | [26599](https://github.com/ansible/ansible/pull/26599) |
 | rds_instance         | [26598](https://github.com/ansible/ansible/pull/26602) |
-| rds_snapshot         | [26598](https://github.com/ansible/ansible/pull/26604) |
+| rds_snapshot         | [39994](https://github.com/ansible/ansible/pull/39994) |
 
 TODO: add many more to the above list!
 
-# State of the codebase (As at 2018-04-10)
+# State of the codebase (As at 2018-05-17)
 
 ## Summary
 
 |Description            |Count|
 |-----------------------|-----|
-|boto3 only modules     |  123|
-|boto3 *and* boto2      |    3|
+|boto3 only modules     |  128|
+|boto3 *and* boto2      |    4|
 |boto2 only modules     |   36|
 |neither boto3 nor boto2|    4|
 
@@ -62,6 +60,7 @@ TODO: add many more to the above list!
 * `aws_direct_connect_link_aggregation_group`
 * `aws_direct_connect_virtual_interface`
 * `aws_elasticbeanstalk_app`
+* `aws_inspector_target`
 * `aws_kms`
 * `aws_kms_facts`
 * `aws_region_facts`
@@ -95,6 +94,7 @@ TODO: add many more to the above list!
 * `ec2_asg_lifecycle_hook`
 * `ec2_customer_gateway`
 * `ec2_customer_gateway_facts`
+* `ec2_eip_facts`
 * `ec2_eni_facts`
 * `ec2_group`
 * `ec2_group_facts`
@@ -127,6 +127,7 @@ TODO: add many more to the above list!
 * `ec2_vpc_vgw`
 * `ec2_vpc_vgw_facts`
 * `ec2_vpc_vpn`
+* `ec2_vpc_vpn_facts`
 * `ecs_attribute`
 * `ecs_cluster`
 * `ecs_ecr`
@@ -162,7 +163,9 @@ TODO: add many more to the above list!
 * `lambda_facts`
 * `lambda_policy`
 * `lightsail`
+* `rds_instance_facts`
 * `rds_param_group`
+* `rds_snapshot_facts`
 * `redshift_facts`
 * `route53_zone`
 * `s3_sync`
@@ -173,8 +176,9 @@ TODO: add many more to the above list!
 
 ## boto3 *and* boto
 
-`s3_bucket` is a false positive here. It's completely boto3 but an error message contains the string `boto.`.
+`aws_sgw_facts` and `s3_bucket` are false positives here. They are completely boto3 but an error message contains the string `boto.`.
 
+* `aws_sgw_facts`
 * `dynamodb_table`
 * `route53_facts`
 * `s3_bucket`
