@@ -15,12 +15,14 @@ San Francisco, September 6 and September 8 2017
 * Each meeting has its own etherpad; for breakout (multi-track) parts of day, each etherpad indicates individual IRC channels and bluejeans sessions.
 * BUCKET LIST: Things we didn't get to, things we wished we had more time for, things that came up that we didn't realize were things to talk about it until then? BUCKET LIST. Bottom of this etherpad. (Or the individual etherpads.)
 
-ABOUT THE SCHEDULE AND PESKY TIME ZONES
+### ABOUT THE SCHEDULE AND PESKY TIME ZONES
+
 * Note: All times listed are in US Pacific Daylight Time Zone (UTC-7).
 * To convert to your time zone, use
 * http://www.timeanddate.com/worldclock/converter.html
 
 ## GENERAL SCHEDULE, DAY 1 (September 6th, the day before AnsibleFest):
+
 IRC & Bluejeans links for afternoon sessions on Sept. 6 and for sessions on Sept. 8 are listed on etherpads
 Day: 9:00am-5:00pm, lunch 12-1;
 

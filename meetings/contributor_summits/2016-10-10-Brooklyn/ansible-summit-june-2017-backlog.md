@@ -52,10 +52,10 @@ Subtopics from original planning etherpad (https://public.etherpad-mozilla.org/p
   * issue -> assignee/right flag/maintainer response
   * issue -> PR
   * PR -> merge
-* # open issues/PRs per module -> evaluate maintainership (add more?)
-* # open issues/PRs per category (e.g. Windows, cloud/vmware, network/nxos, ...)
-* # of interactions per issue
-* # time between interactions (sometimes maintainer lags, sometimes author)
+* Number of open issues/PRs per module -> evaluate maintainership (add more?)
+* Number of open issues/PRs per category (e.g. Windows, cloud/vmware, network/nxos, ...)
+* Number of interactions per issue
+* Amount of time between interactions (sometimes maintainer lags, sometimes author)
 
 ## IN-ROOM DISCUSSION
 

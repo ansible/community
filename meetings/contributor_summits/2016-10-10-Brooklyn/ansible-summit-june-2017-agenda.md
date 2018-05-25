@@ -4,44 +4,51 @@ FULL DAY AGENDA AND INFORMATION
 London, Wednesday 21 June 2017
 
 
-Notes on organization / agenda planning:
-Original planning etherpad: https://public.etherpad-mozilla.org/p/ansible-summit-june-2017
-Each meeting has its own etherpad; for breakout (multi-track) parts of day, each etherpad indicates individual IRC channels and bluejeans sessions.
-BUCKET LIST: Things we didn't get to, things we wished we had more time for, things that came up that we didn't realize were things to talk about it until then? BUCKET LIST. Bottom of this etherpad. (Or the individual etherpads.)
+## Notes on organization / agenda planning
+
+* Original planning etherpad: https://public.etherpad-mozilla.org/p/ansible-summit-june-2017
+* Each meeting has its own etherpad; for breakout (multi-track) parts of day, each etherpad indicates individual IRC channels and bluejeans sessions.
+* BUCKET LIST: Things we didn't get to, things we wished we had more time for, things that came up that we didn't realize were things to talk about it until then? BUCKET LIST. Bottom of this etherpad. (Or the individual etherpads.)
 
 
-ABOUT THE SCHEDULE AND PESKY TIME ZONES:
-Note: All times listed are in BST (UTC+1). Because we are in London, this time.
-To convert to your time zone, use
-http://www.timeanddate.com/worldclock/converter.html
-Or, to determine when the day begins in your area more easily: https://www.timeanddate.com/worldclock/fixedtime.html?msg=AnsibleFest+Contributor+Summit&iso=20170621T09&p1=136&ah=7 (SOMEONE TEST THIS PLZ: Seems to work)
+## ABOUT THE SCHEDULE AND PESKY TIME ZONES
 
-GENERAL SCHEDULE:
-Morning: Main track. 9:00am - 12:00pm
-9:00am - 9:30am-ish: Breakfast / General Discussion / Intro
-9:30am - 10:30am: Core Update
-10:30am -11:00am:  Contributor Involvement
-11:00am - 12:00pm: PR and Issue Backlog + Metrics
+* Note: All times listed are in BST (UTC+1). Because we are in London, this time.
+* To convert to your time zone, use
+* http://www.timeanddate.com/worldclock/converter.html
+* Or, to determine when the day begins in your area more easily: https://www.timeanddate.com/worldclock/fixedtime.html?msg=AnsibleFest+Contributor+Summit&iso=20170621T09&p1=136&ah=7 (SOMEONE TEST THIS PLZ: Seems to work)
+
+## GENERAL SCHEDULE:
+
+### Morning: Main track. 9:00am - 12:00pm
+
+* 9:00am - 9:30am-ish: Breakfast / General Discussion / Intro
+* 9:30am - 10:30am: Core Update
+* 10:30am -11:00am:  Contributor Involvement
+* 11:00am - 12:00pm: PR and Issue Backlog + Metrics
 
 Lunch: Noon - 1pm, follow the leader to the food
 
-Afternoon: Main track: 1:00pm - 2:30pm: Testing.
+### Afternoon: Main track: 1:00pm - 2:30pm: Testing.
 
 Afternoon Snack time and health break: 2:30pm - 2:45pm.
 For the health and safety of those around you.
 
-Afternoon Breakout Tracks: 2:45pm - 3:45pm.
-Track 1: Windows Working Group
-Track 2:  Zuul deep dive & how to fix some of the hacks
-Track 3: Ansible + Containers
+### Afternoon Breakout Tracks: 2:45pm - 3:45pm.
 
-Contributor Summit Wrap-up: 3:45pm - 4:00pm.
+* Track 1: Windows Working Group
+* Track 2:  Zuul deep dive & how to fix some of the hacks
+* Track 3: Ansible + Containers
+
+* Contributor Summit Wrap-up: 3:45pm - 4:00pm.
 
 
-EXPANDED DETAILED SCHEDULE:
+### EXPANDED DETAILED SCHEDULE
+
 Note: Each track has its own etherpad; all the magical suggestions were condensed / aggregated into those etherpads. Super-high-level topics are provided here, along with links to etherpads, containing video, irc, etc. information.
 
-## THINGS TO NOTE AT BEGINNING OF DAY:
+## THINGS TO NOTE AT BEGINNING OF DAY
+
 * Deets about lunch & cocktails (the cocktails are not at lunchtime. to be clear.). and swag
 * Remind ppl about Microphone stuff, IRC stuff, if you also want to be on bluejeans mute yourself because microphones (assuming they set them up that way), any other logistics?
 * Ensure we have Laptops + Moderator codes for each room
@@ -156,8 +163,7 @@ Containerized, err, ahem, condensed container topics: Ansible-container, Ansible
 https://www.ihasabucket.com/images/walrus_bucket.jpg
 (aka: Things from the original list that didn't seem to have a place to live by the end of trying to square away the agenda in combo with known attendees)
 
-Maybe
-Big Proposal review (List and get votes on list of proposals)
+* Big Proposal review (List and get votes on list of proposals)
 
 ## Not doing
 
