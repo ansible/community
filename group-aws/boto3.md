@@ -31,15 +31,15 @@ enforce that new features must have tests.
 
 TODO: add many more to the above list!
 
-# State of the codebase (As at 2018-05-17)
+# State of the codebase (As at 2018-06-22)
 
 ## Summary
 
 |Description            |Count|
 |-----------------------|-----|
-|boto3 only modules     |  128|
+|boto3 only modules     |  138|
 |boto3 *and* boto2      |    4|
-|boto2 only modules     |   36|
+|boto2 only modules     |   35|
 |neither boto3 nor boto2|    4|
 
 ## boto3 only
@@ -55,11 +55,19 @@ TODO: add many more to the above list!
 * `aws_batch_job_definition`
 * `aws_batch_job_queue`
 * `aws_caller_facts`
+* `aws_config_aggregation_authorization`
+* `aws_config_aggregator`
+* `aws_config_delivery_channel`
+* `aws_config_recorder`
+* `aws_config_rule`
 * `aws_direct_connect_connection`
 * `aws_direct_connect_gateway`
 * `aws_direct_connect_link_aggregation_group`
 * `aws_direct_connect_virtual_interface`
+* `aws_eks_cluster`
 * `aws_elasticbeanstalk_app`
+* `aws_glue_connection`
+* `aws_glue_job`
 * `aws_inspector_target`
 * `aws_kms`
 * `aws_kms_facts`
@@ -145,6 +153,7 @@ TODO: add many more to the above list!
 * `elb_application_lb`
 * `elb_application_lb_facts`
 * `elb_classic_lb_facts`
+* `elb_network_lb`
 * `elb_target`
 * `elb_target_group`
 * `elb_target_group_facts`
@@ -168,6 +177,7 @@ TODO: add many more to the above list!
 * `rds_snapshot_facts`
 * `redshift_facts`
 * `route53_zone`
+* `s3_lifecycle`
 * `s3_sync`
 * `s3_website`
 * `sts_assume_role`
@@ -216,7 +226,6 @@ TODO: add many more to the above list!
 * `redshift_subnet_group`
 * `route53`
 * `route53_health_check`
-* `s3_lifecycle`
 * `s3_logging`
 * `sns`
 * `sns_topic`
@@ -235,7 +244,7 @@ TODO: add many more to the above list!
 ### boto3 only
 
 ```
-for f in `grep -lE 'import boto3|import botocore|from botocore' *.py`; do
+for f in `grep -lE 'import boto3|import botocore|from botocore|AnsibleAWSModule' *.py`; do
   grep -Eq 'import boto[^3c_]|import boto$|from boto[ .]' $f || echo $f
 done | sed 's/\(.*\)\.py$/* `\1`/'
 ```
@@ -256,5 +265,5 @@ done | sed 's/\(.*\)\.py$/* `\1`/'
 ### Neither boto nor boto3
 
 ```
-for f in *.py; do grep -qE 'ec2_connect|import boto|from botocore' $f || echo $f ; done | sed 's/\(.*\)\.py$/* `\1`/'
+for f in *.py; do grep -qE 'ec2_connect|import boto|from botocore|AnsibleAWSModule' $f || echo $f ; done | sed 's/\(.*\)\.py$/* `\1`/'
 ```
