@@ -82,7 +82,7 @@ All *meeting* logs from #ansible-meeting can be seen [here](https://meetbot.fedo
 
 ## Other Meetings
 ### 2018-10-??: Ansible Contributor Summit 6 (Part of AnsibleFest 2018 Austin, Texas)
- * [pre-planning](https://softwarefactory-project.io/etherpad/p/ansible-summit-october-2018)
+ * [pre-planning](https://etherpad.openstack.org/p/ansible-summit-october-2018)
 
 
 ## Other Meetings
