@@ -7,7 +7,9 @@ Network Roles Development Process
 Overview
 ========
 
+This document is intended to outline the development process for Ansible Network Roles.
 
+If you are an end user and wish to 
 
 
 
@@ -35,6 +37,13 @@ Aim: Ensure that all Network Application Roles are tested against `devel` and th
 * https://github.com/ansible-network/network-engine/blob/devel/.zuul.yaml
 * Do a `recheck` on all open PRs
 
+Release Procedure
+-----------------
+
+To version the roles in Galaxy we use Git Tags
+
+FIXME Move details here from gdoc
+
 Process for Ansible major version update
 ----------------------------------------
 
@@ -42,7 +51,12 @@ When the next major version of Ansible is released the following process needs t
 
 Using the release of Ansible 2.6.0 as an example:
 
-* Ensure the current `network-engine` integration tests pass when run against Ansible 2.6.0
-
-
-* network-engine's devel branch 
+* Ensure the current `network-engine` integration tests pass when run against Ansible 2.6.0 - If not fix in `devel` (remembering to update changelog)
+* Branch `stable-2.5` from `devel` - We don't expect this branch to change unless critial bugs are found.
+* network-engine's `devel` branch is now 
+* Create ``changelog/fragments/v260-initial.yml`` with `major_changes` entry
+* ``git add changelog/fragments/v260-initial.yml && git commit changelog/fragments/v260-initial.yml``
+* ``meta/main.yml`` update to be ``min_ansible_version: 2.6``
+* Ensure local changes are committed
+* ``git tag -a v2.6.0``
+* Follow Role release procedure
