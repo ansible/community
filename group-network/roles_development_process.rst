@@ -33,6 +33,9 @@ Process when Ansible branches stable-x.y
 
 Aim: Ensure that all Network Application Roles are tested against `devel` and the next `stable-x.y` branch
 
+* Add tests for py2 and py3 to https://github.com/ansible-network/ansible-zuul-jobs/blob/master/zuul.d/jobs.yaml
+* Update https://github.com/ansible-network/network-engine/blob/devel/.zuul.yaml so the new version of Ansible is tested on the `devel` branch of the role
+
 * Add new `ansible-role-tests-2.6-py2` test to https://github.com/ansible-network/ansible-zuul-jobs/blob/master/zuul.d/jobs.yaml
 * https://github.com/ansible-network/network-engine/blob/devel/.zuul.yaml
 * Do a `recheck` on all open PRs
@@ -53,7 +56,9 @@ Using the release of Ansible 2.6.0 as an example:
 
 * Ensure the current `network-engine` integration tests pass when run against Ansible 2.6.0 - If not fix in `devel` (remembering to update changelog)
 * Branch `stable-2.5` from `devel` - We don't expect this branch to change unless critial bugs are found.
-* network-engine's `devel` branch is now 
+* Ensure branch is protected in GitHub (this allows Zuul to run)
+* If required, restrict who can commit
+* network-engine's `devel` branch is now for the current stable Ansible release. 
 * Create ``changelog/fragments/v260-initial.yml`` with `major_changes` entry
 * ``git add changelog/fragments/v260-initial.yml && git commit changelog/fragments/v260-initial.yml``
 * ``meta/main.yml`` update to be ``min_ansible_version: 2.6``
