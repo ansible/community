@@ -25,21 +25,20 @@ enforce that new features must have tests.
 |----------------------|--------------------------------------------------------|
 | ec2_metric_alarm     | [23407](https://github.com/ansible/ansible/pull/23407) |
 | ec2_scaling_policy   | [26476](https://github.com/ansible/ansible/pull/26476) |
-| elb_classic_lb_facts | [27435](https://github.com/ansible/ansible/pull/27435) |
 | rds_instance         | [26598](https://github.com/ansible/ansible/pull/26602) |
 | rds_snapshot         | [39994](https://github.com/ansible/ansible/pull/39994) |
 
 TODO: add many more to the above list!
 
-# State of the codebase (As at 2018-06-22)
+# State of the codebase (As at 2018-08-02)
 
 ## Summary
 
 |Description            |Count|
 |-----------------------|-----|
-|boto3 only modules     |  138|
+|boto3 only modules     |  139|
 |boto3 *and* boto2      |    4|
-|boto2 only modules     |   35|
+|boto2 only modules     |   34|
 |neither boto3 nor boto2|    4|
 
 ## boto3 only
@@ -116,6 +115,7 @@ TODO: add many more to the above list!
 * `ec2_placement_group_facts`
 * `ec2_snapshot_copy`
 * `ec2_snapshot_facts`
+* `ec2_tag`
 * `ec2_vpc_dhcp_option_facts`
 * `ec2_vpc_egress_igw`
 * `ec2_vpc_endpoint`
@@ -183,7 +183,6 @@ TODO: add many more to the above list!
 * `sts_assume_role`
 * `sts_session_token`
 
-
 ## boto3 *and* boto
 
 `aws_sgw_facts` and `s3_bucket` are false positives here. They are completely boto3 but an error message contains the string `boto.`.
@@ -207,7 +206,6 @@ TODO: add many more to the above list!
 * `ec2_metric_alarm`
 * `ec2_scaling_policy`
 * `ec2_snapshot`
-* `ec2_tag`
 * `ec2_vol`
 * `ec2_vol_facts`
 * `ec2_vpc_dhcp_option`

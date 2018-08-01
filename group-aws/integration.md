@@ -35,7 +35,7 @@ There are some PRs with tests:
 | rds                  | [25646](https://github.com/ansible/ansible/pull/25646) |
 | rds_param_group      | [25345](https://github.com/ansible/ansible/pull/25345) |
 
-# State of the codebase (at 2018/06/22)
+# State of the codebase (at 2018/08/02)
 
 Existing test suites:
 
@@ -60,6 +60,7 @@ Existing test suites:
 * `ec2_group`
 * `ec2_instance`
 * `ec2_key`
+* `ec2_tag`
 * `ec2_vpc_egress_igw`
 * `ec2_vpc_net`
 * `ec2_vpc_route_table`
