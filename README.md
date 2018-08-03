@@ -22,6 +22,7 @@ This repository serves as a space for the Ansible Community Working Group to man
   - [AWS Working Group](https://github.com/ansible/community/tree/master/group-aws)
   - [Azure Working Group](https://github.com/ansible/community/tree/master/group-azure)
   - [Community Working Group](https://github.com/ansible/community/tree/master/group-community)
+  - [Contributor Experience Group](https://github.com/ansible/community/tree/master/group-contributor-experience)
   - [Container Working Group](https://github.com/ansible/community/tree/master/group-container)
   - [Network Working Group](https://github.com/ansible/community/tree/master/group-network)
   - [Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)
@@ -37,7 +38,7 @@ Find us on Freenode:
 * IRC: #ansible-meeting - Ansible community meeting channel. [Meeting Schedule and logs](https://github.com/ansible/community/blob/master/meetings)
 * IRC: #ansible-aws - Channel for discussing AWS and Ansible related things
 * IRC: #ansible-azure - Channel for discussing Azure and Ansible related things
-* IRC: #ansible-community - Channel for discussing Ansible Community related things
+* IRC: #ansible-community - Channel for discussing Ansible Community & contributor experience related things
 * IRC: #ansible-container - Channel for discussing Containers and Ansible related things
 * IRC: #ansible-jboss - Channel for discussing JBoss and Ansible related things
 * IRC: #ansible-network - Channel for discussing Network and Ansible related things
