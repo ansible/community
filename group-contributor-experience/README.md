@@ -8,7 +8,7 @@ The Contributor Experience Group focuses on making contributors lifes easier.
 
 ## Collaboration
 
-* Most of the content here is on the [Outreach Wiki](https://github.com/ansible/community/wiki/Contributor Experience).
+* Most of the content here is on the [Outreach Wiki](https://github.com/ansible/community/wiki/Contributor%20Experience).
 * Mailing list: TBD
 * Issues: TBD
 * IRC: `#ansible-community`
