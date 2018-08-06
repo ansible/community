@@ -7,9 +7,9 @@ Network Roles Development Process
 Overview
 ========
 
-This document is intended to outline the development process for Ansible Network Roles.
+This document is intended to outline the *development process* for Ansible Network Roles.
 
-If you are an end user and wish to 
+If you are an end user and wish to use the roles, please see the module list on `Ansible Galaxy <https://galaxy.ansible.com/ansible-network/>`_.
 
 
 
@@ -18,7 +18,7 @@ Versioning
 
 Ansible Network Roles are designed and tested to follow the stable Ansible releases.
 
-They are not to be used with the `devel` version of Ansible/
+They are not to be used with the `devel` version of Ansible.
 
 Example 1
 ---------
@@ -47,6 +47,13 @@ To version the roles in Galaxy we use Git Tags
 
 FIXME Move details here from gdoc
 
+* Ensure your local branch has no local changes and uptodate with upstream
+* Ensure ``changelog/fragments/*.yml`` are up to date and contain details for new features
+* ``git tag -a v2.5.x`` tag (notice leading v)
+Reno uses git tags to work out the version, so we need to locally update the tag to allow the correct titles to be generated, we do not want to push this
+
+
+
 Process for Ansible major version update
 ----------------------------------------
 
@@ -54,7 +61,7 @@ When the next major version of Ansible is released the following process needs t
 
 Using the release of Ansible 2.6.0 as an example:
 
-* Ensure the current `network-engine` integration tests pass when run against Ansible 2.6.0 - If not fix in `devel` (remembering to update changelog)
+* Ensure the current `network-engine` integration tests pass when run against Ansible 2.6.0 - If not fix in `devel` (remembering to update changelog if there are bug fixes (rather than test fixes))
 * Branch `stable-2.5` from `devel` - We don't expect this branch to change unless critial bugs are found.
 * Ensure branch is protected in GitHub (this allows Zuul to run)
 * If required, restrict who can commit
@@ -65,3 +72,25 @@ Using the release of Ansible 2.6.0 as an example:
 * Ensure local changes are committed
 * ``git tag -a v2.6.0``
 * Follow Role release procedure
+
+
+New role
+--------
+
+To ensure consistency when creating a new role the following needs to be done:
+
+* GH Repo
+
+  * `Description` Should link to Galaxy
+  * `devel` should be the main branch
+  * Branch Protections ``https://github.com/ansible-network/{REPO}/settings/branches`` - Required for Zuul and general good practice (no force pushes or accidental deletion of branches)
+  
+    * Add New Rule
+
+      * Applies to: ``*``
+      * Include administrators: Checked
+    
+  * Copy ``changelogs/config.yaml`` from network-engine
+  * Create ``changelogs/fragments/v0-initial-release.yaml``, see network-engine for example
+  * Copy layout of ``README.md`` from `network-engine's README.md <https://github.com/ansible-network/network-engine/blob/devel/README.md>`_ (Links to Galaxy, how to install, etc)
+
