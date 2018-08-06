@@ -50,7 +50,36 @@ FIXME Move details here from gdoc
 * Ensure your local branch has no local changes and uptodate with upstream
 * Ensure ``changelog/fragments/*.yml`` are up to date and contain details for new features
 * ``git tag -a v2.5.x`` tag (notice leading v)
-Reno uses git tags to work out the version, so we need to locally update the tag to allow the correct titles to be generated, we do not want to push this
+
+  * Reno uses git tags to work out the version, so we need to locally update the tag to allow the correct titles to be generated, we do **not** want to push this
+
+* ``pip install reno`` (if not already installed)
+* ``reno -d changelogs/ report --title 'Ansible Network network-engine' --no-show-source --output CHANGELOG.rst`` (replace ``network-engine`` as needed)
+* ``git diff CHANGELOG.rst`` # If changed then we want to commit them
+
+  * Check content + version headers
+  * If the anchors are not generated update the version of reno you are using
+ 
+* git checkout -b changelogupdates-foo-bar
+* ``git commit CHANGELOG.rst``
+* ``git push origin changelogupdates-foo-bar``
+* Review PR, use GitHub's UI to ensure RST is rendered correctly
+* Merge PR
+* Tag
+
+  * Ensure on devel and synced
+  * ``git tag -a v2.5.x``
+  * ``git push --tags ansible``
+
+* `Galaxy upload <vhttps://galaxy.ansible.com/my-imports?namespace=ansible-network&selected=265187&page_size=10>`_
+
+  * Review errors
+
+* Check latest version is shown on `Galaxy list <https://galaxy.ansible.com/ansible-network>`_
+
+  * Ensure "Version History" is updated
+  * Ensure "README" has been updated"
+
 
 
 
@@ -93,4 +122,4 @@ To ensure consistency when creating a new role the following needs to be done:
   * Copy ``changelogs/config.yaml`` from network-engine
   * Create ``changelogs/fragments/v0-initial-release.yaml``, see network-engine for example
   * Copy layout of ``README.md`` from `network-engine's README.md <https://github.com/ansible-network/network-engine/blob/devel/README.md>`_ (Links to Galaxy, how to install, etc)
-
+* ``meta/main.yml`` update to be ``min_ansible_version: 2.6`` (Current major stable release of Ansible)
