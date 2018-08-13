@@ -19,9 +19,10 @@ The Community Working Group collaborates on the tickets and PRs in the Ansible C
 ## Leads
 * [Greg DeKoenigsberg](https://github.com/gregdek), gregdek
 * [Robyn Bergeron](https://github.com/robynbergeron), robynbergeron
+* [John Barker](https://github.com/gundalow), gundalow
 
 ## Active Members
-* [John Barker](https://github.com/gundalow), gundalow
+
 
 ## Contact
 * [#ansible-community IRC channel](https://webchat.freenode.net/?channels=ansible-community) on Freenode.net
