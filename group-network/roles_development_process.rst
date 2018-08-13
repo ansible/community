@@ -130,7 +130,11 @@ Adding & Enabling Zuul
 -----------------------
 
 
-* PR1: FIXME: Software Factory configuration
+* PR1: Add repo to  `resources/tenant-ansible.yaml < https://softwarefactory-project.io/r/#/c/13403/>`_
+
+   * `Software Factory Git Process <https://review.rdoproject.org/docs/user/short_git.html>`_
+   * Once PR is raised ask in `#softwarefactory` for review & merge
+
 * PR2: `.zuul.d` add `ansible-test-sanity` + fix any failing tests
 * PR3: Integration tests `ansible-role-tests*` + How that works
 
