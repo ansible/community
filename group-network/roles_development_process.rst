@@ -123,3 +123,15 @@ To ensure consistency when creating a new role the following needs to be done:
   * Create ``changelogs/fragments/v0-initial-release.yaml``, see network-engine for example
   * Copy layout of ``README.md`` from `network-engine's README.md <https://github.com/ansible-network/network-engine/blob/devel/README.md>`_ (Links to Galaxy, how to install, etc)
 * ``meta/main.yml`` update to be ``min_ansible_version: 2.6`` (Current major stable release of Ansible)
+
+
+
+Adding & Enabling Zuul
+-----------------------
+
+
+* PR1: FIXME: Software Factory configuration
+* PR2: `.zuul.d` add `ansible-test-sanity` + fix any failing tests
+* PR3: Integration tests `ansible-role-tests*` + How that works
+
+Troubleshooting: Check branch permissions, ask in `#softwarefactory`
