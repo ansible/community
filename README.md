@@ -24,6 +24,7 @@ This repository serves as a space for the Ansible Community Working Group to man
   - [Community Working Group](https://github.com/ansible/community/tree/master/group-community)
   - [Contributor Experience Group](https://github.com/ansible/community/tree/master/group-contributor-experience)
   - [Container Working Group](https://github.com/ansible/community/tree/master/group-container)
+  - [Galaxy Working Group](https://github.com/ansible/community/tree/master/group-galaxy)
   - [Network Working Group](https://github.com/ansible/community/tree/master/group-network)
   - [Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)
   - [VMware Working Group](https://github.com/ansible/community/tree/master/group-vmware)
@@ -40,6 +41,7 @@ Find us on Freenode:
 * IRC: #ansible-azure - Channel for discussing Azure and Ansible related things
 * IRC: #ansible-community - Channel for discussing Ansible Community & contributor experience related things
 * IRC: #ansible-container - Channel for discussing Containers and Ansible related things
+* IRC: #ansible-galaxy - Channel for discussing Ansible Galaxy related things
 * IRC: #ansible-jboss - Channel for discussing JBoss and Ansible related things
 * IRC: #ansible-network - Channel for discussing Network and Ansible related things
 * IRC: #ansible-news - Channel for discussing Ansible Communication & News related things
