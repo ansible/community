@@ -4,7 +4,7 @@ The Galaxy Ecosystem Working Group focuses on delivering software to enable and 
 
 This Working Group covers multiple projects related to this stated purpose.
 
-* [Galaxy](https://github.com/ansible/galaxy) - The code behind https:/galaxy.ansible.com/, a hub to make it easier to find and share Ansible content.
+* [Galaxy](https://github.com/ansible/galaxy) - The code behind galaxy.ansible.com, a hub to make it easier to find and share Ansible content.
 * [Mazer](https://github.com/ansible/mazer) - an experimental Ansible Galaxy content manager.
 
 ## Meetings
