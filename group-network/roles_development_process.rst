@@ -118,6 +118,13 @@ To ensure consistency when creating a new role the following needs to be done:
 
       * Applies to: ``*``
       * Include administrators: Checked
+      
+  * Allow `Allow merge commits` on ``https://github.com/ansible-network/{REPO}/settings/`` - Needed for Zuul Gate.
+  * Create new label ``https://github.com/ansible-network/{REPO}/labels``
+  
+    * Name: `mergeit`
+    * Description: `Zuul to merge when Green and +1`
+    * Color: `#0e8a16`
     
   * Copy ``changelogs/config.yaml`` from network-engine
   * Create ``changelogs/fragments/v0-initial-release.yaml``, see network-engine for example
@@ -129,13 +136,13 @@ To ensure consistency when creating a new role the following needs to be done:
 Adding & Enabling Zuul
 -----------------------
 
+* Ensure GitHub setup has been completed as detailed in "New role" above, without this Zuul will not process PRs
+* PR1: Add repo to  `resources/tenant-ansible.yaml <https://softwarefactory-project.io/r/#/c/13403/>`_
 
-* PR1: Add repo to  `resources/tenant-ansible.yaml < https://softwarefactory-project.io/r/#/c/13403/>`_
+  * Git work flow: `Software Factory Git Process <https://review.rdoproject.org/docs/user/short_git.html>`_
+  * Once PR is raised ask in `#softwarefactory` for review & merge
 
-   * `Software Factory Git Process <https://review.rdoproject.org/docs/user/short_git.html>`_
-   * Once PR is raised ask in `#softwarefactory` for review & merge
-
-* PR2: `.zuul.d` add `ansible-test-sanity` + fix any failing tests
-* PR3: Integration tests `ansible-role-tests*` + How that works
+* PR2: ``.zuul.d`` add `ansible-test-sanity` + fix any failing tests - Backport to stable branch(es)
+* PR3: Integration tests `ansible-role-tests*` + How that works  - Backport to stable branch(es)
 
 Troubleshooting: Check branch permissions, ask in `#softwarefactory`
