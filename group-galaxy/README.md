@@ -9,7 +9,7 @@ This Working Group covers multiple projects related to this stated purpose.
 
 ## Meetings
 
-There are currently no regular meetings held. The ansible-galaxy IRC channel is the main and official place to contact the members. For specific issues and
+There are currently no regular meetings held. The `#ansible-galaxy` IRC channel is the main and official place to contact the members. For specific issues and
 feature requests, follow the standard Ansible issues/PRs workflow.
 
 ## Collaboration
