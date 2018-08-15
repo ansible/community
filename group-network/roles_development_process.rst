@@ -41,11 +41,9 @@ Aim: Ensure that all Network Application Roles are tested against `devel` and th
 * Do a `recheck` on all open PRs
 
 Release Procedure
------------------
+=================
 
 To version the roles in Galaxy we use Git Tags
-
-FIXME Move details here from gdoc
 
 * Ensure your local branch has no local changes and uptodate with upstream
 * Ensure ``changelog/fragments/*.yml`` are up to date and contain details for new features
@@ -104,7 +102,7 @@ Using the release of Ansible 2.6.0 as an example:
 
 
 New role
---------
+========
 
 To ensure consistency when creating a new role the following needs to be done:
 
