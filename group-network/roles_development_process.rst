@@ -38,7 +38,9 @@ Aim: Ensure that all Network Application Roles are tested against `devel` and th
 
 * Add new `ansible-role-tests-2.6-py2` test to https://github.com/ansible-network/ansible-zuul-jobs/blob/master/zuul.d/jobs.yaml
 * https://github.com/ansible-network/network-engine/blob/devel/.zuul.yaml
-* Do a `recheck` on all open PRs
+* https://github.com/ansible-network/ansible-zuul-jobs/blob/master/zuul.d/jobs.yaml - Update `override-checkout:` to current latest stable
+* Do a `recheck` on all open PRs on all repos under `gh/ansible-network`
+
 
 Release Procedure
 =================
