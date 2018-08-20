@@ -118,7 +118,9 @@ To ensure consistency when creating a new role the following needs to be done:
 
       * Applies to: ``*``
       * Include administrators: Checked
-      
+
+    (If you get a 404 on ``{REPO}/settings/branches``, request GitHub Admin permissions for that repo)
+
   * Allow `Allow merge commits` on ``https://github.com/ansible-network/{REPO}/settings/`` - Needed for Zuul Gate.
   * Create new label ``https://github.com/ansible-network/{REPO}/labels``
   
