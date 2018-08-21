@@ -3,14 +3,15 @@
 The Contributor Experience Group focuses on making contributors lifes easier.
 
 ## Meetings
+
 * TBD
 * Meeting notes: TBD
 
 ## Collaboration
 
-* Most of the content here is on the [Outreach Wiki](https://github.com/ansible/community/wiki/Contributor%20Experience).
-* Mailing list: TBD
-* Issues: TBD
+* Most of the content here is on the [Community Wiki](https://github.com/ansible/community/wiki/Contributor%20Experience).
+* Mailing list: None
+* Issues: [Project board](https://github.com/ansible/community/projects/1?card_filter_query=label%3Acontributor_experience)
 * IRC: `#ansible-community`
 
 ## Leads
