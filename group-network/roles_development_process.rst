@@ -33,10 +33,12 @@ Process when Ansible branches stable-x.y
 
 Aim: Ensure that all Network Application Roles are tested against `devel` and the next `stable-x.y` branch
 
+Ansible branches around the first Beta, as soon as it does the following needs doing
+
 * Add tests for py2 and py3 to https://github.com/ansible-network/ansible-zuul-jobs/blob/master/zuul.d/jobs.yaml
 * Update https://github.com/ansible-network/network-engine/blob/devel/.zuul.yaml so the new version of Ansible is tested on the `devel` branch of the role
+* Repeat the above for all other roles listed that `Use Zuul<https://ansible-network.softwarefactory-project.io/zuul/projects.html>`_
 
-* Add new `ansible-role-tests-2.6-py2` test to https://github.com/ansible-network/ansible-zuul-jobs/blob/master/zuul.d/jobs.yaml
 * https://github.com/ansible-network/network-engine/blob/devel/.zuul.yaml
 * https://github.com/ansible-network/ansible-zuul-jobs/blob/master/zuul.d/jobs.yaml - Update `override-checkout:` to current latest stable
 * Do a `recheck` on all open PRs on all repos under `gh/ansible-network`
