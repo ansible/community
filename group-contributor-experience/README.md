@@ -16,12 +16,12 @@ The Contributor Experience Group focuses on making contributors lifes easier.
 
 ## Leads
 
-* [John "gundalow" Barker](https://github.com/gundalow), gundalow
+* [John "gundalow" Barker](https://github.com/gundalow), @gundalow
 
 
 ## Active Members
 
-* TBD
+* [Dag Wieers](https://github.com/dagwieers), @dagwieers
 
 ## Contact
 
