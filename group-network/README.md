@@ -14,7 +14,7 @@ Focuses on supporting networking devices.
 ## Leads
 * [John Barker](https://github.com/gundalow), gundalow
 * [Peter Sprygada](https://github.com/privateip), privateip
-* [Chris Alfonso](https://github.com/calfonso), calfonso
+* [Iftikhar Khan](https://github.com/ikhan2010), ikhan2010
 
 ## Active Members
 *GitHub, IRC [, Group]*
