@@ -25,28 +25,24 @@ enforce that new features must have tests.
 |----------------------|--------------------------------------------------------|
 | ec2_metric_alarm     | [23407](https://github.com/ansible/ansible/pull/23407) |
 | ec2_scaling_policy   | [26476](https://github.com/ansible/ansible/pull/26476) |
-| elb_classic_lb_facts | [27435](https://github.com/ansible/ansible/pull/27435) |
-| rds_instance         | [26598](https://github.com/ansible/ansible/pull/26602) |
 | rds_snapshot         | [39994](https://github.com/ansible/ansible/pull/39994) |
 
 TODO: add many more to the above list!
 
-# State of the codebase (As at 2018-06-22)
+# State of the codebase (As at 2018-09-19)
 
 ## Summary
 
 |Description            |Count|
 |-----------------------|-----|
-|boto3 only modules     |  138|
+|boto3 only modules     |  142|
 |boto3 *and* boto2      |    4|
-|boto2 only modules     |   35|
+|boto2 only modules     |   30|
 |neither boto3 nor boto2|    4|
 
 ## boto3 only
 
-* `_ec2_vpc_dhcp_options_facts`
 * `_iam_cert_facts`
-* `_s3`
 * `aws_acm_facts`
 * `aws_api_gateway`
 * `aws_application_scaling_policy`
@@ -84,6 +80,7 @@ TODO: add many more to the above list!
 * `aws_waf_web_acl`
 * `cloudformation`
 * `cloudformation_facts`
+* `cloudformation_stack_set`
 * `cloudfront_distribution`
 * `cloudfront_facts`
 * `cloudfront_invalidation`
@@ -116,6 +113,8 @@ TODO: add many more to the above list!
 * `ec2_placement_group_facts`
 * `ec2_snapshot_copy`
 * `ec2_snapshot_facts`
+* `ec2_tag`
+* `ec2_vol_facts`
 * `ec2_vpc_dhcp_option_facts`
 * `ec2_vpc_egress_igw`
 * `ec2_vpc_endpoint`
@@ -155,6 +154,7 @@ TODO: add many more to the above list!
 * `elb_classic_lb_facts`
 * `elb_network_lb`
 * `elb_target`
+* `elb_target_facts`
 * `elb_target_group`
 * `elb_target_group_facts`
 * `execute_lambda`
@@ -172,6 +172,7 @@ TODO: add many more to the above list!
 * `lambda_facts`
 * `lambda_policy`
 * `lightsail`
+* `rds_instance`
 * `rds_instance_facts`
 * `rds_param_group`
 * `rds_snapshot_facts`
@@ -180,9 +181,9 @@ TODO: add many more to the above list!
 * `s3_lifecycle`
 * `s3_sync`
 * `s3_website`
+* `sns_topic`
 * `sts_assume_role`
 * `sts_session_token`
-
 
 ## boto3 *and* boto
 
@@ -196,8 +197,6 @@ TODO: add many more to the above list!
 ## boto only
 
 * `_ec2_ami_find`
-* `_ec2_remote_facts`
-* `_ec2_vpc_dhcp_options`
 * `ec2`
 * `ec2_eip`
 * `ec2_elb`
@@ -207,9 +206,7 @@ TODO: add many more to the above list!
 * `ec2_metric_alarm`
 * `ec2_scaling_policy`
 * `ec2_snapshot`
-* `ec2_tag`
 * `ec2_vol`
-* `ec2_vol_facts`
 * `ec2_vpc_dhcp_option`
 * `ec2_vpc_igw`
 * `ec2_vpc_route_table_facts`
@@ -228,7 +225,6 @@ TODO: add many more to the above list!
 * `route53_health_check`
 * `s3_logging`
 * `sns`
-* `sns_topic`
 * `sqs_queue`
 
 ### Neither boto nor boto3

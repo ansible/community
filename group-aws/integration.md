@@ -27,22 +27,13 @@ accept bug fixes without tests.
 * Resource modification
 * Resource deletion
 
-# Github PRs
-There are some PRs with tests:
-
-| Module               | PR                                                     |
-|----------------------|--------------------------------------------------------|
-| rds                  | [25646](https://github.com/ansible/ansible/pull/25646) |
-| rds_param_group      | [25345](https://github.com/ansible/ansible/pull/25345) |
-
-# State of the codebase (at 2018/06/22)
+# State of the codebase (at 2018/09/19)
 
 Existing test suites:
 
 * `aws_api_gateway`
 * `aws_caller_facts`
 * `aws_config`
-* `aws_ec2_inventory`
 * `aws_eks`
 * `aws_elasticbeanstalk_app`
 * `aws_glue_connection`
@@ -53,6 +44,8 @@ Existing test suites:
 * `aws_ses_identity`
 * `aws_ssm_parameters`
 * `aws_waf_web_acl`
+* `cloudformation_stack_set`
+* `cloudformation_stack_set`
 * `cloudfront_distribution`
 * `ec2_ami`
 * `ec2_asg`
@@ -60,9 +53,12 @@ Existing test suites:
 * `ec2_group`
 * `ec2_instance`
 * `ec2_key`
+* `ec2_tag`
+* `ec2_vol_facts`
 * `ec2_vpc_egress_igw`
 * `ec2_vpc_net`
 * `ec2_vpc_route_table`
+* `ec2_vpc_subnet`
 * `ec2_vpc_subnet`
 * `ec2_vpc_vgw`
 * `ec2_vpc_vpn_facts`
@@ -71,9 +67,11 @@ Existing test suites:
 * `elb_application_lb`
 * `elb_classic_lb`
 * `elb_network_lb`
+* `elb_target_facts`
 * `elb_target`
 * `lambda_policy`
-
+* `rds_instance`
+* `rds_param_group`
 Note that the above list is not exhaustive because some targets contain test suites for
 other modules (e.g. the `aws_waf_web_acl` test suite also contains tests for `aws_waf_condition`
  and `aws_waf_rule` modules)
@@ -81,7 +79,7 @@ other modules (e.g. the `aws_waf_web_acl` test suite also contains tests for `aw
 List generated with:
 
 ```
-echo {cloudf,ec2,aws,lambda,elb,ecs}*{/tasks/main.yml,/runme.sh} aws*/tasks/main.yaml  | xargs -n1 wc -l | awk '$1 > 2 {print $2}' | awk -F/ '{printf("* `%s`\n", $1)}' | sort
+echo {cloudf,ec2,aws,lambda,elb,ecs,rds}*{/tasks/main.yml,/runme.sh} aws*/tasks/main.yaml  | xargs -n1 wc -l | awk '$1 > 2 {print $2}' | awk -F/ '{printf("* `%s`\n", $1)}' | sort
 ```
 
 (the `$1 > 2` test avoids two test suites with a two line tasks/main.yml. The `echo | xargs -n1` avoids the `total` printed when `wc`ing multiple files.)
