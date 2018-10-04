@@ -197,35 +197,35 @@ TODO: add many more to the above list!
 ## boto only
 
 * `_ec2_ami_find`
-* `ec2`
 * `ec2_eip`
-* `ec2_elb`
 * `ec2_elb_facts`
 * `ec2_elb_lb`
+* `ec2_elb`
 * `ec2_eni`
 * `ec2_metric_alarm`
+* `ec2`
 * `ec2_scaling_policy`
 * `ec2_snapshot`
 * `ec2_vol`
 * `ec2_vpc_dhcp_option`
-* `ec2_vpc_igw`
 * `ec2_vpc_route_table_facts`
 * `ec2_win_password`
 * `elasticache_subnet_group`
 * `elb_classic_lb`
 * `elb_instance`
-* `iam`
 * `iam_cert`
 * `iam_policy`
+* `iam`
 * `rds`
 * `rds_subnet_group`
 * `redshift`
 * `redshift_subnet_group`
-* `route53`
 * `route53_health_check`
+* `route53`
 * `s3_logging`
 * `sns`
 * `sqs_queue`
+
 
 ### Neither boto nor boto3
 
