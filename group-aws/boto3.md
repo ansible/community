@@ -21,11 +21,22 @@ enforce that new features must have tests.
 
 # Github PRs that move to boto3
 
-| Module               | PR                                                     |
-|----------------------|--------------------------------------------------------|
-| ec2_metric_alarm     | [23407](https://github.com/ansible/ansible/pull/23407) |
-| ec2_scaling_policy   | [26476](https://github.com/ansible/ansible/pull/26476) |
-| rds_snapshot         | [39994](https://github.com/ansible/ansible/pull/39994) |
+| Module                       | PR                                                     |
+|------------------------------|--------------------------------------------------------|
+| ec2_eip                      | [45478](https://github.com/ansible/ansible/pull/45478) |
+| ec2_metric_alarm             | [23407](https://github.com/ansible/ansible/pull/23407) |
+| ec2_scaling_policy           | [26476](https://github.com/ansible/ansible/pull/26476) |
+| ec2_vol                      | [45500](https://github.com/ansible/ansible/pull/45500) |
+| ec2_vpc_route_table_facts    | [44966](https://github.com/ansible/ansible/pull/44966) |
+| elb_classic_lb               | [45434](https://github.com/ansible/ansible/pull/45434) |
+| elb_instance                 | [45434](https://github.com/ansible/ansible/pull/45434) |
+| rds_cluster                  | [42128](https://github.com/ansible/ansible/pull/42128) |
+| rds_facts                    | [19785](https://github.com/ansible/ansible/pull/19785) |
+| rds_snapshot                 | [39994](https://github.com/ansible/ansible/pull/39994) |
+| redshift                     | [37052](https://github.com/ansible/ansible/pull/37052) |
+| route53_facts                | [31860](https://github.com/ansible/ansible/pull/31860) |
+| route53_zone                 | [21646](https://github.com/ansible/ansible/pull/21646) |
+| sns                          | [45634](https://github.com/ansible/ansible/pull/45634) |
 
 TODO: add many more to the above list!
 
