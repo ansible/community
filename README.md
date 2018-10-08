@@ -55,7 +55,8 @@ The following lists the `IRC` channels, and groups documentation
   * [Release Announcements](https://groups.google.com/forum/#!forum/ansible-announce) - low traffic, please subscribe
   * [Ansible Project (User)](https://groups.google.com/forum/#!forum/ansible-project)
   * [Ansible Devel](https://groups.google.com/forum/#!forum/ansible-devel)
-  * [Ansible outreach inc Meetups](https://groups.google.com/forum/#!forum/ansible-outreach)
+  * [Ansible Outreach inc Meetups](https://groups.google.com/forum/#!forum/ansible-outreach)
+  * [Ansible Lockdown](https://groups.google.com/forum/m/#!forum/ansible-lockdown)
 
 ## What We're Working On:
 
