@@ -23,7 +23,7 @@ Upcoming
 
 ## Leads
 
-* [Dan O'Brien](https://github.com/intheclouddan), fixmefreenode
+* [Dan O'Brien](https://github.com/intheclouddan), intheclouddan[m]
 * [lwm](https://github.com/lwm), decentral1se
 * [Marques Johansson](https://github.com/displague), marques
 
