@@ -1,5 +1,8 @@
 # Creating an Ansible Working Group
 
+## What are Working Groups
+
+
 Working Groups are a way for Ansible community members to self-organize around particular topics of interest.
 
 The basic components of a working group:
@@ -13,9 +16,11 @@ The basic responsibilities of a working group:
 * Report semi-regularly on the cool stuff that your working group is working on;
 * Keep your wiki space clean!
 
+## Requesting a Working Group
+
 Anyone can request to start a Working Group, for any reason. 
 
-Cut and paste the following text into an issue, and replace the examples in brackets
+Cut and paste the following text into an [Community Issue](https://github.com/ansible/community/issues/new), and replace the examples in brackets
 with your own working group info:
 
 ```
@@ -34,13 +39,26 @@ AT LEAST TWO INITIAL WORKING GROUP MEMBERS:
 (provide the IRC nicks AND GitHub IDs of your working group members, one name per line please)
 ```
 
-We will ask you a few more questions if anything is unclear.
+
+
+## Process for Ansible Staff
+
+We will ask you a few more questions if anything is unclear via the GitHub issue created above.
 
 Once we have enough information, we will set up the following infrastructure:
 * An IRC channel on freenode named "#ansible-yourgroupname", properly registered and op'd;
   * `*!*@ansible/owner/*    +AORefiorstv`
   * `!*@ansible/staff/*    +Oo`
+  * Group Contact set - FIXME: HOW
 * A working group directory for your use;
 * Membership in the ansible/community GitHub repo for working group members;
 * A label in the issue tracker to identify issues/PRs for your working group;
 * Dedicated wiki space.
+* a/a label - update BotMeta
+* https://github.com/ansible/community/edit/master/README.md
+* IRC Bot to know about working Group
+
+
+## Help!
+
+If you get stuck or want to know more join us in `#ansible-community` on Freenode
