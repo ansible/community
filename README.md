@@ -34,10 +34,10 @@ The following lists the `IRC` channels, and groups documentation
   - `#ansible-container` [Container Working Group](https://github.com/ansible/community/tree/master/group-container)
   - `#ansible-galaxy` [Galaxy Working Group](https://github.com/ansible/community/tree/master/group-galaxy)
   - `#ansible-docs` [Documentation Working Group](https://github.com/ansible/community/tree/master/group-docs)
-
   - `#ansible-jboss` [JBoss Working Group](https://github.com/ansible/community/tree/master/group-jboss)
   - `#ansible-lightbulb` [Lightbulb Training](https://github.com/ansible/lightbulb)
   - `#ansible-lockdown` [Ansible playbook roles for security](https://ansiblelockdown.io/) [gh/ansible/ansible-lockdown](https://github.com/ansible/ansible-lockdown)
+  - `#molecule-users` designed to aid in the development and testing of Ansible roles
   - `#ansible-network` [Network Working Group](https://github.com/ansible/community/tree/master/group-network)
   - `#ansible-devel` [Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)
   - `#ansible-vmwae` [VMware Working Group](https://github.com/ansible/community/tree/master/group-vmware)
@@ -57,6 +57,7 @@ The following lists the `IRC` channels, and groups documentation
   * [Ansible Devel](https://groups.google.com/forum/#!forum/ansible-devel)
   * [Ansible Outreach inc Meetups](https://groups.google.com/forum/#!forum/ansible-outreach)
   * [Ansible Lockdown](https://groups.google.com/forum/m/#!forum/ansible-lockdown)
+  * [Molecule](https://groups.google.com/forum/#!forum/molecule-users)
 
 ## What We're Working On:
 
