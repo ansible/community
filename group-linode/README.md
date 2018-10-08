@@ -26,6 +26,7 @@ Upcoming
 * [Dan O'Brien](https://github.com/intheclouddan), intheclouddan[m]
 * [lwm](https://github.com/lwm), decentral1se
 * [Marques Johansson](https://github.com/displague), marques
+* [rmcintosh](https://github.com/rmcintosh), mcintosh
 
 ## Active Members
 
