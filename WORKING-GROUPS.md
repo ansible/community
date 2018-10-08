@@ -48,16 +48,21 @@ We will ask you a few more questions if anything is unclear via the GitHub issue
 Once we have enough information, we will set up the following infrastructure:
 * An IRC channel on freenode named "#ansible-yourgroupname", properly registered and op'd;
   * `*!*@ansible/owner/*    +AORefiorstv`
-  * `!*@ansible/staff/*    +Oo`
+  * `*!*@ansible/staff/*    +Oo`
   * Group Contact set - FIXME: HOW
 * A working group directory for your use;
 * Membership in the ansible/community GitHub repo for working group members;
 * A label in the issue tracker to identify issues/PRs for your working group;
 * Dedicated wiki space.
+* ansible/community: Agenda & label
 * a/a label - update BotMeta
-* https://github.com/ansible/community/edit/master/README.md
-* IRC Bot to know about working Group
-
+* Update [README.md](https://github.com/ansible/community/edit/master/README.md)
+* [Ansibullbot](https://github.com/ansible/ansibullbot/blob/master/ansibullbot/triagers/plugins/community_workgroups.py) to know about new Working Group
+* Publicise
+  * Internal Email & Slack
+  * IRC: `#ansible-devel`  `#ansible` 
+  * https://github.com/ansible/community/issues/346
+  * Google Groups: `ansible-project` & `ansible-devel`
 
 ## Help!
 
