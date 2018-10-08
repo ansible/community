@@ -53,8 +53,9 @@ The following lists the `IRC` channels, and groups documentation
   * IRC: `#ansible-fr` - Channel for French speaking Ansible community
   * IRC: `#ansiblezh` - Channel for Zurich Ansible community
 * Mailing Lists
-  * [Release Announcements](https://groups.google.com/forum/#!forum/ansible-announce) - low traffic, please subscribe
+  * [Ansible Release Announcements](https://groups.google.com/forum/#!forum/ansible-announce) - low traffic, please subscribe
   * [Ansible Project (User)](https://groups.google.com/forum/#!forum/ansible-project)
+  * [Ansible AWX](https://groups.google.com/forum/#!forum/awx-project)
   * [Ansible Devel](https://groups.google.com/forum/#!forum/ansible-devel)
   * [Ansible Outreach inc Meetups](https://groups.google.com/forum/#!forum/ansible-outreach)
   * [Ansible Lockdown](https://groups.google.com/forum/m/#!forum/ansible-lockdown)
