@@ -41,7 +41,7 @@ The following lists the `IRC` channels, and groups documentation
   - `#molecule-users` designed to aid in the development and testing of Ansible roles
   - `#ansible-network` [Network Working Group](https://github.com/ansible/community/tree/master/group-network)
   - `#ansible-devel` [Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)
-  - `#ansible-vmwae` [VMware Working Group](https://github.com/ansible/community/tree/master/group-vmware)
+  - `#ansible-vmware` [VMware Working Group](https://github.com/ansible/community/tree/master/group-vmware)
   - `#ansible-windows` [Windows Working Group](https://github.com/ansible/community/tree/master/group-windows)
 * `#ansible-community` [Ambassadors](https://github.com/ansible/ambassadors)
 * `#ansible-meeting` General meeting location [Meeting Schedule and logs](https://github.com/ansible/community/blob/master/meetings)
