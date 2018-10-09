@@ -49,7 +49,10 @@ Once we have enough information, we will set up the following infrastructure:
 * An IRC channel on freenode named "#ansible-yourgroupname", properly registered and op'd;
   * `*!*@ansible/owner/*    +AORefiorstv`
   * `*!*@ansible/staff/*    +Oo`
-  * Group Contact set - FIXME: HOW
+  * Group Contact set - via Jimi-C
+* github.com/community
+  * Create `group-` topic [directory](https://github.com/ansible/community/tree/master/) and `README.md`
+  * [Index page](https://github.com/ansible/community/blob/master/README.md) list Group & IRC Channel
 * A working group directory for your use;
 * Membership in the ansible/community GitHub repo for working group members;
 * A label in the issue tracker to identify issues/PRs for your working group;
