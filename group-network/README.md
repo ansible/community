@@ -37,6 +37,7 @@ Focuses on supporting networking devices.
 * [Thomas A. McGonagle](https://github.com/mcgonagle), mcgonagle -- *F5 Networks*
 * [Carl Moberg](https://github.com/cmoberg), cmoberg -- *Cisco NSO*
 * [Sumit Jaiswal](https://github.com/justjais), justjais
+* [Sandra McCann](https://github.com/samccann), samccann - *Ansible Network documentation*
 
 ## Contact
 * [#ansible-network IRC channel](https://webchat.freenode.net/?channels=ansible-network) on Freenode.net
