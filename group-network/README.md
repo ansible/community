@@ -25,6 +25,7 @@ Focuses on supporting networking devices.
 * [Trishna Guha](https://github.com/trishnaguha), trishnag
 * [Kedar Kekan](https://github.com/kedarX), kedarX
 * [Nilashish Chakraborty](https://github.com/NilashishC), nilashishc
+* [Deepak Agrawal](https://github.com/gdpak), dagrawal
 * [Dag Wieers](https://github.com/dagwieers), dagwieers -- *Cisco ACI*
 * [Swetha Chunduri](https://github.com/schunduri), schunduri -- *Cisco ACI*
 * [Eric Anderson](https://github.com/ericsysmin), ericsysmin -- *Avi Networks*
