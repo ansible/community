@@ -19,11 +19,12 @@ Upcoming
 ## Leads
 
 * [Alicia Cozine](https://github.com/acozine), acozine
-* [John Barker](https://github.com/nitzmahone), gundalow
+* [Sandra McCann](https://github.com/samccann), samccann
 
 ## Active Members
 
 * [Dag Wieers](https://github.com/dagwieers), dagwieers
+* [John Barker](https://github.com/nitzmahone), gundalow
 
 ## Contact
 
