@@ -22,7 +22,7 @@ Focuses on supporting networking devices.
 * [Nate Case](https://github.com/Qalthos), Qalthos
 * [Ricardo Carrillo Cruz](https://github.com/rcarrillocruz), rcarrillocruz
 * [Ganesh Nalawade](https://github.com/ganeshrn), ganeshrn
-* [Trishna Guha](https://github.com/trishnaguha), trishnaguha
+* [Trishna Guha](https://github.com/trishnaguha), trishnag
 * [Kedar Kekan](https://github.com/kedarX), kedarX
 * [Dag Wieers](https://github.com/dagwieers), dagwieers -- *Cisco ACI*
 * [Swetha Chunduri](https://github.com/schunduri), schunduri -- *Cisco ACI*
