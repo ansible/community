@@ -54,9 +54,8 @@ Once we have enough information, we will set up the following infrastructure:
   * Create `group-` topic [directory](https://github.com/ansible/community/tree/master/) and `README.md`
   * [Index page](https://github.com/ansible/community/edit/master/README.md) list Group & IRC Channel
   * Wiki new page and link from [1](https://github.com/ansible/community/wiki/_Sidebar/_edit) & [2](https://github.com/ansible/community/wiki/Home/_edit) and 
-* A label in the issue tracker to identify issues/PRs for your working group;
-* ansible/community: Agenda & label
-* a/a label - update BotMeta
+   A label in the issue tracker to identify issues/PRs for your working group;
+* a/a label - update BotMeta t
 * [Ansibullbot](https://github.com/ansible/ansibullbot/blob/master/ansibullbot/triagers/plugins/community_workgroups.py) to know about new Working Group
 * Publicise
   * Internal Email & Slack
