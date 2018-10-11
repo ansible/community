@@ -36,7 +36,6 @@ enforce that new features must have tests.
 | redshift                     | [37052](https://github.com/ansible/ansible/pull/37052) |
 | route53_facts                | [31860](https://github.com/ansible/ansible/pull/31860) |
 | route53_zone                 | [21646](https://github.com/ansible/ansible/pull/21646) |
-| sns                          | [45634](https://github.com/ansible/ansible/pull/45634) |
 
 TODO: add many more to the above list!
 
