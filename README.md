@@ -50,7 +50,7 @@ The following lists the `IRC` channels, and groups documentation
 
 * Language specific
   * IRC: `#ansible-es` - Channel for Spanish speaking Ansible community
-  * IRC: `#ansibleeu` - Channel for European Ansible community
+  * IRC: `#ansibleu` - Channel for European Ansible community
   * IRC: `#ansible-fr` - Channel for French speaking Ansible community
   * IRC: `#ansiblezh` - Channel for Zurich Ansible community
 * Mailing Lists
