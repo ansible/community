@@ -30,6 +30,7 @@ Upcoming
 * [Alex Bush](https://github.com/bushnoh), bushnoh
 * [Harold Wong](https://github.com/haroldwongms), haroldwongms
 * [Kevin Zhao](https://github.com/xscript), xscript
+* [Stuart R. Kirk](https://github.com/stuartatmicrosoft), stkirk
 * [Thomas Stringer](https://github.com/tstringer), tstringer
 * [Zim Kalinowski](https://github.com/zikalino), zikalino
 * [Yuwei Zhou](https://github.com/yuwzho), yuwzho
