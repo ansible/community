@@ -22,45 +22,7 @@ This repository serves as a space for the Ansible Community Working Group to man
 
 **NOTE:** For the majority of IRC channels you must [register your nick with Freenode](https://freenode.net/kb/answer/registration)
 
-The following lists the `IRC` channels, and groups documentation
-* `#ansible` General **user** discussion
-* `#ansible-devel` Ansible **development** discussion [ansible/ansible](https://github.com/ansible/ansible)
-* Working Groups
-  - `#ansible-aws` [AWS Working Group](https://github.com/ansible/community/tree/master/group-aws)
-  - `#ansible-awx` [AWX Working Group](https://github.com/ansible/community/tree/master/group-awx)
-  - `#ansible-azure` [Azure Working Group](https://github.com/ansible/community/tree/master/group-azure)
-  - `#ansible-community` [Community Working Group](https://github.com/ansible/community/tree/master/group-community) - everything else
-  - `#ansible-community` [Contributor Experience Group](https://github.com/ansible/community/tree/master/group-contributor-experience)
-  - `#ansible-container` [Container Working Group](https://github.com/ansible/community/tree/master/group-container)
-  - `#ansible-docs` [Documentation Working Group](https://github.com/ansible/community/tree/master/group-docs)
-  - `#ansible-galaxy` [Galaxy Working Group](https://github.com/ansible/community/tree/master/group-galaxy)
-  - `#ansible-jboss` [JBoss Working Group](https://github.com/ansible/community/tree/master/group-jboss)
-  - `#ansible-lightbulb` [Lightbulb Training](https://github.com/ansible/lightbulb)
-  - `#ansible-linode` [Linode Working Group](https://github.com/ansible/community/tree/master/group-linode)
-  - `#ansible-lockdown` [Ansible playbook roles for security](https://ansiblelockdown.io/) [gh/ansible/ansible-lockdown](https://github.com/ansible/ansible-lockdown)
-  - `#molecule-users` designed to aid in the development and testing of Ansible roles
-  - `#ansible-network` [Network Working Group](https://github.com/ansible/community/tree/master/group-network)
-  - `#ansible-devel` [Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)
-  - `#ansible-vmware` [VMware Working Group](https://github.com/ansible/community/tree/master/group-vmware)
-  - `#ansible-windows` [Windows Working Group](https://github.com/ansible/community/tree/master/group-windows)
-* `#ansible-community` [Ambassadors](https://github.com/ansible/ambassadors)
-* `#ansible-meeting` General meeting location [Meeting Schedule and logs](https://github.com/ansible/community/blob/master/meetings)
-
-## Communication
-
-* Language specific
-  * IRC: `#ansible-es` - Channel for Spanish speaking Ansible community
-  * IRC: `#ansibleu` - Channel for European Ansible community
-  * IRC: `#ansible-fr` - Channel for French speaking Ansible community
-  * IRC: `#ansiblezh` - Channel for Zurich Ansible community
-* Mailing Lists
-  * [Ansible Release Announcements](https://groups.google.com/forum/#!forum/ansible-announce) - low traffic, please subscribe
-  * [Ansible Project (User)](https://groups.google.com/forum/#!forum/ansible-project)
-  * [Ansible AWX](https://groups.google.com/forum/#!forum/awx-project)
-  * [Ansible Devel](https://groups.google.com/forum/#!forum/ansible-devel)
-  * [Ansible Outreach inc Meetups](https://groups.google.com/forum/#!forum/ansible-outreach)
-  * [Ansible Lockdown](https://groups.google.com/forum/m/#!forum/ansible-lockdown)
-  * [Molecule](https://groups.google.com/forum/#!forum/molecule-users)
+[All Ansible Email lists, IRC and Working Groups](https://docs.ansible.com/ansible/devel/community/communication.html)
 
 ## What We're Working On
 
