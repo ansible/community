@@ -29,8 +29,7 @@ This repository serves as a space for the Ansible Community Working Group to man
 * [Community Project](https://github.com/ansible/community/projects/1)
 * [Contributor Experience Project](https://github.com/orgs/ansible/projects/2)
 
-
-## I'd like to start a new initiative or team:
+## I'd like to start a new initiative or team
 
 * [Creating a Working Group](WORKING-GROUPS.md)
 
