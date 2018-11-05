@@ -4,8 +4,8 @@ The Contributor Experience Group focuses on making contributors lifes easier.
 
 ## Meetings
 
-* TBD
-* Meeting notes: TBD
+* Wednesday [19:00 UTC](http://www.thetimezoneconverter.com/?t=18:00&tz=UTC) [ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/ansible_community_meetings.ics)
+* [Agenda](https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:contributor_experience)
 
 ## Collaboration
 
