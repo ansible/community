@@ -13,7 +13,7 @@ The Lockdown Working group focuses on developing out roles that automate well kn
 
 ## Meetings
 
-Every other Thursday at 5PM UTC on #ansible-lockdown
+Every other Thursday at 4PM UTC on #ansible-lockdown
 
 [Agenda Items](https://github.com/ansible/community/issues?q=is:open+is:issue+label:lockdown)
 
