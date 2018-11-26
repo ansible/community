@@ -4,13 +4,10 @@
 [![GitHub Docs PRs](https://img.shields.io/github/issues-pr/ansible/ansible/docs.svg)](https://github.com/ansible/ansible/issues?q=is:open+is:pr+label:docs)
 
 ## Meetings
-
-Upcoming
-
-## Working Group Goals
-
-* Define action plan and track progress
-* Work together and have fun
+* Weekly on Tuesdays at [15:30 UTC](http://www.thetimezoneconverter.com/?t=15:30&tz=UTC)
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/docs.ics))
+* [Meeting agenda](https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:docs)
+* [Meeting notes](https://meetbot.fedoraproject.org/sresults/?group_id=ansible_documentation_working_group&type=team)
 
 ## Collaboration
 

@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yaml2ical agendas//EN
+BEGIN:VEVENT
+SUMMARY:Documentation working group
+DTSTART;VALUE=DATE-TIME:20181127T153000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Documentation working group\nChair:  Alicia Cozine (
+ acozine)\nDescription:  \nDiscuss everything related to Ansible Documentat
+ ion.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=is:open
+ +label:meeting_agenda+label:docs\nProject URL:  https://github.com/ansible
+ /community/wiki/Docs
+LOCATION:#ansible-docs
+END:VEVENT
+END:VCALENDAR

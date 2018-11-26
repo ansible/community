@@ -3,7 +3,7 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Azure working group
-DTSTART;VALUE=DATE-TIME:20181101T000000Z
+DTSTART;VALUE=DATE-TIME:20181129T000000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Azure working group\nChair:  Matt Davis (nitzmahone)
@@ -17,7 +17,7 @@ LOCATION:#ansible-azure
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Contributor Experience working group
-DTSTART;VALUE=DATE-TIME:20181108T190000Z
+DTSTART;VALUE=DATE-TIME:20181129T190000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Contributor Experience working group\nChair:  gundal
@@ -31,7 +31,7 @@ LOCATION:#ansible-community
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Core Team meeting
-DTSTART;VALUE=DATE-TIME:20181030T190000Z
+DTSTART;VALUE=DATE-TIME:20181127T190000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
@@ -47,7 +47,7 @@ LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Core Team meeting
-DTSTART;VALUE=DATE-TIME:20181101T150000Z
+DTSTART;VALUE=DATE-TIME:20181129T150000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
@@ -62,8 +62,20 @@ DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
 LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Documentation working group
+DTSTART;VALUE=DATE-TIME:20181127T153000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Documentation working group\nChair:  Alicia Cozine (
+ acozine)\nDescription:  \nDiscuss everything related to Ansible Documentat
+ ion.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=is:open
+ +label:meeting_agenda+label:docs\nProject URL:  https://github.com/ansible
+ /community/wiki/Docs
+LOCATION:#ansible-docs
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Lockdown working group
-DTSTART;VALUE=DATE-TIME:20181101T160000Z
+DTSTART;VALUE=DATE-TIME:20181129T160000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  Lockdown working group\nChair:  Jonathan Davila (def
@@ -77,7 +89,7 @@ LOCATION:#ansible-lockdown
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network working group
-DTSTART;VALUE=DATE-TIME:20181031T160000Z
+DTSTART;VALUE=DATE-TIME:20181128T160000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Network working group\nChair:  Peter Sprygada (priva
@@ -88,7 +100,7 @@ LOCATION:#ansible-network
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Testing working group
-DTSTART;VALUE=DATE-TIME:20181101T170000Z
+DTSTART;VALUE=DATE-TIME:20181129T170000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Testing working group\nChair:  John Barker (gundalow
@@ -100,7 +112,7 @@ LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VMware working group
-DTSTART;VALUE=DATE-TIME:20181029T160000Z
+DTSTART;VALUE=DATE-TIME:20181126T160000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  VMware working group\nChair:  Abhijeet Kasurde (akas
@@ -114,7 +126,7 @@ LOCATION:#ansible-vmware
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Windows working group
-DTSTART;VALUE=DATE-TIME:20181030T200000Z
+DTSTART;VALUE=DATE-TIME:20181127T200000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Windows working group\nChair:  Matt Davis (nitzmahon
