@@ -5,7 +5,7 @@ agenda_url: https://github.com/ansible/community/issues?q=is:open+label:meeting_
 chair: Alicia Cozine (acozine)
 description: |
 
-  Discuss everything related to automated testing.
+  Discuss everything related to Ansible Documentation.
 schedule:
 - time: '1530'
   day: Tuesday

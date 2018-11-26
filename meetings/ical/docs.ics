@@ -7,10 +7,10 @@ DTSTART;VALUE=DATE-TIME:20181127T153000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Documentation working group\nChair:  Alicia Cozine (
- acozine)\nDescription:  \nDiscuss everything related to automated testing.
- \n\nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+lab
- el:meeting_agenda+label:docs\nProject URL:  https://github.com/ansible/com
- munity/wiki/Docs
+ acozine)\nDescription:  \nDiscuss everything related to Ansible Documentat
+ ion.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=is:open
+ +label:meeting_agenda+label:docs\nProject URL:  https://github.com/ansible
+ /community/wiki/Docs
 LOCATION:#ansible-docs
 END:VEVENT
 END:VCALENDAR
