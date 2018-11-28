@@ -9,7 +9,7 @@ RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  Lockdown working group\nChair:  Jonathan Davila (def
  ionscode)\, Daniel Shepherd (shepdelacreme)\, James Cassell (jamescassell)
  \nDescription:  \nWe discuss everything related to Ansible Lockdown every 
- other Thursday at noon.\n\nIf you have something to discuss\, add your req
+ other Thursday at 1600 UTC.\n\nIf you have something to discuss\, add your req
  uest to the meeting agenda and\njoin the IRC channel\n\nAgenda URL:  https
  ://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+labe
  l:lockdown\nProject URL:  https://github.com/ansible/ansible-lockdown
