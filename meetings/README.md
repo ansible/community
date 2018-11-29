@@ -6,7 +6,7 @@ Ansible IRC meetings are held on [freenode](https://freenode.net/), in the `#ans
 
 Feel free to hold ad-hoc meetings in the `#ansible-meeting` channel, but please respect the scheduled meeting times.
 
-If you'd like to request a regular recurring meeting on `#ansible-meeting`, please submit a PR to this page.
+If you would like to request a regular recurring meeting on `#ansible-meeting`, please submit a PR to this page.
 
 ## Schedule
 
@@ -52,7 +52,7 @@ You can add this full list of meetings to your personal calendar by importing by
   **Core Team Meeting**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/core-team.ics))
 
-* [18:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC):
+* [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC):
   **[Lockdown Working Group](https://github.com/ansible/community/tree/master/group-lockdown)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/lockdown.ics))
 
