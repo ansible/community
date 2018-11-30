@@ -20,6 +20,7 @@ The Community Working Group collaborates on the tickets and PRs in the Ansible C
 * [Greg DeKoenigsberg](https://github.com/gregdek), gregdek
 * [Robyn Bergeron](https://github.com/robynbergeron), robynbergeron
 * [John Barker](https://github.com/gundalow), gundalow
+* [Carol Chen](https://github.com/cybette), cybette
 
 ## Active Members
 
