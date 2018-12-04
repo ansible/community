@@ -15,6 +15,7 @@ Focuses on supporting Windows.
 
 ## Collaboration
 * [Community wiki](https://github.com/ansible/community/wiki/Windows) *-- action lists, progress tracker, ideas*
+* [Community progress tracker](https://github.com/ansible/community/wiki/Windows%3A-progress-tracker) *--Things we would like help with*
 
 ## Leads
 * [Matt Davis](https://github.com/nitzmahone), nitzmahone
