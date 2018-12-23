@@ -40,20 +40,19 @@ enforce that new features must have tests.
 
 TODO: add many more to the above list!
 
-# State of the codebase (As at 2018-09-19)
+# State of the codebase (As at 2018-12-23)
 
 ## Summary
 
 |Description            |Count|
 |-----------------------|-----|
-|boto3 only modules     |  142|
+|boto3 only modules     |  148|
 |boto3 *and* boto2      |    4|
-|boto2 only modules     |   30|
-|neither boto3 nor boto2|    4|
+|boto2 only modules     |   28|
+|neither boto3 nor boto2|    8|
 
 ## boto3 only
 
-* `_iam_cert_facts`
 * `aws_acm_facts`
 * `aws_api_gateway`
 * `aws_application_scaling_policy`
@@ -62,6 +61,7 @@ TODO: add many more to the above list!
 * `aws_batch_job_definition`
 * `aws_batch_job_queue`
 * `aws_caller_facts`
+* `aws_codecommit`
 * `aws_config_aggregation_authorization`
 * `aws_config_aggregator`
 * `aws_config_delivery_channel`
@@ -84,6 +84,7 @@ TODO: add many more to the above list!
 * `aws_s3_cors`
 * `aws_ses_identity`
 * `aws_ses_identity_policy`
+* `aws_ses_rule_set`
 * `aws_ssm_parameter_store`
 * `aws_waf_condition`
 * `aws_waf_facts`
@@ -117,6 +118,7 @@ TODO: add many more to the above list!
 * `ec2_instance`
 * `ec2_instance_facts`
 * `ec2_key`
+* `ec2_launch_template`
 * `ec2_lc`
 * `ec2_lc_facts`
 * `ec2_lc_find`
@@ -130,6 +132,7 @@ TODO: add many more to the above list!
 * `ec2_vpc_egress_igw`
 * `ec2_vpc_endpoint`
 * `ec2_vpc_endpoint_facts`
+* `ec2_vpc_igw`
 * `ec2_vpc_igw_facts`
 * `ec2_vpc_nacl`
 * `ec2_vpc_nacl_facts`
@@ -172,6 +175,7 @@ TODO: add many more to the above list!
 * `iam_group`
 * `iam_managed_policy`
 * `iam_mfa_device_facts`
+* `iam_password_policy`
 * `iam_role`
 * `iam_role_facts`
 * `iam_server_certificate_facts`
@@ -187,11 +191,13 @@ TODO: add many more to the above list!
 * `rds_instance_facts`
 * `rds_param_group`
 * `rds_snapshot_facts`
+* `redshift_cross_region_snapshots`
 * `redshift_facts`
 * `route53_zone`
 * `s3_lifecycle`
 * `s3_sync`
 * `s3_website`
+* `sns`
 * `sns_topic`
 * `sts_assume_role`
 * `sts_session_token`
@@ -208,13 +214,13 @@ TODO: add many more to the above list!
 ## boto only
 
 * `_ec2_ami_find`
+* `ec2`
 * `ec2_eip`
+* `ec2_elb`
 * `ec2_elb_facts`
 * `ec2_elb_lb`
-* `ec2_elb`
 * `ec2_eni`
 * `ec2_metric_alarm`
-* `ec2`
 * `ec2_scaling_policy`
 * `ec2_snapshot`
 * `ec2_vol`
@@ -224,17 +230,16 @@ TODO: add many more to the above list!
 * `elasticache_subnet_group`
 * `elb_classic_lb`
 * `elb_instance`
+* `iam`
 * `iam_cert`
 * `iam_policy`
-* `iam`
 * `rds`
 * `rds_subnet_group`
 * `redshift`
 * `redshift_subnet_group`
-* `route53_health_check`
 * `route53`
+* `route53_health_check`
 * `s3_logging`
-* `sns`
 * `sqs_queue`
 
 
@@ -243,7 +248,10 @@ TODO: add many more to the above list!
 * `__init__`
 * `_ec2_ami_search`
 * `_ec2_facts`
+* `_ec2_remote_facts`
 * `_ec2_vpc`
+* `_iam_cert_facts`
+* `_s3`
 * `ec2_metadata_facts`
 
 ## Commands for the above list
