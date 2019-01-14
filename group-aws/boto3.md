@@ -23,7 +23,7 @@ enforce that new features must have tests.
 
 | Module                       | PR                                                     |
 |------------------------------|--------------------------------------------------------|
-| ec2_eip                      | [45478](https://github.com/ansible/ansible/pull/45478) |
+| ec2_eip                      | [50539](https://github.com/ansible/ansible/pull/50539) |
 | ec2_metric_alarm             | [23407](https://github.com/ansible/ansible/pull/23407) |
 | ec2_scaling_policy           | [26476](https://github.com/ansible/ansible/pull/26476) |
 | ec2_vol                      | [45500](https://github.com/ansible/ansible/pull/45500) |
@@ -36,7 +36,7 @@ enforce that new features must have tests.
 | redshift                     | [37052](https://github.com/ansible/ansible/pull/37052) |
 | route53_facts                | [31860](https://github.com/ansible/ansible/pull/31860) |
 | route53_zone                 | [21646](https://github.com/ansible/ansible/pull/21646) |
-| dynamodb                     | [45402](https://github.com/ansible/ansible/pull/45402) |
+| dynamodb_table               | [45402](https://github.com/ansible/ansible/pull/45402) |
 
 TODO: add many more to the above list!
 
