@@ -280,5 +280,5 @@ done | sed 's/\(.*\)\.py$/* `\1`/'
 ### Neither boto nor boto3
 
 ```
-for f in *.py; do grep -qE 'ec2_connect|import boto|from botocore|AnsibleAWSModule' $f || echo $f ; done | sed 's/\(.*\)\.py$/* `\1`/'
+for f in *.py; do grep -qE 'ec2_connect|import boto|from botocore|AnsibleAWSModule' $f || echo $f ; done | sed 's/\(.*\)\.py$/* `\1`/' | sort -f -n
 ```
