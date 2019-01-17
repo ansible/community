@@ -7,11 +7,9 @@ DTSTART;VALUE=DATE-TIME:20190123T190000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Molecule working group\nChair:  gundalow\nDescriptio
- n:  \nHelp direct and improve Molecule\n\nIf you have something to discuss
-  (e.g. a PR that needs help)\, add your\nrequest to the meeting agenda and
-  join the IRC channel.\n\nAgenda URL:  https://github.com/ansible/communit
- y/issues?q=is:open+label:meeting_agenda+label:molecule\nProject URL:  http
- s://github.com/ansible/community/wiki/Molecule
+ n:  \nHelp direct and improve Molecule\n\nAgenda URL:  https://github.com/
+ ansible/community/issues?q=is:open+label:meeting_agenda+label:molecule\nPr
+ oject URL:  https://github.com/ansible/community/wiki/Molecule
 LOCATION:#ansible-molecule
 END:VEVENT
 END:VCALENDAR
