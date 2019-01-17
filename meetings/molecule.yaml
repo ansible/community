@@ -1,0 +1,14 @@
+project: Molecule working group
+meeting_id: molecule
+project_url: https://github.com/ansible/community/wiki/Molecule
+agenda_url: https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:molecule
+chair: gundalow
+description: |
+
+  Help direct and improve Molecule
+
+schedule:
+- time: '1900'
+  day: Wednesday
+  irc: ansible-molecule
+  frequency: weekly

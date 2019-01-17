@@ -88,6 +88,17 @@ DESCRIPTION:Project:  Lockdown working group\nChair:  Jonathan Davila (def
 LOCATION:#ansible-lockdown
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Molecule working group
+DTSTART;VALUE=DATE-TIME:20190123T190000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Molecule working group\nChair:  gundalow\nDescriptio
+ n:  \nHelp direct and improve Molecule\n\nAgenda URL:  https://github.com/
+ ansible/community/issues?q=is:open+label:meeting_agenda+label:molecule\nPr
+ oject URL:  https://github.com/ansible/community/wiki/Molecule
+LOCATION:#ansible-molecule
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Network working group
 DTSTART;VALUE=DATE-TIME:20181128T160000Z
 DURATION:PT1H

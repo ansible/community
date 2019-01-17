@@ -45,6 +45,11 @@ You can add this full list of meetings to your personal calendar by importing by
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/network.ics))
   in `#ansible-network`
 
+* [19:00 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC):
+  **Molecule Working Group**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/molecule.ics))
+  in `#ansible-molecule`
+
 * [00:00 UTC](http://www.thetimezoneconverter.com/?t=00:00&tz=UTC):
   **[Azure Working Group](https://github.com/ansible/community/tree/master/group-azure)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/azure.ics))
