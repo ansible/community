@@ -1,5 +1,7 @@
 # Ansible Community Working Group
 
+* [All Ansible Working Groups](https://github.com/ansible/community/wiki)
+
 This repository is for management of all Ansible community related initiatives.
 
 We help to support and grow Ansible's community of contributors in their efforts to improve Ansible code, content, outreach, and user and contributor experiences.
@@ -22,7 +24,8 @@ This repository serves as a space for the Ansible Community Working Group to man
 
 **NOTE:** For the majority of IRC channels you must [register your nick with Freenode](https://freenode.net/kb/answer/registration)
 
-[All Ansible Email lists, IRC and Working Groups](https://docs.ansible.com/ansible/devel/community/communication.html)
+* [All Ansible Working Groups](https://github.com/ansible/community/wiki)
+* [All Ansible Email lists, IRC and Working Groups](https://docs.ansible.com/ansible/devel/community/communication.html)
 
 ## What We're Working On
 
