@@ -55,7 +55,10 @@ Once we have enough information, we will set up the following infrastructure:
   * [Index page](https://github.com/ansible/community/edit/master/README.md) list Group & IRC Channel
   * Wiki new page and link from [1](https://github.com/ansible/community/wiki/_Sidebar/_edit) & [2](https://github.com/ansible/community/wiki/Home/_edit) and 
    A label in the issue tracker to identify issues/PRs for your working group;
-* a/a label - update BotMeta t
+* a/a label - update BotMeta
+  * Search for `linode -label:linode` (and other related terms) to find other issies & PRs where the label needs adding
+  * Add other `keywords:` to BOTMETA
+  * Ensure set for module, module_utils, docs_fragments, integration tests, unit tests
 * [Ansibullbot](https://github.com/ansible/ansibullbot/blob/master/ansibullbot/triagers/plugins/community_workgroups.py) to know about new Working Group
 * Publicise
   * Internal Email & Slack
