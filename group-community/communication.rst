@@ -1,7 +1,7 @@
 What problem are we trying to solving?
 ======================================
 
-We recognise that although a lot of people know and love IRC it does have some short commings for some people, such as:
+We recognise that although a lot of people know and love IRC, it does have some shortcomings for some people, such as:
 
 * Unless you are running a persistent connection (`bouncer <https://en.wikipedia.org/wiki/BNC_(software)>`_) you lose history
 * Not everybody likes IRC
