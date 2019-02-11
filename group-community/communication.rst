@@ -3,10 +3,10 @@ What problem are we trying to solving?
 
 We recognise that although a lot of people know and love IRC it does have some short commings for some people, such as:
 
-* Unless you are running a persistent connection (bouncer) you lose history
+* Unless you are running a persistent connection (`bouncer <https://en.wikipedia.org/wiki/BNC_(software)>`_) you lose history
 * Not everybody likes IRC
 
-The Ansible Community Working Group is looking at making it easier for people to join the Ansible Discussions
+The Ansible Community Working Group is looking at making it easier for people to join the Ansible Discussions.
 
 
 What's the proposed solution?
@@ -48,4 +48,4 @@ What other ways can I join the conversation?
 How do I report feedback?
 =========================
 
-In ``#ansible-community`` `ansible-community on Matrix <https://matrix.to/#/#freenode_#ansible-community:matrix.org>`_.
+In ``#ansible-community`` (Freenode), respectively `ansible-community on Matrix <https://matrix.to/#/#freenode_#ansible-community:matrix.org>`_.
