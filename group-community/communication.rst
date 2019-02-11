@@ -1,5 +1,5 @@
-What problem are we trying to solving?
-======================================
+What problem are we trying to solve?
+====================================
 
 We recognise that although a lot of people know and love IRC, it does have some shortcomings for some people, such as:
 
@@ -8,7 +8,6 @@ We recognise that although a lot of people know and love IRC, it does have some 
 
 The Ansible Community Working Group is looking at making it easier for people to join the Ansible Discussions.
 
-
 What's the proposed solution?
 =============================
 
@@ -16,17 +15,18 @@ We will experiment with using `Matrix.org <https://matrix.org>`_ to allow people
 
 Matrix is an ecosystem for open and interoperable communication.
 
+Can I continue to use IRC?
+==========================
+
+If IRC works for your, please continue to use it. You shouldn't notice any difference.
+
 How can we use Matrix?
 ======================
 
-1. Create a `Matrix.org account <https://matrix.org/beta/#/register>`_
+1. Create a `Matrix.org account <https://riot.im/app/#/register>`_
 2. Join `ansible on Matrix <https://matrix.to/#/#freenode_#ansible:matrix.org>`_, if you are just starting we suggest riot.im
-  
-   a. Sign into `#ansible on riot.im <https://riot.im/app/#/room/#freenode_#ansible:matrix.org>`_ using the credentials you created in step 1
-
 3. Join any of the other channels listed below that you are interested in
 4 We love feedback, let us know how it's going in `ansible-community <https://matrix.to/#/#freenode_#ansible-community:matrix.org>`_.
-
 
 List of all channels
 ~~~~~~~~~~~~~~~~~~~~
