@@ -3,7 +3,7 @@ What problem are we trying to solve?
 
 We recognise that although a lot of people know and love IRC, it does have some shortcomings for some people, such as:
 
-* Unless you are running a persistent connection (`bouncer <https://en.wikipedia.org/wiki/BNC_(software)>`_) you lose history
+* No history, unless you are running a persistent connection (`bouncer <https://en.wikipedia.org/wiki/BNC_(software)>`_).
 * Not everybody likes IRC
 
 The Ansible Community Working Group is looking at making it easier for people to join the Ansible Discussions.
@@ -26,7 +26,7 @@ How can we use Matrix?
 1. Create a `Matrix.org account <https://riot.im/app/#/register>`_
 2. Join `ansible on Matrix <https://matrix.to/#/#freenode_#ansible:matrix.org>`_, if you are just starting we suggest riot.im
 3. Join any of the other channels listed below that you are interested in
-4 We love feedback, let us know how it's going in `ansible-community <https://matrix.to/#/#freenode_#ansible-community:matrix.org>`_.
+4. We love feedback, let us know how it's going in `ansible-community <https://matrix.to/#/#freenode_#ansible-community:matrix.org>`_.
 
 List of all channels
 ~~~~~~~~~~~~~~~~~~~~
