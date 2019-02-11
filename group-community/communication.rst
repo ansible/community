@@ -18,7 +18,7 @@ Matrix is an ecosystem for open and interoperable communication.
 Can I continue to use IRC?
 ==========================
 
-If IRC works for your, please continue to use it. You shouldn't notice any difference.
+If IRC works for you, please continue to use it. You shouldn't notice any difference.
 
 How can we use Matrix?
 ======================
