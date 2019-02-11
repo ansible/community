@@ -51,8 +51,6 @@ Once we have enough information, we will set up the following infrastructure:
   * `*!*@ansible/staff/*    +Oo`
   * Group Contact set - via Jimi-C
 * github.com/community
-  * Create `group-` topic [directory](https://github.com/ansible/community/tree/master/) and `README.md`
-  * [Index page](https://github.com/ansible/community/edit/master/README.md) list Group & IRC Channel
   * Wiki new page and link from [1](https://github.com/ansible/community/wiki/_Sidebar/_edit) & [2](https://github.com/ansible/community/wiki/Home/_edit) and 
    A label in the issue tracker to identify issues/PRs for your working group;
 * a/a label - update BotMeta
