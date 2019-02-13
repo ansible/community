@@ -17,14 +17,14 @@ You can add this full list of meetings to your personal calendar by importing by
 ### Mondays
 
 * [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC):
-  **[VMware Working Group](https://github.com/ansible/community/tree/master/group-vmware)**
+  **[VMware Working Group](https://github.com/ansible/community/wiki/vmware)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/vmware.ics))
   in `#ansible-vmware`
 
 ### Tuesdays
 
 * [15:30 UTC](http://www.thetimezoneconverter.com/?t=15:30&tz=UTC):
-  **[Documentation Working Group](https://github.com/ansible/community/tree/master/group-docs)**
+  **[Documentation Working Group](https://github.com/ansible/community/wiki/docs)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/docs.ics))
   in `#ansible-docs`
 
@@ -34,24 +34,24 @@ You can add this full list of meetings to your personal calendar by importing by
   in `#ansible-meeting`
 
 * [20:00 UTC](http://www.thetimezoneconverter.com/?t=20:00&tz=UTC):
-  **[Windows Working Group](https://github.com/ansible/community/tree/master/group-windows)**
+  **[Windows Working Group](https://github.com/ansible/community/wiki/windows)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/windows.ics))
   in `#ansible-windows`
 
 ### Wednesdays
 
 * [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC):
-  **[Network Working Group](https://github.com/ansible/community/tree/master/group-network)**
+  **[Network Working Group](https://github.com/ansible/community/wiki/network)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/network.ics))
   in `#ansible-network`
 
 * [19:00 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC):
-  **Molecule Working Group**
+  **[Molecule Working Group](https://github.com/ansible/community/wiki/molecule)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/molecule.ics))
   in `#ansible-molecule`
 
 * [00:00 UTC](http://www.thetimezoneconverter.com/?t=00:00&tz=UTC):
-  **[Azure Working Group](https://github.com/ansible/community/tree/master/group-azure)**
+  **[Azure Working Group](https://github.com/ansible/community/wiki/azure)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/azure.ics))
   in `#ansible-azure`
 
@@ -63,17 +63,17 @@ You can add this full list of meetings to your personal calendar by importing by
   in `#ansible-meeting`
 
 * [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC):
-  **[Lockdown Working Group](https://github.com/ansible/community/tree/master/group-lockdown)**
+  **[Lockdown Working Group](https://github.com/ansible/community/wiki/lockdown)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/lockdown.ics))
   in `#ansible-lockdown`
 
 * [17:00 UTC](http://www.thetimezoneconverter.com/?t=17:00&tz=UTC):
-  **[Testing Working Group](https://github.com/ansible/community/tree/master/group-testing)**
+  **[Testing Working Group](https://github.com/ansible/community/wiki/testing)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/testing.ics))
   in `#ansible-meeting`
 
 * [17:00 UTC](http://www.thetimezoneconverter.com/?t=17:00&tz=UTC):
-  **[Contributor Experience Working Group](https://github.com/ansible/community/tree/master/group-contributor-experience)**
+  **[Contributor Experience Working Group](https://github.com/ansible/community/wiki/contributor-experience)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/contributor_experience.ics))
   in `#ansible-community`
 
