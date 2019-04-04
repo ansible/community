@@ -100,9 +100,13 @@ All *meeting* logs from #ansible-meeting can be seen [here](https://meetbot.fedo
 
 ### Other Meetings
 
+#### 2019-09-??: Ansible Contributor Summit 7 (Part of AnsibleFest 2019 Atlanta)
+
+* [planning](https://etherpad.openstack.org/p/ansible-summit-atlanta-2019)
+
 #### 2018-10-0(1,4): Ansible Contributor Summit 6 (Part of AnsibleFest 2018 Austin, Texas)
 
-* [pre-planning](https://etherpad.openstack.org/p/ansible-summit-october-2018)
+* [Etherpad, with summary and pre-planning](https://etherpad.openstack.org/p/ansible-summit-october-2018)
 
 #### 2017-09-06: Ansible Contributor Summit 5 (Part of AnsibleFest 2017 San Francisco)
 
