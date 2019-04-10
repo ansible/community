@@ -6,7 +6,6 @@ Ansible IRC meetings are held on [freenode](https://freenode.net/). .
 
 If you receive an error when you connect, see [Freenode’s Nickname Registration guide](https://freenode.net/kb/answer/registration) for instructions.
 
-
 ## Schedule
 
 You can add this full list of meetings to your personal calendar by importing by URL [ansible_community_meetings.ics](https://raw.githubusercontent.com/ansible/community/master/ansible_community_meetings.ics) into your calendar.
@@ -77,7 +76,6 @@ You can add this full list of meetings to your personal calendar by importing by
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/contributor_experience.ics))
   in `#ansible-community`
 
-
 ## Meeting Agendas and purpose
 
 For the following groups see the
@@ -100,9 +98,10 @@ All *meeting* logs from #ansible-meeting can be seen [here](https://meetbot.fedo
 
 ### Other Meetings
 
-#### 2019-09-??: Ansible Contributor Summit 7 (Part of AnsibleFest 2019 Atlanta)
+#### 2019-09-23: Ansible Contributor Summit 7 (Part of AnsibleFest 2019 Atlanta)
 
 * [planning](https://etherpad.openstack.org/p/ansible-summit-atlanta-2019)
+* ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/atlanta-contributors-summit.ics))
 
 #### 2018-10-0(1,4): Ansible Contributor Summit 6 (Part of AnsibleFest 2018 Austin, Texas)
 
