@@ -40,15 +40,15 @@ enforce that new features must have tests.
 
 TODO: add many more to the above list!
 
-# State of the codebase (As at 2018-12-23)
+# State of the codebase (As at 2019-04-16)
 
 ## Summary
 
 |Description            |Count|
 |-----------------------|-----|
-|boto3 only modules     |  148|
+|boto3 only modules     |  153|
 |boto3 *and* boto2      |    4|
-|boto2 only modules     |   28|
+|boto2 only modules     |   26|
 |neither boto3 nor boto2|    8|
 
 ## boto3 only
@@ -76,22 +76,23 @@ TODO: add many more to the above list!
 * `aws_glue_connection`
 * `aws_glue_job`
 * `aws_inspector_target`
-* `aws_kms`
 * `aws_kms_facts`
+* `aws_kms`
 * `aws_region_facts`
-* `aws_s3`
 * `aws_s3_bucket_facts`
 * `aws_s3_cors`
-* `aws_ses_identity`
+* `aws_s3`
+* `aws_secret`
 * `aws_ses_identity_policy`
+* `aws_ses_identity`
 * `aws_ses_rule_set`
 * `aws_ssm_parameter_store`
 * `aws_waf_condition`
 * `aws_waf_facts`
 * `aws_waf_rule`
 * `aws_waf_web_acl`
-* `cloudformation`
 * `cloudformation_facts`
+* `cloudformation`
 * `cloudformation_stack_set`
 * `cloudfront_distribution`
 * `cloudfront_facts`
@@ -99,100 +100,104 @@ TODO: add many more to the above list!
 * `cloudfront_origin_access_identity`
 * `cloudtrail`
 * `cloudwatchevent_rule`
-* `cloudwatchlogs_log_group`
 * `cloudwatchlogs_log_group_facts`
+* `cloudwatchlogs_log_group`
 * `data_pipeline`
 * `dynamodb_ttl`
-* `ec2_ami`
 * `ec2_ami_copy`
 * `ec2_ami_facts`
-* `ec2_asg`
+* `ec2_ami`
 * `ec2_asg_facts`
 * `ec2_asg_lifecycle_hook`
-* `ec2_customer_gateway`
+* `ec2_asg`
 * `ec2_customer_gateway_facts`
+* `ec2_customer_gateway`
 * `ec2_eip_facts`
 * `ec2_eni_facts`
-* `ec2_group`
 * `ec2_group_facts`
-* `ec2_instance`
+* `ec2_group`
 * `ec2_instance_facts`
+* `ec2_instance`
 * `ec2_key`
 * `ec2_launch_template`
-* `ec2_lc`
 * `ec2_lc_facts`
 * `ec2_lc_find`
-* `ec2_placement_group`
+* `ec2_lc`
 * `ec2_placement_group_facts`
+* `ec2_placement_group`
 * `ec2_snapshot_copy`
 * `ec2_snapshot_facts`
 * `ec2_tag`
+* `ec2_transit_gateway_info`
+* `ec2_transit_gateway`
 * `ec2_vol_facts`
 * `ec2_vpc_dhcp_option_facts`
 * `ec2_vpc_egress_igw`
-* `ec2_vpc_endpoint`
 * `ec2_vpc_endpoint_facts`
-* `ec2_vpc_igw`
+* `ec2_vpc_endpoint`
 * `ec2_vpc_igw_facts`
-* `ec2_vpc_nacl`
+* `ec2_vpc_igw`
 * `ec2_vpc_nacl_facts`
-* `ec2_vpc_nat_gateway`
+* `ec2_vpc_nacl`
 * `ec2_vpc_nat_gateway_facts`
-* `ec2_vpc_net`
+* `ec2_vpc_nat_gateway`
 * `ec2_vpc_net_facts`
-* `ec2_vpc_peer`
+* `ec2_vpc_net`
 * `ec2_vpc_peering_facts`
+* `ec2_vpc_peer`
 * `ec2_vpc_route_table`
-* `ec2_vpc_subnet`
 * `ec2_vpc_subnet_facts`
-* `ec2_vpc_vgw`
+* `ec2_vpc_subnet`
 * `ec2_vpc_vgw_facts`
-* `ec2_vpc_vpn`
+* `ec2_vpc_vgw`
 * `ec2_vpc_vpn_facts`
+* `ec2_vpc_vpn`
 * `ecs_attribute`
 * `ecs_cluster`
 * `ecs_ecr`
-* `ecs_service`
 * `ecs_service_facts`
-* `ecs_task`
-* `ecs_taskdefinition`
+* `ecs_service`
 * `ecs_taskdefinition_facts`
-* `efs`
+* `ecs_taskdefinition`
+* `ecs_task`
 * `efs_facts`
-* `elasticache`
+* `efs`
 * `elasticache_facts`
 * `elasticache_parameter_group`
+* `elasticache`
 * `elasticache_snapshot`
-* `elb_application_lb`
 * `elb_application_lb_facts`
+* `elb_application_lb`
 * `elb_classic_lb_facts`
 * `elb_network_lb`
-* `elb_target`
 * `elb_target_facts`
-* `elb_target_group`
 * `elb_target_group_facts`
+* `elb_target_group`
+* `elb_target`
 * `execute_lambda`
+* `_iam_cert_facts`
 * `iam_group`
 * `iam_managed_policy`
 * `iam_mfa_device_facts`
 * `iam_password_policy`
-* `iam_role`
 * `iam_role_facts`
+* `iam_role`
 * `iam_server_certificate_facts`
 * `iam_user`
 * `kinesis_stream`
-* `lambda`
 * `lambda_alias`
 * `lambda_event`
 * `lambda_facts`
 * `lambda_policy`
+* `lambda`
 * `lightsail`
-* `rds_instance`
 * `rds_instance_facts`
+* `rds_instance`
 * `rds_param_group`
 * `rds_snapshot_facts`
 * `redshift_cross_region_snapshots`
 * `redshift_facts`
+* `redshift`
 * `route53_zone`
 * `s3_lifecycle`
 * `s3_sync`
@@ -213,14 +218,13 @@ TODO: add many more to the above list!
 
 ## boto only
 
-* `_ec2_ami_find`
-* `ec2`
 * `ec2_eip`
-* `ec2_elb`
 * `ec2_elb_facts`
 * `ec2_elb_lb`
+* `ec2_elb`
 * `ec2_eni`
 * `ec2_metric_alarm`
+* `ec2`
 * `ec2_scaling_policy`
 * `ec2_snapshot`
 * `ec2_vol`
@@ -230,29 +234,27 @@ TODO: add many more to the above list!
 * `elasticache_subnet_group`
 * `elb_classic_lb`
 * `elb_instance`
-* `iam`
 * `iam_cert`
 * `iam_policy`
+* `iam`
 * `rds`
 * `rds_subnet_group`
-* `redshift`
 * `redshift_subnet_group`
-* `route53`
 * `route53_health_check`
+* `route53`
 * `s3_logging`
 * `sqs_queue`
 
-
 ### Neither boto nor boto3
 
-* `__init__`
+* `_ec2_ami_find`
 * `_ec2_ami_search`
 * `_ec2_facts`
+* `ec2_metadata_facts`
 * `_ec2_remote_facts`
 * `_ec2_vpc`
-* `_iam_cert_facts`
+* `__init__`
 * `_s3`
-* `ec2_metadata_facts`
 
 ## Commands for the above list
 
