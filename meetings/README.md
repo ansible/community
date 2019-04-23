@@ -22,7 +22,7 @@ You can add this full list of meetings to your personal calendar by importing by
 
 ### Tuesdays
 
-* [15:30 UTC](http://www.thetimezoneconverter.com/?t=15:30&tz=UTC):
+* [15:030 UTC](http://www.thetimezoneconverter.com/?t=15:00&tz=UTC):
   **[Documentation Working Group](https://github.com/ansible/community/wiki/docs)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/docs.ics))
   in `#ansible-docs`
@@ -70,11 +70,6 @@ You can add this full list of meetings to your personal calendar by importing by
   **[Testing Working Group](https://github.com/ansible/community/wiki/testing)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/testing.ics))
   in `#ansible-meeting`
-
-* [17:00 UTC](http://www.thetimezoneconverter.com/?t=17:00&tz=UTC):
-  **[Contributor Experience Working Group](https://github.com/ansible/community/wiki/contributor-experience)**
-  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/contributor_experience.ics))
-  in `#ansible-community`
 
 ## Meeting Agendas and purpose
 
