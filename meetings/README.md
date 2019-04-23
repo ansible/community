@@ -22,7 +22,7 @@ You can add this full list of meetings to your personal calendar by importing by
 
 ### Tuesdays
 
-* [15:030 UTC](http://www.thetimezoneconverter.com/?t=15:00&tz=UTC):
+* [15:30 UTC](http://www.thetimezoneconverter.com/?t=15:00&tz=UTC):
   **[Documentation Working Group](https://github.com/ansible/community/wiki/docs)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/docs.ics))
   in `#ansible-docs`
