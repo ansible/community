@@ -16,20 +16,6 @@ DESCRIPTION:Project:  Azure working group\nChair:  Matt Davis (nitzmahone)
 LOCATION:#ansible-azure
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Contributor Experience working group
-DTSTART;VALUE=DATE-TIME:20181129T190000Z
-DURATION:PT1H
-RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  Contributor Experience working group\nChair:  gundal
- ow\nDescription:  \nWe find and fix issues with the Contributor (PR) proce
- ss\n\nIf you have something to discuss (e.g. a PR that needs help)\, add y
- our\nrequest to the meeting agenda and join the IRC channel.\n\nAgenda URL
- :  https://github.com/ansible/community/issues?q=is:open+label:meeting_age
- nda+label:contributor_experience\nProject URL:  https://github.com/ansible
- /community/wiki/Contributor-Experience
-LOCATION:#ansible-community
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Core Team meeting
 DTSTART;VALUE=DATE-TIME:20181127T190000Z
 DURATION:PT1H
@@ -63,7 +49,7 @@ LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Documentation working group
-DTSTART;VALUE=DATE-TIME:20181127T153000Z
+DTSTART;VALUE=DATE-TIME:20190423T150000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Documentation working group\nChair:  Alicia Cozine (
