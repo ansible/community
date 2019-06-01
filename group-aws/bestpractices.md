@@ -6,7 +6,7 @@ changes to also include meeting of the sanity checks.
 
 Changes for existing modules would be:
 * Meet the Module Developer Checklist
-* Meet the [AWS Guidelines](https://github.com/ansible/ansible/blob/devel/lib/ansible/modules/cloud/amazon/GUIDELINES.md)
+* Meet the [AWS Guidelines](https://github.com/ansible/ansible/blob/devel/docs/docsite/rst/dev_guide/platforms/aws_guidelines.rst)
   particularly around exception handling
 * Pass the ansible test suite
    - python coding standard
