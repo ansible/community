@@ -40,28 +40,30 @@ enforce that new features must have tests.
 
 TODO: add many more to the above list!
 
-# State of the codebase (As at 2019-04-16)
+# State of the codebase (As at 2019-07-23)
 
 ## Summary
 
 |Description            |Count|
 |-----------------------|-----|
-|boto3 only modules     |  153|
+|boto3 only modules     |  158|
 |boto3 *and* boto2      |    4|
 |boto2 only modules     |   26|
-|neither boto3 nor boto2|    8|
+|neither boto3 nor boto2|    1|
 
 ## boto3 only
 
-* `aws_acm_facts`
+* `aws_acm_info`
 * `aws_api_gateway`
 * `aws_application_scaling_policy`
-* `aws_az_facts`
+* `aws_az_info`
 * `aws_batch_compute_environment`
 * `aws_batch_job_definition`
 * `aws_batch_job_queue`
-* `aws_caller_facts`
+* `aws_caller_info`
+* `aws_codebuild`
 * `aws_codecommit`
+* `aws_codepipeline`
 * `aws_config_aggregation_authorization`
 * `aws_config_aggregator`
 * `aws_config_delivery_channel`
@@ -76,23 +78,23 @@ TODO: add many more to the above list!
 * `aws_glue_connection`
 * `aws_glue_job`
 * `aws_inspector_target`
-* `aws_kms_facts`
 * `aws_kms`
-* `aws_region_facts`
+* `aws_kms_info`
+* `aws_region_info`
+* `aws_s3`
 * `aws_s3_bucket_facts`
 * `aws_s3_cors`
-* `aws_s3`
 * `aws_secret`
-* `aws_ses_identity_policy`
 * `aws_ses_identity`
+* `aws_ses_identity_policy`
 * `aws_ses_rule_set`
 * `aws_ssm_parameter_store`
 * `aws_waf_condition`
-* `aws_waf_facts`
+* `aws_waf_info`
 * `aws_waf_rule`
 * `aws_waf_web_acl`
-* `cloudformation_facts`
 * `cloudformation`
+* `cloudformation_facts`
 * `cloudformation_stack_set`
 * `cloudfront_distribution`
 * `cloudfront_facts`
@@ -100,105 +102,108 @@ TODO: add many more to the above list!
 * `cloudfront_origin_access_identity`
 * `cloudtrail`
 * `cloudwatchevent_rule`
-* `cloudwatchlogs_log_group_facts`
 * `cloudwatchlogs_log_group`
+* `cloudwatchlogs_log_group_info`
 * `data_pipeline`
+* `dms_endpoint`
+* `dms_replication_subnet_group`
 * `dynamodb_ttl`
-* `ec2_ami_copy`
-* `ec2_ami_facts`
 * `ec2_ami`
-* `ec2_asg_facts`
-* `ec2_asg_lifecycle_hook`
+* `ec2_ami_copy`
+* `ec2_ami_info`
 * `ec2_asg`
-* `ec2_customer_gateway_facts`
+* `ec2_asg_info`
+* `ec2_asg_lifecycle_hook`
 * `ec2_customer_gateway`
-* `ec2_eip_facts`
-* `ec2_eni_facts`
-* `ec2_group_facts`
+* `ec2_customer_gateway_info`
+* `ec2_eip_info`
+* `ec2_eni_info`
 * `ec2_group`
-* `ec2_instance_facts`
+* `ec2_group_info`
 * `ec2_instance`
+* `ec2_instance_info`
 * `ec2_key`
 * `ec2_launch_template`
-* `ec2_lc_facts`
-* `ec2_lc_find`
 * `ec2_lc`
-* `ec2_placement_group_facts`
+* `ec2_lc_find`
+* `ec2_lc_info`
 * `ec2_placement_group`
+* `ec2_placement_group_info`
 * `ec2_snapshot_copy`
-* `ec2_snapshot_facts`
+* `ec2_snapshot_info`
 * `ec2_tag`
-* `ec2_transit_gateway_info`
 * `ec2_transit_gateway`
-* `ec2_vol_facts`
-* `ec2_vpc_dhcp_option_facts`
+* `ec2_transit_gateway_info`
+* `ec2_vol_info`
+* `ec2_vpc_dhcp_option_info`
 * `ec2_vpc_egress_igw`
-* `ec2_vpc_endpoint_facts`
 * `ec2_vpc_endpoint`
-* `ec2_vpc_igw_facts`
+* `ec2_vpc_endpoint_info`
 * `ec2_vpc_igw`
-* `ec2_vpc_nacl_facts`
+* `ec2_vpc_igw_info`
 * `ec2_vpc_nacl`
-* `ec2_vpc_nat_gateway_facts`
+* `ec2_vpc_nacl_info`
 * `ec2_vpc_nat_gateway`
-* `ec2_vpc_net_facts`
+* `ec2_vpc_nat_gateway_info`
 * `ec2_vpc_net`
-* `ec2_vpc_peering_facts`
+* `ec2_vpc_net_info`
 * `ec2_vpc_peer`
+* `ec2_vpc_peering_info`
 * `ec2_vpc_route_table`
-* `ec2_vpc_subnet_facts`
 * `ec2_vpc_subnet`
-* `ec2_vpc_vgw_facts`
+* `ec2_vpc_subnet_info`
 * `ec2_vpc_vgw`
-* `ec2_vpc_vpn_facts`
+* `ec2_vpc_vgw_info`
 * `ec2_vpc_vpn`
+* `ec2_vpc_vpn_info`
 * `ecs_attribute`
 * `ecs_cluster`
 * `ecs_ecr`
-* `ecs_service_facts`
 * `ecs_service`
-* `ecs_taskdefinition_facts`
-* `ecs_taskdefinition`
+* `ecs_service_facts`
 * `ecs_task`
-* `efs_facts`
+* `ecs_taskdefinition`
+* `ecs_taskdefinition_facts`
 * `efs`
-* `elasticache_facts`
-* `elasticache_parameter_group`
+* `efs_facts`
 * `elasticache`
+* `elasticache_info`
+* `elasticache_parameter_group`
 * `elasticache_snapshot`
-* `elb_application_lb_facts`
 * `elb_application_lb`
-* `elb_classic_lb_facts`
+* `elb_application_lb_info`
+* `elb_classic_lb_info`
 * `elb_network_lb`
-* `elb_target_facts`
-* `elb_target_group_facts`
-* `elb_target_group`
 * `elb_target`
+* `elb_target_group`
+* `elb_target_group_info`
+* `elb_target_info`
 * `execute_lambda`
-* `_iam_cert_facts`
 * `iam_group`
 * `iam_managed_policy`
-* `iam_mfa_device_facts`
+* `iam_mfa_device_info`
 * `iam_password_policy`
-* `iam_role_facts`
 * `iam_role`
-* `iam_server_certificate_facts`
+* `iam_role_info`
+* `iam_server_certificate_info`
 * `iam_user`
 * `kinesis_stream`
+* `lambda`
 * `lambda_alias`
 * `lambda_event`
 * `lambda_facts`
 * `lambda_policy`
-* `lambda`
 * `lightsail`
-* `rds_instance_facts`
 * `rds_instance`
+* `rds_instance_info`
 * `rds_param_group`
-* `rds_snapshot_facts`
-* `redshift_cross_region_snapshots`
-* `redshift_facts`
+* `rds_snapshot`
+* `rds_snapshot_info`
 * `redshift`
+* `redshift_cross_region_snapshots`
+* `redshift_info`
 * `route53_zone`
+* `s3_bucket_notification`
 * `s3_lifecycle`
 * `s3_sync`
 * `s3_website`
@@ -209,59 +214,53 @@ TODO: add many more to the above list!
 
 ## boto3 *and* boto
 
-`aws_sgw_facts` and `s3_bucket` are false positives here. They are completely boto3 but an error message contains the string `boto.`.
+`aws_sgw_info` and `s3_bucket` are false positives here. They are completely boto3 but an error message contains the string `boto.`.
 
-* `aws_sgw_facts`
+* `aws_sgw_info`
 * `dynamodb_table`
-* `route53_facts`
+* `route53_info`
 * `s3_bucket`
 
 ## boto only
 
+* `ec2`
 * `ec2_eip`
-* `ec2_elb_facts`
-* `ec2_elb_lb`
 * `ec2_elb`
+* `ec2_elb_info`
+* `ec2_elb_lb`
 * `ec2_eni`
 * `ec2_metric_alarm`
-* `ec2`
 * `ec2_scaling_policy`
 * `ec2_snapshot`
 * `ec2_vol`
 * `ec2_vpc_dhcp_option`
-* `ec2_vpc_route_table_facts`
+* `ec2_vpc_route_table_info`
 * `ec2_win_password`
 * `elasticache_subnet_group`
 * `elb_classic_lb`
 * `elb_instance`
+* `iam`
 * `iam_cert`
 * `iam_policy`
-* `iam`
 * `rds`
 * `rds_subnet_group`
 * `redshift_subnet_group`
-* `route53_health_check`
 * `route53`
+* `route53_health_check`
 * `s3_logging`
 * `sqs_queue`
 
+
 ### Neither boto nor boto3
 
-* `_ec2_ami_find`
-* `_ec2_ami_search`
-* `_ec2_facts`
 * `ec2_metadata_facts`
-* `_ec2_remote_facts`
-* `_ec2_vpc`
-* `__init__`
-* `_s3`
 
 ## Commands for the above list
 
 ### boto3 only
 
 ```
-for f in `grep -lE 'import boto3|import botocore|from botocore|AnsibleAWSModule' *.py`; do
+for f in `grep -lE 'import boto3|import botocore|from botocore|AnsibleAWSModule' [a-z]*.py`; do
   grep -Eq 'import boto[^3c_]|import boto$|from boto[ .]' $f || echo $f
 done | sed 's/\(.*\)\.py$/* `\1`/'
 ```
@@ -269,12 +268,12 @@ done | sed 's/\(.*\)\.py$/* `\1`/'
 ### boto3 and boto2
 
 ```
-grep -lE 'import boto[^3c_]|import boto$|from boto[. ]' *.py | xargs grep -lE 'import boto3|import botocore|from botocore' | sed 's/\(.*\)\.py$/* `\1`/'
+grep -lE 'import boto[^3c_]|import boto$|from boto[. ]' [a-z]*.py | xargs grep -lE 'import boto3|import botocore|from botocore' | sed 's/\(.*\)\.py$/* `\1`/'
 ```
 
 ### boto only
 ```
-for f in `grep -lE 'import boto[^3c_]|import boto$|from boto[ .]|ec2_connect' *.py`; do
+for f in `grep -lE 'import boto[^3c_]|import boto$|from boto[ .]|ec2_connect' [a-z]*.py`; do
   grep -qE 'import boto3|import botocore|from botocore' $f || echo $f
 done | sed 's/\(.*\)\.py$/* `\1`/'
 ```
@@ -282,5 +281,5 @@ done | sed 's/\(.*\)\.py$/* `\1`/'
 ### Neither boto nor boto3
 
 ```
-for f in *.py; do grep -qE 'ec2_connect|import boto|from botocore|AnsibleAWSModule' $f || echo $f ; done | sed 's/\(.*\)\.py$/* `\1`/' | sort -f -n
+for f in [a-z]*.py; do grep -qE 'ec2_connect|import boto|from botocore|AnsibleAWSModule' $f || echo $f ; done | sed 's/\(.*\)\.py$/* `\1`/' | sort -f -n
 ```
