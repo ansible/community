@@ -32,16 +32,22 @@ accept bug fixes without tests.
 Existing test suites:
 
 * `aws_api_gateway`
-* `aws_caller_facts`
+* `aws_caller_info`
+* `aws_codebuild`
+* `aws_codecommit`
+* `aws_codepipeline`
 * `aws_config`
 * `aws_eks`
 * `aws_elasticbeanstalk_app`
 * `aws_glue_connection`
 * `aws_inspector`
+* `aws_kms`
 * `aws_lambda`
 * `aws_s3`
-* `aws_ses_identity_policy`
+* `aws_secret`
 * `aws_ses_identity`
+* `aws_ses_identity_policy`
+* `aws_ses_rule_set`
 * `aws_ssm_parameters`
 * `aws_waf_web_acl`
 * `cloudformation_stack_set`
@@ -49,16 +55,20 @@ Existing test suites:
 * `cloudfront_distribution`
 * `ec2_ami`
 * `ec2_asg`
+* `ec2_eip`
 * `ec2_elb_lb`
 * `ec2_group`
 * `ec2_instance`
 * `ec2_key`
+* `ec2_launch_template`
 * `ec2_tag`
-* `ec2_vol_facts`
+* `ec2_transit_gateway`
+* `ec2_vol_info`
 * `ec2_vpc_egress_igw`
+* `ec2_vpc_igw`
+* `ec2_vpc_nat_gateway`
 * `ec2_vpc_net`
 * `ec2_vpc_route_table`
-* `ec2_vpc_subnet`
 * `ec2_vpc_subnet`
 * `ec2_vpc_vgw`
 * `ec2_vpc_vpn_facts`
@@ -67,8 +77,8 @@ Existing test suites:
 * `elb_application_lb`
 * `elb_classic_lb`
 * `elb_network_lb`
-* `elb_target_facts`
 * `elb_target`
+* `elb_target_info`
 * `lambda_policy`
 * `rds_instance`
 * `rds_param_group`

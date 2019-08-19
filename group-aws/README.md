@@ -42,8 +42,7 @@ Leads are still to be agreed.
 
 ## Active Members
 * [Sloane Hertel](https://github.com/s-hertel), shertel
-* [Ryan Brown](https://github.com/ryansb), ryansb
-* [Michael De La Rue](https://github.com/mikedlr), mikedlr
+* [Jill Rouleau](https://github.com/jillr), jillr
 * [William Thames](https://github.com/willthames), willthames
 
 ## Contact
@@ -52,4 +51,4 @@ Leads are still to be agreed.
     [security disclosure](https://www.ansible.com/security) for more
     information.
 * For other urgent or sensitive issues contact shertel@redhat.com or
-    ryansb@redhat.com
+    jillr@redhat.com
