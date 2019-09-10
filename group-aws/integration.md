@@ -27,7 +27,7 @@ accept bug fixes without tests.
 * Resource modification
 * Resource deletion
 
-# State of the codebase (at 2018/09/19)
+# State of the codebase (at 2019/09/05)
 
 Existing test suites:
 
@@ -82,6 +82,7 @@ Existing test suites:
 * `lambda_policy`
 * `rds_instance`
 * `rds_param_group`
+
 Note that the above list is not exhaustive because some targets contain test suites for
 other modules (e.g. the `aws_waf_web_acl` test suite also contains tests for `aws_waf_condition`
  and `aws_waf_rule` modules)
@@ -93,3 +94,85 @@ echo {cloudf,ec2,aws,lambda,elb,ecs,rds}*{/tasks/main.yml,/runme.sh} aws*/tasks/
 ```
 
 (the `$1 > 2` test avoids two test suites with a two line tasks/main.yml. The `echo | xargs -n1` avoids the `total` printed when `wc`ing multiple files.)
+
+Modules with no tests:
+
+* `aws_acm_info`
+* `aws_application_scaling_policy`
+* `aws_az_info`
+* `aws_batch_compute_environment`
+* `aws_batch_job_definition`
+* `aws_batch_job_queue`
+* `aws_direct_connect_connection`
+* `aws_direct_connect_gateway`
+* `aws_direct_connect_link_aggregation_group`
+* `aws_direct_connect_virtual_interface`
+* `aws_glue_job`
+* `aws_region_info`
+* `aws_s3_cors`
+* `aws_sgw_info`
+* `cloudformation_info`
+* `cloudfront_info`
+* `cloudfront_invalidation`
+* `cloudfront_origin_access_identity`
+* `cloudtrail`
+* `cloudwatchevent_rule`
+* `data_pipeline`
+* `dynamodb_table`
+* `dynamodb_ttl`
+* `ec2_ami_copy`
+* `ec2_asg_lifecycle_hook`
+* `ec2_customer_gateway_info`
+* `ec2_eip_info`
+* `ec2_elb_info`
+* `ec2_lc_find`
+* `ec2_lc_info`
+* `ec2_metadata_facts`
+* `ec2_metric_alarm`
+* `ec2_placement_group_info`
+* `ec2_placement_group`
+* `ec2_scaling_policy`
+* `ec2_snapshot_copy`
+* `ec2_vpc_dhcp_option_info`
+* `ec2_vpc_igw_info`
+* `ec2_vpc_nacl_info`
+* `ec2_vpc_nacl`
+* `ec2_vpc_nat_gateway_info`
+* `ec2_vpc_net_info`
+* `ec2_vpc_peering_info`
+* `ec2_vpc_vgw_info`
+* `ec2_win_password`
+* `ecs_attribute`
+* `elasticache_info`
+* `elasticache_parameter_group`
+* `elasticache`
+* `elasticache_snapshot`
+* `elasticache_subnet_group`
+* `elb_application_lb_info`
+* `elb_classic_lb_info`
+* `elb_instance`
+* `elb_target_group_info`
+* `iam_mfa_device_info`
+* `iam_server_certificate_info`
+* `kinesis_stream`
+* `lambda_event`
+* `lightsail`
+* `rds_instance_info`
+* `rds_subnet_group`
+* `redshift_cross_region_snapshots`
+* `redshift_info`
+* `redshift_subnet_group`
+* `route53_health_check`
+* `s3_logging`
+* `s3_sync`
+* `s3_website`
+* `sts_session_token`
+
+Note that the above list only covers modules for which no usage whatsoever exists in any test suite.  Some modules may have usages in the targets for another module, but not themsleves have dedicated tests nor adequate coverage.
+
+List generated with:
+
+```
+lib/ansible/modules/cloud/amazon$ for i in `ls| awk -F'.' '/py/ && !/^_/ {print $1}'`; do grep -rq ${i} ../../../../../test/integration/targets/ ; if [ $? -ne 0 ]; then echo ${i}; fi ; done
+```
+
