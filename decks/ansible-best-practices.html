@@ -1,0 +1,1136 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Ansible Best Practices: The Essentials</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/css/reveal.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/css/print/pdf.css' : 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+
+    <link rel="stylesheet" href="css/theme/ansible.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/lib/css/zenburn.css"-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism.min.css">
+
+
+  </head>
+  <body>
+  <div class="ans-mark">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-449 450 125 125" style="enable-background:new -449 450 125 125;" xml:space="preserve">
+      <g id="XMLID_3_">
+        <circle id="XMLID_7_" class="circle" cx="-386.5" cy="512.5" r="62"/>
+        <path id="XMLID_4_" class="a-mark" d="M-356.9,537.1l-24.7-59.4c-0.7-1.7-2.1-2.6-3.9-2.6c-1.7,0-3.2,0.9-4,2.6l-27.1,65.2h9.2 l10.7-26.9l32,25.9c1.3,1,2.2,1.5,3.4,1.5c2.4,0,4.6-1.8,4.6-4.5C-356.5,538.5-356.6,537.8-356.9,537.1z M-385.4,488.4l16.1,39.6 l-24.2-19L-385.4,488.4z"/>
+      </g>
+    </svg>
+  </div>
+    <div class="reveal">
+      <div class="slides">
+        <section data-state="cover">
+          <p class="ans-logo"><img src="images/ansible-wordmark-white.svg" width="260" alt="" /></p>
+          <h1>Ansible Best Practices: The Essentials</h1>
+          <!--p>NAME HERE, TITLE HERE</p>
+          <p>COMPANY HERE</p-->
+          <aside class="notes">
+              <ul>
+                <li>That's me, what about you</li>
+                <li>SHOW OF HANDS: Who's just starting out with Ansible</li>
+                <li>SHOW OF HANDS: Who has a complex system that they want to simplify</li>
+                <li>SHOW OF HANDS: Who's got more they want to automate with Ansible</li>
+                <li>SHOW OF HANDS: Who's a contributor - raised PRs (modules, bugs, docs) - Thank you</li>
+                <li>SHOW OF HANDS: Who considers themselves an expert? - Excellent, you can answer the difficult Q&A at the end</li>
+              </ul>
+
+          </aside>
+        </section>
+
+        <section class="text-center" data-state="cover">
+          <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="300" viewBox="-449 450 125 125" style="enable-background:new -449 450 125 125;" xml:space="preserve">
+            <g id="XMLID_3_">
+              <circle id="XMLID_7_" class="circle" cx="-386.5" cy="512.5" r="62"></circle>
+              <path id="XMLID_4_" class="a-mark" d="M-356.9,537.1l-24.7-59.4c-0.7-1.7-2.1-2.6-3.9-2.6c-1.7,0-3.2,0.9-4,2.6l-27.1,65.2h9.2 l10.7-26.9l32,25.9c1.3,1,2.2,1.5,3.4,1.5c2.4,0,4.6-1.8,4.6-4.5C-356.5,538.5-356.6,537.8-356.9,537.1z M-385.4,488.4l16.1,39.6 l-24.2-19L-385.4,488.4z"></path>
+            </g>
+          </svg>
+          <h2>THE ANSIBLE WAY</h2>
+          <aside class="notes">
+            <p>"When I talk about how to develop automation solutions with Ansible, I begin by highlighting the philosophy behind its design. <strong>All Ansible best practices relate back to this thinking in one way or another.</strong> </p>
+            <p>Ansible is the Swiss Army knife of DevOps, capable of handling many powerful automation tasks with the flexibility to adapt to many environments and workflows.</p>
+            <p><strong>Not all approaches are created equal though.</strong></p>
+           <p>Don't let yours undermine the simplicity and power of Ansible. Based on actual experiences helping Ansible users, we'll show you what to do, and what not to do, to create the most reliable, resilient, and easy-to-manage solutions."</p>
+           <p>These aren't just my views, this presentation is based on the collective knowledge built up over the years from: Engineers, consultants, feedback from the field, and community at large. What did and did not work</p>
+           <p>The Ansible Way:</p>
+           <ul>
+               <li>Before we get into the technical details</li>
+               <li>"The Ansible Way"</li>
+               <li>This is a bit of philosophical discussion</li>
+               <li>There are three principals I will make over the next three slides</li>
+               <li>Every best practice is based on one or more of these principals</li>
+               <li>Ansible is very flexible, though not all approaches are created equally</li>
+               <li>Some ways will allow you to get a lot more from your automation,</li>
+               <li>Don't let your approach undermine the simplicity and power of Ansible.</li>
+               <li>Based on actual experiences helping Ansible users, we'll show you what to do, and what not to do, to create the most reliable, resilient, and easy-to-manage solutions.</li>
+               <li>So let's get started with the first principal...</li>
+           <ul>
+
+          </aside>
+        </section>
+
+        <section data-state="cover">
+          <h2>Principal 1</h2>
+          <h2>Complexity Kills Productivity</h2>
+          <p>That's not just a marketing slogan. We really mean it and believe that. We strive to reduce complexity in how we've designed Ansible tools and encourage you to do the same.</p>
+          <p> <strong>Strive for simplification in what you automate.</strong></p>
+          <aside class="notes speaker">
+              <ul>
+                  <li>As an engineer, I don't really do marketing slogans</li>
+                  <li>Start simple, avoid overengineering</li>
+                  <li>For those from a Linux background you may be familiar with the idea of "Do one thing and do it well"</li>
+                  <li>Moving from an existing process, take the time to simplify it, what are the actual components and dependencies, how do they relate. What's common</li>
+                  <li>If you have a complex hairball system at the moment, you don't want to end up with an automated hairball</li>
+                  <li>SHOW OF HANDS: Any Perl programmers in the audience?, next slide is just for you...</li>
+          </aside>
+        </section>
+
+        <section data-state="cover">
+          <h2>Principal 2</h2>
+          <h2>Optimize For Readability</h2>
+          <p>If done properly, it can be the documentation of your workflow automation.</p>
+          <aside class="notes speaker">
+              <ul>
+                  <li>Ever been asked how something works, you show them the docs, then go, oh we've changed that a bit. Assuming you've even got documentation</li>
+                  <li>Not an issue with Ansible, as Playbooks are readable. People can find out for themselves</li>
+                  <li>Even if you've never used Ansible before, still understandable</li>
+                  <li>Helps avoid design and implementation issues by having easy to follow Playbooks and Roles</li>
+                  <li>Anyone work in an organization where audits are part of your life? Really simple with Ansible</li>
+                  <li>Aim when designing and writing playbooks is to make them understandable by non-Ansible users</li>
+              </ul>
+
+          </aside>
+        </section>
+
+        <section data-state="cover">
+          <h2>Principal 3</h2>
+          <h2>Think Declaratively</h2>
+          <p>Ansible is a desired state engine by design. If you're trying to "write code" in your plays and roles, you're setting yourself up for failure. Our YAML-based playbooks were never meant to be for programming.</p>
+          <aside class="notes speaker">
+              <ul>
+                  <li>Ansible is a desired state engine</li>
+                  <li>Playbooks define the <b>state</b> you want the system to look like at the end (want Apache installed at a specific version and started)</li>
+                  <li>The <b>how</b> this should be achieved is internal to Ansible. Service module looks what type of init/upstart/SystemD is available and starts the service.</li>
+                  <li>If you find yourself trying to "program" in YAML Playbooks, this is generally an indication you've gone down the wrong route</li>
+              </ul>
+
+
+          </aside>
+        </section>
+
+        <section>
+            <h2>Workflow</h2>
+            <h3>Treat your Ansible content like code</h3>
+            <ul>
+              <li>Version control your Ansible content</li>
+              <li>Start as simple as possible and iterate
+                <ul>
+                  <li>Start with a basic playbook and static inventory</li>
+                  <li>Refactor and modularize later</li>
+                </ul>
+              </li>
+            </ul>
+            <aside class="notes">
+                <ul>
+                    <li>As I mentioned earlier, playbooks are not code, however they should be treated like code</li>
+                    <li>Use your existing workflows</li>
+                    <li>Put it all in version control</li>
+                    <li>[Expand on version control workflows -- branch, tags, code reviews etc]</li>
+                    <li>The Ansible Tower automation workflow is optimized for use with SCM systems such as git, subversion and mercurial so you will definitely will want to do this if that’s where.</li>
+                    <li>As Playbooks are text, they work really well in Version Control, you can look through history, see when and how things have changed over time</li>
+                    <li>Want to know when you upgraded the version of a library you install, just do a`git blame` on the line in the Playbook</li>
+                    <li>Code reviews are great</li>
+                    <ul>
+                        <li>Shares knowledge</li>
+                        <li>Gets feedback</li>
+                        <li>Other people outside you team can understand how to hints are setup</li>
+                        <li>end up with better design</li>
+                    </ul>
+                </ul>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Workflow</h2>
+            <h3>Do it with Style</h3>
+            <ul>
+              <li>Create a style guide for developers</li>
+              <li>Consistency in:
+                <ul>
+                  <li>Tagging</li>
+                  <li>Whitespace</li>
+                  <li>Naming of Tasks, Plays, Variables, and Roles</li>
+                  <li>Directory Layouts</li>
+                </ul>
+              </li>
+              <li>Enforce the style</li>
+            </ul>
+            <aside class="notes">
+              <p>Style guides promote standards, reusability, and longevity of Ansible content.</p>
+              <p>The same principles should be applied to your Ansible roles and playbooks</p>
+              <p>"Creating automation workflows."</p>
+              <p>"Grammar"</p>
+
+              <p>Mention code reviews.</p>
+              <p>SHOW OF HANDS: Who has code reviews, keep hands up if you review playbooks?</p>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Project Layouts: Basic</h2>
+            <h3>The Ansible Way</h3>
+
+            <p class="monospace">
+                basic-project<br/>
+                ├── inventory<br/>
+                │   ├── group_vars<br/>
+                │   │   └── web.yml<br/>
+                │   ├── host_vars<br/>
+                │   │   └── db1.yml<br/>
+                │   └── hosts<br/>
+                └── site.yml<br/>
+            </p>
+
+            <aside class="notes">
+              <p>Start simple, roles and playbooks, and inventory, in one place, then push out the roles you want to share into individual repos and manage with requirements.yml</p>
+
+              <p>What defines a project?</p>
+
+              <p>One stack or application?</p>
+
+              <p>Later -- RBAC (Role Based Access Control) control implications?</p>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Project Layouts: Organizational Roles</h2>
+
+            <p class="monospace">
+              myapp<br/>
+              ├── roles<br/>
+              │   ├── myapp<br/>
+              │   │   ├── tasks<br/>
+              │   │   │   └── main.yml<br/>
+              │   │   └── ...<br/>
+              │   ├── nginx<br/>
+              │   │   └── ...<br/>
+              │   └── proxy<br/>
+              │       └── ...<br/>
+              └── site.yml<br/>
+            </p>
+
+            <aside class="notes">
+                <p>We will talk more about roles later</p>
+                <p>Organizational role as they help you group and organize the plays rather than having a single multi-thousand line YAML file</p>
+                <p>Roles: A very good way to bundle up a collection of related assets to do a specific piece of automation.</p>
+                <p>These roles can be shared between projects.</p>
+                <p>Great when you start to iterate over your design and modularize and factor out into reusable blocks</p>
+
+            </aside>
+        </section>
+
+        <section>
+            <h2>Project Layouts: Shared Roles</h2>
+
+            <p class="monospace">
+              myapp/<br/>
+              ├── config.yml<br/>
+              ├── provision.yml<br/>
+              ├── roles<br/>
+              │   └── requirements.yml<br/>
+              └── site.yml
+            </p>
+
+            <aside class="notes">
+                <ul>
+                    <li>You can mix and match from these three project layouts, take what works for your company and how you work</li>
+                    <li>Allows you to share and standardize roles between projects</li>
+                    <li>requirements.yml - manifest to allow you to share</li>
+                    <li>If your company standardizes on a certain webserver , so you can share these roles internally.</li>
+                    <li>Allows you to reference roles from elsewhere, either internally or the Ansible Galaxy project</li>
+                </ul>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Inventory</h2>
+            <h3>Give inventory nodes human-meaningful names rather than IPs or DNS hostnames.</h3>
+            <p>&nbsp;</p>
+            <!-- FIXME format so it's clearer that these are two versions of the same file -->
+            <div class="columns monospace text-small">
+                <div class="col" style="flex-grow:1;">
+                    <h3>Example 1</h3>
+                  <p>
+                    10.1.2.75<br/>
+                    10.1.5.45<br/>
+                    10.1.4.5<br/>
+                    10.1.0.40<br/>
+                    <br/>
+                    w14301.acme.com<br/>
+                    w17802.acme.com<br/>
+                    w19203.acme.com<br/>
+                    w19304.acme.com<br/>
+                  </p>
+                </div>
+                <div class="col" style="flex-grow:3;">
+                    <h3>Example 2</h3>
+                  <p>
+                    <nobr>db1 ansible_host=10.1.2.75</nobr><br/>
+                    <nobr>db2 ansible_host=10.1.5.45</nobr><br/>
+                    <nobr>db3 ansible_host=10.1.4.5</nobr><br/>
+                    <nobr>db4 ansible_host=10.1.0.40</nobr><br/>
+                    <br/>
+                    <nobr>web1 ansible_host=w14301.acme.com</nobr><br/>
+                    <nobr>web2 ansible_host=w17802.acme.com</nobr><br/>
+                    <nobr>web3 ansible_host=w19203.acme.com</nobr><br/>
+                    <nobr>web4 ansible_host=w19203.acme.com</nobr><br/>
+                  </p>
+                </div>
+            </div>
+
+            <aside class="notes">
+              <p>A meaningful inventory hostname can point to a resolvable address, making inventory and ansible-playbook output easier to read and understand.</p>
+              <p>Important to end users not familiar with your host naming schemes… improves readability.</p>
+              <p>Use "aliasing" function to create a map from a human readable name to IP</p>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Inventory</h2>
+            <h3>Group hosts for easier inventory selection and less conditional tasks -- the more groups the better.</h3>
+
+            <div class="columns">
+                <div class="col">
+                  <h4>What</h4>
+                  <p class="monospace text-small">
+                    [db]<br/>
+                    db[1:4]<br/>
+                    <br/>
+                    [web]<br/>
+                    web[1:4]<br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
+                    db1 = db, east, dev<br/>
+                  </p>
+                </div>
+                <div class="col">
+                  <h4>Where</h4>
+                  <p class="monospace text-small">
+                    [east]<br/>
+                    db1<br/>
+                    web1<br/>
+                    db3<br/>
+                    web3<br/>
+                    <br/>
+                    [west]<br/>
+                    db2<br/>
+                    web2<br/>
+                    db4<br/>
+                    web4<br/>
+                  </p>
+                </div>
+                <div class="col">
+                  <h4>When</h4>
+                  <p class="monospace text-small">
+                    [dev]<br/>
+                    db1<br/>
+                    web1<br/>
+                    <br/>
+                    [test]<br/>
+                    db3<br/>
+                    web3<br/>
+                    <br/>
+                    [prod]<br/>
+                    db2<br/>
+                    web2<br/>
+                    db4<br/>
+                    web4<br/>
+                  </p>
+                </div>
+            </div>
+
+            <aside class="notes">
+              <p>This is a common pattern we’ve seen in organisations with sophisticated Ansible automation workflows. We know it also works well for smaller setups</p>
+
+              <p><b>What:</b> an application, stack or microservice. Specify what roles to run</p>
+              <p><b>Where:</b> a datacenter or region. Talk to local DNS, storage, etc</p>
+              <p><b>When:</b> development stage. Don't allow testing to access production resources</p>
+              <p>Define your groups as shown here, let Ansible do the work to combine the groups
+              <p>Explain what we have here -- static inventory groups with host aliases we saw in the previous slide.</p>
+              <p>Inventory groups allow you to separate your systems into what, where and when. Let the Ansible host selectors query your inventory and do the work of creating unions, intersections and filter.</p>
+              <p>Hosts can belong to as many groups. Ansible inventory does not have to be a hierarchy.</p>
+              <p>Note the use of the ranges shorthand under the “what”: development, testing, production</p>
+              <p>Get Ansible to tell you which all the development database servers in the east coast are, you don't need to maintain this.</p>
+              <p>While more groups are generally better, you can have too much of a good thing.</p>
+              <p>(Dynamic tagging? Need to resolve.)</p>
+              <p>EXAMPLE: See someone trying to maintain the groups manually and get really stressed about missing hosts</p>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Inventory</h2>
+            <h3>Use a single source of truth if you have it -- even if you have multiple sources, Ansible can unify them.</h3>
+            <p>&nbsp;</p>
+
+            <div class="columns">
+                <div class="col" style="flex-grow: 1;">
+                  <ul>
+                      <li>Stay in sync automatically</li>
+                      <li>Reduce human error</li>
+                  </ul>
+                </div>
+
+                <div class="col" style="flex-grow: 2;">
+                    <img src="images/public-private-cloud.png" alt="" />
+                </div>
+            </div>
+
+
+            <aside class="notes">
+                <p>Static inventory if fine when you’re starting out or managing a relatively small environment that doesn’t change often such as a development environment. Dynamic inventory is an imperative when is come to large environments especially dynamic ones using public/private/hybrid cloud technology.</p>
+                <p>Ansible ships with dynamic inventory scripts for most major cloud providers</p>
+                <p>Fairly easy to write your own to pull data from whatever database/text files you are using locally</p>
+            </aside>
+        </section>
+
+        <section>
+          <h2>Variables</h2>
+          <h3>Proper variable naming can make plays more readable and avoid variable name conflicts</h3>
+          <ul>
+            <li>Use descriptive, unique human-meaningful variable names</li>
+            <li>Prefix role variables with it’s "owner" such as a role name or package</li>
+          </ul>
+          <pre class="language-yaml"><code>
+  apache_max_keepalive: 25
+  apache_port: 80
+  tomcat_port: 8080
+          </pre></code>
+
+          <aside class="notes">
+            <p>All about increasing readability, therefore reducing possible bugs.</p>
+            <p>Human readable - that term again</p>
+            <p>Ansible by design has a flat naming space, to make it simple. Avoids issues around variable context &amp; scope as you see in Object Orientation</p>
+            <p>Makes it a lot easier to grep over the code base</p>
+            <p>Highlight how if we just used "port" you could end up configuring you could create port conflict when your Apache and Tomcat servers both try to listen to port 80. By prefixing the apache and tomcat port, they stay separate...</p>
+            <p>This is where having something in your style guide and some documentation comes in handy. </p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>Variables</h2>
+          <h3>Make the most of variables</h3>
+          <ul>
+            <li>Find the appropriate place for your variables based on what, where and when they are set or modified</li>
+            <li>Separate logic (tasks) from variables to reduce repetitive patterns and provided added flexibility.</li>
+          </ul>
+
+          <aside class="notes">
+            <p>Shortcut/human readable variables to improve task declaration readability and clarity</p>
+
+            <p>Remember you can’t override a variable or parameter if it’s been embedded into a task. Let’s take a look at what I mean…</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>Separate Logic From Variables</h2>
+          <div class="columns">
+            <div class="col">
+              <pre class="language-yaml"><code>
+  - name: Clone student lesson app for a user
+    host: nodes
+    tasks:
+      - name: Create ssh dir
+        file:
+          state: directory
+          path: /home/{{ username }}/.ssh
+
+      - name: Set Deployment Key
+        copy:
+          src: files/deploy_key
+          dest: /home/{{ username }}/.ssh/id_rsa
+
+      - name: Clone repo
+        git:
+          accept_hostkey: yes
+          clone: yes
+          dest: /home/{{ username }}/exampleapp
+          key_file: /home/{{ username }}/.ssh/id_rsa
+          repo: git@github.com:example/apprepo.git
+              </code></pre>
+            </div>
+
+            <div class="col">
+              <h3>Exhibit A</h3>
+              <ul class="text-small">
+                <li>Embedded parameter values and repetitive home directory value pattern in multiple places</li>
+                <li>Works but could be more clearer and setup to be more flexible and maintainable </li>
+              </ul>
+            </div>
+          </div>
+
+          <aside class="notes">
+            <p>This works just fine however</p>
+
+            <ul>
+                <li>/home/… is repeated throughout. If changed it will require multiple edits. Yes we have bulk copy and replace.</li>
+                <li>{{ username }} - means a variable called username</li>
+                <li>Not clear what the params the play is working with without reading thru</li>
+                <li>Parameters like the local path to clone the repo cannot be modified without changing the play. This alone is the most valuable reason alone for doing this even if the others don’t matter. </li>
+            </ul>
+
+            <p>Sometimes embedding values is intended with good reason (you don’t want user to override something).</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>Separate Logic From Variables</h2>
+
+          <div class="columns">
+            <div class="col">
+              <pre class="language-yaml"><code>
+  - name: Clone student lesson app for a user
+    host: nodes
+    vars:
+      user_home_dir: "/home/{{ username }}"
+      user_ssh_dir: "{{ user_home_dir }}/.ssh"
+      deploy_key: "{{ user_ssh_dir }}/id_rsa"
+      app_dir: "{{ user_home_dir }}/exampleapp"
+    tasks:
+      - name: Create ssh dir
+        file:
+          state: directory
+          path: "{{ user_ssh_dir }}"
+
+      - name: Set Deployment Key
+        copy:
+          src: files/deploy_key
+          dest: "{{ deploy_key }}"
+
+      - name: Clone repo
+        git:
+          dest: "{{ app_dir }}"
+          key_file: "{{ deploy_key }}"
+          repo: git@github.com:example/exampleapp.git
+          accept_hostkey: yes
+          clone: yes
+              </code></pre>
+            </div>
+
+            <div class="col">
+              <h3>Exhibit B</h3>
+              <ul class="text-small">
+                <li>Parameters values are set thru values away from the task and can be overridden.</li>
+                <li>Human meaningful variables "document" what’s getting plugged into a task parameter</li>
+                <li>More easily refactored into a role</li>
+              </ul>
+            </div>
+          </div>
+          <aside class="notes">
+            <p>Here we have a refactored version of the previous example where logic (tasks) have been separated from variables as we’ve discussed. It’s a bit longer but more readable.</p>
+
+            <ul>
+                <li>Variables are separated out. We know what parameters are being feed to our tasks.</li>
+                <li>User home can be set once and used by other variables.</li>
+                <li>Human-meaningful variable names make what you’re feeding into each task parameter easier to understand.</li>
+                <li>You can easily override any of the variables to change the default behaviour of the play.</li>
+                <li>Just looking at the vars section tells you what parts of the system get changed</li>
+                <li>Bonus: Makes refactoring a play into a role easier - overide `user_home_dir`, or `app_dir` when calling the role and it will do the right thing</li>
+            </ul>
+
+            <p>INSERT COMMAND LINE EXAMPLE. Setup root user?</p>
+          </aside>
+        </section>
+
+        <section>
+            <h2>Plays & Tasks</h2>
+            <h3>Use native YAML syntax to maximize the readability of your plays</h3>
+            <ul>
+                <li>Vertical reading is easier</li>
+                <li>Supports complex parameter values</li>
+                <li>Works better with editor syntax highlighting in editors</li>
+            </ul>
+
+            <aside class="notes">
+              <p>At its core, the Ansible playbook runner is a YAML parser with added logic such as commandline key=value pairs shorthand. While convenient when cranking out a quick playbook or a docs example, that style of formatting reduces readability. We recommend you refrain from using that shorthand (even with YAML folded style) as a best practice.</p>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Use Native YAML Syntax</h2>
+            <h3>No!</h3>
+            <pre class="language-yaml"><code>
+  - name: install telegraf
+    yum: name=telegraf-{{ telegraf_version }} state=present update_cache=yes disable_gpg_check=yes enablerepo=telegraf
+    notify: restart telegraf
+
+  - name: configure telegraf
+    template: src=telegraf.conf.j2 dest=/etc/telegraf/telegraf.conf
+
+  - name: start telegraf
+    service: name=telegraf state=started enabled=yes
+            </code></pre>
+
+            <aside class="notes">
+              <p>Vertical scanning is easier to spot parameters and what is being passed.</p>
+              <p>Doesn't even fit on my slide</p>
+              <p>Reduces the amount of horizontal scrolling the eyes must do. Modules such as ec2 that require a lot of parameters create long lines scroll off the screen which is really inefficient and makes it hard to read.</p>
+              <p>Syntax highlighting is suboptimal -- Ansible overloads key=value notation onto the standard python YAML parser. A YAML parser sees all of those key value.</p>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Use Native YAML Syntax</h2>
+            <h3>Better, but no</h3>
+            <pre class="language-yaml"><code>
+- name: install telegraf
+  yum: >
+      name=telegraf-{{ telegraf_version }}
+      state=present
+      update_cache=yes
+      disable_gpg_check=yes
+      enablerepo=telegraf
+  notify: restart telegraf
+
+- name: configure telegraf
+  template: src=telegraf.conf.j2 dest=/etc/telegraf/telegraf.conf
+
+- name: start telegraf
+  service: name=telegraf state=started enabled=yes
+            </code></pre>
+
+            <aside class="notes">
+              <p>Notice the greater-than symbol after yum</p>
+              <p>This refactored version of the last example uses what’s called YAML folded syntax to "stack" the first task with the line that ran off our screen. It’s an improvement in that it reduces horizontal scrolling and lines running off your screen, but it still breaks syntax highlighting and we can do better. If you are going this far with white spacing though why not go all the way?</p>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Use Native YAML Syntax</h2>
+            <h3>Yes!</h3>
+            <pre class="language-yaml"><code>
+  - name: install telegraf
+    yum:
+      name: telegraf-{{ telegraf_version }}
+      state: present
+      update_cache: yes
+      disable_gpg_check: yes
+      enablerepo: telegraf
+    notify: restart telegraf
+
+  - name: configure telegraf
+    template:
+      src: telegraf.conf.j2
+      dest: /etc/telegraf/telegraf.conf
+    notify: restart telegraf
+
+  - name: start telegraf
+    service:
+      name: telegraf
+      state: started
+      enabled: yes
+            </code></pre>
+
+            <aside class="notes">
+              <p>Native YAML has more lines; however, those lines are shorter, reducing horizontal scrolling your eyes have to do and line wrapping in your editor. It lets the eyes scan straight down the play. </p>
+              <p>The task parameters are stacked and easily distinguished from the next. </p>
+              <p>Native YAML syntax also has the benefit of improved syntax highlighting in virtually any modern text editor out there. Being native YAML, editors such as vim and Atom will highlight YAML keys (module names, directives, parameter names) from their values further aiding the readability of your content. </p>
+              <p>NOTE: Some of our own docs use this shorthand for legacy reasons though we’re progressively changing that. (Documentation pull requests accepted.)</p>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Plays & Tasks</h2>
+            <h3>Names improve readability and user feedback</h3>
+            <ul>
+                <li>Give all your playbooks, tasks and blocks brief, reasonably unique and human-meaningful names</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Plays & Tasks</h2>
+            <h3>Exhibit A</h3>
+            <div class="columns">
+                <div class="col">
+                    <pre class="language-yaml"><code>
+  - hosts: web
+    tasks:
+    - yum:
+        name: httpd
+        state: latest
+
+    - service:
+        name: httpd
+        state: started
+        enabled: yes
+                    </code></pre>
+                </div>
+
+                <div class="col">
+                    <pre class="language-yaml"><code>
+  PLAY [web]
+  ********************************
+
+  TASK [setup]
+  ********************************
+  ok: [web1]
+
+  TASK [yum]
+  ********************************
+  ok: [web1]
+
+  TASK [service]
+  ********************************
+  ok: [web1]
+                    </code></pre>
+                </div>
+            </div>
+
+            <aside class="notes">
+                <ul>
+                    <li>Here we have a simple example of a working a play.</li>
+                    <li>It works fine but what is happening here?</li>
+                    <li>Is yum installing or removing something?</li>
+                    <li>Is service starting or shutting down something?</li>
+                    <li>What was this play supposed to do anyways?  If you just wrote this play you know now or maybe you forgot.</li>
+                    <li>If when running this something fails you'd have no idea from the output, you'd need to open the playbook</li>
+                </ul>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Plays & Tasks</h2>
+            <h3>Exhibit B</h3>
+            <div class="columns">
+                <div class="col">
+                    <pre class="language-yaml"><code>
+  - hosts: web
+    name: installs and starts apache
+    tasks:
+      - name: install apache packages
+        yum:
+          name: httpd
+          state: latest
+
+      - name: starts apache service
+        service:
+          name: httpd
+          state: started
+          enabled: yes
+                    </code></pre>
+                </div>
+
+                <div class="col">
+                    <pre class="language-yaml"><code>
+  PLAY [install and starts apache]
+  ********************************
+
+  TASK [setup]
+  ********************************
+  ok: [web1]
+
+  TASK [install apache packages]
+  ********************************
+  ok: [web1]
+
+  TASK [starts apache service]
+  ********************************
+  ok: [web1]
+                    </code></pre>
+                </div>
+            </div>
+
+            <aside class="notes">
+                <ul>
+                    <li>Here is the same play with names.</li>
+                    <li>By adding descriptive human-meaningful names to the play declaration and tasks we get output that give you  and users of this automation better feedback and clarity to what is being performed.</li>
+                    <li>From the name of the Playbook, line 2, we know what the rest of the playbook will do without having to read it.</li>
+                    <li>Can help keep focus</li>
+              </ul>
+            </aside>
+        </section>
+
+        <section>
+          <h2>Plays & Tasks</h2>
+          <h3>Focus avoids complexity</h3>
+          <ul>
+            <li>Keep plays and playbooks focused. Multiple simple ones are better than having a huge single playbook full of conditionals.</li>
+            <li>Follow the Linux principle of do one thing, and one thing well</li>
+          </ul>
+
+          <aside class="notes">
+            <p>Monoliths!</p>
+            <p>Multiple small roles</p>
+            <p>EXAMPLE: One customer had one playbook for the entire stack,thousands of lines long, crazy, depending on the variables passed in. Impossible to manage, maintain, or know what is going on</p>
+            <p>As your automation grows in sophistication and scope refactor your plays -- includes &amp; roles to compose automation workflows.</p>
+            <p>When refactoring run your roles in checkmode to see</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>Plays & Tasks</h2>
+          <h3>Clean up your debugging tasks</h3>
+          <ul>
+            <li>Make them optional with the verbosity parameter so they’re only displayed when they are wanted.</li>
+          </ul>
+
+          <pre class="language-yaml"><code>
+  - debug:
+     msg: "This always displays"
+
+  - debug:
+     msg: "This only displays with ansible-playbook -vv+"
+     verbosity: 2
+          </code></pre>
+
+          <aside class="notes">
+            <p>Debugging messages and variable dumps in your plays can be helpful when you are developing or debugging automation automation, but not all the time. Displaying debugging pollutes the standard usage with a lot of noise. It can also scare anxious end users that don’t trust this automation stuff when some JSON dump of information explodes onto their screens.</p>
+
+            <p>The verbosity parameter was added to the debug module in v2.1.</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>Plays & Tasks</h2>
+          <h3>Don’t just start services -- use smoke tests </h3>
+          <pre class="language-yaml"><code>
+  - name: check for proper response
+    uri:
+      url: http://localhost/myapp
+      return_content: yes
+    register: result
+    until: '"Hello World" in result.content'
+    retries: 10
+    delay: 1
+          </code></pre>
+
+          <aside class="notes">
+            <p>EXAMPLE: lock file, permissions, something else running on the port</p>
+            <p>Just because a service started or an instances has initialized -- maybe it hit an error initializing and crashed. Use modules like uri and wait_for to smoke test that they are ready to go.</p>
+            <p>reties +delays = polling, so if the server is ready soon we don't have to wait the full time, better than <span class="monospace">sleep 10</span></p>
+</li>
+          </aside>
+        </section>
+
+        <section>
+          <h2>Plays & Tasks</h2>
+          <h3>Use run commands sparingly</h3>
+          <ul>
+              <li>Use the run command modules like <span class="monospace">shell</span> and <span class="monospace">command</span> as a last resort</li>
+              <li>The <span class="monospace">command</span> module is generally safer</li>
+              <li>The <span class="monospace">shell</span> module should only be used for I/O redirect</li>
+
+          </ul>
+
+          <aside class="notes">
+            <p>Run commands are...</p>
+
+            <p>Explain how run command modules have no concept of state.  (See slide from essentials deck here.) </p>
+
+            <p>Command will escape redirection characters such a pipe so they cannot be embedded in a variable and used for something malicious. You really shouldn’t be using a variable provided by a user anyway.</p>
+            <p>Even more important when using privileges - security</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>Plays & Tasks</h2>
+          <h3>Always seek out a module first</h3>
+          <div class="columns">
+            <div class="col">
+              <pre class="language-yaml"><code>
+  - name: add user
+    command: useradd appuser
+
+  - name: install apache
+    command: yum install httpd
+
+  - name: start apache
+    shell: |
+      service httpd start && chkconfig httpd on
+              </code></pre>
+            </div>
+
+            <div class="col">
+              <pre class="language-yaml"><code>
+  - name: add user
+    user:
+      name: appuser
+      state: present
+
+  - name: install apache
+    yum:
+      name: httpd
+      state: latest
+
+  - name: start apache
+    service:
+      name: httpd
+      state: started
+      enabled: yes
+              </code></pre>
+            </div>
+          </div>
+          <aside class="notes">
+              <p>Just because you know how to do something in bash doesn’t mean you don’t need a module. Again, run commands have no sense of desired state. There is a lot going in the modules. A lot goes into making things easy. (FIXME Quote from under the hood deck here?)  The yum module doesn’t just issue a yum command. The service module sniffs out the host OS and even version to use the proper tools and switches.</p>
+              <p>Modules are split into categories and topics. Have a look at these categories: file, system, utils</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>Plays & Tasks</h2>
+          <h3>Still using run commands a lot?</h3>
+          <pre class="language-yaml"><code>
+  - hosts: all
+    vars:
+      cert_store: /etc/mycerts
+      cert_name: my cert
+    tasks:
+    - name: check cert
+      shell: certify --list --name={{ cert_name }} --cert_store={{ cert_store }} | grep "{{ cert_name }}"
+      register: output
+
+    - name: create cert
+      command: certify --create --user=chris --name={{ cert_name }} --cert_store={{ cert_store }}
+      when: output.stdout.find(cert_name)" != -1
+      register: output
+
+    - name: sign cert
+      command: certify --sign  --name={{ cert_name }} --cert_store={{ cert_store }}
+      when: output.stdout.find("created")" != -1
+          </code></pre>
+
+          <aside class="notes">
+              <p>Here "certify" is a fictitious command line tool to illustrate an in-house private tool an organization may have developed for its own use.</p>
+              <p>This example is a good example of "coding" in your playbooks. That pattern being something like:</p>
+              <ol>
+                  <li>Perform a task and register its return and perhaps ignore any errors to handle them later.</li>
+                  <li>Parse/search the registered return as the parameter or conditional of a later task</li>
+                  <li>Rise and repeat</li>
+              </ol>
+              <p>Sometimes this cannot be avoided because a module doesn’t exist and you need something fast. In that case...</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>Plays & Tasks</h2>
+          <h3>Develop your own module</h3>
+          <pre class="language-yaml"><code>
+- hosts: all
+   vars:
+     cert_store: /etc/mycerts
+     cert_name: my cert
+   tasks:
+   - name: create and sign cert
+     certify:
+       state: present
+       sign: yes
+       user: chris
+       name: "{{ cert_name }}"
+       cert_store: "{{ cert_store }}"
+          </code></pre>
+          See <a href="https://docs.ansible.com/ansible/devel/dev_guide/">ansible.com/devel/dev_guide</a>
+
+          <aside class="notes">
+              <p>Modules do the heavy lifting in Ansible.</p>
+              <p>Modules and playbooks work together to provide a simple and easy to read abstraction from the underlying complexity and sophistication that give Ansible it’s power</p>
+              <p>Modules provide access to the full power of a proper programming language (typically Python) and its ecosystem. </p>
+              <p>Also note, that you can (and should) do many operations in a module and present that as one task. The previous example’s function was more verbose, harder to read and was spread across multiple tasks.</p>
+              <p>Modules follow this CRUD (Create, read, update and delete) pattern typically.</p>
+              <p>https://docs.ansible.com/ansible/devel/dev_guide/</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>Plays & Tasks</h2>
+          <h3>Separate provisioning from deployment and configuration tasks</h3>
+          <p class="monospace">
+            acme_corp/<br/>
+            ├── configure.yml<br/>
+            ├── provision.yml<br/>
+            └── site.yml<br/>
+            <br/>
+            $ cat site.yml<br/>
+            ---<br/>
+            - include: provision.yml<br/>
+            - include: configure.yml
+          </p>
+          <aside class="notes">
+            <p>Helpful if you are using different cloud providers</p>
+            <p>Change cloud provider or virtualization framework</p>
+            <p>Use different provisioning in development vs production</p>
+          </aside>
+        </section>
+
+        <section>
+            <h2>Templates</h2>
+            <h3>Jinja2 is powerful but you needn't use all of it</h3>
+            <div class="columns">
+                <div class="col">
+                  <h4>Templates should be simple:</h4>
+                  <ul class="text-small">
+                    <li>Variable substitution</li>
+                    <li>Conditionals</li>
+                    <li>Simple control structures/iterations</li>
+                    <li>Design your templates for your use case, not the world's</li>
+                  </ul>
+                </div>
+                <div class="col">
+                  <h4>Things to avoid:</h4>
+                  <ul class="text-small">
+                    <li>Anything that can be done directly in Ansible</li>
+                    <li>Managing variables in a template</li>
+                    <li>Extensive and intricate conditionals</li>
+                    <li>Conditional logic based on embedded hostnames</li>
+                    <li>Complex nested iterations</li>
+                  </ul>
+                </div>
+            </div>
+            <aside class="notes">
+                <p>From Django project, widely used Python library</p>
+                <p>Expand upon Jinja2 being powerful. There is a bit of grey and a zen to deciding how to how to design your templates. Strive for simplicity. complexity kills.</p>
+                <p>avoid: anything that can be done directly in Ansible - such as groups</p>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Templates</h2>
+            <h3>Identify generated files</h3>
+            <ul>
+              <li>Label template output files as being generated by Ansible</li>
+              <li>Consider using the ansible_managed variable with the comment filter</li>
+              <li>Especially important when you are starting out and not everything is Ansible managed</li>
+            </ul>
+            <p class="monospace" style="margin-left: 2em;">{{ ansible_managed | comment }}</p>
+
+            <aside class="notes">
+              <p>This is useful to tell users that a file has been placed by Ansible and manual changes are likely to be overwritten.</p>
+              <p>Avoids someone manually changing a file and Ansible clobbering that change when it reruns</p>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Roles</h2>
+            <ul>
+              <li>Like playbooks -- keep roles purpose and function focused</li>
+              <li>Use a <span class="monospace">roles/</span> subdirectory for roles developed for organizational clarity in a single project</li>
+              <li>Follow the Ansible Galaxy pattern for roles that are to be shared beyond a single project</li>
+              <li>Limit role dependencies</li>
+            </ul>
+
+            <aside class="notes">
+              <p>One "thing" per role — being able to understand the structure</p>
+              <p>Linux principle of do one thing, and one thing well</p>
+              <p>Loosely coupled</p>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Roles</h2>
+            <ul>
+                <li>Use <span class="monospace">ansible-galaxy init</span> to start your roles...</li>
+                <li>...then remove unneeded directories and stub files</li>
+                <li>Use <span class="monospace">ansible-galaxy</span> to install your roles -- even private ones</li>
+                <li>Use a roles files (i.e. <span class="monospace">requirements.yml</span>) to manifest any external roles your project is using</li>
+                <li>Always peg a role to a specific version such as a tag or commit</li>
+            </ul>
+            <aside class="notes">
+                <p>EXAMPLE: Don't leave empty files</p>
+                <p>EXAMPLE: Peg versions</p>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Scaling Your Ansible Workflow</h2>
+            <h3>Command line tools have their limitations</h3>
+            <ul>
+              <li>Coordination across distributed teams & organizations...</li>
+              <li>Controlling access to credentials...</li>
+              <li>Track, audit and report automation and management activity...</li>
+              <li>Provide self-service or delegation...</li>
+              <li>Integrate automation with enterprise systems...</li>
+            </ul>
+
+            <aside class="notes">
+              <p>There are limits to a command line tool...</p>
+            </aside>
+        </section>
+
+        <section>
+            <h2>Recap</h2>
+            <ul>
+                <li>Complexity Kills Productivity</li>
+                <li>Optimize For Readability</li>
+                <li>Think Declaratively</li>
+            <aside class="notes">
+                <p>Check remaining time</p>
+                <p>So I know after these presentations you sometimes think, "I see what he's saying, but my setup is fairly horrible" it "I've got so much to do and not enough time"</p>
+                <p>Story time</p>
+                <p>Backstory: every developer had a high spec blade for running VMs on</p>
+                <p>Whenever someone joined we just did a disk copy of the previous system, then hacked around in /etc</p>
+                <p>Oh, and a hundred blades in we upgraded from 10.04 to 12.04</p>
+                <p>Noticed a few issues: Fix playbooks for- ldap, ntp,</p>
+                <p>Common packages</p>
+                <p>Everytime we spotted an issue we wrote a small isolated playbook to fix it across the whole server estate</p>
+                <p>Did a fresh, preseed install, ran the fix roles, iterated till I had a working system</p>
+                <p>Desktops - Blade + gnome</p>
+                <p>India & Madrid - group_vars/india.yml</p>
+
+            </aside>
+        </section>
+        <section>
+            <h2>Thank You!</h2>
+            <ul>
+                <li>Complexity Kills Productivity</li>
+                <li>Optimize For Readability</li>
+                <li>Think Declaratively</li>
+            <aside class="notes">
+            </aside>
+        </section>
+
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/lib/js/head.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/js/reveal.js"></script>
+
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        history: true,
+        width: "85%",
+        height: "90%",
+        transition: "fade",
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        // Notes plugin must remain local for now.
+        // See https://github.com/ansible/lightbulb/issues/125
+        dependencies: [
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/plugin/markdown/marked.js' },
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js'},
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-yaml.min.js'}
+          //{ src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+      });
+    </script>
+  </body>
+</html>
