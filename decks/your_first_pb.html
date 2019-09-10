@@ -1,0 +1,272 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Ansible Essentials Workshop</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/css/reveal.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/css/print/pdf.css' : 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+
+    <link rel="stylesheet" href="css/theme/ansible.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/lib/css/zenburn.css"-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism.min.css">
+
+
+  </head>
+  <body>
+  <div class="ans-mark">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-449 450 125 125" style="enable-background:new -449 450 125 125;" xml:space="preserve">
+      <g id="XMLID_3_">
+        <circle id="XMLID_7_" class="circle" cx="-386.5" cy="512.5" r="62"/>
+        <path id="XMLID_4_" class="a-mark" d="M-356.9,537.1l-24.7-59.4c-0.7-1.7-2.1-2.6-3.9-2.6c-1.7,0-3.2,0.9-4,2.6l-27.1,65.2h9.2 l10.7-26.9l32,25.9c1.3,1,2.2,1.5,3.4,1.5c2.4,0,4.6-1.8,4.6-4.5C-356.5,538.5-356.6,537.8-356.9,537.1z M-385.4,488.4l16.1,39.6 l-24.2-19L-385.4,488.4z"/>
+      </g>
+    </svg>
+  </div>
+    <div class="reveal">
+      <div class="slides">
+        <section data-state="cover">
+          <p class="ans-logo"><img src="images/ansible-wordmark-white.svg" width="260" alt="" /></p>
+          <h1>Writing your first playbook</h1>
+          <!--p>NAME HERE, TITLE HERE</p>
+          <p>COMPANY HERE</p-->
+        </section>
+        <section>
+          <h2>Agenda</h2>
+          <ul>
+            <li>What is a playbook?</li>
+            <li>What are we Automating</li>
+            <li>What makes up a playbook</li>
+            <li>Roles and Sharing Automation</li>
+          </ul>
+          <aside class="notes">
+            <p>Speaker notes here </p>
+          </aside>
+        </section>
+        <section>
+            <h2>What are you automating?</h2>
+            <ul>
+              <li>What OS? What kinds of security measures are on the managed node?</li>
+              <li>Ansible will do what you tell it to.</li>
+            <ul>
+            <aside class="notes">
+              <p>What you are automating is crucial because it determines how you will write your playbooks.</p>
+              <p>Are there multiple OSs that you wish to automate at once? What does the security on those machines look like?</p>
+              <p>The answers to these questions all affect how you will structure your playbook.</p>
+              <p>To follow that up, ansible assumes you know what you are doing. It will do exactly what you tell it do and exactly that order.</p>
+              <p>So if you need to do something, lets say change a line in a conf file, remember to call a handler to restart that service if it needs to be. Ansible won't know to do that automatically.</p>
+            </aside>
+        </section>
+        <section>
+            <h2>What is a playbook?</h2>
+              <p>A set of instructions to do something on a remote host(s)</p>
+            <aside class="notes">
+              <p>Imagine a set of instructions to do something, like building a piece of furniture. When those instructions are done in the exact order, the piece of furniture looks like the picture on the outside of the box.</p>
+            </aside>
+        </section>
+        <section>
+          <h2>What makes up a playbook?</h2>
+          <ul>
+            <li>Header</li>
+            <li>Tasks</li>
+            <li>Handlers</li>
+          <aside class="notes">
+            <p>There are 3 parts to a playbook. The header, tasks and then if you need them, handlers at the end.</p>
+            <p>The header contains all of the necessary information in regards to what ansible is going to target and run against. The host information is contained here, the applicable variables etc.</p>
+            <p>The tasks are the meat, the actual bits that describe and do the automating. The lineinfile actions, the yum bits. The next couple of slides, we will dig deeper into this.</p>
+            <p>And finally, handlers, handling any restarts or notifies of things that might need some clean up after something is done.</p>
+          </aside>
+        </section>
+        <section>
+          <pre class="language-yaml"><code data-noescape>
+---
+- hosts: webservers
+  vars:
+    http_port: 80
+    max_clients: 200
+  remote_user: root
+  tasks:
+  - name: ensure apache is at the latest version
+    yum:
+      name: httpd
+      state: latest
+          </code></pre>
+          <aside class="notes">
+            <p>Here is a basic example of a playbook. Do note that the handlers are cut off here purely for the amount of space.</p>
+            <p>At the top here you can see the header, stating what hosts the playbook is targeting and what vars to use. Note that for this example is using root but that you don't need to use root, just a user that has the correct privileges to make the changes.</p>
+            <p>Then you get to the tasks, the good stuff. The meat of the playbook, the stuff that is making the changes.</p>
+          </aside>
+        </section>
+        <section>
+          <h2>Forming a task</h2>
+            <ul>
+            <li>Starts with a name</li>
+            <li>The module and specific arguments</li>
+            <li>Your variables can be used in arguments</li>
+          </ul>
+          <aside class="notes">
+            <p>It all starts with a name. Naming a task is something very important because it is displayed during the execution of ansible. Name it something that is close to what the task is doing so that in case it fails, you know immediately how you can start debugging it.</p>
+            <p>Next, you will need to pick a module. Your selection will depend on what you task you are trying to accomplish. You can find a list of all available modules at docs.ansible.com </p>
+            <p>All modules include documentation on how they can be used and what are the required arguments for that module. There are also examples included on that same documentation page showing the module in use.</p>
+          </aside>
+        </section>
+        <section>
+          <h2>Conditionals</h2>
+            <p>Yes, you can use them in playbooks</p>
+            <p>Some of the most popular are:
+              <ul>
+                <li>When Statement</li>
+                <li>Register</li>
+            </p>
+          <aside class="notes">
+            <p>Diving deeper into the meat of tasks, you can use conditionals within tasks. Sometimes tasks depend on other things being present, or maybe you just want some tasks to run on certain hosts when a particular criteria is met.</p>
+            <p>In come conditionals. We are only going to talk about the basic uses of them but if you want to see more in depth examples, there are a bunch of examples in the playbook section of our documentation.</p>
+          </aside>
+        </section>
+        <section>
+          <h2>When Statement</h2>
+          <pre class="language-yaml"><code data-noescape>
+tasks:
+  - name: "shut down Debian flavored systems"
+    command: /sbin/shutdown -t now
+    when: ansible_facts['os_family'] == "Debian"
+          </code></pre>
+          <aside class="notes">
+            <p>This could be something as simple as not installing a certain package if the operating system is a particular version.</p>
+            <p>Above is an example of a simple when statement showing a task tha will only shutdown when the ansible_facts shows an OS family of Debian.</p>
+          </aside>
+        </section>
+        <section>
+          <h2>Using Loops</h2>
+            <ul>
+              <li>Loops can be used to save some typing.</li>
+              <li>Short handed task writing to automate your keystrokes</li>
+            <ul>
+          <aside class="notes">
+            <p>In Ansible you can use loops to loop through redundant tasks to automate away some extra keystrokes.</p>
+        </section>
+        <section>
+          <h2>Loop Example</h2>
+          <pre class="language-yaml"><code data-noescape>
+- name: add several users
+  user:
+    name: "{{ item }}"
+    state: present
+    groups: "wheel"
+  loop:
+     - testuser1
+     - testuser2
+          </code></pre>
+        <aside class="notes">
+          <p>Similar to the use of loops in a general programitic way, loops in playbooks are similar but...as the ansible way is...a little more simpler on the eye.</p>
+          <p>This example shows a task looping through creating testuser 1 and 2, then adding them to the wheel group.</p>
+        </aside>
+        </section>
+        <section>
+          <h2>Handlers</h2>
+            <ul>
+              <li>The quicker restarter, the cleanup crew.</li>
+              <li> Regardless of how many tasks notify a handler, it will run only ONCE.</li>
+            </ul>
+        <aside class="notes">
+          <p>Handlers are lists of tasks, not really any different from regular tasks, that are referenced by a globally unique name, and are notified by notifiers. If nothing notifies a handler, it will not run. Regardless of how many tasks notify a handler, it will run only once, after all of the tasks complete in a particular play.</p>
+          <p>Imagine clean up tasks, if you need them. Not every task needs them but sometimes you might have to restart something.</p>
+        </aside>
+        </section>
+        <section>
+          <h2>What a handler looks like</h2>
+          <pre class="language-yaml"><code data-noescape>
+- name: restart apache
+      service:
+        name: httpd
+        state: restarted
+        </code></pre>
+        <aside class="notes">
+          <p>This example shows what a handler looks like. Not so different from a regular task right?</p>
+          <p>Simple and straight to the point. Notifying a handler is a little different but super easy to plug straight into a task if you need.</p>
+        </aside>
+        </section>
+        <section>
+          <h2>Notifying a handler</h2>
+          <pre class="language-yaml"><code data-noescape>
+- name: write the apache config file
+    template:
+      src: /srv/httpd.j2
+      dest: /etc/httpd.conf
+    notify:
+    - restart apache
+        </code></pre>
+        <aside class="notes">
+          <p>Here we can see how you notify the handler from the above example. That one being called "restart apache"</p>
+          <p>Handlers work great and serve a higher purpose but one last time, remember that they only run ONCE!</p>
+        </aside>
+        </section>
+        <section>
+          <h2>Roles and Sharing Automation</h2>
+            <ul>
+              <li>What are roles?</li>
+              <li>Playbook vs Role</li>
+          </ul>
+        <aside class="notes">
+          <p>Roles are ways of automatically loading certain vars_files, tasks, and handlers based on a known file structure. Grouping content by roles also allows easy sharing of roles with other users.</p>
+          <p>Imagine you need to provision a server for a web app and coworker needs a db machine. At the end of the day, both machines are doing different jobs but if you are a part of a large organization, you might have a standard image.</p>
+          <p>Using roles, you can write a provisioning role that provisions the machine exactly as your organization outlines it and then share that role with a co-worker and it will work exactly the same way.</p>
+          <p>Playbooks and roles are different, playbooks is the larger picture, provisioning the machine AND installing the app while roles are small bite size chunks of automation. ONLY provisioning the machine or ONLY installing nginx.</p>
+        </aside>
+        </section>
+        <section>
+          <h2>Ansible Galaxy</h2>
+            <ul>
+              <li>What is it?</li>
+              <li>How can I use it?</li>
+              <li>https://galaxy.ansible.com/</li>
+            <ul>
+        <aside class="notes">
+          <p>Ansible Galaxy is a hub for finding, reusing and sharing Ansible content. You can find some of the most popular roles there, like geerlingguy's nginx role.</p>
+          <p>Ansible Galaxy is also a command line tool that comes with ansible. You can use it to do a bunch of things like create a role and the directory structure needed for a functioning role. You can do this by running the ansible-galaxy init name_role_here.</p>
+        </aside>
+      </section>
+        <section>
+          <h2>Thanks all!</h2>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/lib/js/head.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/js/reveal.js"></script>
+
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        history: true,
+        width: "85%",
+        height: "90%",
+        transition: "fade",
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        // Notes plugin must remain local for now.
+        // See https://github.com/ansible/lightbulb/issues/125
+        dependencies: [
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/plugin/markdown/marked.js' },
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js'},
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-yaml.min.js'}
+          //{ src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,732 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Ansible Basics</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/css/reveal.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/css/print/pdf.css' : 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+
+    <link rel="stylesheet" href="css/theme/ansible.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/lib/css/zenburn.css"-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism.min.css">
+
+
+  </head>
+  <body>
+  <div class="ans-mark">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-449 450 125 125" style="enable-background:new -449 450 125 125;" xml:space="preserve">
+      <g id="XMLID_3_">
+        <circle id="XMLID_7_" class="circle" cx="-386.5" cy="512.5" r="62"/>
+        <path id="XMLID_4_" class="a-mark" d="M-356.9,537.1l-24.7-59.4c-0.7-1.7-2.1-2.6-3.9-2.6c-1.7,0-3.2,0.9-4,2.6l-27.1,65.2h9.2 l10.7-26.9l32,25.9c1.3,1,2.2,1.5,3.4,1.5c2.4,0,4.6-1.8,4.6-4.5C-356.5,538.5-356.6,537.8-356.9,537.1z M-385.4,488.4l16.1,39.6 l-24.2-19L-385.4,488.4z"/>
+      </g>
+    </svg>
+  </div>
+    <div class="reveal">
+      <div class="slides">
+        <section data-state="cover">
+          <p class="ans-logo"><img src="images/ansible-wordmark-white.svg" width="260" alt="" /></p>
+          <h1>Ansible Basics</h1>
+          <p>NAME HERE, TITLE HERE</p>
+          <p>COMPANY HERE</p>
+        </section>
+
+        <section>
+          <h2>WHAT YOU WILL LEARN</h2>
+          <p>Ansible is capable of handling many powerful automation tasks with the flexibility to adapt to many environments and workflows. With Ansible, users can very quickly get up and running to do real work.</p>
+          <br><br>In this presentation, we will cover:</p>
+          <ul>
+            <li>What is Ansible</li>
+            <li>How Ansible Works</li>
+            <li>Ad-Hoc Commands</li>
+            <li>Playbook Basics</li>
+            <li>Reuse and Redistribution of Ansible Content with Roles</li>
+            <li>Ansible Tower</li>
+          </ul>
+          <aside class="notes">
+            <p>Today we are going to cover the following topics: (read the list)</p>
+          </aside>
+        </section>
+
+        <section>
+            <h2>WHAT IS ANSIBLE AUTOMATION?</h2>
+            <p>The Ansible project is an open source community sponsored by Red Hat. It’s also a <strong>simple automation language</strong> that perfectly describes IT application environments in <strong>Ansible Playbooks</strong>.
+            <br><br>
+            <strong>Ansible Engine</strong> is a <strong>supported product</strong> built from the Ansible community project.
+            <br><br>
+            Ansible Tower is an <strong>enterprise framework</strong> for controlling, securing, managing and extending your Ansible automation (community or engine) with a <strong>UI and RESTful API</strong>.</p>
+            <br><br>
+            <aside class="notes">
+              <p>The Ansible Project is open source and sponsored by Red Hat.
+                Ansible Engine is a supported product built from the Ansible community project, and Ansible Tower is the framework for the automation that Ansible Engine does.
+                There’s also an open-source version of Tower which is the AWX project, and it’s associated with the Ansible GitHub.</p>
+            </aside>
+        </section>
+
+        <section>
+            <h2>WHY ANSIBLE?</h2>
+            <p><img src="images/why_ansible.jpg"></p>
+            <aside class="notes">
+              <p>So why should you think about using Ansible and what sets it apart?
+              First off, Ansible is simple: we expect that your user base is going to be mixed with people of all skill levels and because of that we wanted to make it incredibly easy to get started.  The language playbooks are written in is YAML, which is very easy-to-read for humans, and those playbooks work consistently across many environments
+              It’s also extremely powerful in how many nodes we can spin up and manage at any given time, which is largely due to the fact that Ansible is agentless.  There are no agents to keep up to date and the requirements are minimal.
+              </p>
+            </aside>
+        </section>
+
+        <section>
+          <h2>THE ANSIBLE WAY</h2>
+          <p><font color="52AAAC"><strong>CROSS PLATFORM – Linux, Windows, UNIX</strong></font><br>
+          Agentless support for all major OS variants, physical, virtual, cloud and network.</p>
+          <p><font color="52AAAC"><strong>HUMAN READABLE – YAML</strong></font><br>
+          Perfectly describe and document every aspect of your application environment</p>
+          <p><font color="52AAAC"><strong>PERFECT DESCRIPTION OF APPLICATION</strong></font><br>
+          Every change can be made by playbooks, ensuring everyone is on the same page.</p>
+          <p><font color="52AAAC"><strong>VERSION CONTROLLED</strong></font><br>
+          Playbooks are plain-text. Treat them like code in your existing version control.</p>
+          <p><font color="52AAAC"><strong>DYNAMIC INVENTORIES</strong></font><br>
+          Capture all the servers 100% of the time, regardless of infrastructure, location, etc.</p>
+          <p><font color="52AAAC"><strong>ORCHESTRATION THAT PLAYS WELL WITH OTHERS – HP SA, Puppet, Jenkins, RHNSS, etc.</strong></font><br>
+          Homogenize existing environments by leveraging current toolsets and update mechanisms.</p>
+          <aside class="notes">
+            <p>In addition, that agentless support isn’t just Linux exclusive.
+              This also applies to Windows machines, networking devices, and of course both physical and cloud servers, as well as static or dynamic inventory.
+              Also, one of the main selling points of Ansible is that we work well with existing toolkits.
+              Sometimes people don’t know where to start; I’d advise you to pick a pain point in your environment to focus on, something small that you can leverage Ansible for and see how that feels, because you can always homogenize over time.
+            </p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>BATTERIES INCLUDED</h2>
+          <p>Ansible comes bundled with hundreds of modules for a wide variety of automation tasks:</p>
+          <div style="float: left; width: 50%;">
+          <ul>
+          <li>cloud</li>
+          <li>containers</li>
+          <li>database</li>
+          <li>files</li>
+          <li>messaging</li>
+          <li>monitoring</li>
+          <li>network</li>
+          </ul>
+          </div>
+          <div style="float: right; width: 50%;">
+          <ul>
+          <li>notifications</li>
+          <li>packaging</li>
+          <li>source control</li>
+          <li>system</li>
+          <li>testing</li>
+          <li>utilities</li>
+          <li>web infrastructure</li>
+          </ul>
+          </div>
+          <aside class="notes">
+            <p>Installing Ansible nets you a TON of modules that range in type from the popular cloud modules to packaging and database modules.
+              The list you see here are some of the “high profile” modules, but there are lots more that aren’t listed.</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>COMMUNITY</h2>
+          <p><font color="52AAAC"><strong>THE MOST POPULAR OPEN-SOURCE AUTOMATION COMMUNITY ON GITHUB</strong></font><br></p>
+<!-- Remember to check the numbers listed below!!  -->
+          <ul>
+            <li>34,000+ stars & 13,500+ forks on GitHub</li>
+            <li>4000+ GitHub Contributors</li>
+            <li>Over 2000 modules shipped with Ansible</li>
+            <li>New contributors added every day</li>
+            <li>1400+ users on IRC channel</li>
+            <li>World-wide meetups taking place every week</li>
+            <li>Ansible Galaxy: over 9,000 contributors and 18,000 roles</li>
+            <li>500,000+ downloads a month</li>
+            <li>AnsibleFests, Ansible Automates, and other global events</li>
+          </ul>
+          </aside>
+        </section>
+
+        <section>
+          <h2>ANSIBLE: COMPLETE AUTOMATION</h2>
+          <p><img src="images/complete_automation.jpg"></p>
+          <aside class="notes">
+            <p>One of the other bullet points that we highlight around Ansible is that it’s the complete package.
+              So it’s not just configuration management; it’s also orchestration, app-deployment and provisioning as well.
+              Looking at this graphic here , you can see that there are tools that definitely perform one or more of these use cases, but can’t do them all and that’s really one of the big strengths of Ansible.
+              Some users like to refer to it as “Automation Glue”.</p>
+          </aside>
+        </section>
+
+        <section>
+            <h2>WHAT CAN I DO WITH ANSIBLE?</h2>
+            <p>Automate the deployment and management of your entire IT footprint.</p>
+            <p><img src="images/ansible_possibilities.jpg"></p>
+            <aside class="notes">
+              <p>On this slide, you can see the different use cases for how to manage and automate your machines.
+                (some examples are: security and compliance, orchestration, creating new VMs, creating a CI/CD pipeline) - all of these things can be done with Ansible.
+              </p>
+            </aside>
+        </section>
+
+        <section>
+          <h2>INSTALLING ANSIBLE</h2>
+          <pre class="language-yaml"><code data-noescape>
+# the most common and preferred way of installation
+$ pip install ansible
+
+# install the epel-release RPM if needed on CentOS, RHEL, or Scientific Linux
+$ sudo yum install ansible
+
+# you will need the PPA repo configured
+$ sudo apt-get install ansible
+          </code></pre>
+          <aside class="notes">
+            <p>There are many ways to install Ansible, including making your own rpm package, running from source, or you can just use a package manager.   As you can see, the examples below are using pip, yum, and apt.
+              The yum and apt installations require additional steps so if you prefer using a single command, then you can install with pip.
+                1 - Most common and preferred way (unless your Python is set up weird)
+                2 - If you’re running a RHEL or CentOS type of machine, install epel-release and grab the package from there
+                3- Ubuntu/Debian flavor OS
+              If anything stumps you, it’s always helpful to take a look at the Ansible Installation documentation for more information.
+            </p>
+          </aside>
+        </section>
+
+        <section>
+            <h2>HOW ANSIBLE WORKS</h2>
+            <p><img src="images/how_ansible_works.jpg"></p>
+            <aside class="notes">
+              <p>Once you have Ansible installed, you’re going to need to become acquainted with the key components of how Ansible works.
+                The graphic on this slide shows the relationship between all the main pieces of Ansible, starting with the user who writes an Ansible playbook.
+              </p>
+            </aside>
+        </section>
+
+        <section>
+          <h2>MODULES</h2>
+          <p><font color="52AAAC"><strong>Modules are bits of code transferred to the target system and executed to satisfy the task declaration.</strong></font><br></p>
+          <div style="float: left; width: 50%;">
+          <ul>
+          <li>apt/yum</li>
+          <li>copy</li>
+          <li>file</li>
+          <li>get_url</li>
+          <li>git</li>
+          <li>ping</li>
+          <li>debug</li>
+          </ul>
+          </div>
+          <div style="float: right; width: 50%;">
+          <ul>
+          <li>service</li>
+          <li>synchronize</li>
+          <li>template</li>
+          <li>uri</li>
+          <li>user</li>
+          <li>wait_for</li>
+          <li>assert</li>
+          </ul>
+          </div>
+          <aside class="notes">
+            <p>We talked a bit about modules in the previous couple slides, but I did want to point out a list of some commonly used modules that you may see out in example repos, blog posts, etc. a fair amount.
+              Typically, you're going to see a lot of package management modules being used, lots of file modules like copy and file, but as mentioned previously, there are tons more as well.</p>
+          </aside>
+        </section>
+
+        <section>
+            <h2>MODULES</h2>
+            <p><img src="images/module_index.jpg"></p>
+            <p><font color="52AAAC"><strong>https://docs.ansible.com/ansible/latest/modules/modules_by_category.html</strong></font><br></p>
+            <aside class="notes">
+              <p>You can check out all of them by looking at the exhaustive module index on docs.ansible.com.
+                They’re broken down by category, so you can more easily find what you need.
+                I would highly recommend bookmarking this page!
+              </p>
+            </aside>
+        </section>
+
+        <section>
+          <h2>MODULES: RUN COMMANDS</h2>
+          <p><font color="52AAAC"><strong>If Ansible doesn’t have a module that suits your needs there are the “run command” modules:</strong></font><br><br></p>
+          <ul>
+            <li><strong>command:</strong> Takes the command and executes it. The most secure and predictable.</li>
+            <li><strong>shell:</strong> Executes through a shell like /bin/sh so you can use pipes etc. Be careful.</li>
+            <li><strong>script:</strong> Runs a local script on a remote node after transferring it.</li>
+            <li><strong>raw:</strong> Executes a command  without going through the Ansible module subsystem.</li>
+          </ul>
+          <br>
+            <p><strong>NOTE:</strong> Unlike standard modules, run commands have no concept of desired state and should only be used as a last resort</p>
+          <aside class="notes">
+            <p>On this slide we’re gonna discuss the command and shell modules which are super useful because you can execute commands with them on your remote nodes.
+              The only big difference is that the command is not processed through the shell so redirect options and certain variables won’t work.
+              If you need those, just use the shell module instead.
+              The command modules let you run networking commands with Ansible, the same way a network engineer would type them on the command line.
+
+              If you have something that’s not a core module or you haven't written a custom one, you can utilize the script module.
+              For example, if you want to push out a homegrown script, you can do that here.
+
+              We also have the raw module, which issues a pure SSH command and bypasses the python module mechanism.
+              This is handy if you’re talking to a machine that doesn’t have python (for example, a server that’s running Windows!).
+            </p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>AD-HOC COMMANDS</h2>
+          <pre class="language-yaml"><code data-noescape>
+            # check all my inventory hosts are ready to be managed by Ansible
+            $ ansible all -m ping
+
+            # run the uptime command on all hosts in the web group
+            $ ansible web -m command -a “uptime”
+
+            # collect and display the discovered for the localhost
+            $ ansible localhost -m setup
+          </code></pre>
+          <aside class="notes">
+            <p>We’re going to transition right into ad-hoc commands from the commands modules because often times, you utilize command/shell to issue one-off commands to your hosts.
+              This is essentially what ad-hoc commands are; just quick checks on your servers that you don’t want to preserve in an Ansible playbook.
+              The examples here are pretty typical.
+                Our first example is just checking whether we have connectivity with the host by issuing the ping command (I do this all the time to make sure everything is responding).
+                In the second example here, you can see the command to check the uptime on the two servers in my web group using the command module.
+                And lastly, the third example is gathering facts about our local machine which would yield the information that you can use for conditionals and variables and whatnot.
+                [a bit of the output is shown on next slide]
+            </p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>SIDEBAR: DISCOVERED FACTS</h2>
+          <pre class="language-yaml"><code data-noescape>
+$ ansible localhost -m setup
+localhost | success >> {
+	"ansible_facts": {
+    	"ansible_default_ipv4": {
+        	"address": "192.168.1.37",
+        	"alias": "wlan0",
+        	"gateway": "192.168.1.1",
+        	"interface": "wlan0",
+        	"macaddress": "c4:85:08:3b:a9:16",
+        	"mtu": 1500,
+        	"netmask": "255.255.255.0",
+        	"network": "192.168.1.0",
+        	"type": "ether"
+    	},
+          </code></pre>
+          <aside class="notes">
+            <p>This is just a small sampling of what’s gathered from that setup ad hoc command.</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>INVENTORY</h2>
+          <p>Inventory is a collection of hosts (nodes) against which Ansible can work with.</p>
+          <ul>
+            <li>Hosts</li>
+            <li>Groups</li>
+            <li>Inventory-specific data (variables)</li>
+            <li>Static or dynamic sources</li>
+          </ul>
+          <aside class="notes">
+            <p>Ad-hoc commands and modules always come back to the inventory we’re managing.  Inventory consists of hosts, groups, inventory specific data, and whether it’s static or dynamic sources. Note that “hosts” has been expanded overtime to include network devices, containers and virtually anything else that is network-addressable.</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>STATIC INVENTORY EXAMPLE</h2>
+          <pre class="language-yaml"><code data-noescape>
+            10.42.0.2
+            10.42.0.6
+            10.42.0.7
+            10.42.0.8
+            10.42.0.100
+          </code></pre>
+          <aside class="notes">
+            <p>This is a free-form static inventory listed by IP address. If I clean that up a bit, I get...</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>STATIC INVENTORY EXAMPLE</h2>
+          <pre class="language-yaml"><code data-noescape>
+            [control]
+            control ansible_host=10.42.0.2
+
+            [web]
+            node-1 ansible_host=10.42.0.6
+            node-2 ansible_host=10.42.0.7
+            node-3 ansible_host=10.42.0.8
+
+            [haproxy]
+            haproxy ansible_host=10.42.0.100
+
+            [all:vars]
+            ansible_user=vagrant
+            ansible_ssh_private_key_file=~/.vagrant.d/insecure_private_key
+          </code></pre>
+          <aside class="notes">
+            <p>...a host file that’s separated into groups (which in this example is control, web, and haproxy).
+              We also have some inventory-specific data where we’re defining ansible_host for each of these different nodes, and we’ve got a vars section defined for all the hosts where we’re setting the connecting user.
+              There’s also a path to the private key file we’re using for authentication.</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>STATIC INVENTORY EXAMPLE IN YAML</h2>
+          <pre class="language-yaml"><code data-noescape>
+            all:
+              vars:
+                ansible_user: vagrant
+                ansible_ssh_private_key_file: ~/.vagrant.d/insecure_private_key
+
+              children:
+                web:
+                  hosts:
+                    node-1:
+                      ansible_host: 10.42.0.6
+                    node-2:
+                      ansible_host: 10.42.0.7
+                    node-3:
+                      ansible_host: 10.42.0.8
+          </code></pre>
+          <aside class="notes">
+            <p>This is a similar example of the same hosts file in YAML format which is a new option as of version 2.4.
+              This provides some flexibility in regards to the format you might find easier to work with.</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>VARIABLES</h2>
+          <p>Ansible can work with metadata from various sources and manage their context in the form of variables.</p>
+          <ul>
+            <li>Command line parameters</li>
+            <li>Plays and tasks</li>
+            <li>Files</li>
+            <li>Inventory</li>
+            <li>Discovered facts</li>
+            <li>Roles</li>
+          </ul>
+          <aside class="notes">
+            <p>To go into a little more detail, variables in Ansible are used to account for differences between servers.
+              By using variables, I have the ability to keep a nice layer of abstraction in my playbook and define my variables as needed in various host or group vars files.
+              These could be for things like facts or file paths or package versions.</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>VARIABLE PRECEDENCE</h2>
+          <p><font color="52AAAC"><strong>The order in which the same variable from different sources will override each other:</strong></font><br></p>
+          <div style="float: left; width: 50%;">
+          <ol>
+          <li>Extra vars</li>
+          <li>Set_facts/Registered vars</li>
+          <li>Include_vars</li>
+          <li>Include_params</li>
+          <li>Role params</li>
+          <li>Task vars (only for the task)</li>
+          <li>Block vars (only for tasks in the block)</li>
+          <li>Role vars</li>
+          <li>Play vars_files</li>
+          <li>Play vars_prompt</li>
+          <li>Play vars</li>
+          </div>
+          <div style="float: right; width: 50%;">
+          <ol start="12">
+          <li>Host facts</li>
+          <li>Playbook host_vars</li>
+          <li>Inventory host_vars</li>
+          <li>Inventory file/script host vars</li>
+          <li>Playbook group_vars</li>
+          <li>Inventory group_vars</li>
+          <li>Playbook group_vars/all</li>
+          <li>Inventory group_vars/all</li>
+          <li>Inventory file or script group vars</li>
+          <li>Role defaults</li>
+          </ol>
+          </div>
+          <aside class="notes">
+            <p>This brings up a good time to talk about variable precedence, which is basically the order in which the same variables will override each other.
+              The latest version has 21 levels of variable precedence wherein extra_vars will always take precedence and role_defaults will get overwritten by all of these other var types.</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>TASKS</h2>
+          <p><font color="52AAAC">Tasks are the application of a module to perform a specific unit of work.</font><br><br></p>
+          <ul>
+            <li><strong>file:</strong>A directory should exist</li>
+            <li><strong>yum:</strong>A package should be installed</li>
+            <li><strong>service:</strong>A service should be running</li>
+            <li><strong>template:</strong>Render a configuration file from a template</li>
+            <li><strong>get_url:</strong>Fetch an archive file from a URL</li>
+            <li><strong>git:</strong>Clone a source code repository</li>
+          </ul>
+          <aside class="notes">
+            <p>Just to recap, so far we’ve talked about acting against inventory with modules, but those modules are going to be contained in things called tasks.
+              These are simple and declarative, because we’re telling the module to do something specific like (give examples from slide of things the modules will do within the tasks).
+            </p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>EXAMPLE TASKS IN A PLAY</h2>
+          <pre class="language-yaml"><code data-noescape>
+tasks:
+- name: add cache in directory
+  file:
+    path: /opt/cache
+    state: directory
+
+- name: install nginx
+  yum:
+    name: nginx
+    state: latest
+
+- name: restart nginx
+  service:
+    name: nginx
+    state: restarted
+          </code></pre>
+          <aside class="notes">
+            <p>In this example, the first task is called “add cache in directory”.
+              Note that you can name it anything you'd like.
+              Here we're going to call the file module and give it a couple of options.
+              Our path is going to be opt/cache and the state is directory, meaning we're going to create the directory opt/cache.</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>HANDLER TASKS</h2>
+          <p><font color="52AAAC"><strong>Handlers are special tasks that run at the end of a play if notified by another task.</strong></font><br><br></p>
+          <aside class="notes">
+            <p>Normal tasks run sequentially, handler tasks run on notification.
+              Handlers may be notified multiple times during a single play, and are triggered when a tasks causes a change in state.
+              If nothing notifies a handler, it will not run. Regardless of how many tasks notify a handler, it will run only once, after all of the tasks complete in a particular play.
+            </p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>EXAMPLE HANDLER IN A PLAY</h2>
+          <pre class="language-yaml"><code data-noescape>
+tasks:
+  - name: add cache dir
+	 file:
+      path: /opt/cache
+      state: directory
+
+  - name: install nginx
+    yum:
+      name: nginx
+      state: latest
+    notify: restart nginx
+
+handlers:
+  - name: restart nginx
+    service:
+      name: nginx
+      state: restarted
+          </code></pre>
+          <aside class="notes">
+            <p>In this slide, we have an example of a handler in which after we install nginx, we add a notify to restart the services.
+              Then, there’s a handlers section in which we define that handler.
+              If the conditions to trigger the handler aren’t met, then the handler won’t run.
+              Handlers may be notified multiple times during a single play, and are triggered when a task causes a change in state.
+            </p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>PLAYS & PLAYBOOKS</h2>
+          <p><font color="52AAAC"><strong>Plays are ordered sets of tasks to execute against host selections from your inventory.
+            A playbook is a file containing one or more plays.</strong></font><br><br></p>
+          <aside class="notes">
+            <p>All these things we’ve been talking about including tasks, handlers, modules, etc. are all part of what make up plays and playbooks.
+            </p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>PLAYBOOK EXAMPLE</h2>
+          <pre class="language-yaml"><code data-noescape>
+---
+- name: install and start apache
+  hosts: web
+  vars:
+    http_port: 80
+    max_clients: 200
+  remote_user: root
+
+  tasks:
+  - name: install httpd
+    yum: pkg=httpd state=latest
+  - name: write the apache config file
+    template: src=/srv/httpd.j2 dest=/etc/httpd.conf
+  - name: start httpd
+    service: name=httpd state=started
+          </code></pre>
+          <aside class="notes">
+            <p>We’re gonna break down what makes up a playbook and review what we’ve been talking about so far.
+            </p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>ROLES</h2>
+          <p><font color="52AAAC"><strong>Roles are a packages of closely-related Ansible content that can be shared more easily than plays alone.</strong></font><br><br></p>
+          <aside class="notes">
+            <ul>
+              <li>Improves readability and maintainability of complex plays</li>
+              <li>Eases sharing, reuse and standardization of automation processes</li>
+              <li>Enables Ansible content to exist independently of playbooks, projects -- even organizations</li>
+              <li>Provides functional conveniences such as file path resolution and default values</li>
+            </ul>
+          <aside class="notes">
+            <p>We’re gonna break down what makes up a playbook and review what we’ve been talking about so far.
+            </p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>PLAYBOOK EXAMPLE</h2>
+          <pre class="language-yaml"><code data-noescape>
+site.yml
+roles/
+   common/
+     files/
+     templates/
+     tasks/
+     handlers/
+     vars/
+     defaults/
+     meta/
+   webservers/
+     files/
+     templates/
+     tasks/
+     handlers/
+     vars/
+     defaults/
+     meta/
+          </code></pre>
+          <aside class="notes">
+            <p>This is how it looks from a project perspective.
+              Not all of these directories need to be used, these are just standards that are available and ready to fill in with your tasks, handlers, variables, whatever you need for the particular role.
+            </p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>PLAYBOOK WITH ROLES EXAMPLE</h2>
+          <pre class="language-yaml"><code data-noescape>
+# site.yml
+---
+- hosts: web
+  roles:
+     - common
+     - webservers
+          </code></pre>
+          <aside class="notes">
+            <p>This is how you would call a role from the main playbook.
+              It keeps everything simple and you can switch things out or delete easily without parsing through a huge list of tasks that you’ve made separately for every host type.
+            </p>
+          </aside>
+        </section>
+
+        <section>
+            <h2>ANSIBLE GALAXY</h2>
+            <p><img src="images/galaxy.jpg"></p>
+            <aside class="notes">
+              <p>If you’d like to check out our huge community site for Ansible roles, visit Galaxy.Ansible.com.
+                You can sort through things by author name, stars, number of downloads, as well as other filters, and you can even share your own roles here as well.
+              </p>
+            </aside>
+        </section>
+
+        <section>
+          <h2>WHERE TO FIND PLAYBOOK EXAMPLES</h2>
+          <p><strong>General Examples:</strong></p>
+          <p>https://github.com/ansible/ansible-examples</p>
+          <p><strong>Lightbulb:</strong></p>
+          <p>https://github.com/ansible/lightbulb/tree/master/examples</p>
+          <p><strong>Ansible + Vagrant:</strong></p>
+          <p>https://github.com/geerlingguy/ansible-vagrant-examples</p>
+          <aside class="notes">
+            <p>Here are some places where you can find some good playbook examples.</p>
+          </aside>
+        </section>
+
+        <section>
+          <h2>WHERE TO FIND PLAYBOOK EXAMPLES</h2>
+          <p><strong>Would you like to learn Ansible?  It’s easy to get started:</strong></p>
+          <p>ansible.com/get-started</p>
+          <p><strong>Have you used Ansible already?  Try Tower for free:</strong></p>
+          <p>ansible.com/tower-trial</p>
+          <p><strong>Want to learn more?</strong></p>
+          <p>ansible.com/whitepapers</p>
+          <aside class="notes">
+            <p>If you’d like to learn more about Ansible our Getting Started page is a great resource.
+              Our documentation is also very thorough and well-written, so check that out as well.
+              If you’re ready to try Tower you can visit our Tower Trial page, and you can also check out the whitepapers on our website!</p>
+          </aside>
+        </section>
+
+        <section>
+            <section data-state="title alt">
+              <h1>Demo Time!</h1>
+              <aside class="notes">
+                <p></p>
+              </aside>
+            </section>
+            <section data-state="title alt">
+              <h1>Show a playbook written out?  Show roles?  Tower?</h1>
+              <aside class="notes">
+                <p>more speaker notes here for those deep dive slides</p>
+              </aside>
+            </section>
+        </section>
+
+        <section>
+          <h1>Thank You!</h1>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/lib/js/head.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/js/reveal.js"></script>
+
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        history: true,
+        width: "85%",
+        height: "90%",
+        transition: "fade",
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        // Notes plugin must remain local for now.
+        // See https://github.com/ansible/lightbulb/issues/125
+        dependencies: [
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/plugin/markdown/marked.js' },
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js'},
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-yaml.min.js'}
+          //{ src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+      });
+    </script>
+  </body>
+</html>
