@@ -56,7 +56,7 @@
   - name: John Barker
     aliases: gundalow
     title: Principal Software Engineer
-    org: Ansible, by Red Hat
+    org: Red Hat Ansible Automation
     start_date: 2016
     roles:
       - community
@@ -93,10 +93,10 @@
           </ol>
           <aside class="notes">
               <ul>
-                  <li>Everybody watching joining in today knows things that can help us improve, share that knowledge.</li>
+                  <li>Everybody joining in today knows things that can help us improve, share that knowledge.</li>
                   <li>Aiming to show you the next steps you can take</li>
-                  <li>Briefly cover this topics, and show where to get further info</li>
-                  <li>Again, please use the chat and Q&amp;A features</li>
+                  <li>Briefly cover a few topics, and show where to get further info</li>
+                  <li>IF ON BlueJeans: Again, please use the chat and Q&amp;A features</li>
               </ul>
           </aside>
         </section>
@@ -119,9 +119,14 @@
           <h2>Myth #1: I can’t contribute because I’m not a programmer.</h2>
           <ul>
               <li>Can’t code (in Python)? No problem!</li>
-              <li>Module docs are YAML - You know YAML</li>
-              <li>Testing changes doesn't (necessarily) require you to understand <i>how</i> it works</li>
-              <li>Bug reports &amp; confirm fixes</li>
+              <ul>
+                  <li>Module docs are YAML - You know YAML.</li>
+                  <li>Testing a change doesn't (necessarily) require you to understand <i>how</i> it works.</li>
+                  <li>Anyone can confirm bug reports &amp; fixes.</li>
+              </ul>
+              <li></li>
+              <li></li>
+              <li></li>
           </ul>
           <aside class="notes">
               <ul>
@@ -132,12 +137,14 @@
         </section>
 
         <section class="text-center">
-          <h2>Myth #2: I'm brand new to Ansible, I can't contribute</h2>
+          <h2>Myth #2: I'm brand new to Ansible, I can't contribute.</h2>
           <ul>
               <li>Think you have no knowledge to share? Think again!</li>
-              <li>New users can tell us how well the documentation is working</li>
-              <li>Provide feedback test, review, report bugs</li>
-              <li>If you’re new to Ansible, you have fresh eyes - keep us honest</li>
+              <ul>
+                  <li>New users can tell us how well the documentation is working.</li>
+                  <li>Provide feedback test, review, report bugs.</li>
+                  <li>If you’re new to Ansible, you have fresh eyes - keep us honest.</li>
+              </ul>
           </ul>
           <aside class="notes">
               <ul>
@@ -149,13 +156,15 @@
         </section>
 
         <section class="text-center">
-          <h2>Myth #3: I don't know Git or GitHub</h2>
+          <h2>Myth #3: I don't know Git or GitHub, I can't contribute.</h2>
           <ul>
               <li>Scared of source control? Fear not!</li>
-              <li>docs.ansible.com - "Edit on GitHub"</li>
-              <li>You can directly from GitHub.com - demo later</li>
-              <!-- FIXME: Image of bot/guidance -->
-              <li>Worst case you make a mess of your PR - Ansibullbot will guide you</li>
+              <ul>
+                  <li>On docs.ansible.com, use "Edit on GitHub".</li>
+                  <li>This lets you edit directly from GitHub.com - demo later.</li>
+                  <!-- FIXME: Image of bot/guidance -->
+                  <li>Worst case you make a mess of your PR - Ansibullbot will guide you.</li>
+              </ul>
           </ul>
           <aside class="notes">
               <ul>
@@ -168,12 +177,11 @@
         </section>
 
         <section class="text-center">
-          <h2>Myth #4: Writing tests is difficult</h2>
+          <h2>Myth #4: Writing tests is difficult.</h2>
           <ul>
-              <li>Integration tests are just Playbooks</li>
-              <li>Extending a test case is generally fairly straight forward</li>
-              <li>Gives us confidence to merge PRs</li>
-              <li>Help us stop regressions</li>
+              <li>Integration tests for Ansible are just Playbooks.</li>
+              <li>Extending a test case is generally fairly straightforward.</li>
+              <li>Testing gives us confidence to merge PRs, helps stop regressions.</li>
           </ul>
           <aside class="notes">
               <ul>
@@ -183,15 +191,15 @@
         </section>
 
         <section class="text-center">
-          <h2>Myth #5: I need to make a commitment to stay around and support what I've done</h2>
+          <h2>Myth #5: I need to make a commitment - one contribution and I'm stuck with support forever.</h2>
           <ul>
-              <li>Drive-by contributions are welcome</li>
+              <li>Drive-by contributions are welcome!</li>
               <ul>
-                  <li>Clarifies documentation</li>
-                  <li>Fixes a bug</li>
+                  <li>Fix a bug.</li>
                   <li>Add a test case.</li>
+                  <li>Clarify documentation.</li>
               </ul>
-              <li>When adding new modules we look for some ongoing support</li>
+              <li>When adding new modules we do look for some ongoing support.</li>
           </ul>
           <aside class="notes">
               <ul>
@@ -215,11 +223,14 @@
         <section class="text-center">
           <h2>Scaling: The power of Community</h2>
           <ul>
-              <li>The philosophical perspective, collectively we know everything</li>
-              <li>Some of us know lots of things</li>
-              <li>Some of us know very little</li>
-              <li>Collectively we know everything</li>
-              <li>Allows <b>you</b> to set direction</li>
+              <li>Together, we make Ansible awesome.</li>
+              <ul>
+                  <li>Some of us know very little.</li>
+                  <li>Some of us know lots of things.</li>
+                  <li>Collectively we know everything.</li>
+              </ul>
+              <li>Ansible is an ecosystem, and every developer and user has a part to play.</li>
+              <li>Getting involved allows <b>you</b> to set direction.</li>
           </ul>
           <aside class="notes">
               <ul>
@@ -244,10 +255,12 @@
         <section class="text-center">
           <h2>Scaling: Core Teams remit</h2>
           <ul>
-              <li>The Ansible Core Team focus on the Engine and main modules</li>
-              <li>Core: 300 modules</li>
-              <li>Community: 3,500 modules</li>
-              <li>Reviewing Community issues &amp; PRs are the communities responsibility</li>
+              <li>The Ansible Core Team focus on the Engine and main modules.</li>
+              <ul>
+                  <li>Core: 300 modules</li>
+                  <li>Community: 3,500 modules</li>
+              </ul>
+              <li>Reviewing community issues &amp; PRs is the community's responsibility.</li>
           </ul>
           <aside class="notes">
               <ul>
@@ -301,20 +314,20 @@
         <section class="text-center">
           <h2>GitHub Issues and PRs</h2>
           <ul>
-              <li>GitHub Issues/PRs or it never happened</li>
+              <li>GitHub Issues/PRs . . . or it never happened.</li>
               <li>Issues</li>
               <ul>
-                  <li>Bug reports and feature ideas - Details</li>
-                  <li>Discussion before implementation starts</li>
-
+                  <li>Issues capture bug reports and feature ideas.</li>
+                  <li>Use for details and discussion before implementation begins.</li>
               </ul>
               <li>Pull Requests (PRs)</li>
               <ul>
-                  <li>Improve a one thing: Fix a bug <b>or</b> feature</li>
-                  <li>Always use feature branches</li>
+                  <li>PRs contain actual changes.</li>
+                  <li>Create a feature branch for each change.</li>
+                  <li>Improve a one thing: Fix a bug <b>or</b> feature.</li>
               </ul>
-              <li>If you know the fix, just create a PR</li>
-              <li>HELP: <a href="https://lab.github.com">lab.github.com</a>, <a href="https://guides.github.com">guides.github.com</a></li>
+              <li>If you know the fix, no need to create an issue, just create a PR.</li>
+              <li>GitHub resources: <a href="https://lab.github.com">lab.github.com</a>, <a href="https://guides.github.com">guides.github.com</a></li>
           </ul>
           <aside class="notes">
               <ul>
@@ -371,7 +384,7 @@
             <code><pre class="language-yaml">
   - name: Alicia Cozine
     title: Lead Technical Writer
-    org: Ansible, by Red Hat
+    org: Red Hat Ansible Automation
     start_date: 2018
     roles:
       - docs
