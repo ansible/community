@@ -319,12 +319,13 @@
               <ul>
                   <li>Issues capture bug reports and feature ideas.</li>
                   <li>Use for details and discussion before implementation begins.</li>
+                  <li>Remember that users often find issues when troubleshooting - include error messages and workarounds.</li>
               </ul>
               <li>Pull Requests (PRs)</li>
               <ul>
                   <li>PRs contain actual changes.</li>
                   <li>Create a feature branch for each change.</li>
-                  <li>Improve a one thing: Fix a bug <b>or</b> feature.</li>
+                  <li>Improve a one thing: Fix a bug <b>or</b> add a feature.</li>
               </ul>
               <li>If you know the fix, no need to create an issue, just create a PR.</li>
               <li>GitHub resources: <a href="https://lab.github.com">lab.github.com</a>, <a href="https://guides.github.com">guides.github.com</a></li>
@@ -402,7 +403,7 @@
           <p><a href="https://github.com/ansible/community/wiki/Docs">github.com/ansible/community/wiki/Docs</a> Docs Working Group</p>
           <aside class="notes">
               <ul>
-                  <li>How to fix an Docs issue</li>
+                  <li>How to fix a Docs issue</li>
                   <li>Example of docs Working Group</li>
               </ul>
           </aside>
@@ -419,7 +420,7 @@
 
 
         <section class="text-center">
-          <h2>Development Process: Finding Issues &amp; PRs</h2>
+          <h2>Finding Issues &amp; PRs that Interest You.</h2>
           <ul>
               <li>GitHub Labels</li>
               <ul>
@@ -452,10 +453,11 @@
         <section class="text-center">
           <h2>Development Process: Aims of reviews</h2>
           <ul>
-              <li>We need confidence before code can be merged</li>
-              <li>We need user feedback to tell us if this is right</li>
-              <li>PR Backlog size due to lack of review - WG &amp; <a href="https://github.com/ansible/community/issues/407">Big PR Review Day 2019-02-21</a></li>
-              <li>Anyone can help with this</li>
+              <li>Anyone can review PRs.</li>
+              <li>User feedback helps core team and other users.</li>
+              <li>Community reviews give us confidence to merge community code.</li>
+              <li>Working groups &amp; <a href="https://github.com/ansible/community/issues/407">Big PR Review days</a></li>
+              <li>PR backlog keeps growing due to lack of reviews.</li>
           </ul>
           <aside class="notes">
               <ul>
@@ -471,8 +473,8 @@
           <h2>Development Process: Types of review</h2>
           <p style="text-align: left;">Whatever your skill set, you can help with at least one of these:</p>
           <ol>
-              <li>Functional review</li>
               <li>Documentation reviews</li>
+              <li>Functional reviews</li>
               <li>Code reviews</li>
           </ol>
           <aside class="notes">
@@ -488,10 +490,10 @@
         <section class="text-center">
           <h2>Reviews #1: Functional Reviews</h2>
           <ul>
-             <li>Does it work?</li>
-             <li>Address a use case you have?</li>
-             <li>Does it break any edge/use case you have?</li>
-             <li>Is the interface clear</li>
+             <li>Does the change work?</li>
+             <li>Does it address a use case you have?</li>
+             <li>Does it break any edge case or use case you have?</li>
+             <li>Is the interface clear?</li>
           </ul>
           <aside class="notes">
               <ul>
@@ -502,10 +504,11 @@
         <section class="text-center">
           <h2>Reviews #2: Documentation Reviews</h2>
           <ul>
-              <li>Are the docs clear, is there any ambiguity?</li>
+              <li>Are the docs clear?</li>
               <li>Do the examples work?</li>
+              <li>Is there any ambiguity?</li>
               <li>Is there any missing knowledge?</li>
-              <li>Feedback from newer user is really important</li>
+              <li>Feedback from newer users is really important!</li>
           </ul>
           <aside class="notes">
               <ul>
@@ -516,10 +519,10 @@
         <section class="text-center">
           <h2>Reviews #3: Code Reviews</h2>
           <ul>
-              <li>Best use of existing APIs</li>
-              <li>Following the "the Ansible way" (variable names, etc.)</li>
-              <li>Honor Ansible's coding guidelines?</li>
-              <li>Follow the CRUD principles (Create, Read, Update, Delete)?</li>
+              <li>Does the code honor Ansible's coding guidelines?</li>
+              <li>Does the code make the best use of existing APIs?</li>
+              <li>Does it follow the "the Ansible way" (variable names, etc.)?</li>
+              <li>Does it follow the CRUD principles (Create, Read, Update, Delete)?</li>
           </ul>
           <aside class="notes">
               <ul>
@@ -544,9 +547,9 @@
               </ol>
               <li>Be mindful:</li>
               <ul>
-                  <li>Go above and beyond to promote a collaborative and respectful community</li>
-                  <li>"Would this be clearer if..." - invites discussion</li>
-                  <li>Avoid bikeshedding. Ansible's coding guidelines is enforced by CI. </li>
+                  <li>Go above and beyond to promote a collaborative and respectful community.</li>
+                  <li>Avoid bikeshedding. Ansible's coding guidelines are already enforced by CI.</li>
+                  <li>Make comments that invite discussion, not argument: "Would this be clearer if...?"</li>
               </ul>
           </ul>
           <aside class="notes">
@@ -603,17 +606,17 @@
 
         <section class="text-center">
           <h2>Working Groups: Purpose</h2>
-          <p style="text-align: left;">Are you willing to help advance the thing that is obviously stuck and needs people united in order to get unstuck</p>
+          <p style="text-align: left;">Are you willing to help advance the thing that is obviously stuck and needs people united in order to get unstuck?</p>
           <ul>
-              <li>Focused effort on a specific topic</li>
-              <li>Help build communities</li>
-              <li>Allows people closer to the technology to set direction</li>
+              <li>Empower users.</li>
+              <li>Help build communities.</li>
+              <li>Focus effort on a specific topic/</li>
+              <li>Allow people closer to the technology to set direction.</li>
               <li>Make Ansible do what <b>you</b> want, solve <b>your</b> challenges</li>
-              <li>Empowers
           </ul>
           <aside class="notes">
               <ul>
-                  <li>We've mentioned this a few times, but what are they?</li>
+                  <li>We've mentioned Working Groups a few times, but what are they?</li>
                   <li>Distributed across the globe, like Ansible's Core Team</li>
                   <li>We are looking for people interested in making/helping build communities around technologies, as Ansible is huge, it's impossible to leave this up to one person, or a core Ansible team</li>
               </ul>
@@ -623,18 +626,18 @@
         <section class="text-center">
           <h2>Working Groups: How?</h2>
           <ul>
-              <li>Mix of skill sets required</li>
-              <li>Maybe spread across the globe</li>
-              <li>Communicate via GitHub Issues/PRs/Wiki</li>
-              <li>May have a dedicated IRC channel</li>
-              <li>May have IRC Meetings (recorded)</li>
-              <li>No regular commitment required</li>
-              <li>I can help you set this up</li>
+              <li>Require a mix of skill sets.</li>
+              <li>May be spread across the globe.</li>
+              <li>Communicate via GitHub Issues/PRs/Wiki.</li>
+              <li>May have a dedicated IRC channel.</li>
+              <li>May have IRC Meetings (recorded).</li>
+              <li>No regular commitment required.</li>
+              <li>New Working Groups welcome! I can help you set one up.</li>
           </ul>
           <aside class="notes">
               <ul>
                   <li>Not asking for n-hours a week </li>
-                  <li>As specially early on even a small amount of time makes a huge benefit, low hanging fruit</li>
+                  <li>Especially early on even a small amount of time makes a huge benefit, low hanging fruit</li>
                   <li>Feel free to message me directly, we have ideas of other groups</li>
               </ul>
           </aside>
@@ -651,14 +654,14 @@
 
 
         <section>
-            <h2>Recap</h2>
+            <h2>Recap/Resources</h2>
             <ul>
-                <li><a href="https://docs.ansible.com/ansible/devel/community">docs.ansible.com/ansible/devel/community</a> Community guides</li>
-                <li><a href="https://github.com/ansible/community/wiki">github.com/ansible/community/wiki</a> Join a working Group</li>
-                <li><a href="https://github.com/ansible/community/issues/407">github.com/ansible/community#407</a> Big PR Review Day 2019-09-19</li>
-                <li><a href="https://ansible.com/events">ansible.com/events</a>, <a href="https://ansible.meetup.com">ansible.meetup.com</a></li>
-                <li><a href="https://ansible.com/ansiblefest">ansible.com/ansiblefest</a> Ansible Fest Atlanta 24-26 Sept 2019</li>
-                <li><a href="mailto:gundalow@redhat.com">gundalow@redhat.com</a> &amp; <a href="mailto:acozine@redhat.com">acozine@redhat.com</a> for feedback, help or mentoring</li>
+                <li>Community Guide: <a href="https://docs.ansible.com/ansible/devel/community">docs.ansible.com/ansible/devel/community</a></li>
+                <li>Working Groups: <a href="https://github.com/ansible/community/wiki">github.com/ansible/community/wiki</a></li>
+                <li>Big PR Review Days: <a href="https://github.com/ansible/community/issues/407">github.com/ansible/community/issues/407</a></li>
+                <li>Upcoming Events: <a href="https://ansible.com/events">ansible.com/events</a></li>
+                <li>Meetups: <a href="https://ansible.meetup.com">ansible.meetup.com</a></li>
+                <li>Contact us for feedback, help, mentoring: <a href="mailto:gundalow@redhat.com">gundalow@redhat.com</a> &amp; <a href="mailto:acozine@redhat.com">acozine@redhat.com</a></li>
            </ul>
           <aside class="notes">
           </aside>
