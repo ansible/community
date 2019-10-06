@@ -15,6 +15,10 @@ You can add this full list of meetings to your personal calendar by importing by
 
 ### Mondays
 
+* [15:00 UTC](http://www.thetimezoneconverter.com/?t=15:00&tz=UTC):
+  **[Security Automation Working Group](https://github.com/ansible/community/wiki/Security-Automation)**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/Security-Automation.ics))
+  in `#ansible-security`
 * [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC):
   **[VMware Working Group](https://github.com/ansible/community/wiki/vmware)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/vmware.ics))
