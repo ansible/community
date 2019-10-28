@@ -22,27 +22,27 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Azure working group
-DTSTART;VALUE=DATE-TIME:20191029T120000Z
+DTSTART;VALUE=DATE-TIME:20181129T000000Z
 DURATION:PT1H
-RRULE:FREQ=WEEKLY;INTERVAL=2
-DESCRIPTION:Project:  Azure working group\nChair:  Anshul Behl (anshulbehl
- )\, Jacob Jackson (thedoubl3j)\nDescription:  \nWe discuss everything rela
- ted to Azure every week on Tuesday.\n\nIf you have something to discuss (e
- .g. a PR that needs help)\, add your\nrequest to the meeting agenda and jo
- in the IRC channel.\n\nAgenda URL:  https://github.com/ansible/community/i
- ssues?q=is:open+label:meeting_agenda+label:azure\nProject URL:  https://gi
- thub.com/ansible/community/wiki/azure
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Azure working group\nChair:  Matt Davis (nitzmahone)
+ \, Kylie Liang (kyliel)\nDescription:  \nWe discuss everything related to
+ Azure every week on Wednesday.\n\nIf you have something to discuss (e.g. a
+  PR that needs help)\, add your\nrequest to the meeting agenda and join th
+ e IRC channel.\n\nAgenda URL:  https://github.com/ansible/community/issues
+ ?q=is:open+label:meeting_agenda+label:azure\nProject URL:  https://github.
+ com/ansible/community/wiki/azure
 LOCATION:#ansible-azure
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Core Team meeting
-DTSTART;VALUE=DATE-TIME:20191029T190000Z
+DTSTART;VALUE=DATE-TIME:20181127T190000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
  escription:  \nA place to get input from the Ansible Core Team issues\, PR
  s and proposals\nthat people who are willing to come to the meeting want t
- o present.\n- Old PRs that need attention from us (as opposed to from the 
+ o present.\n- Old PRs that need attention from us (as opposed to from the
  submitter)\n- Selected proposals from the ansible/proposals repo\n- Review
   of actions from previous meeting\n- Open discussion driven by the group\n
  \nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+label
@@ -52,13 +52,13 @@ LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Core Team meeting
-DTSTART;VALUE=DATE-TIME:20191031T150000Z
+DTSTART;VALUE=DATE-TIME:20181129T150000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
  escription:  \nA place to get input from the Ansible Core Team issues\, PR
  s and proposals\nthat people who are willing to come to the meeting want t
- o present.\n- Old PRs that need attention from us (as opposed to from the 
+ o present.\n- Old PRs that need attention from us (as opposed to from the
  submitter)\n- Selected proposals from the ansible/proposals repo\n- Review
   of actions from previous meeting\n- Open discussion driven by the group\n
  \nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+label
@@ -68,7 +68,7 @@ LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Documentation working group
-DTSTART;VALUE=DATE-TIME:20191029T143000Z
+DTSTART;VALUE=DATE-TIME:20190423T143000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Documentation working group\nChair:  Alicia Cozine (
@@ -80,12 +80,12 @@ LOCATION:#ansible-docs
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lockdown working group
-DTSTART;VALUE=DATE-TIME:20191031T160000Z
+DTSTART;VALUE=DATE-TIME:20181129T160000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  Lockdown working group\nChair:  Jonathan Davila (def
  ionscode)\, Daniel Shepherd (shepdelacreme)\, James Cassell (jamescassell)
- \nDescription:  \nWe discuss everything related to Ansible Lockdown every 
+ \nDescription:  \nWe discuss everything related to Ansible Lockdown every
  other Thursday at noon.\n\nIf you have something to discuss\, add your req
  uest to the meeting agenda and\njoin the IRC channel\n\nAgenda URL:  https
  ://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+labe
@@ -94,7 +94,7 @@ LOCATION:#ansible-lockdown
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Molecule working group
-DTSTART;VALUE=DATE-TIME:20191030T190000Z
+DTSTART;VALUE=DATE-TIME:20190123T190000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Molecule working group\nChair:  gundalow\nDescriptio
@@ -105,7 +105,7 @@ LOCATION:#ansible-molecule
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network working group
-DTSTART;VALUE=DATE-TIME:20191030T160000Z
+DTSTART;VALUE=DATE-TIME:20181128T160000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Network working group\nChair:  Peter Sprygada (priva
@@ -116,7 +116,7 @@ LOCATION:#ansible-network
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Testing working group
-DTSTART;VALUE=DATE-TIME:20191031T170000Z
+DTSTART;VALUE=DATE-TIME:20181129T170000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Testing working group\nChair:  John Barker (gundalow
@@ -128,7 +128,7 @@ LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VMware working group
-DTSTART;VALUE=DATE-TIME:20191028T160000Z
+DTSTART;VALUE=DATE-TIME:20181126T160000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  VMware working group\nChair:  Abhijeet Kasurde (akas
@@ -142,12 +142,12 @@ LOCATION:#ansible-vmware
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Windows working group
-DTSTART;VALUE=DATE-TIME:20191029T200000Z
+DTSTART;VALUE=DATE-TIME:20181127T200000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Windows working group\nChair:  Matt Davis (nitzmahon
  e)\, Jordan Borean (jborean93)\nDescription:  \nWe discuss everything Wind
- ows every week on Tuesday.\n\nIf you have something to discuss (e.g. a PR 
+ ows every week on Tuesday.\n\nIf you have something to discuss (e.g. a PR
  that needs help)\, add your\nrequest to the meeting agenda and join the IR
  C channel.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=i
  s:open+label:meeting_agenda+label:windows\nProject URL:  https://github.co
