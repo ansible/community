@@ -1,0 +1,16 @@
+project: Ansible Security Automation working group
+meeting_id: security
+project_url: https://github.com/ansible/community/wiki/Security-Automation
+agenda_url: https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:security
+chair: Adam Miller (maxamillion), Sumit Jaiswal (justjais), Abhijeet Kasurde (akasurde)
+description: |
+
+  We discuss everything about Information Security Automation in Ansible every week on Monday.
+
+  If you have something to discuss (e.g. a PR that needs help), add your
+  request to the meeting agenda and join the IRC channel.
+schedule:
+- time: '1500'
+  day: Monday
+  irc: ansible-security
+  frequency: weekly

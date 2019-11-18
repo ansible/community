@@ -1,0 +1,19 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yaml2ical agendas//EN
+BEGIN:VEVENT
+SUMMARY:Ansible Security Automation working group
+DTSTART;VALUE=DATE-TIME:20191118T150000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Ansible Security Automation working group\nChair:  A
+ dam Miller (maxamillion)\, Sumit Jaiswal (justjais)\, Abhijeet Kasurde (ak
+ asurde)\nDescription:  \nWe discuss everything about Information Security 
+ Automation in Ansible every week on Monday.\n\nIf you have something to di
+ scuss (e.g. a PR that needs help)\, add your\nrequest to the meeting agend
+ a and join the IRC channel.\n\nAgenda URL:  https://github.com/ansible/com
+ munity/issues?q=is:open+label:meeting_agenda+label:security\nProject URL: 
+  https://github.com/ansible/community/wiki/Security-Automation
+LOCATION:#ansible-security
+END:VEVENT
+END:VCALENDAR
