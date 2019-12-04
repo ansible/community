@@ -26,6 +26,11 @@ You can add this full list of meetings to your personal calendar by importing by
 
 ### Tuesdays
 
+* [13:00 UTC](http://www.thetimezoneconverter.com/?t=00:00&tz=UTC):
+  **[Azure Working Group](https://github.com/ansible/community/wiki/azure)**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/azure.ics))
+  in `#ansible-azure`
+
 * [14:30 UTC](http://www.thetimezoneconverter.com/?t=14:30&tz=UTC):
   **[Documentation Working Group](https://github.com/ansible/community/wiki/docs)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/docs.ics))
@@ -52,11 +57,6 @@ You can add this full list of meetings to your personal calendar by importing by
   **[Molecule Working Group](https://github.com/ansible/community/wiki/molecule)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/molecule.ics))
   in `#ansible-molecule`
-
-* [00:00 UTC](http://www.thetimezoneconverter.com/?t=00:00&tz=UTC):
-  **[Azure Working Group](https://github.com/ansible/community/wiki/azure)**
-  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/azure.ics))
-  in `#ansible-azure`
 
 ### Thursdays
 
