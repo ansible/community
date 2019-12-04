@@ -10,7 +10,7 @@ description: |
   If you have something to discuss (e.g. a PR that needs help), add your
   request to the meeting agenda and join the IRC channel.
 schedule:
-- time: '1200'
+- time: '1300'
   day: Tuesday
   irc: ansible-azure
   frequency: biweekly-even
