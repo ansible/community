@@ -6,9 +6,9 @@ Ansible to support working with Security Platforms.
 ## Meetings
 
 We are holding a weekly community meeting at #ansible-security IRC channel
-at **15:00 UTC**. The IRC channel is the main and official place to contact
-the members. For specific issues and feature requests, follow the standard
-Ansible issues/PRs workflow.
+at **15:00 UTC every Monday**. The IRC channel is the main and official
+place to contact the members. For specific issues and feature requests,
+follow the standard Ansible issues/PRs workflow.
 
 ## Working Group Goals
 
