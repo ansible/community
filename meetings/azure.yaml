@@ -2,16 +2,15 @@ project: Azure working group
 meeting_id: Azure
 project_url: https://github.com/ansible/community/wiki/azure
 agenda_url: https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:azure
-chair: Matt Davis (nitzmahone), Kylie Liang (kyliel)
+chair: Anshul Behl (anshulbehl), Jacob Jackson (thedoubl3j)
 description: |
 
-  We discuss everything related to Azure every week on Wednesday.
+  We discuss everything related to Azure every week on Tuesday.
 
   If you have something to discuss (e.g. a PR that needs help), add your
   request to the meeting agenda and join the IRC channel.
 schedule:
-- time: '0000'
-  day: Thursday
+- time: '1300'
+  day: Tuesday
   irc: ansible-azure
-  frequency: weekly
-
+  frequency: biweekly-even
