@@ -95,7 +95,7 @@ A place to get input from the Ansible Core Team issues, PRs and proposals that p
 
 All *meeting* logs from #ansible-meeting can be seen [here](https://meetbot.fedoraproject.org/sresults/?group_id=ansible-meeting&type=channel). No other logs are recorded.
 
-There is [a script](https://gist.github.com/Qalthos/7d9c8256b7040dba1438172771aea663) that can turn IRC minutes into a summarized form for posting to meeting agenda topics.
+There is [a script](./read_minutes.py) that can turn IRC minutes into a summarized form for posting to meeting agenda topics.
 
 ### Other Meetings
 
