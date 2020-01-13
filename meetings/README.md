@@ -2,7 +2,7 @@
 
 ## #ansible-meeting
 
-Ansible IRC meetings are held on [freenode](https://freenode.net/). .
+Ansible IRC meetings are held on [freenode](https://freenode.net/).
 
 If you receive an error when you connect, see [Freenode’s Nickname Registration guide](https://freenode.net/kb/answer/registration) for instructions.
 
@@ -94,6 +94,8 @@ A place to get input from the Ansible Core Team issues, PRs and proposals that p
 ### IRC Logs
 
 All *meeting* logs from #ansible-meeting can be seen [here](https://meetbot.fedoraproject.org/sresults/?group_id=ansible-meeting&type=channel). No other logs are recorded.
+
+There is [a script](./read_minutes.py) that can turn IRC minutes into a summarized form for posting to meeting agenda topics.
 
 ### Other Meetings
 
