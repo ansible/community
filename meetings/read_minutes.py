@@ -74,7 +74,7 @@ def format_actions(action_items):
     for line in action_items.split("\n"):
         if line.startswith("* "):
             assignee, action = line[2:].split(" ", 1)
-            actions.append(f"@{assignee} {action}")
+            actions.append(f"- [ ] @{assignee} {action}")
 
     if any(actions):
         actions = ["Actions", "-------", ""] + actions
