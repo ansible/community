@@ -89,6 +89,7 @@ def clean_line(line):
         return ""
 
     trimmed = trimmed.replace("AGREED:", ":+1:")
+    trimmed = trimmed.replace("IDEA:", "💡")
     trimmed = trimmed.replace("LINK:", "")
     return trimmed.rsplit(" (", 1)[0].strip()
 
