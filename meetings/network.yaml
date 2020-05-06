@@ -1,8 +1,8 @@
 project: Network working group
 meeting_id: network
 project_url: https://github.com/ansible/community/wiki/Network
-agenda_url: https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:network
-chair: Peter Sprygada (privateip)
+agenda_url: https://github.com/ansible/community/labels/network
+chair: Nathaniel Case (Qalthos), Paul Belanger (pabelanger)
 description: |
 
   Discuss everything network.
