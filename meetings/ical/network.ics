@@ -3,13 +3,13 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Network working group
-DTSTART;VALUE=DATE-TIME:20181128T160000Z
+DTSTART;VALUE=DATE-TIME:20200506T160000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  Network working group\nChair:  Peter Sprygada (priva
- teip)\nDescription:  \nDiscuss everything network.\n\nAgenda URL:  https:/
- /github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:
- network\nProject URL:  https://github.com/ansible/community/wiki/Network
+DESCRIPTION:Project:  Network working group\nChair:  Nathaniel Case (Qalth
+ os)\, Paul Belanger (pabelanger)\nDescription:  \nDiscuss everything netwo
+ rk.\n\nAgenda URL:  https://github.com/ansible/community/labels/network\nP
+ roject URL:  https://github.com/ansible/community/wiki/Network
 LOCATION:#ansible-network
 END:VEVENT
 END:VCALENDAR
