@@ -31,6 +31,18 @@ DESCRIPTION:Project:  Azure working group\nChair:  Anshul Behl (anshulbehl
 LOCATION:#ansible-azure
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Community working group
+DTSTART;VALUE=DATE-TIME:20200603T180000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Community working group\nChair:  John Barker (gundal
+ ow)\nDescription:  \nDiscuss everything related to Ansible Community and C
+ ontributor experience.\n\nAgenda URL:  https://github.com/ansible/communit
+ y/issues?q=is:open+label:meeting_agenda+label:contributor_experience\nProj
+ ect URL:  https://github.com/ansible/community/wiki/Community
+LOCATION:#ansible-community
+END:VEVENT
+BEGIN:VEVENT
 SUMMARY:Core Team meeting
 DTSTART;VALUE=DATE-TIME:20181127T190000Z
 DURATION:PT1H

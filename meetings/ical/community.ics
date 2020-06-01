@@ -1,0 +1,16 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//yaml2ical agendas//EN
+BEGIN:VEVENT
+SUMMARY:Community working group
+DTSTART;VALUE=DATE-TIME:20200603T180000Z
+DURATION:PT1H
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  Community working group\nChair:  John Barker (gundal
+ ow)\nDescription:  \nDiscuss everything related to Ansible Community and C
+ ontributor experience.\n\nAgenda URL:  https://github.com/ansible/communit
+ y/issues?q=is:open+label:meeting_agenda+label:contributor_experience\nProj
+ ect URL:  https://github.com/ansible/community/wiki/Community
+LOCATION:#ansible-community
+END:VEVENT
+END:VCALENDAR
