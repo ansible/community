@@ -1,0 +1,13 @@
+project: Community working group
+meeting_id: community
+project_url: https://github.com/ansible/community/wiki/Community
+agenda_url: https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:contributor_experience
+chair: John Barker (gundalow)
+description: |
+
+    Discuss everything related to Ansible Community and Contributor experience.
+schedule:
+- time: '1800'
+  day: Wednesday
+  irc: ansible-community
+  frequency: weekly
