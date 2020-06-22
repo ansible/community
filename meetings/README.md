@@ -54,9 +54,9 @@ You can add this full list of meetings to your personal calendar by importing by
   in `#ansible-network`
 
 * [18:00 UTC](http://www.thetimezoneconverter.com/?t=18:00&tz=UTC):
-  **[Community Working Group](https://github.com/ansible/community/wiki/Community)**
+  **[Community Working Group](https://github.com/ansible/community/issues/539)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/community.ics))
-  in `#ansible-molecule`
+  in `#ansible-community`
 
 ### Thursdays
 
