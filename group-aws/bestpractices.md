@@ -13,7 +13,7 @@ Changes for existing modules would be:
    - documentation expectations
 * Make better use of built in functions for
   argument checking
-* Make better use of the `module_utils` for common  code such as `compare_aws_tags`,
+* Make better use of the `module_utils` for common code such as `compare_aws_tags`,
   `boto3_tag_list_to_ansible_dict` etc.  Preferably use the [new utility modules](utility-modules.md)
 * Have [integration tests](integration.md)
 * Work with `--check` ([check mode](http://docs.ansible.com/ansible/latest/playbooks_checkmode.html#check-mode-dry-run)) and provide useful information under `--diff`
