@@ -35,7 +35,7 @@ feature requests, follow the standard Ansible issues/PRs workflow.
   typically exist in boto3 only, but we might want to improve this.
 * [Integration tests](integration.md) - all AWS modules should have integration
   tests so that we can update them with confidence that we won't break
-  other people's stuff
+  other people's stuff. `module_utils` should be covered by unit tests.
 * [Best practices](bestpractices.md) - all modules should meet the Ansible best
   practices, such as python coding standards, documentation.
 * Improve simplify and expand the [AWS module utilities](utility-modules.md) and module
