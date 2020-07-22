@@ -71,10 +71,16 @@ def format_topics(summary):
 
 def format_actions(action_items):
     actions = []
+    last_action = None
     for line in action_items.split("\n"):
         if line.startswith("* "):
             assignee, action = line[2:].split(" ", 1)
+            last_action = len(actions)
             actions.append(f"- [ ] @{assignee} {action}")
+        elif line.startswith("  ") and last_action is not None:
+            actions[last_action] += f" {line[2:]}"
+        else:
+            last_action = None
 
     if any(actions):
         actions = ["Actions", "-------", ""] + actions
