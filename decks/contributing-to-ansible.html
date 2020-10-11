@@ -56,12 +56,12 @@
             <code><pre class="language-yaml">
   - name: John Barker
     aliases: gundalow
-    title: Principal Software Engineer
-    org: Red Hat Ansible Automation
+    title: Associate Manager
+    org: Ansible Community Team, Red Hat
     start_date: 2016
     roles:
       - community
-      - core
+      - manager
     freenode: gundalow
     github: gundalow
     twitter: the_gundalow
@@ -188,7 +188,7 @@
         </section>
 
         <section class="text-center">
-          <h2>Myth #5: I need to make a commitment - one contribution and I'm stuck with support forever.</h2>
+          <h2>Myth #5: I need to make a commitment<br/> one contribution and I'm stuck with support forever.</h2>
           <ul>
               <li>Drive-by contributions are welcome!</li>
               <ul>
@@ -257,7 +257,7 @@
               </ul>
           </aside>
         </section>
-
+<!--
         <section class="text-center">
           <h2>Scaling: The power of Community</h2>
           <a href="images/community_meetup_growth.png" ><img src="images/community_meetup_growth.png"/></a>
@@ -267,7 +267,7 @@
               </ul>
           </aside>
         </section>
-
+-->
         <section class="text-center">
           <h2>Scaling: The power of Community</h2>
           <p style="text-align: left;"><b>Community</b> is the <b>force multiplier</b>.</p>
@@ -280,13 +280,16 @@
           </aside>
         </section>
 
+<!-- FIXME Overview of collections needed -->
+<!--
         <section class="text-center">
-          <h2>Scaling: Core Teams remit</h2>
+          <h2>Scaling: buckets of modules </h2>
           <ul>
               <li>The Ansible Core Team focus on the Engine and main modules.</li>
               <ul>
-                  <li>Core: 300 modules</li>
-                  <li>Community: 3,500 modules</li>
+                  <li>ansible-base 180 plugins</li>
+                  <li>Supported: 2,000+ plugins, across 58 collections</li>
+                  <li>Community: ? modules, across ? collections</li>
               </ul>
               <li>Reviewing community issues &amp; PRs is the community's responsibility.</li>
           </ul>
@@ -299,6 +302,7 @@
               </ul>
           </aside>
         </section>
+-->
 <!--
         <section class="text-center">
           <h2>Scaling: Proof that it works</h2>
@@ -316,6 +320,94 @@
           </aside>
         </section>
 -->
+<!--
+
+    COLLECTIONS
+
+-->
+        <section class="text-center" data-state="cover">
+          <h2>Collections</h2>
+        </section>
+
+        <section class="text-center">
+          <h2>Collections</h2>
+          <ul>
+              <li>Monorepo (github/ansible/ansible) -> ansible-base + independent collections</li>
+              <li>Can be released independently of ansible-base and Ansible</li>
+              <li>Own (GitHub, GitLab, etc) repository</li>
+              <li>Dedicated backlog, no more shared massive issue &amp; PR backlog</li>
+              <li>Should still have CI testing and in many cases can be tested more thoroughly</li>
+          </ul>
+          <aside class="notes">
+              <ul>
+                  <li>Hopefully you all some some of AnsibleFest videos over the previous two days, so I'll not spend long on this</li>
+              </ul>
+          </aside>
+        </section>
+        <section class="text-center">
+          <h2>Collections: Community</h2>
+          <a href="https://github.com/ansible-collections">github.com/ansible-collections</a><br/><br/>
+          <table>
+              <tr><td>aws</td><td>awx</td><td>azure</td></tr>
+              <tr><td>crypto</td><td>digitalocean</td><td>general</td></tr>
+              <tr><td>grafana</td><td>kubernetes</td><td>libvirt</td></tr>
+              <tr><td>mongodb</td><td>mysql</td><td>netcommon</td></tr>
+              <tr><td>network</td><td>posix</td><td>proxysql</td></tr>
+              <tr><td>rabbitmq</td><td>skydive</td><td>vmware</td></tr>
+              <tr><td>windows</td><td>zabbix</td></tr>
+          </table>
+          <ul>
+              <li>Dedicated repository</li>
+              <li>Own Working Group</li>
+          </ul>
+          <aside class="notes">
+              <ul>
+                  <li>Hopefully you all some some of AnsibleFest videos over the previous two days, so I'll not spend long on this</li>
+              </ul>
+          </aside>
+        </section>
+
+        <section class="text-center">
+          <h2>List of collections</h2>
+          Other collections included in <code>ansible 2.10</code>:<br/>
+          <table>
+              <tr><td>amazon.aws</td><td>ansible.netcommon</td><td>ansible.posix</td></tr>
+              <tr><td>ansible.windows</td><td>arista.eos</td><td>awx.awx</td></tr>
+              <tr><td>azure.azcollection</td><td>check_point.mgmt</td><td>chocolatey.chocolatey</td></tr>
+              <tr><td>cisco.*</td><td>cloudscale_ch.cloud</td><td>cyberark.*</td></tr>
+              <tr><td>dellemc.os*</td><td>f5networks.f5_modules</td><td>fortinet.*</td></tr>
+              <tr><td>frr.frr</td><td>gluster.gluster</td><td>google.cloud</td></tr>
+              <tr><td>hetzner.hcloud</td><td>ibm.qradar</td><td>infinidat.infinibox</td></tr>
+              <tr><td>junipernetworks.junos</td><td>mellanox.onyx</td><td>netapp.*</td></tr>
+              <tr><td>netbox.netbox</td><td>ngine_io.*</td><td>openstack.cloud</td></tr>
+              <tr><td>openvswitch.openvswitch</td><td>ovirt.ovirt</td><td>purestorage.*</td></tr>
+              <tr><td>servicenow.servicenow</td><td>splunk.es</td><td>theforeman.foreman</td></tr>
+              <tr><td>vyos.vyos</td><td>wti.remote</td></tr>
+          </table>
+          <aside class="notes">
+              <ul>
+                  <li>Hopefully you all some some of AnsibleFest videos over the previous two days, so I'll not spend long on this</li>
+              </ul>
+          </aside>
+        </section>
+
+<!-- DEMO: Walk through of Collection repo -->
+
+        <section class="text-center">
+          <h2>Demo</h2>
+          <a href="https://github.com/ansible-collections/">github.com/ansible-collections</a><br/><br/>
+          <a href="https://github.com/ansible-collections/community.mysql">github.com/ansible-collections/community.mysql</a><br/><br/>
+          <a href="https://github.com/ansible-collections/community.general">github.com/ansible-collections/community.general</a><br/><br/>
+          <aside class="notes">
+              <ul>
+                  <li>README.md</li>
+                  <li>plugins directory</li>
+                  <li>PRs</li>
+                  <li>Issues: Pinboard, release plan, pick something to look at</li>
+              </ul>
+          </aside>
+        </section>
+
 <!-- PAUSE -->
         <section class="text-center">
           <p>Pause for questions</p>
@@ -407,7 +499,7 @@
               </ul>
           </aside>
         </section>
-
+<!--
         <section data-state="cover">
             <h2>Who am I?</h2>
             <code><pre class="language-yaml">
@@ -445,34 +537,8 @@
               </ul>
           </aside>
         </section>
+-->
 
-
-        <section class="text-center">
-          <h2>Finding Issues &amp; PRs that Interest You.</h2>
-          <ul>
-              <li>GitHub Labels</li>
-              <ul>
-                  <li><a href="https://github.com/ansible/ansible/labels">github.com/ansible/ansible/labels</a></li>
-                  <li>bug, feature, module, test, plugin</li>
-                  <li>Labels for each Working Group</li>
-                  <li>lib/modules/cloud/docker/docker_image = [module, cloud, docker]</li>
-              </ul>
-              <li><a href="https://ansible.sivel.net/pr/byfile.html">ansible.sivel.net/pr/byfile.html</a></li>
-              <ul>
-                  <li>Search by filename (or directory) to find PRs</li>
-                  <li>Great for finding related PRs</li>
-              </ul>
-              <li><a href="https://github.com/ansible/community/wiki">github.com/ansible/community/wiki</a></li>
-          </ul>
-          <aside class="notes">
-              <ul>
-                  <li>As we talked about earlier, review Issues and PRs, with whatever skills you bring <b>is</b> really useful, so where do <b>you</b> start</li>
-                  <li>FIXME: Give some useful links that people can use small_patch, bug+is:pr</li>
-                  <li><a href="https://github.com/ansible/ansible/labels">labels -> AIX</a> </li>
-                  <li><a href="https://ansible.sivel.net/pr/byfile.html">ansible.sivel.net/pr/byfile.html</a></li>
-              </ul>
-          </aside>
-        </section>
 <!-- START: PR Review -->
 
 
@@ -482,7 +548,7 @@
           <h2>Development Process: Aims of reviews</h2>
           <ul>
               <li>Anyone can review PRs.</li>
-              <li>User feedback helps core team and other users.</li>
+              <li>User feedback from everybody.</li>
               <li>Community reviews give us confidence to merge community code.</li>
               <li>Working groups &amp; <a href="https://github.com/ansible/community/issues/407">Big PR Review days</a></li>
               <li>PR backlog keeps growing due to lack of reviews.</li>
@@ -614,7 +680,8 @@
         <section class="text-center">
           <h2>Working Groups: List</h2>
           <ul>
-              <li>General: Community, Core, Documentation, Testing</li>
+              <li><a href="https://github.com/ansible-collections">github.com/ansible-collections</a>: Every repo is a WG</li>
+              <li>Cross functional: Community, Core, Documentation, Testing</li>
               <li>Cloud Providers and VMs: AWS, Azure, Docker, Linode, VMware</li>
               <li>Network</li>
               <li>Operating Systems: AIX, BSD, HP-UX, Linux, Solaris, Windows</li>
@@ -684,13 +751,13 @@
         <section>
             <h2>Recap/Resources</h2>
             <ul>
+                <li>Subscribe to <a href="https://github.com/ansible/community/issues/546">The Bullhorn</a>, The Ansible Community newsletter
                 <li>Community Guide: <a href="https://docs.ansible.com/ansible/devel/community">docs.ansible.com/ansible/devel/community</a></li>
                 <li>Working Groups: <a href="https://github.com/ansible/community/wiki">github.com/ansible/community/wiki</a></li>
-                <li><a href="https://www.eventbrite.com/e/ansible-contributor-summit-eu-registration-92039844653">Europe Contributors Summit: 29th March, part of FOSS-North</a></li>
                 <li>Big PR Review Days: <a href="https://github.com/ansible/community/issues/407">github.com/ansible/community/issues/407</a></li>
                 <li>Upcoming Events: <a href="https://ansible.com/events">ansible.com/events</a></li>
-                <li>Meetups: <a href="https://ansible.meetup.com">ansible.meetup.com</a></li>
-                <li>Contact us for feedback, help, mentoring: <a href="mailto:gundalow@redhat.com">gundalow@redhat.com</a> &amp; <a href="mailto:acozine@redhat.com">acozine@redhat.com</a></li>
+                <li>Meetups: <a href="https://ansible.meetup.com">ansible.meetup.com</a> <i>Lots are virtual at the moment</i></li>
+                <li>Contact us for feedback, help, mentoring: <a href="mailto:gundalow@redhat.com">gundalow@redhat.com</a></li>
            </ul>
           <aside class="notes">
           </aside>
@@ -698,13 +765,13 @@
         <section>
             <h2>Thank You!</h2>
             <ul>
+              <li>Subscribe to <a href="https://github.com/ansible/community/issues/546">The Bullhorn</a>, The Ansible Community newsletter
               <li>Community Guide: <a href="https://docs.ansible.com/ansible/devel/community">docs.ansible.com/ansible/devel/community</a></li>
               <li>Working Groups: <a href="https://github.com/ansible/community/wiki">github.com/ansible/community/wiki</a></li>
-              <li><a href="https://www.eventbrite.com/e/ansible-contributor-summit-eu-registration-92039844653">Europe Contributors Summit: 29th March, part of FOSS-North</a></li>
               <li>Big PR Review Days: <a href="https://github.com/ansible/community/issues/407">github.com/ansible/community/issues/407</a></li>
               <li>Upcoming Events: <a href="https://ansible.com/events">ansible.com/events</a></li>
-              <li>Meetups: <a href="https://ansible.meetup.com">ansible.meetup.com</a></li>
-              <li>Contact us for feedback, help, mentoring: <a href="mailto:gundalow@redhat.com">gundalow@redhat.com</a> &amp; <a href="mailto:acozine@redhat.com">acozine@redhat.com</a></li>
+              <li>Meetups: <a href="https://ansible.meetup.com">ansible.meetup.com</a> <i>Lots are virtual at the moment</i></li>
+              <li>Contact us for feedback, help, mentoring: <a href="mailto:gundalow@redhat.com">gundalow@redhat.com</a></li>
             </ul>
           <aside class="notes">
           </aside>
