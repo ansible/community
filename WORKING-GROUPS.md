@@ -61,7 +61,8 @@ Once we have enough information, we will set up the following infrastructure:
 * Publicise
   * Internal Email & Slack
   * IRC: `#ansible-devel`  `#ansible` 
-  * https://github.com/ansible/community/issues/346
+  * [Changes impacting Contributors](https://github.com/ansible/community/issues/346)
+  * [The Bullhorn](https://github.com/ansible/community/issues/546)
   * Google Groups: `ansible-project` & `ansible-devel`
 
 ## Help!
