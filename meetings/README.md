@@ -74,6 +74,10 @@ You can add this full list of meetings to your personal calendar by importing by
   **[Testing Working Group](https://github.com/ansible/community/wiki/testing)**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/testing.ics))
   in `#ansible-meeting`
+* [19:00 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC):
+  **[Diversity and Inclusion Working Group](https://github.com/ansible/community/wiki/diversity)**
+  ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/diversity.ics))
+  in `#ansible-diversity`
 
 ## Meeting Agendas and purpose
 
