@@ -162,10 +162,6 @@ DESCRIPTION:Project:  Windows working group\nChair:  Matt Davis (nitzmahon
  m/ansible/community/wiki/Windows
 LOCATION:#ansible-windows
 END:VEVENT
-END:VCALENDAR
-BEGIN:VCALENDAR
-VERSION:2.0
-PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Diversity and Inclusion working group
 DTSTART;VALUE=TIME:20210107T190000Z
