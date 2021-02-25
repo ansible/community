@@ -3,9 +3,11 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Core Team meeting
-DTSTART;VALUE=DATE-TIME:20201215T190000Z
+DTSTART;VALUE=DATE-TIME:20210323T190000Z
 DURATION:PT1H
-RRULE:FREQ=WEEKLY
+DTSTAMP;VALUE=DATE-TIME:20170712T143825Z
+UID:coreteammeeting-20210323
+RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
  escription:  \nA place to get input from the Ansible Core Team issues\, PR
  s and proposals\nthat people who are willing to come to the meeting want t
@@ -19,9 +21,11 @@ LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Core Team meeting
-DTSTART;VALUE=DATE-TIME:20201210T150000Z
+DTSTART;VALUE=DATE-TIME:20210318T150000Z
 DURATION:PT1H
-RRULE:FREQ=WEEKLY
+DTSTAMP;VALUE=DATE-TIME:20170712T143825Z
+UID:coreteammeeting-20210318
+RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
  escription:  \nA place to get input from the Ansible Core Team issues\, PR
  s and proposals\nthat people who are willing to come to the meeting want t

@@ -15,8 +15,10 @@ schedule:
 - time: '1900'
   day: Tuesday
   irc: ansible-meeting
-  frequency: weekly
+  frequency: biweekly-even
+  start_date: 20210315
 - time: '1500'
   day: Thursday
   irc: ansible-meeting
-  frequency: weekly
+  frequency: biweekly-odd
+  start_date: 20210315
