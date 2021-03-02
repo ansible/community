@@ -12,11 +12,26 @@ description: |
   - Review of actions from previous meeting
   - Open discussion driven by the group
 schedule:
+# Old schedule. Can be deleted after 2021-03-15
 - time: '1900'
   day: Tuesday
   irc: ansible-meeting
   frequency: weekly
+  start_date: 20170712
 - time: '1500'
   day: Thursday
   irc: ansible-meeting
   frequency: weekly
+  start_date: 20170712
+
+# New schedule. Adjust start date to 20170212 when deleting previous schedule.
+- time: '1900'
+  day: Tuesday
+  irc: ansible-meeting
+  frequency: biweekly-even
+  start_date: 20210315
+- time: '1500'
+  day: Thursday
+  irc: ansible-meeting
+  frequency: biweekly-odd
+  start_date: 20210315

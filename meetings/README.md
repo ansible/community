@@ -39,7 +39,7 @@ You can add this full list of meetings to your personal calendar by importing by
 * [19:00 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC):
   **Core Team Meeting**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/core-team.ics))
-  in `#ansible-meeting`
+  in `#ansible-meeting` every other week
 
 * [20:00 UTC](http://www.thetimezoneconverter.com/?t=20:00&tz=UTC):
   **[Windows Working Group](https://github.com/ansible/community/wiki/windows)**
@@ -63,7 +63,7 @@ You can add this full list of meetings to your personal calendar by importing by
 * [15:00 UTC](http://www.thetimezoneconverter.com/?t=15:00&tz=UTC):
   **Core Team Meeting**
   ([ical](https://raw.githubusercontent.com/ansible/community/master/meetings/ical/core-team.ics))
-  in `#ansible-meeting`
+  in `#ansible-meeting` every other week
 
 * [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC):
   **[Lockdown Working Group](https://github.com/ansible/community/wiki/lockdown)**
@@ -92,6 +92,7 @@ A place to get input from the Ansible Core Team issues, PRs and proposals that p
 * Selected proposals from the ansible/proposals repo
 * Review of actions from previous meeting
 * Open discussion driven by the group
+* Meetings alternate between Tuesday and Thursday. Check the calendar for which day the meeting will be held on a given week.
 
 ## Meeting Minutes
 
