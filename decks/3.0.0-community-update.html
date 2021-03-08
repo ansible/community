@@ -1,0 +1,225 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Ansible 3.0.0 community update</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/css/reveal.css">
+
+    <!-- Printing and PDF exports -->
+    <script>
+      var link = document.createElement( 'link' );
+      link.rel = 'stylesheet';
+      link.type = 'text/css';
+      link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/css/print/pdf.css' : 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/css/print/paper.css';
+      document.getElementsByTagName( 'head' )[0].appendChild( link );
+    </script>
+
+    <link rel="stylesheet" href="css/theme/ansible.css">
+
+    <!-- Theme used for syntax highlighting of code -->
+    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/lib/css/zenburn.css"-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism.min.css">
+  </head>
+  <body>
+  <div class="ans-mark">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-449 450 125 125" style="enable-background:new -449 450 125 125;" xml:space="preserve">
+      <g id="XMLID_3_">
+        <circle id="XMLID_7_" class="circle" cx="-386.5" cy="512.5" r="62"/>
+        <path id="XMLID_4_" class="a-mark" d="M-356.9,537.1l-24.7-59.4c-0.7-1.7-2.1-2.6-3.9-2.6c-1.7,0-3.2,0.9-4,2.6l-27.1,65.2h9.2 l10.7-26.9l32,25.9c1.3,1,2.2,1.5,3.4,1.5c2.4,0,4.6-1.8,4.6-4.5C-356.5,538.5-356.6,537.8-356.9,537.1z M-385.4,488.4l16.1,39.6 l-24.2-19L-385.4,488.4z"/>
+      </g>
+    </svg>
+  </div>
+    <div class="reveal">
+      <div class="slides">
+        <section data-state="cover">
+          <p class="ans-logo"><img src="images/ansible-wordmark-white.svg" width="260" alt="" /></p>
+          <h1>Ansible 3.0.0: How we got here and what's next</h1>
+          <h2>An #ansible-community update</h2>
+          <p>Presented by David Moreau-Simard (@dmsimard), March 2021</p>
+        </section>
+
+        <section>
+            <h2>Who are we?</h2>
+            <pre class="language-yaml"><code>
+  - name: #ansible-community on IRC
+    hosts:
+      - chat.freenode.net:6697
+      - https://webchat.freenode.net/#ansible-community
+    vars:
+      meetings: Every Wednesday @ 19:00 UTC
+      agenda: https://github.com/ansible/community/issues/539
+    roles:
+      # Amongst other things
+      - Release the Ansible community package and manage included collections
+      - Foster collaboration and bridge the gap between communities, working groups, projects and products
+      - Improve tooling, workflows and processes for contributors and maintainers alike
+      - Outreach, communication and events (like this one!)
+            </code></pre>
+        </section>
+
+        <section class="text-center">
+          <h1>Once upon a time...</h1>
+          <h2>Long story short: seven years in ten minutes or less</h2>
+        </section>
+        <section class="text-center">
+          <img src="images/3.0.0-community-update/timeline-2014.png" alt="timeline-2014" />
+          <hr>
+          <img src="images/3.0.0-community-update/2014.png" alt="2014" />
+          <p style="text-align:right; font-size:0.5em;">Source: <a href="https://groups.google.com/u/1/g/ansible-announce/c/TUL_Bfmhr-E/m/aBX-L7i7o4kJ" target="_blank">https://groups.google.com/u/1/g/ansible-announce/c/TUL_Bfmhr-E/m/aBX-L7i7o4kJ</a></p>
+          <!-- Extra line break to push content up -->
+          <br>
+          <br>
+        </section>
+
+        <section class="text-center">
+          <img src="images/3.0.0-community-update/timeline-2016.png" alt="timeline-2016" />
+          <hr>
+          <img src="images/3.0.0-community-update/2016.png" alt="2016" />
+          <p style="text-align:right; font-size:0.5em;">Source: <a href="https://github.com/ansible/ansible/blob/stable-2.6/docs/docsite/rst/dev_guide/repomerge.rst" target="_blank">https://github.com/ansible/ansible/blob/stable-2.6/docs/docsite/rst/dev_guide/repomerge.rst</a></p>
+        </section>
+        <section class="text-center">
+          <img src="images/3.0.0-community-update/timeline-2019.png" alt="timeline-2019" />
+          <hr>
+          <img src="images/3.0.0-community-update/2019.png" alt="2019" />
+          <table style="width:100%;">
+            <tr>
+              <td style="text-align:left; font-size:0.5em;"><a href="https://www.ansible.com/blog/thoughts-on-restructuring-the-ansible-project">https://www.ansible.com/blog/thoughts-on-restructuring-the-ansible-project</a></td>
+              <td style="text-align:right; font-size:0.5em;"><a href="https://www.ansible.com/blog/the-future-of-ansible-content-delivery">https://www.ansible.com/blog/the-future-of-ansible-content-delivery</a></td>
+            </tr>
+          </table>
+          <!-- Extra line breaks to push content up -->
+          <br>
+          <br>
+          <br>
+        </section>
+
+        <section class="text-center">
+          <img src="images/3.0.0-community-update/timeline-2020.png" alt="timeline-2020" />
+          <hr>
+          <img src="images/3.0.0-community-update/2.10.0-release.png" alt="2.10.0-release" />
+          <p style="text-align:right; font-size:0.5em;">Source: <a href="https://groups.google.com/g/ansible-announce/c/QxIOml3i62A" target="_blank">https://groups.google.com/g/ansible-announce/c/QxIOml3i62A</a></p>
+          <!-- Extra line break to push content up -->
+          <br>
+          <br>
+        </section>
+
+        <section class="text-center">
+          <img src="images/3.0.0-community-update/timeline-2021_1.png" alt="timeline-2021_1" />
+          <hr>
+          <img src="images/3.0.0-community-update/3.0.0-release.png" alt="3.0.0-release" />
+          <p style="text-align:right; font-size:0.5em;">Source: <a href="https://groups.google.com/u/1/g/ansible-announce/c/vdcujxt2pk8" target="_blank">https://groups.google.com/u/1/g/ansible-announce/c/vdcujxt2pk8</a></p>
+          <!-- Extra line breaks to push content up -->
+          <br>
+          <br>
+          <br>
+        </section>
+
+        <section class="text-center">
+          <img src="images/3.0.0-community-update/timeline-2021_2.png" alt="timeline-2021_2" />
+          <hr>
+          <img src="images/3.0.0-community-update/ansible-core-2.11.png" alt="ansible-core-2.11" />
+          <p style="text-align:right; font-size:0.5em;">Source: <a href="https://github.com/ansible/ansible/blob/devel/docs/docsite/rst/roadmap/ROADMAP_2_11.rst" target="_blank">https://github.com/ansible/ansible/blob/devel/docs/docsite/rst/roadmap/ROADMAP_2_11.rst</a></p>
+        </section>
+
+        <section class="text-center">
+          <img src="images/3.0.0-community-update/timeline-2021_3.png" alt="timeline-2021_3" />
+          <hr>
+          <img src="images/3.0.0-community-update/ansible-4.0.0.png" alt="ansible-4.0.0" />
+          <p style="text-align:right; font-size:0.5em;">Source: <a href="https://github.com/ansible/ansible/blob/devel/docs/docsite/rst/roadmap/COLLECTIONS_4.rst" target="_blank">https://github.com/ansible/ansible/blob/devel/docs/docsite/rst/roadmap/COLLECTIONS_4.rst</a></p>
+        </section>
+
+        <section class="text-center">
+          <img src="images/3.0.0-community-update/twitter.png" alt="twitter" />
+          <p style="text-align:right; font-size:0.5em;">Source: <a href="https://twitter.com/asenci/status/1362534373937926148" target="_blank">https://twitter.com/asenci/status/1362534373937926148</a></p>
+        </section>
+
+        <section class="text-center">
+          <h2>TL;DR</h2>
+           <blockquote cite="geerlingguy">
+             <p>Someone should just be like, "look, it's ansible-core (the open source engine), Ansible (the community package on pip), and Ansible Automation Platform (the paid / licensed product)."</p>
+             <p style="text-align:right; font-size:0.8em;">- geerlingguy in #ansible-community</p>
+          </blockquote>
+        </section>
+
+        <section class="text-center">
+          <img src="images/3.0.0-community-update/semver.png" alt="semver" />
+          <p style="text-align:right; font-size:0.5em;">Source: <a href="https://semver.org" target="_blank">https://semver.org</a></p>
+        </section>
+
+        <section class="text-center">
+          <h3>pip install ansible>=2.10,<2.11</h3>
+          <img src="images/3.0.0-community-update/2.9_to_2.10.png" alt="2.9 to 2.10" />
+          <p style="text-align:right; font-size:0.5em;">Source: <a href="https://blog.while-true-do.io/ansible-release-3-0-0/" target="_blank">https://blog.while-true-do.io/ansible-release-3-0-0/</a></p>
+        </section>
+
+        <section class="text-center">
+          <h3>pip install ansible>=3.0.0,<4.0.0</h3>
+          <img src="images/3.0.0-community-update/2.10_to_3.0.0.png" alt="2.10 to 3.0.0" />
+          <p style="text-align:right; font-size:0.5em;">Source: <a href="https://blog.while-true-do.io/ansible-release-3-0-0/" target="_blank">https://blog.while-true-do.io/ansible-release-3-0-0/</a></p>
+        </section>
+
+        <section class="text-center">
+          <h3>pip install ansible>=4.0.0,<5.0.0</h3>
+          <img src="images/3.0.0-community-update/3.0.0_to_4.0.0.png" alt="3.0.0 to 4.0.0" />
+          <p style="text-align:right; font-size:0.5em;">Source: <a href="https://blog.while-true-do.io/ansible-release-3-0-0/" target="_blank">https://blog.while-true-do.io/ansible-release-3-0-0/</a></p>
+        </section>
+
+        <section class="text-center">
+          <h1>What's next?</h1>
+          <br>
+          <img src="images/3.0.0-community-update/timeline-5.0.0.png" alt="timeline-5.0.0" />
+        </section>
+
+        <section>
+          <h2>More reading</h2>
+          <ul>
+            <li><a href="https://www.ansible.com/blog/announcing-the-community-ansible-3.0.0-package" target="_blank">https://www.ansible.com/blog/announcing-the-community-ansible-3.0.0-package</a></li>
+            <li><a href="https://www.ansible.com/blog/ansible-3.0.0-qa" target="_blank">https://www.ansible.com/blog/ansible-3.0.0-qa</a></li>
+            <li><a href="https://blog.while-true-do.io/ansible-release-3-0-0/" target="_blank">https://blog.while-true-do.io/ansible-release-3-0-0/</a></li>
+            <li><a href="https://github.com/ansible/ansible/tree/devel/docs/docsite/rst/roadmap" target="_blank">Roadmaps for Ansible and ansible-core</a></li>
+          </ul>
+        </section>
+
+        <section>
+            <h1 class="text-center">Thank You!</h1>
+            <h2 class="text-center">Any questions?</h2>
+            <h3>Stay up to date:</h3>
+            <ul>
+                <li><a href="https://us19.campaign-archive.com/home/?u=56d874e027110e35dea0e03c1&id=d6635f5420" target="_blank">The Bullhorn</a> Ansible newsletter</li>
+                <li><a href="https://groups.google.com/forum/#!forum/ansible-announce" target="_blank">ansible-announce</a> mailing list</li>
+                <li><a href="https://twitter.com/Ansible" target="_blank">@Ansible</a> on Twitter</li>
+                <li><a href="https://webchat.freenode.net/#ansible-community" target="_blank">#ansible-community</a> on the freenode IRC network</li>
+            </ul>
+            <p>Link to these slides (and more): <a href="https://ansible.github.io/community/decks/" target="_blank">https://ansible.github.io/community/decks/</a></p>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/lib/js/head.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/js/reveal.js"></script>
+
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        history: true,
+        width: "85%",
+        height: "90%",
+        transition: "fade",
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        // Notes plugin must remain local for now.
+        // See https://github.com/ansible/lightbulb/issues/125
+        dependencies: [
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/plugin/markdown/marked.js' },
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/plugin/markdown/markdown.js' },
+          { src: 'plugin/notes/notes.js', async: true },
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js'},
+          { src: 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-yaml.min.js'}
+          //{ src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+      });
+    </script>
+  </body>
+</html>
