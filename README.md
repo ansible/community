@@ -18,7 +18,7 @@ This repository serves as a space for the Ansible Community Working Group to man
 ## Infrastructure and processes we build and/or support
 
 * [Ansibullbot](https://github.com/ansible/ansibullbot): Automation (or aspiring automation) of GitHub pull request processing for ansible/ansible, ansible/ansible-modules-core, and ansible/ansible-modules-extras.
-* [Meetings](https://github.com/ansible/community/tree/master/meetings): IRC meeting-related infrastructure, including the meeting bot and space for logs; organization of Ansible Contributor Summits.
+* [Meetings](https://github.com/ansible/community/tree/main/meetings): IRC meeting-related infrastructure, including the meeting bot and space for logs; organization of Ansible Contributor Summits.
 
 ## Groups
 
