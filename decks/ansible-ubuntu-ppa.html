@@ -1,0 +1,204 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+  <title>Ansible Ubuntu PPA, March 2021</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reset.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.css">
+  <link rel="stylesheet" href="css/theme/ansible.css" id="theme">
+
+  <!-- Theme used for syntax highlighted code -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/monokai.css" id="highlight-theme">
+</head>
+
+<body>
+  <div class="ans-mark">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      x="0px" y="0px" viewBox="-449 450 125 125" style="enable-background:new -449 450 125 125;" xml:space="preserve">
+      <g id="XMLID_3_">
+        <circle id="XMLID_7_" class="circle" cx="-386.5" cy="512.5" r="62" />
+        <path id="XMLID_4_" class="a-mark"
+          d="M-356.9,537.1l-24.7-59.4c-0.7-1.7-2.1-2.6-3.9-2.6c-1.7,0-3.2,0.9-4,2.6l-27.1,65.2h9.2 l10.7-26.9l32,25.9c1.3,1,2.2,1.5,3.4,1.5c2.4,0,4.6-1.8,4.6-4.5C-356.5,538.5-356.6,537.8-356.9,537.1z M-385.4,488.4l16.1,39.6 l-24.2-19L-385.4,488.4z" />
+      </g>
+    </svg>
+  </div>
+  <div class="reveal">
+    <div class="slides">
+      <section data-markdown data-state="cover">
+        <textarea data-template>
+          # Ansible Ubuntu PPA
+          ## an #ansible-community update
+          ### Presented by Deric Crago (@dericcrago), March 2021
+        </textarea>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+          ## Current Status
+
+          ### Launchpad Configuration
+          - a singular `ansible` "user"
+
+          ### Build Process
+          - Jenkins (internal)
+        </textarea>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+          ## Current Status
+
+          ### Versions available on Launchpad
+          - ansible 2.9
+            - Ubuntu 14.04 (trusty)
+            - Ubuntu 16.04 (xenial)
+            - Ubuntu 18.04 (bionic)
+          - ansible-base 2.10 *
+            - Ubuntu 18.04 (bionic)
+            - Ubuntu 19.10 (eoan)
+            - Ubuntu 20.04 (focal)
+
+          ###### * starting with `ansible-base` `2.10` `straight.plugin` is required and only readily available for `Ubuntu >= 18.04`
+        </textarea>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+          ## Future Status / Questions for the Community
+
+          ### Launchpad Configuration
+          - `ansible` "user" -> `ansible` "team"
+            - eliminates the single username / password
+
+          ### Build Process
+          - Jenkins (internal) -> GitHub Action (public)
+            - moves the build process out of our internal jenkins instance
+        </textarea>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+          ## Future Status / Questions for the Community
+
+          ### What versions of `ansible` do we want to build?
+
+          #### Today / Soon-ish
+          - ansible 2.9
+          - ansible 2.10
+          - ansible 3
+
+          #### "Tomorrow"?
+          - latest only
+          - latest - N
+        </textarea>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+          ## Future Status / Questions for the Community
+
+          ### What versions of `ubuntu` do we want to build for?
+
+          #### Today / Soon-ish
+          - ansible >= 2.10
+            - Ubuntu 20.10 (groovy)
+            - Ubuntu 20.04 (focal)
+            - Ubuntu 18.04 (bionic)
+          - ansible <= 2.9
+            - Ubuntu 18.04 (bionic)
+            - Ubuntu 16.04 (xenial)
+            - Ubuntu 14.04 (trusty)
+        </textarea>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+          ## Future Status / Questions for the Community
+
+          ### What versions of `ubuntu` do we want to build for?
+
+          #### "Tomorrow"?
+          - ansible >= 2.10
+            - Ubuntu 21.04 (hirsute)
+            - Ubuntu 20.10 (groovy)
+            - Ubuntu 20.04 (focal)
+            - Ubuntu 18.04 (bionic)
+          - ansible <= 2.9
+            - Ubuntu 20.04 (focal)
+            - Ubuntu 18.04 (bionic)
+            - Ubuntu 16.04 (xenial)
+            - Ubuntu 14.04 (trusty)
+        </textarea>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+          ## Future Status / Questions for the Community
+
+          ### What versions of `ubuntu` do we want to build for?
+
+          #### Supported (according to Launchpad API)
+          - Ubuntu 20.10 (groovy) = Current Stable Release
+          - Ubuntu 20.04 (focal) = Supported
+          - Ubuntu 18.04 (bionic) = Supported
+          - Ubuntu 16.04 (xenial) = Supported
+          - Ubuntu 14.04 (trusty) = Supported
+          - ~~Ubuntu 12.04 (precise) = Supported~~
+
+          #### Other
+          - Ubuntu 21.04 (hirsute) = Active Development
+        </textarea>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+          ## Feedback from the Community
+
+          ### Summary
+          - Launchpad Configuration
+          - Build Process
+          - What versions of `ansible` do we want to build?
+          - What versions of `ubuntu` do we want to build for?
+
+          ### Questions / Comments?
+        </textarea>
+      </section>
+
+      <section data-markdown>
+        <textarea data-template>
+          ## Interested in helping maintain the Ubuntu PPA?
+
+          ### Join the [community IRC meeting](https://github.com/ansible/community/issues/539)
+          - Wednesdays @ 19:00 UTC
+
+          ### Message me directly on IRC
+          - @dericcrago
+
+          ## Thanks!
+        </textarea>
+      </section>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/reveal.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/notes/notes.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/markdown/markdown.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/4.1.0/plugin/highlight/highlight.js"></script>
+  <script>
+    // More info about initialization & config:
+    // - https://revealjs.com/initialization/
+    // - https://revealjs.com/config/
+    Reveal.initialize({
+      hash: true,
+
+      // Learn about plugins: https://revealjs.com/plugins/
+      plugins: [RevealMarkdown, RevealHighlight, RevealNotes]
+    });
+  </script>
+</body>
+
+</html>
