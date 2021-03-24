@@ -3,46 +3,10 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Core Team meeting
-DTSTART;VALUE=DATE-TIME:20170718T190000Z
+DTSTART;VALUE=DATE-TIME:20170214T190000Z
 DURATION:PT1H
-DTSTAMP;VALUE=DATE-TIME:20210225T145638Z
-UID:coreteammeeting-20170718
-RRULE:FREQ=WEEKLY;UNTIL=20210312T000000Z
-DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
- escription:  \nA place to get input from the Ansible Core Team issues\, PR
- s and proposals\nthat people who are willing to come to the meeting want t
- o present.\n- Old PRs that need attention from us (as opposed to from the
- submitter)\n- Selected proposals from the ansible/proposals repo\n- Review
-  of actions from previous meeting\n- Open discussion driven by the group\n
- \nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+label
- :meeting_agenda+label:core\nProject URL:  https://github.com/ansible/commu
- nity/wiki
-LOCATION:#ansible-meeting
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Core Team meeting
-DTSTART;VALUE=DATE-TIME:20170713T150000Z
-DURATION:PT1H
-DTSTAMP;VALUE=DATE-TIME:20210225T145638Z
-UID:coreteammeeting-20170713
-RRULE:FREQ=WEEKLY;UNTIL=20210312T000000Z
-DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
- escription:  \nA place to get input from the Ansible Core Team issues\, PR
- s and proposals\nthat people who are willing to come to the meeting want t
- o present.\n- Old PRs that need attention from us (as opposed to from the
- submitter)\n- Selected proposals from the ansible/proposals repo\n- Review
-  of actions from previous meeting\n- Open discussion driven by the group\n
- \nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+label
- :meeting_agenda+label:core\nProject URL:  https://github.com/ansible/commu
- nity/wiki
-LOCATION:#ansible-meeting
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Core Team meeting
-DTSTART;VALUE=DATE-TIME:20210323T190000Z
-DURATION:PT1H
-DTSTAMP;VALUE=DATE-TIME:20210225T145638Z
-UID:coreteammeeting-20210323
+DTSTAMP;VALUE=DATE-TIME:20210302T135925Z
+UID:coreteammeeting-20170214
 RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
  escription:  \nA place to get input from the Ansible Core Team issues\, PR
@@ -57,10 +21,10 @@ LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Core Team meeting
-DTSTART;VALUE=DATE-TIME:20210318T150000Z
+DTSTART;VALUE=DATE-TIME:20170209T150000Z
 DURATION:PT1H
-DTSTAMP;VALUE=DATE-TIME:20210225T145638Z
-UID:coreteammeeting-20210318
+DTSTAMP;VALUE=DATE-TIME:20210302T135925Z
+UID:coreteammeeting-20170209
 RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
  escription:  \nA place to get input from the Ansible Core Team issues\, PR
