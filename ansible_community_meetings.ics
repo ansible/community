@@ -3,8 +3,10 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Ansible Security Automation working group
-DTSTART;VALUE=DATE-TIME:20201214T150000Z
+DTSTART;VALUE=DATE-TIME:20210405T150000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20191126T180022Z
+UID:ansiblesecurityautomationworkinggroup-20210405
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Ansible Security Automation working group\nChair:  A
  dam Miller (maxamillion)\, Sumit Jaiswal (justjais)\, Abhijeet Kasurde (ak
@@ -18,8 +20,10 @@ LOCATION:#ansible-security
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Azure working group
-DTSTART;VALUE=DATE-TIME:20201222T130000Z
+DTSTART;VALUE=DATE-TIME:20210406T130000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20191210T141503Z
+UID:azureworkinggroup-20210406
 RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  Azure working group\nChair:  Anshul Behl (anshulbehl
  )\, Jacob Jackson (thedoubl3j)\nDescription:  \nWe discuss everything rela
@@ -32,8 +36,10 @@ LOCATION:#ansible-azure
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Community working group
-DTSTART;VALUE=DATE-TIME:20201209T190000Z
+DTSTART;VALUE=DATE-TIME:20210331T190000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20201113T143439Z
+UID:communityworkinggroup-20210331
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Community working group\nChair:  John Barker (gundal
  ow)\nDescription:  \nDiscuss everything related to Ansible Community and C
@@ -79,13 +85,25 @@ DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
 LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
+SUMMARY:Diversity working group
+DTSTART;VALUE=DATE-TIME:20210408T190000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20210201T191434Z
+UID:diversityworkinggroup-20210408
 RRULE:FREQ=WEEKLY;INTERVAL=2
+DESCRIPTION:Project:  Diversity working group\nChair:  Jill Rouleau (jillr
+ )\nDescription:  \nDiscuss everything related to Diversity and Inclusion i
+ n the Ansible Community.\n\nAgenda URL:  https://github.com/ansible/commun
+ ity/issues?q=is:open+label:meeting_agenda+label:diversity\nProject URL:  h
+ ttps://github.com/ansible/community/wiki/Diversity
+LOCATION:#ansible-diversity
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Documentation working group
-DTSTART;VALUE=DATE-TIME:20201215T150000Z
+DTSTART;VALUE=DATE-TIME:20210330T150000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20210324T123600Z
+UID:documentationworkinggroup-20210330
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Documentation working group\nChair:  Alicia Cozine (
  acozine)\nDescription:  \nDiscuss everything related to Ansible Documentat
@@ -96,8 +114,10 @@ LOCATION:#ansible-docs
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lockdown working group
-DTSTART;VALUE=DATE-TIME:20201210T160000Z
+DTSTART;VALUE=DATE-TIME:20210408T160000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20181026T093518Z
+UID:lockdownworkinggroup-20210408
 RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  Lockdown working group\nChair:  Jonathan Davila (def
  ionscode)\, Daniel Shepherd (shepdelacreme)\, James Cassell (jamescassell)
@@ -110,8 +130,10 @@ LOCATION:#ansible-lockdown
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Molecule working group
-DTSTART;VALUE=DATE-TIME:20201209T190000Z
+DTSTART;VALUE=DATE-TIME:20210331T190000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20190117T150421Z
+UID:moleculeworkinggroup-20210331
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Molecule working group\nChair:  gundalow\nDescriptio
  n:  \nHelp direct and improve Molecule\n\nAgenda URL:  https://github.com/
@@ -121,8 +143,10 @@ LOCATION:#ansible-molecule
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network working group
-DTSTART;VALUE=DATE-TIME:20201209T160000Z
+DTSTART;VALUE=DATE-TIME:20210331T160000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20200506T122835Z
+UID:networkworkinggroup-20210331
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Network working group\nChair:  Nathaniel Case (Qalth
  os)\, Paul Belanger (pabelanger)\nDescription:  \nDiscuss everything netwo
@@ -132,8 +156,10 @@ LOCATION:#ansible-network
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Testing working group
-DTSTART;VALUE=DATE-TIME:20201210T170000Z
+DTSTART;VALUE=DATE-TIME:20210401T170000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20170712T143825Z
+UID:testingworkinggroup-20210401
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Testing working group\nChair:  John Barker (gundalow
  )\nDescription:  \nDiscuss everything related to automated testing.\n\nAge
@@ -144,8 +170,10 @@ LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VMware working group
-DTSTART;VALUE=DATE-TIME:20201214T160000Z
+DTSTART;VALUE=DATE-TIME:20210405T160000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20171016T181009Z
+UID:vmwareworkinggroup-20210405
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  VMware working group\nChair:  Abhijeet Kasurde (akas
  urde)\, James Tanner (jctanner)\nDescription:  \nWe discuss everything VMw
@@ -158,8 +186,10 @@ LOCATION:#ansible-vmware
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Windows working group
-DTSTART;VALUE=DATE-TIME:20201215T200000Z
+DTSTART;VALUE=DATE-TIME:20210330T200000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20170712T143825Z
+UID:windowsworkinggroup-20210330
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Windows working group\nChair:  Matt Davis (nitzmahon
  e)\, Jordan Borean (jborean93)\nDescription:  \nWe discuss everything Wind
@@ -169,18 +199,5 @@ DESCRIPTION:Project:  Windows working group\nChair:  Matt Davis (nitzmahon
  s:open+label:meeting_agenda+label:windows\nProject URL:  https://github.co
  m/ansible/community/wiki/Windows
 LOCATION:#ansible-windows
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Diversity and Inclusion working group
-DTSTART;VALUE=TIME:20210107T190000Z
-DURATION:PT1H
-RRULE:FREQ=WEEKLY;INTERVAL=2
-DESCRIPTION:Project: Diversity working group\nChair: Jill Rouleau (jillr)
-\nDescription:\nWe discuss everything related to Ansible Diversity and In
-clusion every other Thursday.\n\nIf you have something to discuss, add your 
-request to the meeting agenda and\njoin the IRC channel\n\nAgenda URL: 
-https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+
-label:diversity\nProject URL: https://github.com/ansible-diversity
-LOCATION:#ansible-diversity
 END:VEVENT
 END:VCALENDAR
