@@ -3,8 +3,10 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Documentation working group
-DTSTART;VALUE=DATE-TIME:20201215T160000Z
+DTSTART;VALUE=DATE-TIME:20210330T150000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20210324T123600Z
+UID:documentationworkinggroup-20210330
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Documentation working group\nChair:  Alicia Cozine (
  acozine)\nDescription:  \nDiscuss everything related to Ansible Documentat
