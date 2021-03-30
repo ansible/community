@@ -3,8 +3,10 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Network working group
-DTSTART;VALUE=DATE-TIME:20201209T160000Z
+DTSTART;VALUE=DATE-TIME:20210331T160000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20200506T122835Z
+UID:networkworkinggroup-20210331
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Network working group\nChair:  Nathaniel Case (Qalth
  os)\, Paul Belanger (pabelanger)\nDescription:  \nDiscuss everything netwo

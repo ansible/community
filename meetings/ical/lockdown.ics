@@ -3,8 +3,10 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Lockdown working group
-DTSTART;VALUE=DATE-TIME:20201210T160000Z
+DTSTART;VALUE=DATE-TIME:20210408T160000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20181026T093518Z
+UID:lockdownworkinggroup-20210408
 RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  Lockdown working group\nChair:  Jonathan Davila (def
  ionscode)\, Daniel Shepherd (shepdelacreme)\, James Cassell (jamescassell)
