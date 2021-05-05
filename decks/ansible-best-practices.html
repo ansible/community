@@ -6,25 +6,9 @@
 
     <title>Ansible Best Practices: The Essentials</title>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/css/reveal.css">
-
-    <!-- Printing and PDF exports -->
-    <script>
-      var link = document.createElement( 'link' );
-      link.rel = 'stylesheet';
-      link.type = 'text/css';
-      link.href = window.location.search.match( /print-pdf/gi ) ? 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/css/print/pdf.css' : 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/css/print/paper.css';
-      document.getElementsByTagName( 'head' )[0].appendChild( link );
-    </script>
-
-
+    <link rel="stylesheet" href="css/reveal.css">
     <link rel="stylesheet" href="css/theme/ansible.css">
-
-    <!-- Theme used for syntax highlighting of code -->
-    <!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/lib/css/zenburn.css"-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/themes/prism.min.css">
-
-
+    <link rel="stylesheet" href="css/prism.css">
   </head>
   <body>
   <div class="ans-mark">
@@ -1108,9 +1092,10 @@
       </div>
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/lib/js/head.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/js/reveal.js"></script>
-
+    <script src="js/reveal.js"></script>
+    <script src="js/markdown.js"></script>
+    <script src="js/notes.js"></script>
+    <script src="js/prism.js"></script>
     <script>
       // More info https://github.com/hakimel/reveal.js#configuration
       Reveal.initialize({
@@ -1118,18 +1103,10 @@
         width: "85%",
         height: "90%",
         transition: "fade",
-
-        // More info https://github.com/hakimel/reveal.js#dependencies
-        // Notes plugin must remain local for now.
-        // See https://github.com/ansible/lightbulb/issues/125
-        dependencies: [
-          { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/plugin/markdown/marked.js' },
-          { src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/plugin/markdown/markdown.js' },
-          { src: 'plugin/notes/notes.js', async: true },
-          { src: 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/prism.min.js'},
-          { src: 'https://cdnjs.cloudflare.com/ajax/libs/prism/1.6.0/components/prism-yaml.min.js'}
-          //{ src: 'https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.4.1/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-        ]
+        plugins: [
+          RevealMarkdown,
+          RevealNotes,
+        ],
       });
     </script>
   </body>
