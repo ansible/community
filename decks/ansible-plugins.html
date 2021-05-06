@@ -1,0 +1,246 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <title>Plugin Wizardry With Ansible</title>
+
+    <link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/ansible.css">
+    <link rel="stylesheet" href="css/prism.css">
+  </head>
+  <body>
+  <div class="ans-mark">
+    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-449 450 125 125" style="enable-background:new -449 450 125 125;" xml:space="preserve">
+      <g id="XMLID_3_">
+        <circle id="XMLID_7_" class="circle" cx="-386.5" cy="512.5" r="62"/>
+        <path id="XMLID_4_" class="a-mark" d="M-356.9,537.1l-24.7-59.4c-0.7-1.7-2.1-2.6-3.9-2.6c-1.7,0-3.2,0.9-4,2.6l-27.1,65.2h9.2 l10.7-26.9l32,25.9c1.3,1,2.2,1.5,3.4,1.5c2.4,0,4.6-1.8,4.6-4.5C-356.5,538.5-356.6,537.8-356.9,537.1z M-385.4,488.4l16.1,39.6 l-24.2-19L-385.4,488.4z"/>
+      </g>
+    </svg>
+  </div>
+    <div class="reveal">
+      <div class="slides">
+        <section data-state="cover">
+          <p class="ans-logo"><img src="images/ansible-wordmark-white.svg" width="260" alt="" /></li>
+          <h1>Plugin Wizardry With Ansible</h1>
+          <p>Alexander Sowitzki, Ansible Core Maintainer</p>
+          <p>Red Hat</p>
+        </section>
+
+        <section>
+          <h2>WHAT YOU WILL LEARN</h2>
+
+          <ul>
+            <li>What plugins are for</li>
+            <li>Kinds of Plugins in existence</li>
+            <li>When to use them</li>
+            <li>When to stick to other tricks</li>
+          </ul>
+          <aside class="notes">
+            <li>Plugins not really new</li>
+            <li>Still an amazing tool for specific problems</li>
+          </aside>
+        </section>
+
+        <section>
+          <h2>WHAT ARE PLUGINS EVEN FOR?</h2>
+
+          <ul>
+            <li>Fundamentally change Ansible without touching it</li>
+            <li>Extend modules on controller side</li>
+            <li>Needs to be in Python</li>
+            <li>Different types for different uses</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>PULL IN INFORMATION: LOOKUP!</h2>
+
+          <ul>
+            <li>Want to use some information from external sources?</li>
+            <li>It is not really a fact?</li>
+            <li>Use a lookup plugin to get it into play</li>
+          </ul>
+          <aside class="notes">
+            <li>Example: hashi_vault for secrets</li>
+            <li>Precise and versatile</li>
+          </aside>
+        </section>
+
+        <section>
+          <h2>WE HEARD YOUR LIKE VARIABLES: VARS!</h2>
+
+          <ul>
+            <li>Want to pull in even more variables in bulk?</li>
+            <li>Provide a source for vars to Ansible</li>
+          </ul>
+          <aside class="notes">
+            <li>host_vars and group_vars implemented by this</li>
+            <li>Lookups preferred</li>
+            <li>There should not be a reason to touch this</li>
+          </aside>
+        </section>
+
+        <section>
+          <h2>MAKING SENSE OF YOUR DEFINITIONS: INVENTORY!</h2>
+
+          <ul>
+            <li>You should define your inventory as YAML</li>
+            <li>But in case your inventory is a base64 encoded PDF file: Inventory plugins</li>
+            <li>(Don't do that please)</li>
+          </ul>
+          <aside class="notes">
+            <li>Really no reason to touch this</li>
+          </aside>
+        </section>
+
+        <section>
+          <h2>REMEMBER THE FACTS: CACHE!</h2>
+
+          <ul>
+            <li>Persist facts and inventories instead of fetching them on each play</li>
+            <li>Improve performance</li>
+          </ul>
+          <aside class="notes">
+            <li>Useful with huge number of hosts</li>
+            <li>Redis</li>
+          </aside>
+        </section>
+
+        <section>
+          <h2>INTERPRET INFORMATION: TEST!</h2>
+
+          <ul>
+            <li>Extend tests and checks (like `when`)</li>
+            <li>Check complex states without reducing readability</li>
+          </ul>
+          <aside class="notes">
+            <li>`changed` for example is a test</li>
+            <li>Develop these when checks get too complex</li>
+            <li>But be sure that the check really need to be that complex</li>
+          </aside>
+        </section>
+
+        <section>
+          <h2>JINJA IS JUST TOO SHALLOW: FILTER!</h2>
+
+          <ul>
+            <li>You want to extend the jinja filter set? Go for it.</li>
+            <li>But are you sure there isn't already a filter for that?</li>
+          </ul>
+          <aside class="notes">
+            <li>Can be awesome to simplify instruction</li>
+            <li>Pain to understand</li>
+            <li>Basically jinja2 filters</li>
+          </aside>
+        </section>
+
+        <section>
+          <h2>THE UNIVERSAL ANSIBLE: CONNECTION!</h2>
+
+          <ul>
+            <li>A node does not speak SSH? Give it a connection plugin</li>
+            <li>Can be used to control a variety of devices like router</li>
+            <li>Ever wanted to flash your ESP32 over Bluetooth?</li>
+          </ul>
+          <aside class="notes">
+            <li>Extensively used by the network team</li>
+            <li>Modules need to understand the connection they work on</li>
+          </aside>
+        </section>
+
+        <section>
+          <h2>GETTING TACTICAL: STRATEGY!</h2>
+
+          <ul>
+            <li>Helps with synchronization</li>
+            <li>Take a look at free, serial and linear</li>
+          </ul>
+          <aside class="notes">
+            <li>Generally enables if->that</li>
+            <li>On execution level</li>
+          </aside>
+        </section>
+
+        <section>
+          <h2>SPIDER IN THE WEB: CALLBACK!</h2>
+
+          <ul>
+            <li>Lets Ansible do things on specific events</li>
+            <li>Customize ordering of task execution</li>
+            <li>Control LEDs on an indicator panel while running a playbook</li>
+          </ul>
+        </section>
+
+        <section>
+          <h2>THE SHOOTING STAR: ACTION!</h2>
+
+          <ul>
+            <li>Modules run on the nodes, plugin runs on the controller</li>
+            <li>Action can mess with variables, module can't</li>
+            <li>Better together, alone still pretty good</li>
+          </ul>
+          <aside class="notes">
+            <li>Action to influence the play, module is detached</li>
+          </aside>
+        </section>
+
+        <section>
+          <h2>MAYBE BETTER USE ROLES!</h2>
+
+          <ul>
+            <li>For combos of existing actions</li>
+            <li>Use the new role argument validation feature of 2.11</li>
+            <li>You can describe everything as an action - ask yourself if you should though</li>
+          </ul>
+          <aside class="notes">
+            <li>Role validation makes things robust and adds more docs</li>
+            <li>Most of the time, roles are better</li>
+          </aside>
+        </section>
+
+        <section>
+          <h2>MY PERSONAL LESSONS LEARNED</h2>
+
+          <ul>
+            <li>All my original action plugins are roles now ...</li>
+            <li>My odd inventory plugin is replaced by lookup plugin from community</li>
+            <li>Keep it simple</li>
+            <li>Great place to get started:<p><a href="https://docs.ansible.com/ansible/latest/plugins/plugins.html">https://docs.ansible.com/ansible/latest/plugins/plugins.html</a></p></li>
+          </ul>
+          <aside class="notes">
+            <li>Learned a lot by writing plugins and removing them again</li>
+            <li>Be sure to take time to learn Ansible instead of jump starting</li>
+          </aside>
+        </section>
+
+        <section>
+          <h1>Thank You!</h1>
+
+          <aside class="notes">
+            <li>Reachable on IRC, don't be shy</li>
+          </aside>
+        </section>
+      </div>
+    </div>
+
+    <script src="js/reveal.js"></script>
+    <script src="js/markdown.js"></script>
+    <script src="js/notes.js"></script>
+    <script src="js/prism.js"></script>
+    <script>
+      // More info https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        history: true,
+        width: "85%",
+        height: "90%",
+        transition: "fade",
+        plugins: [
+          RevealMarkdown,
+          RevealNotes,
+        ],
+      });
+    </script>
+  </body>
+</html>
