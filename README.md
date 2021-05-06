@@ -36,6 +36,8 @@ This repository serves as a space for the Ansible Community Working Group to man
 
 * [Creating a Working Group](WORKING-GROUPS.md)
 
+To create a new working group meeting, add a new YAML file to [Meetings](https://github.com/ansible/community/tree/main/meetings) and run [yaml2ics](https://pypi.org/project/yaml2ical/) and add the resulting file to the [ICS](https://github.com/ansible/community/tree/main/meetings/ics/) directory.  Check the ics file to ensure your meeting will run on the correct dates.  For example, if your meeting is every other week does it start on the correct week?
+
 ## Speak to us
 
 Join us in `#ansible-community` on Freenode
