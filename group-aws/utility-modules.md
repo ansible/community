@@ -36,7 +36,7 @@ authors.
 	    	.params - returns the parameters of the module (this is @property method)
 		.exit_json() - low level module exit function from AnsibleModule
 		.fail_json() - low level module exit with failure function from AnsibleModule
-		.fail_json_aws(exception, msg=<string>) - higer level function for exiting after exceptions
+		.fail_json_aws(exception, msg=<string>) - higher level function for exiting after exceptions
 		.get_aws_connection_info() - return information about AWS connection;  you don't need to call this just to connect
                 .get_aws_session() - returns a low level botocore session
                 .get_aws_client() - returns a boto3 medium level client *** check this
