@@ -135,4 +135,4 @@ Once the first module has been added, subsequent modules only require the
 module code.
 
 
-For more information please join ``#ansible-network`` on Freenode IRC
+For more information please join ``#ansible-network`` on `irc.libera.chat <https://libera.chat/>`_
