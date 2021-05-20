@@ -52,7 +52,7 @@ requests in the collection repositories.
 
 Planned work for both collections is tracked in the [AWS Project Board](https://github.com/orgs/ansible-collections/projects/4).
 ## Contact
-* #ansible-aws IRC channel on [libera.chat](https://irc.libera.net/)
+* #ansible-aws IRC channel on [libera.chat](https://irc.libera.chat/)
 * For security-related concerns email security@ansible.com and see our
     [security disclosure](https://www.ansible.com/security) for more
     information.
