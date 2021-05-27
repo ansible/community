@@ -40,7 +40,7 @@ requests in the main Ansible repository.
 * [Abhijeet Kasurde](https://github.com/akasurde), akasurde
 
 ## Contact
-* [#ansible-security IRC channel](https://webchat.freenode.net/?channels=ansible-security) on Freenode.net
+* #ansible-security IRC channel on [irc.libera.chat](https://libera.chat/)
 * For security-related concerns email security@ansible.com and see our
     [security disclosure](https://www.ansible.com/security) for more
     information.

@@ -22,7 +22,7 @@ This repository serves as a space for the Ansible Community Working Group to man
 
 ## Groups
 
-**NOTE:** For the majority of IRC channels you must [register your nick with Freenode](https://freenode.net/kb/answer/registration)
+**NOTE:** For the majority of IRC channels you must [register your nick with irc.libera.chat](https://libera.chat/guides/registration)
 
 * [All Ansible Working Groups](https://github.com/ansible/community/wiki)
 * [All Ansible Email lists, IRC and Working Groups](https://docs.ansible.com/ansible/devel/community/communication.html)
@@ -38,4 +38,4 @@ This repository serves as a space for the Ansible Community Working Group to man
 
 ## Speak to us
 
-Join us in `#ansible-community` on Freenode
+Join us in `#ansible-community` on [irc.libera.chat](https://libera.chat)

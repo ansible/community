@@ -2,9 +2,9 @@
 
 ## #ansible-meeting
 
-Ansible IRC meetings are held on [freenode](https://freenode.net/).
+Ansible IRC meetings are held on [irc.libera.chat](https://libera.chat/).
 
-If you receive an error when you connect, see [Freenode’s Nickname Registration guide](https://freenode.net/kb/answer/registration) for instructions.
+If you receive an error when you connect, see [libera.chat’s Nickname Registration guide](https://libera.chat/guides/registration) for instructions.
 
 ## Schedule
 

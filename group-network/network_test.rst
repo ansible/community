@@ -202,4 +202,4 @@ More information can be found at http://docs.ansible.com/ansible/devel/dev_guide
 
 More info
 =========
-For more information please join ``#ansible-network`` on Freenode IRC
+For more information please join ``#ansible-network`` on `irc.libera.chat <https://libera.chat/>`_.

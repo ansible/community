@@ -7,7 +7,7 @@ Working Groups are a way for Ansible community members to self-organize around p
 
 The basic components of a working group:
 * A group name and charter (why the group exists);
-* A registered IRC channel on freenode (will usually be #ansible-groupname);
+* A registered IRC channel on [irc.libera.chat](https://libera.chat/) (will usually be #ansible-groupname);
 * A group of users (at least two!) who will be driving the agenda of the working group;
 * Dedicated wiki space.
 
@@ -46,7 +46,7 @@ AT LEAST TWO INITIAL WORKING GROUP MEMBERS:
 We will ask you a few more questions if anything is unclear via the GitHub issue created above.
 
 Once we have enough information, we will set up the following infrastructure:
-* An IRC channel on freenode named "#ansible-yourgroupname", properly registered and op'd;
+* An IRC channel on libera.chat named "#ansible-yourgroupname", properly registered and op'd;
   * `*!*@ansible/owner/*    +AORefiorstv`
   * `*!*@ansible/staff/*    +Oo`
   * Group Contact set - via Jimi-C
@@ -67,4 +67,4 @@ Once we have enough information, we will set up the following infrastructure:
 
 ## Help!
 
-If you get stuck or want to know more join us in `#ansible-community` on Freenode
+If you get stuck or want to know more join us in `#ansible-community` on [irc.libera.chat](https://libera.chat/)
