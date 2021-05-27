@@ -3,4 +3,4 @@ This repository is for management of all Ansible *community* related initiatives
 **Ansible Support**
 
 * Bug reports: https://github.com/ansible/ansible/issues/new
-* IRC: #ansible on irc.libera.net   * Mailing List: https://groups.google.com/forum/#!forum/ansible-project
+* IRC: #ansible on irc.libera.chat   * Mailing List: https://groups.google.com/forum/#!forum/ansible-project
