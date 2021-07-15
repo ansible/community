@@ -10,4 +10,4 @@ schedule:
 - time: '1900'
   day: Thursday
   irc: ansible-diversity
-  frequency: biweekly-even
+  frequency: biweekly-odd
