@@ -12,5 +12,5 @@ description: |
 schedule:
 - time: '1600'
   day: Monday
-  irc: ansible-vmware
+  irc: ansible-vmware or https://matrix.to/#/#vmware:ansible.com
   frequency: weekly

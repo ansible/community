@@ -9,5 +9,5 @@ description: |
 schedule:
 - time: '1900'
   day: Wednesday
-  irc: ansible-community
+  irc: ansible-community or https://matrix.to/#/#community:ansible.com
   frequency: weekly

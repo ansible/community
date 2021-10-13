@@ -3,15 +3,15 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Network working group
-DTSTART;VALUE=DATE-TIME:20210331T160000Z
+DTSTART:20230201T160000Z
 DURATION:PT1H
-DTSTAMP;VALUE=DATE-TIME:20200506T122835Z
-UID:networkworkinggroup-20210331
+DTSTAMP:20211013T124637Z
+UID:networkworkinggroup-20230201
 RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  Network working group\nChair:  Nathaniel Case (Qalth
- os)\, Paul Belanger (pabelanger)\nDescription:  \nDiscuss everything netwo
- rk.\n\nAgenda URL:  https://github.com/ansible/community/labels/network\nP
- roject URL:  https://github.com/ansible/community/wiki/Network
-LOCATION:#ansible-network
+DESCRIPTION:Project:  Network working group\nChair:  Kate Case (Qalthos)\n
+ Description:  \nDiscuss everything network.\n\nAgenda URL:  https://github
+ .com/ansible/community/labels/network\nProject URL:  https://github.com/an
+ sible/community/wiki/Network
+LOCATION:#ansible-network or https://matrix.to/#/#network:ansible.com
 END:VEVENT
 END:VCALENDAR

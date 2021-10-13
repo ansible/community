@@ -12,5 +12,5 @@ description: |
 schedule:
 - time: '1500'
   day: Monday
-  irc: ansible-security
+  irc: ansible-security or https://matrix.to/#/#security-automation:ansible.com
   frequency: weekly
