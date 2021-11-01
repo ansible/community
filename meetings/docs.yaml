@@ -2,12 +2,12 @@ project: Documentation working group
 meeting_id: docs
 project_url: https://github.com/ansible/community/wiki/Docs
 agenda_url: https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:docs
-chair: Alicia Cozine (acozine)
+chair: Sandra McCann (samccann)
 description: |
 
   Discuss everything related to Ansible Documentation.
 schedule:
-- time: '1500'
+- time: '1600'
   day: Tuesday
   irc: ansible-docs
   frequency: weekly
