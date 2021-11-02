@@ -8,11 +8,11 @@ DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Ansible Security Automation working group\nChair:  A
  dam Miller (maxamillion)\, Sumit Jaiswal (justjais)\, Abhijeet Kasurde (ak
- asurde)\nDescription:  \nWe discuss everything about Information Security 
+ asurde)\nDescription:  \nWe discuss everything about Information Security
  Automation in Ansible every week on Monday.\n\nIf you have something to di
  scuss (e.g. a PR that needs help)\, add your\nrequest to the meeting agend
  a and join the IRC channel.\n\nAgenda URL:  https://github.com/ansible/com
- munity/issues?q=is:open+label:meeting_agenda+label:security\nProject URL: 
+ munity/issues?q=is:open+label:meeting_agenda+label:security\nProject URL:
   https://github.com/ansible/community/wiki/Security-Automation
 LOCATION:#ansible-security
 END:VEVENT
@@ -50,7 +50,7 @@ RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
  escription:  \nA place to get input from the Ansible Core Team issues\, PR
  s and proposals\nthat people who are willing to come to the meeting want t
- o present.\n- Old PRs that need attention from us (as opposed to from the 
+ o present.\n- Old PRs that need attention from us (as opposed to from the
  submitter)\n- Selected proposals from the ansible/proposals repo\n- Review
   of actions from previous meeting\n- Open discussion driven by the group\n
  \nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+label
@@ -66,7 +66,7 @@ RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
  escription:  \nA place to get input from the Ansible Core Team issues\, PR
  s and proposals\nthat people who are willing to come to the meeting want t
- o present.\n- Old PRs that need attention from us (as opposed to from the 
+ o present.\n- Old PRs that need attention from us (as opposed to from the
  submitter)\n- Selected proposals from the ansible/proposals repo\n- Review
   of actions from previous meeting\n- Open discussion driven by the group\n
  \nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+label
@@ -88,11 +88,11 @@ LOCATION:#ansible-diversity
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Documentation working group
-DTSTART;VALUE=DATE-TIME:20210330T150000Z
+DTSTART;VALUE=DATE-TIME:20211101T160000Z
 DURATION:PT1H
 RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  Documentation working group\nChair:  Alicia Cozine (
- acozine)\nDescription:  \nDiscuss everything related to Ansible Documentat
+DESCRIPTION:Project:  Documentation working group\nChair: Sandra McCann (
+ samccann)\nDescription:  \nDiscuss everything related to Ansible Documentat
  ion.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=is:open
  +label:meeting_agenda+label:docs\nProject URL:  https://github.com/ansible
  /community/wiki/Docs
@@ -105,7 +105,7 @@ DURATION:PT1H
 RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  Lockdown working group\nChair:  Jonathan Davila (def
  ionscode)\, Daniel Shepherd (shepdelacreme)\, James Cassell (jamescassell)
- \nDescription:  \nWe discuss everything related to Ansible Lockdown every 
+ \nDescription:  \nWe discuss everything related to Ansible Lockdown every
  other Thursday at noon.\n\nIf you have something to discuss\, add your req
  uest to the meeting agenda and\njoin the IRC channel\n\nAgenda URL:  https
  ://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+labe
@@ -167,7 +167,7 @@ DURATION:PT1H
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Windows working group\nChair:  Matt Davis (nitzmahon
  e)\, Jordan Borean (jborean93)\nDescription:  \nWe discuss everything Wind
- ows every week on Tuesday.\n\nIf you have something to discuss (e.g. a PR 
+ ows every week on Tuesday.\n\nIf you have something to discuss (e.g. a PR
  that needs help)\, add your\nrequest to the meeting agenda and join the IR
  C channel.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=i
  s:open+label:meeting_agenda+label:windows\nProject URL:  https://github.co
