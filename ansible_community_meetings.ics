@@ -75,18 +75,6 @@ DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
 LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Diversity working group
-DTSTART;VALUE=DATE-TIME:20210408T190000Z
-DURATION:PT1H
-RRULE:FREQ=WEEKLY;INTERVAL=2
-DESCRIPTION:Project:  Diversity working group\nChair:  Jill Rouleau (jillr
- )\nDescription:  \nDiscuss everything related to Diversity and Inclusion i
- n the Ansible Community.\n\nAgenda URL:  https://github.com/ansible/commun
- ity/issues?q=is:open+label:meeting_agenda+label:diversity\nProject URL:  h
- ttps://github.com/ansible/community/wiki/Diversity
-LOCATION:#ansible-diversity
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Documentation working group
 DTSTART;VALUE=DATE-TIME:20211102T160000Z
 DURATION:PT1H
