@@ -1,0 +1,13 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//icalmaker//EN
+BEGIN:VEVENT
+SUMMARY:Ansible Contributor Summit 2022.04
+DTSTART;VALUE=DATE-TIME:20220412T120000Z
+DTEND;VALUE=DATE-TIME:20220412T200000Z
+LOCATION:Online
+DESCRIPTION:The Ansible Contributor Summit is a full day working session especially for community contributors to interact with one another, as well as with Ansible development teams (Core, AWX, Galaxy etc.). We will discuss important issues affecting the Ansible contributor community to help shape the future of Ansible, with a focus on improving collaboration with our contributors.
+
+Please check out the details here: https://hackmd.io/@ansible-community/contrib-summit-202204
+END:VEVENT
+END:VCALENDAR
