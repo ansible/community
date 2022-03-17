@@ -74,6 +74,12 @@ You can add this full list of meetings to your personal calendar by importing by
   **[Testing Working Group](https://github.com/ansible/community/wiki/testing)**
   ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/testing.ics))
   in `#ansible-meeting`
+
+* [17:30 UTC](http://www.thetimezoneconverter.com/?t=17:30&tz=UTC):
+  **[AWS Working Group](https://github.com/ansible/community/wiki/aws)**
+  ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/aws.ics))
+  in `#ansible-aws`
+
 * [19:00 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC):
 
 ## Meeting Agendas and purpose

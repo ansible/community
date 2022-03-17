@@ -1,0 +1,19 @@
+project: AWS working group
+meeting_id: AWS
+project_url: https://github.com/ansible/community/wiki/AWS
+agenda_url: https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:aws
+chair: Alina Buzachis (abuzachis), Mark Chappell (tremble), Markus Bergholz (markuman)
+description: >
+
+  We discuss everything related to AWS every 4th Thursday of the month at 17:30 UTC.
+  
+  If you have something to discuss (e.g. a PR that needs help),
+  add your request to the meeting agenda and join the IRC channel.
+schedule:
+- time: '1730'
+  start_date: 20220324
+  day: Thursday
+  irc: ansible-aws or https://matrix.to/#/#aws:ansible.im
+  frequency: fourth-thursday
+  chair: Alina Buzachis (abuzachis), Mark Chappell (tremble), Markus Bergholz (markuman)
+
