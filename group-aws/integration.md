@@ -1,16 +1,12 @@
 # Integration Testing
 
-There are very few integration tests for AWS. Those that exist are in
+Integration tests for AWS are in
 tests/integration/targets/ in the relevant collection repository.
 
 ## Policy
 
-Following the 2.4 release, all modules marked `stableinterface`
-MUST have integration tests for new features. Upgrading to boto3
-shall be considered a feature request.
-
-Following the 2.5 release, all new modules MUST have integration
-tests.
+All modules MUST have integration tests for new features.
+All new modules MUST have integration tests.
 
 Bug fixes for modules that currently have integration tests SHOULD
 have tests added. Depending upon the urgency of the bug fix, we may

@@ -30,7 +30,7 @@ with the change.  Pull requests will have to be refactored before being accepted
 the main repository which are already using this interface will have to be refactored by their
 authors.
 
-    aws/
+    plugins/module_utils/
         core.py - Basic AWS modules 
             class AnsibleAWSModule - class to use for handling module set up'; based off AnsibleModule
 	    	.params - returns the parameters of the module (this is @property method)
@@ -62,14 +62,6 @@ discuss this with the AWS working group who should be happy to help or at least 
 function isn't available.
 
 ## Using the module utilities
-
-*This section is temporary until the module utilities become standard and should be moved to the*
-*[AWS module guidelines in the amazon modules directory](https://github.com/ansible/ansible/blob/devel/lib/ansible/modules/cloud/amazon/GUIDELINES.md)*
-*once accepted*
-
-Currently the module utilities directory is should be considered preview code.  New modules which
-are to be included in Ansible should use the code.  Modules which are published outside the main
-ansible repository should _not_ include this code before ansible 2.5
 
     from ansible.module_utils.aws.core import AnsibleAWSModule
 
