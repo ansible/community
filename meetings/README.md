@@ -31,7 +31,7 @@ You can add this full list of meetings to your personal calendar by importing by
   ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/azure.ics))
   in `#ansible-azure`
 
-* [16:00 UTC](http://www.thetimezoneconverter.com/?t=14:30&tz=UTC):
+* [15:00 UTC](http://www.thetimezoneconverter.com/?t=15:00&tz=UTC):
   **[Documentation Working Group](https://github.com/ansible/community/wiki/docs)**
   ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/docs.ics))
   in `#ansible-docs`
