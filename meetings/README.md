@@ -26,12 +26,12 @@ You can add this full list of meetings to your personal calendar by importing by
 
 ### Tuesdays
 
-* [13:00 UTC](http://www.thetimezoneconverter.com/?t=00:00&tz=UTC):
+* [13:00 UTC](http://www.thetimezoneconverter.com/?t=13:00&tz=UTC):
   **[Azure Working Group](https://github.com/ansible/community/wiki/azure)**
   ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/azure.ics))
   in `#ansible-azure`
 
-* [16:00 UTC](http://www.thetimezoneconverter.com/?t=14:30&tz=UTC):
+* [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC):
   **[Documentation Working Group](https://github.com/ansible/community/wiki/docs)**
   ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/docs.ics))
   in `#ansible-docs`
