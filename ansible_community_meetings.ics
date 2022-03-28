@@ -76,14 +76,16 @@ LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Documentation working group
-DTSTART;VALUE=DATE-TIME:20211102T160000Z
+DTSTART;VALUE=DATE-TIME:20220329T150000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20220323T113654Z
+UID:documentationworkinggroup-20220329
 RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  Documentation working group\nChair: Sandra McCann (
- samccann)\nDescription:  \nDiscuss everything related to Ansible Documentat
- ion.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=is:open
- +label:meeting_agenda+label:docs\nProject URL:  https://github.com/ansible
- /community/wiki/Docs
+DESCRIPTION:Project:  Documentation working group\nChair:  Sandra McCann (
+ samccann)\nDescription:  \nDiscuss everything related to Ansible Documenta
+ tion.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=is:ope
+ n+label:meeting_agenda+label:docs\nProject URL:  https://github.com/ansibl
+ e/community/wiki/Docs
 LOCATION:#ansible-docs
 END:VEVENT
 BEGIN:VEVENT
