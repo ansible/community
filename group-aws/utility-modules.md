@@ -100,5 +100,5 @@ In the case where fail_json_aws() gets a non AWS exception it will record a trac
 convert it to a string and incude that string in the final message.  In most cases this will give a
 nice printout.  Beware, though, that there are no rules for python exceptions so if your exceptions
 are abnormal (e.g. you need to call the .beam_me_up() message before you can get a string) you
-should verify that it works correctly expecially if your exception includes a `response` member.
+should verify that it works correctly especially if your exception includes a `response` member.
 Please contact the AWS working group with any problematic examples you find.
