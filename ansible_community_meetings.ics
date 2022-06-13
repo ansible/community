@@ -44,26 +44,10 @@ LOCATION:#ansible-community
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Core Team meeting
-DTSTART;VALUE=DATE-TIME:20170214T190000Z
+DTSTART;VALUE=DATE-TIME:20220714T160000Z
 DURATION:PT1H
-RRULE:FREQ=WEEKLY;INTERVAL=2
-DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
- escription:  \nA place to get input from the Ansible Core Team issues\, PR
- s and proposals\nthat people who are willing to come to the meeting want t
- o present.\n- Old PRs that need attention from us (as opposed to from the
- submitter)\n- Selected proposals from the ansible/proposals repo\n- Review
-  of actions from previous meeting\n- Open discussion driven by the group\n
- \nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+label
- :meeting_agenda+label:core\nProject URL:  https://github.com/ansible/commu
- nity/wiki
-LOCATION:#ansible-meeting
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Core Team meeting
-DTSTART;VALUE=DATE-TIME:20170209T150000Z
-DURATION:PT1H
-RRULE:FREQ=WEEKLY;INTERVAL=2
-DESCRIPTION:Project:  Core Team meeting\nChair:  John Barker (gundalow)\nD
+RRULE:FREQ=MONTHLY;BYDAY=2TH
+DESCRIPTION:Project:  Core Team meeting\nChair:  Core Team\nD
  escription:  \nA place to get input from the Ansible Core Team issues\, PR
  s and proposals\nthat people who are willing to come to the meeting want t
  o present.\n- Old PRs that need attention from us (as opposed to from the
