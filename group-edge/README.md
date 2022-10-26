@@ -17,9 +17,9 @@ follow the standard Ansible issues/PRs workflow.
 * [Review PRs and Issues](review.md) with a view to reducing the number of
   open PRs and Issues. Numbers going up is not a failure, it might just be
   due to additional contributors.
-* [Unit tests](unit.md) - all Security modules should have unit tests to
+* [Unit tests](unit.md) - all Edge modules should have unit tests to
   sanity check the developer's code and code completion.
-* [Integration tests](integration.md) - all Security modules should have
+* [Integration tests](integration.md) - all Edge modules should have
   integration tests so that we can update them with confidence that we won't
   break other people's stuff.
 * [Best practices](bestpractices.md) - all modules should meet the Ansible
@@ -28,11 +28,11 @@ follow the standard Ansible issues/PRs workflow.
 
 ## Collaboration
 
-Apart from IRC The Security Working Group collaborates via tickets and pull
-requests in the main Ansible repository.
-* [Tickets](https://github.com/ansible/ansible/issues)
-* [Pull-requests](https://github.com/ansible/ansible/pulls)
-
+Apart from Matrix (bridged to IRC) The Edge Working Group collaborates via tickets and pull
+requests in the various repositories that this working group maintains.
+* [community.cip](https://github.com/ansible-collections/community.cip)
+* [osbuild.composer](https://github.com/ansible-collections/osbuild.composer)
+* [edge.workload](https://github.com/ansible-collections/edge.workload)
 
 ## Active Members
 |Name                   |GitHub                                                      | Matrix
