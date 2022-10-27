@@ -36,6 +36,11 @@ You can add this full list of meetings to your personal calendar by importing by
   ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/docs.ics))
   in `#ansible-docs`
 
+* [18:00 UTC](http://www.thetimezoneconverter.com/?t=18:00&tz=UTC):
+  **Edge Working Group Meeting**
+  ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/edge-team.ics))
+  in `#ansible-edge` every other week
+
 * [19:00 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC):
   **Core Team Meeting**
   ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/core-team.ics))

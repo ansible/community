@@ -1,0 +1,17 @@
+project: Ansible Edge Automation working group
+meeting_id: edge 
+project_url: https://github.com/ansible/community/wiki/Edge-Automation
+agenda_url: https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:edge
+chair: Adam Miller (maxamillion), Chad Ferman (chadfm), Matthew Sandoval (matoval), Chris Santiago (resoluteCoder)
+description: |
+
+  We discuss everything about Edge Automation in Ansible every other week on Tuesdays.
+
+  If you have something to discuss (e.g. a PR that needs help), add your
+  request to the meeting agenda and join the Matrix channel (bridged to irc).
+schedule:
+- time: '1800'
+  day: Tuesday
+  irc: ansible-edge
+  frequency: second-tuesday
+  start_date: 20221101
