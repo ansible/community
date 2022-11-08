@@ -60,10 +60,10 @@ LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Documentation working group
-DTSTART;VALUE=DATE-TIME:20220329T150000Z
+DTSTART;VALUE=DATE-TIME:20221108T160000Z
 DURATION:PT1H
-DTSTAMP;VALUE=DATE-TIME:20220323T113654Z
-UID:documentationworkinggroup-20220329
+DTSTAMP;VALUE=DATE-TIME:20220328T102806Z
+UID:documentationworkinggroup-20221108
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Documentation working group\nChair:  Sandra McCann (
  samccann)\nDescription:  \nDiscuss everything related to Ansible Documenta
