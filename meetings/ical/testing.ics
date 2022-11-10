@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Testing working group
-DTSTART;VALUE=DATE-TIME:20210401T170000Z
+DTSTART;VALUE=DATE-TIME:20221110T170000Z
 DURATION:PT1H
 DTSTAMP;VALUE=DATE-TIME:20170712T143825Z
-UID:testingworkinggroup-20210401
+UID:testingworkinggroup-20221110
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Testing working group\nChair:  John Barker (gundalow
  )\nDescription:  \nDiscuss everything related to automated testing.\n\nAge

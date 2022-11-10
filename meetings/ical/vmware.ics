@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:VMware working group
-DTSTART;VALUE=DATE-TIME:20210405T160000Z
+DTSTART;VALUE=DATE-TIME:20221114T160000Z
 DURATION:PT1H
 DTSTAMP;VALUE=DATE-TIME:20171016T181009Z
-UID:vmwareworkinggroup-20210405
+UID:vmwareworkinggroup-20221114
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  VMware working group\nChair:  Abhijeet Kasurde (akas
  urde)\, James Tanner (jctanner)\nDescription:  \nWe discuss everything VMw

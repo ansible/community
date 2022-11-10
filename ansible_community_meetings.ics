@@ -2,24 +2,45 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
-SUMMARY:Ansible Security Automation working group
-DTSTART;VALUE=DATE-TIME:20210405T150000Z
+SUMMARY:AWS working group
+DTSTART;VALUE=DATE-TIME:20220428T173000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20220317T170904Z
+UID:awsworkinggroup-20220428
+RRULE:FREQ=MONTHLY;BYDAY=4TH
+DESCRIPTION:Project:  AWS working group\nChair:  Alina Buzachis (abuzachis
+ )\, Mark Chappell (tremble)\, Markus Bergholz (markuman)\nDescription:  \n
+ We discuss everything related to AWS every 4th Thursday of the month at 17
+ :30 UTC.\nIf you have something to discuss (e.g. a PR that needs help)\, a
+ dd your request to the meeting agenda and join the IRC channel.\n\nAgenda 
+ URL:  https://github.com/ansible/community/issues?q=is:open+label:meeting_
+ agenda+label:aws\nProject URL:  https://github.com/ansible/community/wiki/
+ AWS
+LOCATION:#ansible-aws or https://matrix.to/#/#aws:ansible.im
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Ansible Security Automation working group
+DTSTART;VALUE=DATE-TIME:20221114T150000Z
+DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20191126T180022Z
+UID:ansiblesecurityautomationworkinggroup-20221114
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Ansible Security Automation working group\nChair:  A
  dam Miller (maxamillion)\, Sumit Jaiswal (justjais)\, Abhijeet Kasurde (ak
- asurde)\nDescription:  \nWe discuss everything about Information Security
+ asurde)\nDescription:  \nWe discuss everything about Information Security 
  Automation in Ansible every week on Monday.\n\nIf you have something to di
  scuss (e.g. a PR that needs help)\, add your\nrequest to the meeting agend
  a and join the IRC channel.\n\nAgenda URL:  https://github.com/ansible/com
- munity/issues?q=is:open+label:meeting_agenda+label:security\nProject URL:
+ munity/issues?q=is:open+label:meeting_agenda+label:security\nProject URL: 
   https://github.com/ansible/community/wiki/Security-Automation
 LOCATION:#ansible-security
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Azure working group
-DTSTART;VALUE=DATE-TIME:20210406T130000Z
+DTSTART;VALUE=DATE-TIME:20221115T130000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20191210T141503Z
+UID:azureworkinggroup-20221115
 RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  Azure working group\nChair:  Anshul Behl (anshulbehl
  )\, Jacob Jackson (thedoubl3j)\nDescription:  \nWe discuss everything rela
@@ -32,8 +53,10 @@ LOCATION:#ansible-azure
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Community working group
-DTSTART;VALUE=DATE-TIME:20210512T180000Z
+DTSTART;VALUE=DATE-TIME:20221116T190000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20221109T200050Z
+UID:communityworkinggroup-20221116
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Community working group\nChair:  John Barker (gundal
  ow)\nDescription:  \nDiscuss everything related to Ansible Community and C
@@ -46,24 +69,25 @@ BEGIN:VEVENT
 SUMMARY:Core Team meeting
 DTSTART;VALUE=DATE-TIME:20220714T160000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20220613T111420Z
+UID:coreteammeeting-20220714
 RRULE:FREQ=MONTHLY;BYDAY=2TH
-DESCRIPTION:Project:  Core Team meeting\nChair:  Core Team\nD
- escription:  \nA place to get input from the Ansible Core Team issues\, PR
- s and proposals\nthat people who are willing to come to the meeting want t
- o present.\n- Old PRs that need attention from us (as opposed to from the
- submitter)\n- Selected proposals from the ansible/proposals repo\n- Review
-  of actions from previous meeting\n- Open discussion driven by the group\n
- \nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+label
- :meeting_agenda+label:core\nProject URL:  https://github.com/ansible/commu
- nity/wiki
+DESCRIPTION:Project:  Core Team meeting\nChair:  Core Team\nDescription:  
+ \nA place to get input from the Ansible Core Team issues\, PRs and proposa
+ ls\nthat people who are willing to come to the meeting want to present.\n-
+  Old PRs that need attention from us (as opposed to from the submitter)\n-
+  Selected proposals from the ansible/proposals repo\n- Review of actions f
+ rom previous meeting\n- Open discussion driven by the group\n\nAgenda URL:
+   https://github.com/ansible/community/issues?q=is:open+label:meeting_agen
+ da+label:core\nProject URL:  https://github.com/ansible/community/wiki
 LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Documentation working group
-DTSTART;VALUE=DATE-TIME:20220329T150000Z
+DTSTART;VALUE=DATE-TIME:20221115T150000Z
 DURATION:PT1H
-DTSTAMP;VALUE=DATE-TIME:20220323T113654Z
-UID:documentationworkinggroup-20220329
+DTSTAMP;VALUE=DATE-TIME:20220328T102806Z
+UID:documentationworkinggroup-20221115
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Documentation working group\nChair:  Sandra McCann (
  samccann)\nDescription:  \nDiscuss everything related to Ansible Documenta
@@ -74,12 +98,14 @@ LOCATION:#ansible-docs
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Lockdown working group
-DTSTART;VALUE=DATE-TIME:20210408T160000Z
+DTSTART;VALUE=DATE-TIME:20221117T160000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20181026T093518Z
+UID:lockdownworkinggroup-20221117
 RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  Lockdown working group\nChair:  Jonathan Davila (def
  ionscode)\, Daniel Shepherd (shepdelacreme)\, James Cassell (jamescassell)
- \nDescription:  \nWe discuss everything related to Ansible Lockdown every
+ \nDescription:  \nWe discuss everything related to Ansible Lockdown every 
  other Thursday at noon.\n\nIf you have something to discuss\, add your req
  uest to the meeting agenda and\njoin the IRC channel\n\nAgenda URL:  https
  ://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+labe
@@ -88,8 +114,10 @@ LOCATION:#ansible-lockdown
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Molecule working group
-DTSTART;VALUE=DATE-TIME:20210331T190000Z
+DTSTART;VALUE=DATE-TIME:20221116T190000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20190117T150421Z
+UID:moleculeworkinggroup-20221116
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Molecule working group\nChair:  gundalow\nDescriptio
  n:  \nHelp direct and improve Molecule\n\nAgenda URL:  https://github.com/
@@ -99,8 +127,10 @@ LOCATION:#ansible-molecule
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network working group
-DTSTART;VALUE=DATE-TIME:20210331T160000Z
+DTSTART;VALUE=DATE-TIME:20221116T160000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20200506T122835Z
+UID:networkworkinggroup-20221116
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Network working group\nChair:  Nathaniel Case (Qalth
  os)\, Paul Belanger (pabelanger)\nDescription:  \nDiscuss everything netwo
@@ -110,8 +140,10 @@ LOCATION:#ansible-network
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Testing working group
-DTSTART;VALUE=DATE-TIME:20210401T170000Z
+DTSTART;VALUE=DATE-TIME:20221110T170000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20170712T143825Z
+UID:testingworkinggroup-20221110
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Testing working group\nChair:  John Barker (gundalow
  )\nDescription:  \nDiscuss everything related to automated testing.\n\nAge
@@ -122,8 +154,10 @@ LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VMware working group
-DTSTART;VALUE=DATE-TIME:20210405T160000Z
+DTSTART;VALUE=DATE-TIME:20221114T160000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20171016T181009Z
+UID:vmwareworkinggroup-20221114
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  VMware working group\nChair:  Abhijeet Kasurde (akas
  urde)\, James Tanner (jctanner)\nDescription:  \nWe discuss everything VMw
@@ -136,12 +170,14 @@ LOCATION:#ansible-vmware
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Windows working group
-DTSTART;VALUE=DATE-TIME:20210330T200000Z
+DTSTART;VALUE=DATE-TIME:20221115T200000Z
 DURATION:PT1H
+DTSTAMP;VALUE=DATE-TIME:20170712T143825Z
+UID:windowsworkinggroup-20221115
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Windows working group\nChair:  Matt Davis (nitzmahon
  e)\, Jordan Borean (jborean93)\nDescription:  \nWe discuss everything Wind
- ows every week on Tuesday.\n\nIf you have something to discuss (e.g. a PR
+ ows every week on Tuesday.\n\nIf you have something to discuss (e.g. a PR 
  that needs help)\, add your\nrequest to the meeting agenda and join the IR
  C channel.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=i
  s:open+label:meeting_agenda+label:windows\nProject URL:  https://github.co

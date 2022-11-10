@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Ansible Security Automation working group
-DTSTART;VALUE=DATE-TIME:20210405T150000Z
+DTSTART;VALUE=DATE-TIME:20221114T150000Z
 DURATION:PT1H
 DTSTAMP;VALUE=DATE-TIME:20191126T180022Z
-UID:ansiblesecurityautomationworkinggroup-20210405
+UID:ansiblesecurityautomationworkinggroup-20221114
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Ansible Security Automation working group\nChair:  A
  dam Miller (maxamillion)\, Sumit Jaiswal (justjais)\, Abhijeet Kasurde (ak
