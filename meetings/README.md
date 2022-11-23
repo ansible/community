@@ -53,7 +53,7 @@ You can add this full list of meetings to your personal calendar by importing by
   ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/network.ics))
   in `#ansible-network`
 
-* [19:00 UTC](http://www.thetimezoneconverter.com/?t=18:00&tz=UTC):
+* [19:00 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC):
   **[Community Working Group](https://github.com/ansible/community/issues/539)**
   ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/community.ics))
   in `#ansible-community`
