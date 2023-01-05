@@ -10,27 +10,29 @@ This repository serves as a space for the Ansible Community Working Group to man
 
 ## Our Goals
 
-* Encourage transparency, collaboration, and accountability through tooling and lightweight project tracking and/or management
-* Provide guidance and advice to other working groups in the Ansible community
-* Facilitate the creation of new initiatives and Working Groups
+* Encourage transparency, collaboration, and accountability through tooling and lightweight project tracking and/or management.
+* Provide guidance and advice to other working groups in the Ansible community.
+* Facilitate the creation of new initiatives and Working Groups.
 * Do all of this by KEEPING THINGS SIMPLE (just like Ansible!).
 
 ## Infrastructure and processes we build and/or support
 
-* [Ansibullbot](https://github.com/ansible/ansibullbot): Automation (or aspiring automation) of GitHub pull request processing for ansible/ansible, ansible/ansible-modules-core, and ansible/ansible-modules-extras.
-* [Meetings](https://github.com/ansible/community/tree/main/meetings): IRC meeting-related infrastructure, including the meeting bot and space for logs; organization of Ansible Contributor Summits.
+* [Meetings](https://github.com/ansible/community/tree/main/meetings): Matrix/IRC meeting-related infrastructure, including the meeting bot and space for logs; organization of Ansible Contributor Summits.
+* [Bullhorn](https://github.com/ansible/community/wiki/News#the-bullhorn): Ansible contributor newsletter.
+* [Collection Bot](https://github.com/ansible-community/collection_bot): Automation of GitHub issue/pull request processing for ansible collections.
 
 ## Groups
 
-**NOTE:** For the majority of IRC channels you must [register your nick with irc.libera.chat](https://libera.chat/guides/registration)
-
 * [All Ansible Working Groups](https://github.com/ansible/community/wiki)
-* [All Ansible Email lists, IRC and Working Groups](https://docs.ansible.com/ansible/devel/community/communication.html)
+* [All Ansible Email lists, Matrix/IRC channels and Working Groups](https://docs.ansible.com/ansible/devel/community/communication.html)
 
-## What We're Working On
+## What we are working on
 
-* [Community Project](https://github.com/ansible/community/projects/1)
-* [Contributor Experience Project](https://github.com/orgs/ansible/projects/2)
+* [Community Topics](https://github.com/ansible-community/community-topics)
+* [Collection Inclusion](https://github.com/ansible-collections/ansible-inclusion)
+* [Ansible Documentation](https://github.com/orgs/ansible/projects/94/views/1)
+* [Ansible Collections](https://github.com/ansible-collections)
+* [Projects of Ansible Ecosystem](https://github.com/ansible)
 
 ## I'd like to start a new initiative or team
 
@@ -38,4 +40,6 @@ This repository serves as a space for the Ansible Community Working Group to man
 
 ## Speak to us
 
-Join us in `#ansible-community` on [irc.libera.chat](https://libera.chat)
+* [#community:ansible.com](https://matrix.to/#/#community:ansible.com) on [Matrix](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix)
+* `#ansible-community` on Libera.Chat [IRC](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-irc)
+* `ansible-community@redhat.com`
