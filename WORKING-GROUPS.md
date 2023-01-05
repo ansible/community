@@ -18,7 +18,7 @@ The basic responsibilities of a working group:
 
 You can find the list of existing working groups in the [Ansible communication guide](https://docs.ansible.com/ansible/devel/community/communication.html#working-groups).
 
-## Requesting a Working Group
+## Requesting a working group
 
 Anyone can request to start a Working Group, for any reason. 
 
