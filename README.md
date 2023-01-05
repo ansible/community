@@ -10,8 +10,8 @@ This repository serves as a space for the Ansible Community Working Group to man
 
 ## Our Goals
 
-* Encourage transparency, collaboration, and accountability through tooling and lightweight project tracking and/or management.
-* Provide guidance and advice to other working groups in the Ansible community.
+* Encourage transparency, collaboration, and accountability through tooling and project tracking and/or management.
+* Assist working groups in the Ansible community for our mutual success.
 * Facilitate the creation of new initiatives and working groups.
 * Do all of this by KEEPING THINGS SIMPLE (just like Ansible!).
 
