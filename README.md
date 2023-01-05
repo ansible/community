@@ -28,7 +28,7 @@ This repository serves as a space for the Ansible Community Working Group to man
 
 ## What we are working on
 
-* [Community Topics](https://github.com/ansible-community/community-topics)
+* [Community topics](https://github.com/ansible-community/community-topics)
 * [Collection inclusion](https://github.com/ansible-collections/ansible-inclusion)
 * [Ansible documentation](https://github.com/orgs/ansible/projects/94/views/1)
 * [Ansible collections](https://github.com/ansible-collections)
