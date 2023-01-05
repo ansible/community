@@ -12,7 +12,7 @@ This repository serves as a space for the Ansible Community Working Group to man
 
 * Encourage transparency, collaboration, and accountability through tooling and lightweight project tracking and/or management.
 * Provide guidance and advice to other working groups in the Ansible community.
-* Facilitate the creation of new initiatives and Working Groups.
+* Facilitate the creation of new initiatives and working groups.
 * Do all of this by KEEPING THINGS SIMPLE (just like Ansible!).
 
 ## Infrastructure and processes we build and/or support
