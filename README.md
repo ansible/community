@@ -24,7 +24,7 @@ This repository serves as a space for the Ansible Community Working Group to man
 ## Groups
 
 * [All Ansible Working Groups](https://github.com/ansible/community/wiki)
-* [All Ansible Email lists, Matrix/IRC channels and Working Groups](https://docs.ansible.com/ansible/devel/community/communication.html)
+* [All Ansible email lists, Matrix/IRC channels and working groups](https://docs.ansible.com/ansible/devel/community/communication.html)
 
 ## What we are working on
 
