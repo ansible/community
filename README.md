@@ -32,7 +32,7 @@ This repository serves as a space for the Ansible Community Working Group to man
 * [Collection Inclusion](https://github.com/ansible-collections/ansible-inclusion)
 * [Ansible Documentation](https://github.com/orgs/ansible/projects/94/views/1)
 * [Ansible Collections](https://github.com/ansible-collections)
-* [Projects of Ansible Ecosystem](https://github.com/ansible)
+* [Projects in the Ansible Ecosystem](https://github.com/ansible)
 
 ## I'd like to start a new initiative or team
 

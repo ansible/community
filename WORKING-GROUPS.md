@@ -11,6 +11,7 @@ The basic components of a working group:
 * Dedicated wiki space.
 
 The basic responsibilities of a working group:
+* Follow the [Ansible Community Code of Conduct](https://docs.ansible.com/ansible/latest/community/code_of_conduct.html).
 * Be responsive on your real-time chat channel;
 * Report semi-regularly on the cool stuff that your working group is working on;
 * Keep your wiki space clean!
