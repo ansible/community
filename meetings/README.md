@@ -2,16 +2,16 @@
 
 ## #ansible-meeting
 
-Ansible IRC meetings are held on [irc.libera.chat](https://libera.chat/).
-
-If you receive an error when you connect, see [libera.chat’s Nickname Registration guide](https://libera.chat/guides/registration) for instructions.
+Ansible meetings are held in [Matrix](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix) and/or bridged [IRC](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-irc) channels.
 
 ## Schedule
 
-You can add this full list of meetings to your personal calendar by importing by URL [ansible_community_meetings.ics](https://raw.githubusercontent.com/ansible/community/main/ansible_community_meetings.ics) into your calendar.
+You can add this full list of meetings to your personal calendar by importing [ansible_community_meetings.ics](https://raw.githubusercontent.com/ansible/community/main/ansible_community_meetings.ics).
 
 > Some calendars, such as Google Calendar, support importing by URL.
 > This allows the calendar to update automatically when changes are made.
+
+Note that many of the working groups below have Matrix rooms bridged with the mentioned IRC channels. So if you already have a Matrix account or don't want to use IRC, just join a corresponding Matrix room. You can find the room links in the list of [official working groups](https://docs.ansible.com/ansible/devel/community/communication.html#working-groups).
 
 ### Mondays
 
@@ -56,7 +56,7 @@ You can add this full list of meetings to your personal calendar by importing by
 * [19:00 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC):
   **[Community Working Group](https://github.com/ansible/community/issues/539)**
   ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/community.ics))
-  in `#ansible-community`
+  in [#community:ansible.com](https://matrix.to/#/#community:ansible.com) on [Matrix](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix) and in bridged `#ansible-community` [IRC](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-irc) channels
 
 ### Thursdays
 
