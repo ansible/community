@@ -54,3 +54,7 @@ If you get stuck or want to know more, join us in one of the following channels:
 * `#ansible-community` on Libera.Chat [IRC](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-irc)
 
 You can also contact the Ansible community team via `ansible-community@redhat.com`.
+
+## Resources to follow
+
+* [Ansible community guide](https://docs.ansible.com/ansible/latest/community/index.html)
