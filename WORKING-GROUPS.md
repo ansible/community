@@ -2,25 +2,27 @@
 
 ## What are Working Groups
 
-
 Working Groups are a way for Ansible community members to self-organize around particular topics of interest.
 
 The basic components of a working group:
-* A group name and charter (why the group exists);
-* A registered IRC channel on [irc.libera.chat](https://libera.chat/) (will usually be #ansible-groupname);
-* A group of users (at least two!) who will be driving the agenda of the working group;
+* Group name and charter (why the group exists);
+* Registered [real-time chat](https://docs.ansible.com/ansible/devel/community/communication.html#real-time-chat) channel;
+* Group of users (at least two!) who will be driving the agenda of the working group;
 * Dedicated wiki space.
 
 The basic responsibilities of a working group:
-* Be responsive on your IRC channel;
+* Follow the [Ansible Community Code of Conduct](https://docs.ansible.com/ansible/latest/community/code_of_conduct.html).
+* Be responsive on your real-time chat channel;
 * Report semi-regularly on the cool stuff that your working group is working on;
 * Keep your wiki space clean!
 
-## Requesting a Working Group
+You can find the list of existing working groups in the [Ansible communication guide](https://docs.ansible.com/ansible/devel/community/communication.html#working-groups).
+
+## Requesting a working group
 
 Anyone can request to start a Working Group, for any reason. 
 
-Cut and paste the following text into an [Community Issue](https://github.com/ansible/community/issues/new), and replace the examples in brackets
+Paste the following text into a [community issue](https://github.com/ansible/community/issues/new) and replace the examples in brackets
 with your own working group info:
 
 ```
@@ -33,38 +35,26 @@ WORKING GROUP PURPOSE:
 (keep it short and sweet)
 
 AT LEAST TWO INITIAL WORKING GROUP MEMBERS:
-[ IRC: gregdek / GitHub: @gregdek           ]
-[ IRC: rbergeron / GitHub: @robynbergeron   ]
+[ Matrix/Libera.Chat IRC: gregdek / GitHub: @gregdek           ]
+[ Matrix/Libera.Chat IRC: rbergeron / GitHub: @robynbergeron   ]
 [                                           ]
-(provide the IRC nicks AND GitHub IDs of your working group members, one name per line please)
+(provide the Matrix/Libera.Chat IRC nicks AND GitHub IDs of your working group members, one name per line please)
+
+REAL-TIME CHAT CHANNEL: [ Example: Matrix: #unicorn:ansible.com | Libera.Chat IRC: #ansible-unicorn ]
+(if they don't exist yet, mention that they need to be created)
+(you can start with a Matrix channel, then we can add an IRC channel if needed and bridge them)
 ```
 
+For more information about real-time chat options, see the [Ansible communication guide](https://docs.ansible.com/ansible/devel/community/communication.html#real-time-chat).
 
+## Need help?
 
-## Process for Ansible Staff
+If you get stuck or want to know more, join us in one of the following channels:
+* [#community:ansible.com](https://matrix.to/#/#community:ansible.com) on [Matrix](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix)
+* `#ansible-community` on Libera.Chat [IRC](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-irc)
 
-We will ask you a few more questions if anything is unclear via the GitHub issue created above.
+You can also contact the Ansible community team via `ansible-community@redhat.com`.
 
-Once we have enough information, we will set up the following infrastructure:
-* An IRC channel on libera.chat named "#ansible-yourgroupname", properly registered and op'd;
-  * `*!*@ansible/owner/*    +AORefiorstv`
-  * `*!*@ansible/staff/*    +Oo`
-  * Group Contact set - via Jimi-C
-* github.com/community
-  * Wiki new page and link from [1](https://github.com/ansible/community/wiki/_Sidebar/_edit) & [2](https://github.com/ansible/community/wiki/Home/_edit) and 
-   A label in the issue tracker to identify issues/PRs for your working group;
-* a/a label - update BotMeta
-  * Search for `linode -label:linode` (and other related terms) to find other issies & PRs where the label needs adding
-  * Add other `keywords:` to BOTMETA
-  * Ensure set for module, module_utils, docs_fragments, integration tests, unit tests
-* [Ansibullbot](https://github.com/ansible/ansibullbot/blob/master/ansibullbot/triagers/plugins/community_workgroups.py) to know about new Working Group
-* Publicise
-  * Internal Email & Slack
-  * IRC: `#ansible-devel`  `#ansible` 
-  * [Changes impacting Contributors](https://github.com/ansible/community/issues/346)
-  * [The Bullhorn](https://github.com/ansible/community/issues/546)
-  * Google Groups: `ansible-project` & `ansible-devel`
+## Resources to follow
 
-## Help!
-
-If you get stuck or want to know more join us in `#ansible-community` on [irc.libera.chat](https://libera.chat/)
+* [Ansible community guide](https://docs.ansible.com/ansible/latest/community/index.html)
