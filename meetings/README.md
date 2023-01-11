@@ -60,11 +60,6 @@ Note that many of the working groups below have Matrix rooms bridged with the me
   ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/core-team.ics))
   in `#ansible-meeting` [IRC](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-irc) | [#meeting:ansible.im](https://matrix.to/#/#meeting:ansible.im) [Matrix](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix) once a month
 
-* [17:00 UTC](http://www.thetimezoneconverter.com/?t=17:00&tz=UTC):
-  **[Testing Working Group](https://github.com/ansible/community/wiki/testing)**
-  ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/testing.ics))
-  in `#ansible-meeting` [IRC](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-irc) | [#meeting:ansible.im](https://matrix.to/#/#meeting:ansible.im) [Matrix](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix)
-
 * [17:30 UTC](http://www.thetimezoneconverter.com/?t=17:30&tz=UTC):
   **[AWS Working Group](https://github.com/ansible/community/wiki/aws)**
   ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/aws.ics))
