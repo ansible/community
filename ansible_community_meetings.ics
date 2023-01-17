@@ -73,20 +73,6 @@ DESCRIPTION:Project:  Documentation working group\nChair:  Sandra McCann (
 LOCATION:#ansible-docs
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Lockdown working group
-DTSTART;VALUE=DATE-TIME:20210408T160000Z
-DURATION:PT1H
-RRULE:FREQ=WEEKLY;INTERVAL=2
-DESCRIPTION:Project:  Lockdown working group\nChair:  Jonathan Davila (def
- ionscode)\, Daniel Shepherd (shepdelacreme)\, James Cassell (jamescassell)
- \nDescription:  \nWe discuss everything related to Ansible Lockdown every
- other Thursday at noon.\n\nIf you have something to discuss\, add your req
- uest to the meeting agenda and\njoin the IRC channel\n\nAgenda URL:  https
- ://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+labe
- l:lockdown\nProject URL:  https://github.com/ansible/ansible-lockdown
-LOCATION:#ansible-lockdown
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Molecule working group
 DTSTART;VALUE=DATE-TIME:20210331T190000Z
 DURATION:PT1H
@@ -107,18 +93,6 @@ DESCRIPTION:Project:  Network working group\nChair:  Nathaniel Case (Qalth
  rk.\n\nAgenda URL:  https://github.com/ansible/community/labels/network\nP
  roject URL:  https://github.com/ansible/community/wiki/Network
 LOCATION:#ansible-network
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Testing working group
-DTSTART;VALUE=DATE-TIME:20210401T170000Z
-DURATION:PT1H
-RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  Testing working group\nChair:  John Barker (gundalow
- )\nDescription:  \nDiscuss everything related to automated testing.\n\nAge
- nda URL:  https://github.com/ansible/community/issues?q=is:open+label:meet
- ing_agenda+label:testing\nProject URL:  https://github.com/ansible/communi
- ty/wiki/Testing
-LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:VMware working group
