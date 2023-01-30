@@ -98,19 +98,6 @@ DESCRIPTION:Project:  Documentation working group\nChair:  Sandra McCann (
 LOCATION:#ansible-docs or https://matrix.to/#/#docs:ansible.com
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Molecule working group
-DTSTART:20230201T190000Z
-DURATION:PT1H
-DTSTAMP:20190117T150421Z
-UID:moleculeworkinggroup-20230201
-RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  Molecule working group\nChair:  gundalow\nDescriptio
- n:  \nHelp direct and improve Molecule\n\nAgenda URL:  https://github.com/
- ansible/community/issues?q=is:open+label:meeting_agenda+label:molecule\nPr
- oject URL:  https://github.com/ansible/community/wiki/Molecule
-LOCATION:#ansible-molecule
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Network working group
 DTSTART:20230201T160000Z
 DURATION:PT1H
