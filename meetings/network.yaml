@@ -2,12 +2,12 @@ project: Network working group
 meeting_id: network
 project_url: https://github.com/ansible/community/wiki/Network
 agenda_url: https://github.com/ansible/community/labels/network
-chair: Nathaniel Case (Qalthos), Paul Belanger (pabelanger)
+chair: Kate Case (Qalthos)
 description: |
 
   Discuss everything network.
 schedule:
 - time: '1600'
   day: Wednesday
-  irc: ansible-network
+  irc: ansible-network or https://matrix.to/#/#network:ansible.com
   frequency: weekly

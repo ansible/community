@@ -9,5 +9,5 @@ description: |
 schedule:
 - time: '1600'
   day: Tuesday
-  irc: ansible-docs
+  irc: ansible-docs or https://matrix.to/#/#docs:ansible.com
   frequency: weekly

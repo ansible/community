@@ -12,5 +12,5 @@ description: |
 schedule:
 - time: '2000'
   day: Tuesday
-  irc: ansible-windows
+  irc: ansible-windows or https://matrix.to/#/#windows:ansible.com
   frequency: weekly

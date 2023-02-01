@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:VMware working group
-DTSTART;VALUE=DATE-TIME:20210405T160000Z
+DTSTART:20230130T160000Z
 DURATION:PT1H
-DTSTAMP;VALUE=DATE-TIME:20171016T181009Z
-UID:vmwareworkinggroup-20210405
+DTSTAMP:20211013T124637Z
+UID:vmwareworkinggroup-20230130
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  VMware working group\nChair:  Abhijeet Kasurde (akas
  urde)\, James Tanner (jctanner)\nDescription:  \nWe discuss everything VMw
@@ -15,6 +15,6 @@ DESCRIPTION:Project:  VMware working group\nChair:  Abhijeet Kasurde (akas
   channel.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=is
  :open+label:meeting_agenda+label:vmware\nProject URL:  https://github.com/
  ansible/community/wiki/VMware
-LOCATION:#ansible-vmware
+LOCATION:#ansible-vmware or https://matrix.to/#/#vmware:ansible.com
 END:VEVENT
 END:VCALENDAR

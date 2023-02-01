@@ -12,5 +12,5 @@ description: |
 schedule:
 - time: '1300'
   day: Tuesday
-  irc: ansible-azure
+  irc: ansible-azure or https://matrix.to/#/#azure:ansible.com
   frequency: biweekly-even
