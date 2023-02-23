@@ -1,5 +1,7 @@
 # Ansible Community Working Group
 
+[![Discuss on Matrix at #community:ansible.com](https://img.shields.io/matrix/community:ansible.com.svg?server_fqdn=ansible-accounts.ems.host&label=Discuss%20on%20Matrix%20at%20%23community:ansible.com&logo=matrix)](https://matrix.to/#/#community:ansible.com)
+
 * [All Ansible Working Groups](https://github.com/ansible/community/wiki)
 
 This repository is for management of all Ansible community related initiatives.
