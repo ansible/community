@@ -27,7 +27,7 @@ In *this* post I'll lay out where we are today - if you already watched [my
 talk on this from CfgMgmtCamp
 2023](https://www.youtube.com/watch?v=B-AODeqjvss) then you can probably skip
 this one, as it covers the same topic. In the [second
-one](https://ansible.github.io/community/posts/ansible_community_strategy_2023.md)
+one](https://ansible.github.io/community/posts/ansible_community_strategy_2023.html)
 I'll make the case for the website & forum.
 
 ## The state of the community today
