@@ -325,7 +325,7 @@ This article is long enough. I **hope** I've convinced you that we have a set
 of structural problems, and that they are **worth tackling**.
 
 In the next
-[article](https://ansible.github.io/community/posts/state_of_the_community_2023.html),
+[article](https://ansible.github.io/community/posts/ansible_community_strategy_2023.html),
 I will introduce **my** vision for what we do about it. But I don't get to
 decide - if you agree with me, you'll need to go vote for it. The links to do
 so are [here](https://github.com/ansible-community/community-topics/issues/201)
