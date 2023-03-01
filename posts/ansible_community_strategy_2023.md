@@ -15,6 +15,11 @@ we covered metrics describing the community today, as well as some reasoning
 into why that might be. In this article, I'll lay out my view of how to go
 about fixing it.
 
+(If you'd prefer to consume this as a video, there is [the recording from
+Ansible Community
+Summit](https://www.youtube.com/watch?v=ezaX-cHlN-g&list=PL0FmYCf7ocrY-uMXYlnbCI2jZz8rDM8zP&index=2)
+in which I go over a lot of these points)
+
 ## Communities as "neighbourhoods"
 
 Let me start with an analogy, to try to illustrate what I think is missing in
