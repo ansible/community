@@ -3,11 +3,11 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Windows working group
-DTSTART:20230131T200000Z
+DTSTART:20230320T200000Z
 DURATION:PT1H
 DTSTAMP:20211013T124637Z
 UID:windowsworkinggroup-20230131
-RRULE:FREQ=WEEKLY
+RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  Windows working group\nChair:  Matt Davis (nitzmahon
  e)\, Jordan Borean (jborean93)\nDescription:  \nWe discuss everything Wind
  ows every week on Tuesday.\n\nIf you have something to discuss (e.g. a PR 
