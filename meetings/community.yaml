@@ -7,7 +7,7 @@ description: |
 
     Discuss everything related to Ansible Community and Contributor experience.
 schedule:
-- time: '1900'
+- time: '1800'
   day: Wednesday
   irc: ansible-community or https://matrix.to/#/#community:ansible.com
   frequency: weekly
