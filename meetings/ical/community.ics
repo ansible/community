@@ -3,10 +3,10 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Community working group
-DTSTART:20230201T190000Z
+DTSTART;VALUE=DATE-TIME:20230322T180000Z
 DURATION:PT1H
-DTSTAMP:20211013T124637Z
-UID:communityworkinggroup-20230201
+DTSTAMP;VALUE=DATE-TIME:20230201T040348Z
+UID:communityworkinggroup-20230322
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Community working group\nChair:  John Barker (gundal
  ow)\nDescription:  \nDiscuss everything related to Ansible Community and C
