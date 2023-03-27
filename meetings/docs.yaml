@@ -7,7 +7,7 @@ description: |
 
   Discuss everything related to Ansible Documentation.
 schedule:
-- time: '1600'
+- time: '1500'
   day: Tuesday
   irc: ansible-docs or https://matrix.to/#/#docs:ansible.com
   frequency: weekly
