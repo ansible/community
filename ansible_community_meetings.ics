@@ -85,10 +85,10 @@ LOCATION:#ansible-meeting
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Documentation working group
-DTSTART:20230131T160000Z
+DTSTART;VALUE=DATE-TIME:20230328T150000Z
 DURATION:PT1H
-DTSTAMP:20211013T124637Z
-UID:documentationworkinggroup-20230131
+DTSTAMP;VALUE=DATE-TIME:20230201T040348Z
+UID:documentationworkinggroup-20230328
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  Documentation working group\nChair:  Sandra McCann (
  samccann)\nDescription:  \nDiscuss everything related to Ansible Documenta
