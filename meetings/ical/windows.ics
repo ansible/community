@@ -3,14 +3,15 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Windows working group
-DTSTART:20230320T200000Z
+DTSTART:20230404T200000Z
 DURATION:PT1H
 DTSTAMP:20211013T124637Z
+LAST-MODIFIED:20230403T202000Z
 UID:windowsworkinggroup-20230131
-RRULE:FREQ=WEEKLY;INTERVAL=2
+RRULE:FREQ=MONTHLY;BYDAY=1TU,3TU
 DESCRIPTION:Project:  Windows working group\nChair:  Matt Davis (nitzmahon
  e)\, Jordan Borean (jborean93)\nDescription:  \nWe discuss everything Wind
- ows every week on Tuesday.\n\nIf you have something to discuss (e.g. a PR 
+ ows every 1st and 3rd Tuesday.\n\nIf you have something to discuss (e.g. a PR 
  that needs help)\, add your\nrequest to the meeting agenda and join the IR
  C channel.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=i
  s:open+label:meeting_agenda+label:windows\nProject URL:  https://github.co
