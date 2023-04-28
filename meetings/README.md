@@ -26,7 +26,7 @@ Note that many of the working groups below have Matrix rooms bridged with the me
 
 ### Tuesdays
 
-* [13:00 UTC](http://www.thetimezoneconverter.com/?t=00:00&tz=UTC):
+* [13:00 UTC](http://www.thetimezoneconverter.com/?t=13:00&tz=UTC):
   **[Azure Working Group](https://github.com/ansible/community/wiki/azure)**
   ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/azure.ics))
   in `#ansible-azure` [IRC](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-irc) | [#azure:ansible.com)](https://matrix.to/#/#azure:ansible.com) [Matrix](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix)
