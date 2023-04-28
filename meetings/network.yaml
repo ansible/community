@@ -7,7 +7,7 @@ description: |
 
   Discuss everything network.
 schedule:
-- time: '1600'
-  day: Wednesday
+- time: '1300'
+  day: Thursday
   irc: ansible-network or https://matrix.to/#/#network:ansible.com
-  frequency: weekly
+  frequency: biweekly-odd
