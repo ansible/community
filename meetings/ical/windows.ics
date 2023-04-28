@@ -3,19 +3,34 @@ VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
 SUMMARY:Windows working group
-DTSTART:20230404T200000Z
+DTSTART:20230502T200000Z
 DURATION:PT1H
-DTSTAMP:20211013T124637Z
-LAST-MODIFIED:20230403T202000Z
-UID:windowsworkinggroup-20230131
-RRULE:FREQ=MONTHLY;BYDAY=1TU,3TU
+DTSTAMP:20230428T112052Z
+UID:windowsworkinggroup-20230502
+RRULE:FREQ=MONTHLY;BYDAY=1TU
 DESCRIPTION:Project:  Windows working group\nChair:  Matt Davis (nitzmahon
  e)\, Jordan Borean (jborean93)\nDescription:  \nWe discuss everything Wind
- ows every 1st and 3rd Tuesday.\n\nIf you have something to discuss (e.g. a PR 
- that needs help)\, add your\nrequest to the meeting agenda and join the IR
- C channel.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=i
- s:open+label:meeting_agenda+label:windows\nProject URL:  https://github.co
- m/ansible/community/wiki/Windows
+ ows every 1st and 3rd Tuesday.\n\nIf you have something to discuss (e.g. a
+  PR that needs help)\, add your\nrequest to the meeting agenda and join th
+ e IRC channel.\n\nAgenda URL:  https://github.com/ansible/community/issues
+ ?q=is:open+label:meeting_agenda+label:windows\nProject URL:  https://githu
+ b.com/ansible/community/wiki/Windows
+LOCATION:#ansible-windows or https://matrix.to/#/#windows:ansible.com
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Windows working group
+DTSTART:20230516T200000Z
+DURATION:PT1H
+DTSTAMP:20230428T112052Z
+UID:windowsworkinggroup-20230516
+RRULE:FREQ=MONTHLY;BYDAY=3TU
+DESCRIPTION:Project:  Windows working group\nChair:  Matt Davis (nitzmahon
+ e)\, Jordan Borean (jborean93)\nDescription:  \nWe discuss everything Wind
+ ows every 1st and 3rd Tuesday.\n\nIf you have something to discuss (e.g. a
+  PR that needs help)\, add your\nrequest to the meeting agenda and join th
+ e IRC channel.\n\nAgenda URL:  https://github.com/ansible/community/issues
+ ?q=is:open+label:meeting_agenda+label:windows\nProject URL:  https://githu
+ b.com/ansible/community/wiki/Windows
 LOCATION:#ansible-windows or https://matrix.to/#/#windows:ansible.com
 END:VEVENT
 END:VCALENDAR
