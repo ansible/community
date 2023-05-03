@@ -99,10 +99,10 @@ LOCATION:#ansible-docs or https://matrix.to/#/#docs:ansible.com
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Network working group
-DTSTART:20230427T130000Z
+DTSTART:20230511T130000Z
 DURATION:PT1H
-DTSTAMP:20230201T040348Z
-UID:networkworkinggroup-20230427
+DTSTAMP:20230428T111440Z
+UID:networkworkinggroup-20230511
 RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  Network working group\nChair:  Kate Case (Qalthos)\n
  Description:  \nDiscuss everything network.\n\nAgenda URL:  https://github

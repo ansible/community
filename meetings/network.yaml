@@ -8,6 +8,7 @@ description: |
   Discuss everything network.
 schedule:
 - time: '1300'
+  start_date: 20230511
   day: Thursday
   irc: ansible-network or https://matrix.to/#/#network:ansible.com
   frequency: biweekly-odd
