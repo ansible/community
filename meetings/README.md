@@ -55,11 +55,6 @@ Note that many of the working groups below have Matrix rooms bridged with the me
   ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/network.ics))
   in `#ansible-network` [IRC](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-irc) | [#network:ansible.com](https://matrix.to/#/#network:ansible.com) [Matrix](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix)
 
-* [15:00 UTC](http://www.thetimezoneconverter.com/?t=15:00&tz=UTC):
-  **Core Team Meeting**
-  ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/core-team.ics))
-  in `#ansible-meeting` [IRC](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-irc) | [#meeting:ansible.im](https://matrix.to/#/#meeting:ansible.im) [Matrix](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix) once a month
-
 * [17:30 UTC](http://www.thetimezoneconverter.com/?t=17:30&tz=UTC):
   **[AWS Working Group](https://github.com/ansible/community/wiki/aws)**
   ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/aws.ics))
@@ -72,13 +67,9 @@ For the following groups see the
 
 ### Core Team Meeting
 
-A place to get input from the Ansible Core Team issues, PRs and proposals that people who are willing to come to the meeting want to present.
+The Ansible Core team is no longer holding scheduled IRC meetings.
 
-* Old PRs that need attention from us (as opposed to from the submitter)
-* Selected proposals from the ansible/proposals repo
-* Review of actions from previous meeting
-* Open discussion driven by the group
-* Meetings alternate between Tuesday and Thursday. Check the calendar for which day the meeting will be held on a given week.
+Please feel free to engage the the Core team in `#ansible-devel` on [IRC](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-irc) or [#devel:ansible.im](https://matrix.to/#/#devel:ansible.im) on [Matrix](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix)
 
 ## Meeting Minutes
 
