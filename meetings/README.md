@@ -26,7 +26,7 @@ Note that many of the working groups below have Matrix rooms bridged with the me
 
 ### Tuesdays
 
-* [13:00 UTC](http://www.thetimezoneconverter.com/?t=00:00&tz=UTC):
+* [13:00 UTC](http://www.thetimezoneconverter.com/?t=13:00&tz=UTC):
   **[Azure Working Group](https://github.com/ansible/community/wiki/azure)**
   ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/azure.ics))
   in `#ansible-azure` [IRC](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-irc) | [#azure:ansible.com)](https://matrix.to/#/#azure:ansible.com) [Matrix](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix)
@@ -43,17 +43,17 @@ Note that many of the working groups below have Matrix rooms bridged with the me
 
 ### Wednesdays
 
-* [16:00 UTC](http://www.thetimezoneconverter.com/?t=16:00&tz=UTC):
-  **[Network Working Group](https://github.com/ansible/community/wiki/network)**
-  ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/network.ics))
-  in `#ansible-network` [IRC](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-irc) | [#network:ansible.com](https://matrix.to/#/#network:ansible.com) [Matrix](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix)
-
 * [19:00 UTC](http://www.thetimezoneconverter.com/?t=19:00&tz=UTC):
   **[Community Working Group](https://github.com/ansible/community/issues/539)**
   ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/community.ics))
   in `#ansible-community` [IRC](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-irc) | [#community:ansible.com](https://matrix.to/#/#community:ansible.com) [Matrix](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix)
 
 ### Thursdays
+
+* [13:00 UTC](http://www.thetimezoneconverter.com/?t=13:00&tz=UTC):
+  **[Network Working Group](https://github.com/ansible/community/wiki/network)**
+  ([ical](https://raw.githubusercontent.com/ansible/community/main/meetings/ical/network.ics))
+  in `#ansible-network` [IRC](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-irc) | [#network:ansible.com](https://matrix.to/#/#network:ansible.com) [Matrix](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix)
 
 * [15:00 UTC](http://www.thetimezoneconverter.com/?t=15:00&tz=UTC):
   **Core Team Meeting**
