@@ -10,3 +10,4 @@
 * [Presentations from Ansible Contributor Summit 2021.03](http://ansible.github.io/community/decks/contrib-summit-2021.03/)
 * [Presentations from Ansible Contributor Summit 2021.06](http://ansible.github.io/community/decks/contrib-summit-2021.06/)
 * [Presentations from Ansible Contributor Summit 2021.09](http://ansible.github.io/community/decks/contrib-summit-2021.09/)
+* [Presentations from Ansible Community Day 2023.05](http://ansible.github.io/community/decks/community-day-2023.05/)
