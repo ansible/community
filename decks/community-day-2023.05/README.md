@@ -9,4 +9,3 @@
 * [Building a Community with Ansible Content Collections](http://ansible.github.io/community/decks/community-day-2023.05/Building-a-Community-with-Ansible-Collections.pdf)
 * [Devtools updates covering Ansible VSCode extension](http://ansible.github.io/community/decks/community-day-2023.05/DevTools-updates-covering-Ansible-VSCode.pdf)
 * [Community Day 2023 - AWX Update](http://ansible.github.io/community/decks/community-day-2023.05/Community-Day-2023-AWX-Update.pdf)
-
