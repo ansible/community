@@ -19,7 +19,7 @@ This repository serves as a space for the Ansible Community Working Group to man
 
 ## Infrastructure and processes we build and/or support
 
-* [Ansible Community Forum](https://forum.ansible.com/): Official Ansible Discource forum.
+* [Ansible Community Forum](https://forum.ansible.com/): Official Ansible Discourse forum.
 * [Meetings](https://github.com/ansible/community/tree/main/meetings): Matrix/IRC meeting-related infrastructure, including the meeting bot and space for logs; organization of Ansible Contributor Summits.
 * [Bullhorn](https://github.com/ansible/community/wiki/News#the-bullhorn): Ansible contributor newsletter.
 * [Collection Bot](https://github.com/ansible-community/collection_bot): Automation of GitHub issue/pull request processing for ansible collections.
