@@ -8,7 +8,7 @@ The basic components of a working group:
 * Group name and charter (why the group exists);
 * Registered [real-time chat](https://docs.ansible.com/ansible/devel/community/communication.html#real-time-chat) channel;
 * Group of users (at least two!) who will be driving the agenda of the working group;
-* Dedicated [Forum group](https://forum.ansible.com/g) (recommended) or wiki space.
+* Dedicated [Forum group](https://forum.ansible.com/g) (recommended) or wiki space (deprecated).
 
 The basic responsibilities of a working group:
 * Follow the [Ansible Community Code of Conduct](https://docs.ansible.com/ansible/latest/community/code_of_conduct.html).
