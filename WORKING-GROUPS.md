@@ -8,13 +8,14 @@ The basic components of a working group:
 * Group name and charter (why the group exists);
 * Registered [real-time chat](https://docs.ansible.com/ansible/devel/community/communication.html#real-time-chat) channel;
 * Group of users (at least two!) who will be driving the agenda of the working group;
-* Dedicated wiki space.
+* Dedicated [Forum group](https://forum.ansible.com/g) (recommended) or wiki space (deprecated).
 
 The basic responsibilities of a working group:
 * Follow the [Ansible Community Code of Conduct](https://docs.ansible.com/ansible/latest/community/code_of_conduct.html).
 * Be responsive on your real-time chat channel;
+* Be responsive on the [Forum](https://forum.ansible.com/) in related topics;
 * Report semi-regularly on the cool stuff that your working group is working on;
-* Keep your wiki space clean!
+* Keep your forum group information updated or wiki space clean!
 
 You can find the list of existing working groups in the [Ansible communication guide](https://docs.ansible.com/ansible/devel/community/communication.html#working-groups).
 
@@ -22,7 +23,9 @@ You can find the list of existing working groups in the [Ansible communication g
 
 Anyone can request to start a Working Group, for any reason. 
 
-Paste the following text into a [community issue](https://github.com/ansible/community/issues/new) and replace the examples in brackets
+If you need only a [forum group](https://forum.ansible.com/g), please request it in the [Requesting a forum group topic](https://forum.ansible.com/t/requesting-a-forum-group/503).
+
+If you also need a real-time chat chennel, paste the following text into a [community issue](https://github.com/ansible/community/issues/new) and replace the examples in brackets
 with your own working group info:
 
 ```
