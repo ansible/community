@@ -19,17 +19,21 @@ This repository serves as a space for the Ansible Community Working Group to man
 
 ## Infrastructure and processes we build and/or support
 
+* [Forum](https://forum.ansible.com/): Official Ansible Discource forum.
 * [Meetings](https://github.com/ansible/community/tree/main/meetings): Matrix/IRC meeting-related infrastructure, including the meeting bot and space for logs; organization of Ansible Contributor Summits.
 * [Bullhorn](https://github.com/ansible/community/wiki/News#the-bullhorn): Ansible contributor newsletter.
 * [Collection Bot](https://github.com/ansible-community/collection_bot): Automation of GitHub issue/pull request processing for ansible collections.
 
 ## Groups
 
-* [All Ansible Working Groups](https://github.com/ansible/community/wiki)
+* Ansible Working Groups are now present in two forms:
+  * [On the Forum](https://forum.ansible.com/g) (recommended)
+  * [As wiki pages](https://github.com/ansible/community/wiki) in this repository
 * [All Ansible email lists, Matrix/IRC channels and working groups](https://docs.ansible.com/ansible/devel/community/communication.html)
 
 ## What we are working on
 
+* [Forum topics](https://forum.ansible.com/)
 * [Community topics](https://github.com/ansible-community/community-topics)
 * [Collection inclusion](https://github.com/ansible-collections/ansible-inclusion)
 * [Ansible documentation](https://github.com/orgs/ansible/projects/94/views/1)
@@ -42,6 +46,7 @@ This repository serves as a space for the Ansible Community Working Group to man
 
 ## Speak to us
 
+* On the [Forum](https://forum.ansible.com/categories) in a suitable category
 * [#community:ansible.com](https://matrix.to/#/#community:ansible.com) on [Matrix](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-matrix)
 * `#ansible-community` on Libera.Chat [IRC](https://docs.ansible.com/ansible/devel/community/communication.html#ansible-community-on-irc)
 * `ansible-community@redhat.com`
