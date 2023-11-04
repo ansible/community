@@ -67,23 +67,6 @@ DESCRIPTION:Project:  Community working group\nChair:  John Barker (gundal
 LOCATION:#ansible-community or https://matrix.to/#/#community:ansible.com
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Core Team meeting
-DTSTART:20220714T160000Z
-DURATION:PT1H
-DTSTAMP:20220613T111420Z
-UID:coreteammeeting-20220714
-RRULE:FREQ=MONTHLY;BYDAY=2TH
-DESCRIPTION:Project:  Core Team meeting\nChair:  Core Team\nDescription:  
- \nA place to get input from the Ansible Core Team issues\, PRs and proposa
- ls\nthat people who are willing to come to the meeting want to present.\n-
-  Old PRs that need attention from us (as opposed to from the submitter)\n-
-  Selected proposals from the ansible/proposals repo\n- Review of actions f
- rom previous meeting\n- Open discussion driven by the group\n\nAgenda URL:
-   https://github.com/ansible/community/issues?q=is:open+label:meeting_agen
- da+label:core\nProject URL:  https://github.com/ansible/community/wiki
-LOCATION:#ansible-meeting
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Documentation working group
 DTSTART;VALUE=DATE-TIME:20230328T150000Z
 DURATION:PT1H
