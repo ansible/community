@@ -10,6 +10,8 @@ Ansible community. Consider this repository content as read-only except for crit
 This section lists where to go for updated content and will be updated as we progress:
 
 * For presentations (formerly the `/decks` ) directory - See [ansible-community/presentations](https://github.com/ansible-community/presentations)
+* For Working group meetings (formerly the `/meetings` directory) - see the new  [meeting ICS calendar}(https://forum.ansible.com/g)
+and  [Ansible working groups](https://forum.ansible.com/g).
 
 
 ## Working Groups
