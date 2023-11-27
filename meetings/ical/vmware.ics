@@ -2,18 +2,15 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
-SUMMARY:STALE INVITE PLS UPDATE VMware working group
+SUMMARY:STALE INVITE PLS UPDATE
 DTSTART:20231127T160000Z
 DURATION:PT1H
 DTSTAMP:20231127T161011Z
-UID:staleinviteplsupdatevmwareworkinggroup-20231127
+UID:staleinviteplsupdate-20231127
 RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  STALE INVITE PLS UPDATE VMware working group\nChair:
-   Abhijeet Kasurde (akasurde)\, James Tanner (jctanner)\nDescription:  \nS
- ee https://github.com/ansible-community/meetings/tree/main for updated inv
- ite.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=is:open
- +label:meeting_agenda+label:vmware\nProject URL:  https://github.com/ansib
- le/community/wiki/VMware
+DESCRIPTION:Project:  STALE INVITE PLS UPDATE\nChair:  None\nDescription: 
+  \nSee https://github.com/ansible-community/meetings/tree/main for updated
+  invite.\n\nAgenda URL:  None\nProject URL:  None
 LOCATION:#ansible-vmware or https://matrix.to/#/#vmware:ansible.com
 END:VEVENT
 END:VCALENDAR

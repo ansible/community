@@ -2,18 +2,15 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
-SUMMARY:STALE INVITE PLS UPDATE AWS working group
+SUMMARY:STALE INVITE PLS UPDATE
 DTSTART:20220428T173000Z
 DURATION:PT1H
 DTSTAMP:20231127T161011Z
-UID:staleinviteplsupdateawsworkinggroup-20220428
+UID:staleinviteplsupdate-20220428
 RRULE:FREQ=MONTHLY;BYDAY=4TH
-DESCRIPTION:Project:  STALE INVITE PLS UPDATE AWS working group\nChair:  A
- lina Buzachis (abuzachis)\, Mark Chappell (tremble)\, Markus Bergholz (mar
- kuman)\nDescription:  \nSee https://github.com/ansible-community/meetings/
- tree/main for updated invite.\n\nAgenda URL:  https://github.com/ansible/c
- ommunity/issues?q=is:open+label:meeting_agenda+label:aws\nProject URL:  ht
- tps://github.com/ansible/community/wiki/AWS
+DESCRIPTION:Project:  STALE INVITE PLS UPDATE\nChair:  None\nDescription: 
+  \nSee https://github.com/ansible-community/meetings/tree/main for updated
+  invite.\n\nAgenda URL:  None\nProject URL:  None
 LOCATION:#ansible-aws or https://matrix.to/#/#aws:ansible.im
 END:VEVENT
 END:VCALENDAR

@@ -2,135 +2,112 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
-SUMMARY:STALE INVITE PLS UPDATE AWS working group
+SUMMARY:STALE INVITE PLS UPDATE
 DTSTART:20220428T173000Z
 DURATION:PT1H
 DTSTAMP:20231127T161011Z
-UID:staleinviteplsupdateawsworkinggroup-20220428
+UID:staleinviteplsupdate-20220428
 RRULE:FREQ=MONTHLY;BYDAY=4TH
-DESCRIPTION:Project:  STALE INVITE PLS UPDATE AWS working group\nChair:  A
- lina Buzachis (abuzachis)\, Mark Chappell (tremble)\, Markus Bergholz (mar
- kuman)\nDescription:  \nSee https://github.com/ansible-community/meetings/
- tree/main for updated invite.\n\nAgenda URL:  https://github.com/ansible/c
- ommunity/issues?q=is:open+label:meeting_agenda+label:aws\nProject URL:  ht
- tps://github.com/ansible/community/wiki/AWS
+DESCRIPTION:Project:  STALE INVITE PLS UPDATE\nChair:  None\nDescription: 
+  \nSee https://github.com/ansible-community/meetings/tree/main for updated
+  invite.\n\nAgenda URL:  None\nProject URL:  None
 LOCATION:#ansible-aws or https://matrix.to/#/#aws:ansible.im
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:STALE INVITE PLS UPDATE Ansible Security Automation working group
-DTSTART:20231127T150000Z
+SUMMARY:STALE INVITE PLS UPDATE
+DTSTART:20231128T130000Z
 DURATION:PT1H
 DTSTAMP:20231127T161011Z
-UID:staleinviteplsupdateansiblesecurityautomationworkinggroup-20231127
+UID:staleinviteplsupdate-20231128
+RRULE:FREQ=WEEKLY;INTERVAL=2
+DESCRIPTION:Project:  STALE INVITE PLS UPDATE\nChair:  None\nDescription: 
+  \nSee https://github.com/ansible-community/meetings/tree/main for updated
+  invite.\n\nAgenda URL:  None\nProject URL:  None
+LOCATION:#ansible-azure or https://matrix.to/#/#azure:ansible.com
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STALE INVITE PLS UPDATE
+DTSTART:20231129T190000Z
+DURATION:PT1H
+DTSTAMP:20231127T161011Z
+UID:staleinviteplsupdate-20231129
 RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  STALE INVITE PLS UPDATE Ansible Security Automation 
- working group\nChair:  None\nDescription:  \nSee https://github.com/ansibl
- e-community/meetings/tree/main for updated invite.\n\nAgenda URL:  None\nP
- roject URL:  None
+DESCRIPTION:Project:  STALE INVITE PLS UPDATE\nChair:  None\nDescription: 
+  \nSee https://github.com/ansible-community/meetings/tree/main for updated
+  invite.\n\nAgenda URL:  None\nProject URL:  None
+LOCATION:#ansible-community or https://matrix.to/#/#community:ansible.com
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STALE INVITE PLS UPDATE
+DTSTART:20230511T130000Z
+DURATION:PT1H
+DTSTAMP:20231127T161011Z
+UID:staleinviteplsupdate-20230511
+RRULE:FREQ=WEEKLY;INTERVAL=2
+DESCRIPTION:Project:  STALE INVITE PLS UPDATE\nChair:  None\nDescription: 
+  \nSee https://github.com/ansible-community/meetings/tree/main for updated
+  invite.\n\nAgenda URL:  None\nProject URL:  None
+LOCATION:#ansible-network or https://matrix.to/#/#network:ansible.com
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STALE INVITE PLS UPDATE
+DTSTART:20231127T150000Z
+DURATION:PT1H
+DTSTAMP:20231127T161515Z
+UID:staleinviteplsupdate-20231127
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  STALE INVITE PLS UPDATE\nChair:  None\nDescription: 
+  \nSee https://github.com/ansible-community/meetings/tree/main for updated
+  invite.\n\nAgenda URL:  None\nProject URL:  None
 LOCATION:#ansible-security or https://matrix.to/#/#security-automation:ans
  ible.com
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:STALE INVITE PLS UPDATE Azure working group
-DTSTART:20231128T130000Z
-DURATION:PT1H
-DTSTAMP:20231127T161011Z
-UID:staleinviteplsupdateazureworkinggroup-20231128
-RRULE:FREQ=WEEKLY;INTERVAL=2
-DESCRIPTION:Project:  STALE INVITE PLS UPDATE Azure working group\nChair: 
-  Anshul Behl (anshulbehl)\, Jacob Jackson (thedoubl3j)\nDescription:  \nSe
- e https://github.com/ansible-community/meetings/tree/main for updated invi
- te.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+
- label:meeting_agenda+label:azure\nProject URL:  https://github.com/ansible
- /community/wiki/azure
-LOCATION:#ansible-azure or https://matrix.to/#/#azure:ansible.com
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:STALE INVITE PLS UPDATE Community working group
-DTSTART:20231129T190000Z
-DURATION:PT1H
-DTSTAMP:20231127T161011Z
-UID:staleinviteplsupdatecommunityworkinggroup-20231129
-RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  STALE INVITE PLS UPDATE Community working group\nCha
- ir:  John Barker (gundalow)\nDescription:  \nDiscuss everything related to
-  Ansible Community and Contributor experience.\n\nAgenda URL:  https://git
- hub.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:cont
- ributor_experience\nProject URL:  https://github.com/ansible/community/wik
- i/Community
-LOCATION:#ansible-community or https://matrix.to/#/#community:ansible.com
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:STALE INVITE PLS UPDATE Documentation WG
-DTSTART:20231128T160000Z
-DURATION:PT1H
-DTSTAMP:20231127T161011Z
-UID:staleinviteplsupdatedocumentationwg-20231128
-RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  STALE INVITE PLS UPDATE Documentation WG\nChair:  Sa
- ndra McCann (samccann)\nDescription:  \nSee https://github.com/ansible-com
- munity/meetings/tree/main for updated invite.\n\nAgenda URL:  https://foru
- m.ansible.com/t/documentation-working-group-agenda/153/7\nProject URL:  ht
- tps://github.com/ansible/community/wiki/Docs
-LOCATION:#ansible-docs or https://matrix.to/#/#docs:ansible.com
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:STALE INVITE PLS UPDATE Network working group
-DTSTART:20230511T130000Z
-DURATION:PT1H
-DTSTAMP:20231127T161011Z
-UID:staleinviteplsupdatenetworkworkinggroup-20230511
-RRULE:FREQ=WEEKLY;INTERVAL=2
-DESCRIPTION:Project:  STALE INVITE PLS UPDATE Network working group\nChair
- :  Kate Case (Qalthos)\nDescription:  \nSee https://github.com/ansible-com
- munity/meetings/tree/main for updated invite.\n\nAgenda URL:  https://gith
- ub.com/ansible/community/labels/network\nProject URL:  https://github.com/
- ansible/community/wiki/Network
-LOCATION:#ansible-network or https://matrix.to/#/#network:ansible.com
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:STALE INVITE PLS UPDATE VMware working group
+SUMMARY:STALE INVITE PLS UPDATE
 DTSTART:20231127T160000Z
 DURATION:PT1H
 DTSTAMP:20231127T161011Z
-UID:staleinviteplsupdatevmwareworkinggroup-20231127
+UID:staleinviteplsupdate-20231127
 RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  STALE INVITE PLS UPDATE VMware working group\nChair:
-   Abhijeet Kasurde (akasurde)\, James Tanner (jctanner)\nDescription:  \nS
- ee https://github.com/ansible-community/meetings/tree/main for updated inv
- ite.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=is:open
- +label:meeting_agenda+label:vmware\nProject URL:  https://github.com/ansib
- le/community/wiki/VMware
+DESCRIPTION:Project:  STALE INVITE PLS UPDATE\nChair:  None\nDescription: 
+  \nSee https://github.com/ansible-community/meetings/tree/main for updated
+  invite.\n\nAgenda URL:  None\nProject URL:  None
 LOCATION:#ansible-vmware or https://matrix.to/#/#vmware:ansible.com
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:STALE INVITE PLS UPDATE Windows working group
+SUMMARY:STALE INVITE PLS UPDATE
 DTSTART:20231205T200000Z
 DURATION:PT1H
 DTSTAMP:20231127T161011Z
-UID:staleinviteplsupdatewindowsworkinggroup-20231205
+UID:staleinviteplsupdate-20231205
 RRULE:FREQ=MONTHLY;BYDAY=1TU
-DESCRIPTION:Project:  STALE INVITE PLS UPDATE Windows working group\nChair
- :  Matt Davis (nitzmahone)\, Jordan Borean (jborean93)\nDescription:  \nSe
- e https://github.com/ansible-community/meetings/tree/main for updated invi
- te.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+
- label:meeting_agenda+label:windows\nProject URL:  https://github.com/ansib
- le/community/wiki/Windows
+DESCRIPTION:Project:  STALE INVITE PLS UPDATE\nChair:  None\nDescription: 
+  \nSee https://github.com/ansible-community/meetings/tree/main for updated
+  invite.\n\nAgenda URL:  None\nProject URL:  None
 LOCATION:#ansible-windows or https://matrix.to/#/#windows:ansible.com
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:STALE INVITE PLS UPDATE Windows working group
+SUMMARY:STALE INVITE PLS UPDATE
 DTSTART:20231219T200000Z
 DURATION:PT1H
 DTSTAMP:20231127T161011Z
-UID:staleinviteplsupdatewindowsworkinggroup-20231219
+UID:staleinviteplsupdate-20231219
 RRULE:FREQ=MONTHLY;BYDAY=3TU
-DESCRIPTION:Project:  STALE INVITE PLS UPDATE Windows working group\nChair
- :  Matt Davis (nitzmahone)\, Jordan Borean (jborean93)\nDescription:  \nSe
- e https://github.com/ansible-community/meetings/tree/main for updated invi
- te.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+
- label:meeting_agenda+label:windows\nProject URL:  https://github.com/ansib
- le/community/wiki/Windows
+DESCRIPTION:Project:  STALE INVITE PLS UPDATE\nChair:  None\nDescription: 
+  \nSee https://github.com/ansible-community/meetings/tree/main for updated
+  invite.\n\nAgenda URL:  None\nProject URL:  None
 LOCATION:#ansible-windows or https://matrix.to/#/#windows:ansible.com
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:STALE INVITE PLS UPDATE
+DTSTART:20231128T160000Z
+DURATION:PT1H
+DTSTAMP:20231127T161011Z
+UID:staleinviteplsupdate-20231128
+RRULE:FREQ=WEEKLY
+DESCRIPTION:Project:  STALE INVITE PLS UPDATE\nChair:  None\nDescription: 
+  \nSee https://github.com/ansible-community/meetings/tree/main for updated
+  invite.\n\nAgenda URL:  None\nProject URL:  None
+LOCATION:#ansible-docs or https://matrix.to/#/#docs:ansible.com
 END:VEVENT
 END:VCALENDAR

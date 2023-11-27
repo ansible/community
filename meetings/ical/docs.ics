@@ -2,17 +2,15 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
-SUMMARY:STALE INVITE PLS UPDATE Documentation WG
+SUMMARY:STALE INVITE PLS UPDATE
 DTSTART:20231128T160000Z
 DURATION:PT1H
 DTSTAMP:20231127T161011Z
-UID:staleinviteplsupdatedocumentationwg-20231128
+UID:staleinviteplsupdate-20231128
 RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  STALE INVITE PLS UPDATE Documentation WG\nChair:  Sa
- ndra McCann (samccann)\nDescription:  \nSee https://github.com/ansible-com
- munity/meetings/tree/main for updated invite.\n\nAgenda URL:  https://foru
- m.ansible.com/t/documentation-working-group-agenda/153/7\nProject URL:  ht
- tps://github.com/ansible/community/wiki/Docs
+DESCRIPTION:Project:  STALE INVITE PLS UPDATE\nChair:  None\nDescription: 
+  \nSee https://github.com/ansible-community/meetings/tree/main for updated
+  invite.\n\nAgenda URL:  None\nProject URL:  None
 LOCATION:#ansible-docs or https://matrix.to/#/#docs:ansible.com
 END:VEVENT
 END:VCALENDAR
