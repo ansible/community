@@ -2,19 +2,18 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
-SUMMARY:Azure working group
-DTSTART:20230207T130000Z
+SUMMARY:STALE INVITE PLS UPDATE Azure working group
+DTSTART:20231128T130000Z
 DURATION:PT1H
-DTSTAMP:20211013T124637Z
-UID:azureworkinggroup-20230207
+DTSTAMP:20230201T040348Z
+UID:staleinviteplsupdateazureworkinggroup-20231128
 RRULE:FREQ=WEEKLY;INTERVAL=2
-DESCRIPTION:Project:  Azure working group\nChair:  Anshul Behl (anshulbehl
- )\, Jacob Jackson (thedoubl3j)\nDescription:  \nWe discuss everything rela
- ted to Azure every week on Tuesday.\n\nIf you have something to discuss (e
- .g. a PR that needs help)\, add your\nrequest to the meeting agenda and jo
- in the IRC channel.\n\nAgenda URL:  https://github.com/ansible/community/i
- ssues?q=is:open+label:meeting_agenda+label:azure\nProject URL:  https://gi
- thub.com/ansible/community/wiki/azure
+DESCRIPTION:Project:  STALE INVITE PLS UPDATE Azure working group\nChair: 
+  Anshul Behl (anshulbehl)\, Jacob Jackson (thedoubl3j)\nDescription:  \nSe
+ e https://github.com/ansible-community/meetings/tree/main for updated invi
+ te.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+
+ label:meeting_agenda+label:azure\nProject URL:  https://github.com/ansible
+ /community/wiki/azure
 LOCATION:#ansible-azure or https://matrix.to/#/#azure:ansible.com
 END:VEVENT
 END:VCALENDAR

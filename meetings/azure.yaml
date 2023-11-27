@@ -1,14 +1,11 @@
-project: Azure working group
+project: STALE INVITE PLS UPDATE Azure working group
 meeting_id: Azure
 project_url: https://github.com/ansible/community/wiki/azure
 agenda_url: https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:azure
 chair: Anshul Behl (anshulbehl), Jacob Jackson (thedoubl3j)
 description: |
 
-  We discuss everything related to Azure every week on Tuesday.
-
-  If you have something to discuss (e.g. a PR that needs help), add your
-  request to the meeting agenda and join the IRC channel.
+  See https://github.com/ansible-community/meetings/tree/main for updated invite.
 schedule:
 - time: '1300'
   day: Tuesday

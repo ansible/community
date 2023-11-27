@@ -2,35 +2,33 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
-SUMMARY:Windows working group
-DTSTART:20230502T200000Z
+SUMMARY:STALE INVITE PLS UPDATE Windows working group
+DTSTART:20231205T200000Z
 DURATION:PT1H
-DTSTAMP:20230428T112052Z
-UID:windowsworkinggroup-20230502
+DTSTAMP:20230516T112643Z
+UID:staleinviteplsupdatewindowsworkinggroup-20231205
 RRULE:FREQ=MONTHLY;BYDAY=1TU
-DESCRIPTION:Project:  Windows working group\nChair:  Matt Davis (nitzmahon
- e)\, Jordan Borean (jborean93)\nDescription:  \nWe discuss everything Wind
- ows every 1st and 3rd Tuesday.\n\nIf you have something to discuss (e.g. a
-  PR that needs help)\, add your\nrequest to the meeting agenda and join th
- e IRC channel.\n\nAgenda URL:  https://github.com/ansible/community/issues
- ?q=is:open+label:meeting_agenda+label:windows\nProject URL:  https://githu
- b.com/ansible/community/wiki/Windows
+DESCRIPTION:Project:  STALE INVITE PLS UPDATE Windows working group\nChair
+ :  Matt Davis (nitzmahone)\, Jordan Borean (jborean93)\nDescription:  \nSe
+ e https://github.com/ansible-community/meetings/tree/main for updated invi
+ te.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+
+ label:meeting_agenda+label:windows\nProject URL:  https://github.com/ansib
+ le/community/wiki/Windows
 LOCATION:#ansible-windows or https://matrix.to/#/#windows:ansible.com
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Windows working group
-DTSTART:20230516T200000Z
+SUMMARY:STALE INVITE PLS UPDATE Windows working group
+DTSTART:20231219T200000Z
 DURATION:PT1H
-DTSTAMP:20230428T112052Z
-UID:windowsworkinggroup-20230516
+DTSTAMP:20230516T112643Z
+UID:staleinviteplsupdatewindowsworkinggroup-20231219
 RRULE:FREQ=MONTHLY;BYDAY=3TU
-DESCRIPTION:Project:  Windows working group\nChair:  Matt Davis (nitzmahon
- e)\, Jordan Borean (jborean93)\nDescription:  \nWe discuss everything Wind
- ows every 1st and 3rd Tuesday.\n\nIf you have something to discuss (e.g. a
-  PR that needs help)\, add your\nrequest to the meeting agenda and join th
- e IRC channel.\n\nAgenda URL:  https://github.com/ansible/community/issues
- ?q=is:open+label:meeting_agenda+label:windows\nProject URL:  https://githu
- b.com/ansible/community/wiki/Windows
+DESCRIPTION:Project:  STALE INVITE PLS UPDATE Windows working group\nChair
+ :  Matt Davis (nitzmahone)\, Jordan Borean (jborean93)\nDescription:  \nSe
+ e https://github.com/ansible-community/meetings/tree/main for updated invi
+ te.\n\nAgenda URL:  https://github.com/ansible/community/issues?q=is:open+
+ label:meeting_agenda+label:windows\nProject URL:  https://github.com/ansib
+ le/community/wiki/Windows
 LOCATION:#ansible-windows or https://matrix.to/#/#windows:ansible.com
 END:VEVENT
 END:VCALENDAR

@@ -2,16 +2,17 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
-SUMMARY:Network working group
+SUMMARY:STALE INVITE PLS UPDATE Network working group
 DTSTART:20230511T130000Z
 DURATION:PT1H
-DTSTAMP:20230428T111440Z
-UID:networkworkinggroup-20230511
+DTSTAMP:20230516T112643Z
+UID:staleinviteplsupdatenetworkworkinggroup-20230511
 RRULE:FREQ=WEEKLY;INTERVAL=2
-DESCRIPTION:Project:  Network working group\nChair:  Kate Case (Qalthos)\n
- Description:  \nDiscuss everything network.\n\nAgenda URL:  https://github
- .com/ansible/community/labels/network\nProject URL:  https://github.com/an
- sible/community/wiki/Network
+DESCRIPTION:Project:  STALE INVITE PLS UPDATE Network working group\nChair
+ :  Kate Case (Qalthos)\nDescription:  \nSee https://github.com/ansible-com
+ munity/meetings/tree/main for updated invite.\n\nAgenda URL:  https://gith
+ ub.com/ansible/community/labels/network\nProject URL:  https://github.com/
+ ansible/community/wiki/Network
 LOCATION:#ansible-network or https://matrix.to/#/#network:ansible.com
 END:VEVENT
 END:VCALENDAR

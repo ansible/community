@@ -1,14 +1,11 @@
-project: Windows working group
+project: STALE INVITE PLS UPDATE Windows working group
 meeting_id: windows
 project_url: https://github.com/ansible/community/wiki/Windows
 agenda_url: https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:windows
 chair: Matt Davis (nitzmahone), Jordan Borean (jborean93)
 description: |
 
-  We discuss everything Windows every 1st and 3rd Tuesday.
-
-  If you have something to discuss (e.g. a PR that needs help), add your
-  request to the meeting agenda and join the IRC channel.
+  See https://github.com/ansible-community/meetings/tree/main for updated invite.
 schedule:
 - time: '2000'
   day: Tuesday

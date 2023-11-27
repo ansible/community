@@ -1,11 +1,11 @@
-project: Network working group
+project: STALE INVITE PLS UPDATE Network working group
 meeting_id: network
 project_url: https://github.com/ansible/community/wiki/Network
 agenda_url: https://github.com/ansible/community/labels/network
 chair: Kate Case (Qalthos)
 description: |
 
-  Discuss everything network.
+  See https://github.com/ansible-community/meetings/tree/main for updated invite.
 schedule:
 - time: '1300'
   start_date: 20230511

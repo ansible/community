@@ -2,17 +2,17 @@ BEGIN:VCALENDAR
 VERSION:2.0
 PRODID:-//yaml2ical agendas//EN
 BEGIN:VEVENT
-SUMMARY:Documentation working group
-DTSTART:20231107T160000Z
+SUMMARY:STALE INVITE PLS UPDATE Documentation WG
+DTSTART:20231128T160000Z
 DURATION:PT1H
-DTSTAMP:20230327T150934Z
-UID:documentationworkinggroup-20231107
+DTSTAMP:20231106T142336Z
+UID:staleinviteplsupdatedocumentationwg-20231128
 RRULE:FREQ=WEEKLY
-DESCRIPTION:Project:  Documentation working group\nChair:  Sandra McCann (
- samccann)\nDescription:  \nDiscuss everything related to Ansible Documenta
- tion.\n\nAgenda URL:  https://forum.ansible.com/t/documentation-working-gr
- oup-agenda/153/7\nProject URL:  https://github.com/ansible/community/wiki/
- Docs
+DESCRIPTION:Project:  STALE INVITE PLS UPDATE Documentation WG\nChair:  Sa
+ ndra McCann (samccann)\nDescription:  \nSee https://github.com/ansible-com
+ munity/meetings/tree/main for updated invite.\n\nAgenda URL:  https://foru
+ m.ansible.com/t/documentation-working-group-agenda/153/7\nProject URL:  ht
+ tps://github.com/ansible/community/wiki/Docs
 LOCATION:#ansible-docs or https://matrix.to/#/#docs:ansible.com
 END:VEVENT
 END:VCALENDAR
