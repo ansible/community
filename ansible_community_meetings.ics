@@ -5,7 +5,7 @@ BEGIN:VEVENT
 SUMMARY:STALE INVITE PLS UPDATE AWS working group
 DTSTART:20220428T173000Z
 DURATION:PT1H
-DTSTAMP:20220317T170904Z
+DTSTAMP:20231127T161011Z
 UID:staleinviteplsupdateawsworkinggroup-20220428
 RRULE:FREQ=MONTHLY;BYDAY=4TH
 DESCRIPTION:Project:  STALE INVITE PLS UPDATE AWS working group\nChair:  A
@@ -20,16 +20,13 @@ BEGIN:VEVENT
 SUMMARY:STALE INVITE PLS UPDATE Ansible Security Automation working group
 DTSTART:20231127T150000Z
 DURATION:PT1H
-DTSTAMP:20230201T040348Z
+DTSTAMP:20231127T161011Z
 UID:staleinviteplsupdateansiblesecurityautomationworkinggroup-20231127
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  STALE INVITE PLS UPDATE Ansible Security Automation 
- working group\nChair:  Adam Miller (maxamillion)\, Sumit Jaiswal (justjais
- )\, Abhijeet Kasurde (akasurde)\nDescription:  \nSee https://github.com/an
- sible-community/meetings/tree/main for updated invite.\n\nAgenda URL:  htt
- ps://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+la
- bel:security\nProject URL:  https://github.com/ansible/community/wiki/Secu
- rity-Automation
+ working group\nChair:  None\nDescription:  \nSee https://github.com/ansibl
+ e-community/meetings/tree/main for updated invite.\n\nAgenda URL:  None\nP
+ roject URL:  None
 LOCATION:#ansible-security or https://matrix.to/#/#security-automation:ans
  ible.com
 END:VEVENT
@@ -37,7 +34,7 @@ BEGIN:VEVENT
 SUMMARY:STALE INVITE PLS UPDATE Azure working group
 DTSTART:20231128T130000Z
 DURATION:PT1H
-DTSTAMP:20230201T040348Z
+DTSTAMP:20231127T161011Z
 UID:staleinviteplsupdateazureworkinggroup-20231128
 RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  STALE INVITE PLS UPDATE Azure working group\nChair: 
@@ -52,7 +49,7 @@ BEGIN:VEVENT
 SUMMARY:STALE INVITE PLS UPDATE Community working group
 DTSTART:20231129T190000Z
 DURATION:PT1H
-DTSTAMP:20231105T135910Z
+DTSTAMP:20231127T161011Z
 UID:staleinviteplsupdatecommunityworkinggroup-20231129
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  STALE INVITE PLS UPDATE Community working group\nCha
@@ -67,7 +64,7 @@ BEGIN:VEVENT
 SUMMARY:STALE INVITE PLS UPDATE Documentation WG
 DTSTART:20231128T160000Z
 DURATION:PT1H
-DTSTAMP:20231106T142336Z
+DTSTAMP:20231127T161011Z
 UID:staleinviteplsupdatedocumentationwg-20231128
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  STALE INVITE PLS UPDATE Documentation WG\nChair:  Sa
@@ -81,7 +78,7 @@ BEGIN:VEVENT
 SUMMARY:STALE INVITE PLS UPDATE Network working group
 DTSTART:20230511T130000Z
 DURATION:PT1H
-DTSTAMP:20230516T112643Z
+DTSTAMP:20231127T161011Z
 UID:staleinviteplsupdatenetworkworkinggroup-20230511
 RRULE:FREQ=WEEKLY;INTERVAL=2
 DESCRIPTION:Project:  STALE INVITE PLS UPDATE Network working group\nChair
@@ -95,7 +92,7 @@ BEGIN:VEVENT
 SUMMARY:STALE INVITE PLS UPDATE VMware working group
 DTSTART:20231127T160000Z
 DURATION:PT1H
-DTSTAMP:20230201T040348Z
+DTSTAMP:20231127T161011Z
 UID:staleinviteplsupdatevmwareworkinggroup-20231127
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  STALE INVITE PLS UPDATE VMware working group\nChair:
@@ -110,7 +107,7 @@ BEGIN:VEVENT
 SUMMARY:STALE INVITE PLS UPDATE Windows working group
 DTSTART:20231205T200000Z
 DURATION:PT1H
-DTSTAMP:20230516T112643Z
+DTSTAMP:20231127T161011Z
 UID:staleinviteplsupdatewindowsworkinggroup-20231205
 RRULE:FREQ=MONTHLY;BYDAY=1TU
 DESCRIPTION:Project:  STALE INVITE PLS UPDATE Windows working group\nChair
@@ -125,7 +122,7 @@ BEGIN:VEVENT
 SUMMARY:STALE INVITE PLS UPDATE Windows working group
 DTSTART:20231219T200000Z
 DURATION:PT1H
-DTSTAMP:20230516T112643Z
+DTSTAMP:20231127T161011Z
 UID:staleinviteplsupdatewindowsworkinggroup-20231219
 RRULE:FREQ=MONTHLY;BYDAY=3TU
 DESCRIPTION:Project:  STALE INVITE PLS UPDATE Windows working group\nChair

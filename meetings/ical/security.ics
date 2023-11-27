@@ -5,16 +5,13 @@ BEGIN:VEVENT
 SUMMARY:STALE INVITE PLS UPDATE Ansible Security Automation working group
 DTSTART:20231127T150000Z
 DURATION:PT1H
-DTSTAMP:20230201T040348Z
+DTSTAMP:20231127T161011Z
 UID:staleinviteplsupdateansiblesecurityautomationworkinggroup-20231127
 RRULE:FREQ=WEEKLY
 DESCRIPTION:Project:  STALE INVITE PLS UPDATE Ansible Security Automation 
- working group\nChair:  Adam Miller (maxamillion)\, Sumit Jaiswal (justjais
- )\, Abhijeet Kasurde (akasurde)\nDescription:  \nSee https://github.com/an
- sible-community/meetings/tree/main for updated invite.\n\nAgenda URL:  htt
- ps://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+la
- bel:security\nProject URL:  https://github.com/ansible/community/wiki/Secu
- rity-Automation
+ working group\nChair:  None\nDescription:  \nSee https://github.com/ansibl
+ e-community/meetings/tree/main for updated invite.\n\nAgenda URL:  None\nP
+ roject URL:  None
 LOCATION:#ansible-security or https://matrix.to/#/#security-automation:ans
  ible.com
 END:VEVENT
