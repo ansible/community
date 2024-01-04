@@ -1,14 +1,11 @@
-project: VMware working group
-meeting_id: vmware
-project_url: https://github.com/ansible/community/wiki/VMware
-agenda_url: https://github.com/ansible/community/issues?q=is:open+label:meeting_agenda+label:vmware
-chair: Abhijeet Kasurde (akasurde), James Tanner (jctanner)
+project: STALE INVITE PLS UPDATE
+meeting_id: 
+project_url: 
+agenda_url: 
+chair: 
 description: |
 
-  We discuss everything VMware every week on Monday.
-
-  If you have something to discuss (e.g. a PR that needs help), add your
-  request to the meeting agenda and join the IRC channel.
+  See https://github.com/ansible-community/meetings/tree/main for updated invite.
 schedule:
 - time: '1600'
   day: Monday

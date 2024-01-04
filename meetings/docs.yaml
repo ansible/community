@@ -1,11 +1,11 @@
-project: Documentation working group
-meeting_id: docs
-project_url: https://github.com/ansible/community/wiki/Docs
-agenda_url: https://forum.ansible.com/t/documentation-working-group-agenda/153/7
-chair: Sandra McCann (samccann)
+project: STALE INVITE PLS UPDATE
+meeting_id: 
+project_url:
+agenda_url: 
+chair: 
 description: |
 
-  Discuss everything related to Ansible Documentation.
+  See https://github.com/ansible-community/meetings/tree/main for updated invite.
 schedule:
 - time: '1600'
   day: Tuesday
