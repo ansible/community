@@ -5,10 +5,10 @@
 ## Archived this repository
 
 We archived this repository in favor of more dedicated repositories under the governance of the
-Ansible community. Consider this repository content stale and outdated..
+Ansible community. Consider this repository content stale and outdated.
 
 * For presentations (formerly the `/decks` ) directory - See [ansible-community/presentations](https://github.com/ansible-community/presentations)
-* For Working group meetings (formerly the `/meetings` directory) - see the new  [meeting ICS calendar}(https://forum.ansible.com/g)
+* For Working group meetings (formerly the `/meetings` directory) - see the new  [meeting ICS calendar](https://forum.ansible.com/g)
 and  [Ansible working groups](https://forum.ansible.com/g).
 
 
@@ -29,8 +29,7 @@ This is the old/stale list of working groups. See the forum for the current list
 
 ## Groups
 
-* Ansible Working Groups are now present in the forum:
-  * [On the Forum](https://forum.ansible.com/g) 
+* Ansible Working Groups are now present [on the Forum](https://forum.ansible.com/g) 
 * [All Ansible email lists, Matrix/IRC channels and working groups](https://docs.ansible.com/ansible/devel/community/communication.html)
 
 
