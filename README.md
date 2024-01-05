@@ -2,12 +2,10 @@
 
 [![Discuss on Matrix at #community:ansible.com](https://img.shields.io/matrix/community:ansible.com.svg?server_fqdn=ansible-accounts.ems.host&label=Discuss%20on%20Matrix%20at%20%23community:ansible.com&logo=matrix)](https://matrix.to/#/#community:ansible.com)
 
-## Archiving this repository
+## Archived this repository
 
-We are phasing out this repository in favor of more dedicated repositories under the governance of the
-Ansible community. Consider this repository content as read-only except for critical meeting updates.
-
-This section lists where to go for updated content and will be updated as we progress:
+We aarchived this repository in favor of more dedicated repositories under the governance of the
+Ansible community. Consider this repository content stale and outdated..
 
 * For presentations (formerly the `/decks` ) directory - See [ansible-community/presentations](https://github.com/ansible-community/presentations)
 * For Working group meetings (formerly the `/meetings` directory) - see the new  [meeting ICS calendar}(https://forum.ansible.com/g)
