@@ -1,10 +1,10 @@
-# Ansible Community Working Group
+# (Archived) Ansible Community Working Group
 
 [![Discuss on Matrix at #community:ansible.com](https://img.shields.io/matrix/community:ansible.com.svg?server_fqdn=ansible-accounts.ems.host&label=Discuss%20on%20Matrix%20at%20%23community:ansible.com&logo=matrix)](https://matrix.to/#/#community:ansible.com)
 
 ## Archived this repository
 
-We aarchived this repository in favor of more dedicated repositories under the governance of the
+We archived this repository in favor of more dedicated repositories under the governance of the
 Ansible community. Consider this repository content stale and outdated..
 
 * For presentations (formerly the `/decks` ) directory - See [ansible-community/presentations](https://github.com/ansible-community/presentations)
@@ -20,18 +20,7 @@ The remainder of this section is older information that will be removed when the
 
 * [All Ansible Working Groups](https://github.com/ansible/community/wiki)
 
-This repository is for management of all Ansible community related initiatives.
 
-We help to support and grow Ansible's community of contributors in their efforts to improve Ansible code, content, outreach, and user and contributor experiences.
-
-This repository serves as a space for the Ansible Community Working Group to manage tools used by the Ansible community, monitor progress on new initiatives, and handle requests for resources or help by various Working Groups in the wider Ansible community.
-
-## Our Goals
-
-* Encourage transparency, collaboration, and accountability through tooling and project tracking and/or management.
-* Assist working groups in the Ansible community for our mutual success.
-* Facilitate the creation of new initiatives and working groups.
-* Do all of this by KEEPING THINGS SIMPLE (just like Ansible!).
 
 ## Infrastructure and processes we build and/or support
 
